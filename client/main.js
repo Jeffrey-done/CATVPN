@@ -60,7 +60,6 @@ ipcMain.handle('system-proxy:set', (_event, enabled) => setSystemProxy(Boolean(e
 let tray;
 
 app.whenReady().then(async () => {
-  core.start();
   mainWindow = createWindow();
   tray = await createTray(mainWindow, getSystemProxy, setSystemProxy, () => app.quit());
   app.on('activate', () => { if (BrowserWindow.getAllWindows().length === 0) createWindow(); });

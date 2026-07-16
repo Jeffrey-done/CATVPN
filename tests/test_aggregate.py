@@ -22,10 +22,14 @@ def test_parses_and_deduplicates_proxy_identity():
 
 
 def test_builds_selectable_auto_group():
-    proxies = [{"name": "a", "type": "ss", "server": "example.com", "port": 443}]
+    proxies = [
+        {"name": "a", "type": "ss", "server": "example.com", "port": 443},
+        {"name": "a", "type": "ss", "server": "example.org", "port": 443},
+    ]
     config = build_config(proxies)
     assert config["proxy-groups"][0]["type"] == "url-test"
-    assert config["proxy-groups"][0]["proxies"] == ["a"]
+    assert config["proxy-groups"][0]["proxies"] == ["a", "a #2"]
+    assert [proxy["name"] for proxy in config["proxies"]] == ["a", "a #2"]
 
 
 def test_load_config_merges_discovered_sources(tmp_path):

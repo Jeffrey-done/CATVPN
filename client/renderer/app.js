@@ -31,6 +31,10 @@ async function refresh() {
       state.proxies = state.proxies.map((proxy) => ({ ...proxy, 'catvpn-latency': liveNodes[proxy.name]?.history?.at(-1)?.delay }));
     } catch (_) {}
     $('updated-at').textContent = new Date(result.updatedAt).toLocaleTimeString();
+    try {
+      const info = await window.catvpn.coreStatus();
+      if (info.version) $('core-status').textContent = `Mihomo ${info.version}`;
+    } catch (_) {}
     render();
   } catch (error) { showError(error); }
   finally { $('refresh').disabled = false; $('refresh').textContent = '刷新订阅'; }

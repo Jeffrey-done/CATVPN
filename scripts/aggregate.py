@@ -87,6 +87,19 @@ def collect(source: dict[str, Any], timeout: float) -> tuple[str, list[dict[str,
 
 def build_config(proxies: list[dict[str, Any]]) -> dict[str, Any]:
     clean_proxies = [{key: value for key, value in proxy.items() if key != "catvpn-latency"} for proxy in proxies]
+    used_names: set[str] = set()
+    name_counts: dict[str, int] = {}
+    for proxy in clean_proxies:
+        original = str(proxy.get("name") or f"{proxy.get('server')}:{proxy.get('port')}")
+        count = name_counts.get(original, 0) + 1
+        name_counts[original] = count
+        candidate = original if count == 1 else f"{original} #{count}"
+        while candidate in used_names:
+            count += 1
+            name_counts[original] = count
+            candidate = f"{original} #{count}"
+        proxy["name"] = candidate
+        used_names.add(candidate)
     names = [str(proxy["name"]) for proxy in clean_proxies]
     return {
         "mixed-port": 7890,
