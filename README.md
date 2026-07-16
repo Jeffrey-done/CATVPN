@@ -2,7 +2,7 @@
 
 This repository collects public Clash/Mihomo subscription sources, normalizes and deduplicates their proxy definitions, measures TCP connection latency, and publishes a client-ready subscription file.
 
-The updater also runs `scripts/discover_github.py`. It searches public GitHub repositories for subscription-like files, fetches only candidates whose paths look relevant, accepts a file only when it parses into Clash proxy entries, and then sends accepted sources through the same deduplication and reachability checks. The discovery result is stored in `discovered_sources.yaml` for review and reproducibility.
+The updater runs once per day via `scripts/discover_github.py`. It searches public GitHub repositories for subscription-like files, fetches only candidates whose paths look relevant, accepts a file only when it parses into Clash proxy entries, and then sends accepted sources through the same deduplication and reachability checks. The discovery result is stored in `discovered_sources.yaml` for review and reproducibility.
 
 ## Generated endpoints
 
@@ -60,4 +60,4 @@ npm start
 
 The shell includes Mihomo Meta `v1.19.28` for Windows amd64, starts it from `client/resources/mihomo/mihomo.exe`, and connects to its API at `127.0.0.1:9090`. The system-proxy toggle is wired; tray integration and release packaging are the next client milestone.
 
-For a Windows installer, push a tag such as `v0.1.0`; `.github/workflows/build-client.yml` builds both an NSIS installer and a portable executable and uploads them to the GitHub release.
+The Mihomo core is bundled directly in the client. Build the Windows installer locally with `cd client; pnpm install; pnpm build:win`; GitHub Actions is intentionally limited to daily subscription discovery and refresh.
