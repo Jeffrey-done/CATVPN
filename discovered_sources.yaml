@@ -1,4 +1,4 @@
-generated_at: '2026-07-16T17:55:43.551917+00:00'
+generated_at: '2026-07-16T18:42:53.807561+00:00'
 sources:
 - name: github:0xRadikal/Free-v2ray-Configs:all/clash.yaml
   url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml
@@ -19,7 +19,7 @@ sources:
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-CA.yaml
   repository: Au1rxx/free-vpn-subscriptions
   path: output/by-country/clash-CA.yaml
-  proxy_count: 6
+  proxy_count: 5
 - name: github:Au1rxx/free-vpn-subscriptions:output/by-country/clash-DE.yaml
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-DE.yaml
   repository: Au1rxx/free-vpn-subscriptions
@@ -29,22 +29,17 @@ sources:
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-JP.yaml
   repository: Au1rxx/free-vpn-subscriptions
   path: output/by-country/clash-JP.yaml
-  proxy_count: 69
-- name: github:Au1rxx/free-vpn-subscriptions:output/by-country/clash-KR.yaml
-  url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-KR.yaml
-  repository: Au1rxx/free-vpn-subscriptions
-  path: output/by-country/clash-KR.yaml
-  proxy_count: 3
+  proxy_count: 71
 - name: github:Au1rxx/free-vpn-subscriptions:output/by-country/clash-US.yaml
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/by-country/clash-US.yaml
   repository: Au1rxx/free-vpn-subscriptions
   path: output/by-country/clash-US.yaml
-  proxy_count: 40
+  proxy_count: 43
 - name: github:Au1rxx/free-vpn-subscriptions:output/clash.yaml
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml
   repository: Au1rxx/free-vpn-subscriptions
   path: output/clash.yaml
-  proxy_count: 150
+  proxy_count: 149
 - name: github:HuangYurong123/p-configs:Clash-Profiles/ss.yaml
   url: https://raw.githubusercontent.com/HuangYurong123/p-configs/main/Clash-Profiles/ss.yaml
   repository: HuangYurong123/p-configs
