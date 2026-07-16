@@ -6,7 +6,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build:win": "electron-builder --win nsis portable --x64"
+    "build:win": "electron-builder --win nsis --x64"
   },
   "dependencies": {
     "js-yaml": "^4.1.0"
@@ -29,7 +29,7 @@
       { "from": "resources/mihomo/mihomo.exe", "to": "mihomo/mihomo.exe" }
     ],
     "win": {
-      "target": ["nsis", "portable"],
+      "target": ["nsis"],
       "artifactName": "CATVPN-${version}-${arch}.${ext}"
     },
     "nsis": {
