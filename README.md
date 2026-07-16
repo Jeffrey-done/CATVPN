@@ -58,6 +58,6 @@ npm install
 npm start
 ```
 
-The shell includes Mihomo Meta `v1.19.28` for Windows amd64, starts it from `client/resources/mihomo/mihomo.exe`, and connects to its API at `127.0.0.1:9090`. The system-proxy toggle is wired; tray integration and release packaging are the next client milestone.
+The shell includes Mihomo Meta `v1.19.28` for Windows amd64, starts it from `client/resources/mihomo/mihomo.exe`, connects to its API at `127.0.0.1:9090`, and provides a tray menu with a system-proxy toggle.
 
 The Mihomo core is bundled directly in the client. Build the Windows NSIS installer locally with `cd client; pnpm install; pnpm build:win`; GitHub Actions is intentionally limited to daily subscription discovery and refresh.

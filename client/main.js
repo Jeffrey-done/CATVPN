@@ -5,6 +5,7 @@ const { getProvider } = require('./providers');
 const { MihomoManager } = require('./core/manager');
 const { prepareRuntimeConfig } = require('./core/config');
 const { getSystemProxy, setSystemProxy } = require('./system-proxy');
+const { createTray } = require('./tray');
 require('./providers/builtin');
 
 const settings = JSON.parse(fs.readFileSync(path.join(__dirname, 'settings.json'), 'utf8'));
@@ -31,15 +32,18 @@ async function coreRequest(route, options = {}) {
   return text ? JSON.parse(text) : {};
 }
 
+let mainWindow;
+
 function createWindow() {
-  const window = new BrowserWindow({
+  mainWindow = new BrowserWindow({
     width: 1120,
     height: 720,
     minWidth: 860,
     minHeight: 560,
     webPreferences: { preload: path.join(__dirname, 'preload.js'), contextIsolation: true, nodeIntegration: false },
   });
-  window.loadFile(path.join(__dirname, 'renderer', 'index.html'));
+  mainWindow.loadFile(path.join(__dirname, 'renderer', 'index.html'));
+  return mainWindow;
 }
 
 ipcMain.handle('subscription:load', loadSubscription);
@@ -53,9 +57,12 @@ ipcMain.handle('core:select', (_event, group, proxy) => coreRequest(`/proxies/${
 ipcMain.handle('system-proxy:get', getSystemProxy);
 ipcMain.handle('system-proxy:set', (_event, enabled) => setSystemProxy(Boolean(enabled)));
 
-app.whenReady().then(() => {
+let tray;
+
+app.whenReady().then(async () => {
   core.start();
-  createWindow();
+  mainWindow = createWindow();
+  tray = await createTray(mainWindow, getSystemProxy, setSystemProxy, () => app.quit());
   app.on('activate', () => { if (BrowserWindow.getAllWindows().length === 0) createWindow(); });
 });
 app.on('before-quit', () => core.stop());
