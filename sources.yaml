@@ -1,0 +1,22 @@
+sources:
+  - name: au1rxx
+    url: https://github.com/Au1rxx/free-vpn-subscriptions/raw/main/output/clash.yaml
+  - name: systemproxy
+    url: https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/master/dist/clash_config.yaml
+  - name: systemproxy-extra
+    url: https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/master/dist/clash_config_extra.yaml
+  - name: ermaozi
+    url: https://www.ermao.net/sub/clash/ermao.net
+  - name: freenodes
+    url: https://raw.githubusercontent.com/Barabama/FreeNodes/refs/heads/feat/ai-crawler-v2/nodes/clashmeta.yaml
+  - name: bestclash
+    url: https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml
+  - name: free-servers
+    url: https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub
+  - name: automerge-public-nodes
+    url: https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.meta.yml
+
+settings:
+  max_proxies: 300
+  connect_timeout: 2.5
+  max_workers: 32

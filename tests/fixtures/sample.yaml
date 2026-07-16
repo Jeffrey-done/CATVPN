@@ -1,0 +1,13 @@
+proxies:
+  - name: sample-a
+    type: ss
+    server: 127.0.0.1
+    port: 1
+    cipher: aes-128-gcm
+    password: example
+  - name: sample-a-duplicate
+    type: ss
+    server: 127.0.0.1
+    port: 1
+    cipher: aes-128-gcm
+    password: example

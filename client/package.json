@@ -1,0 +1,42 @@
+{
+  "name": "catvpn-client",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Extensible desktop client for CATVPN subscriptions",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win nsis portable --x64"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.catvpn.client",
+    "productName": "CATVPN",
+    "directories": { "output": "dist" },
+    "files": [
+      "**/*",
+      "!node_modules/.cache/**",
+      "!resources/mihomo/mihomo.exe",
+      "!runtime/**"
+    ],
+    "extraResources": [
+      { "from": "resources/mihomo/mihomo.exe", "to": "mihomo/mihomo.exe" }
+    ],
+    "win": {
+      "target": ["nsis", "portable"],
+      "artifactName": "CATVPN-${version}-${arch}.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    }
+  }
+}

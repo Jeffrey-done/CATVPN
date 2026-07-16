@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CATVPN</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <aside class="sidebar">
+      <div class="brand"><span class="brand-mark">C</span><span>CATVPN</span></div>
+      <button class="nav active" data-view="nodes">节点</button>
+      <button class="nav" data-view="profiles">配置</button>
+      <button class="nav" data-view="settings">设置</button>
+      <div class="sidebar-footer"><span class="status-dot"></span><span id="core-status">内核未连接</span></div>
+    </aside>
+    <main>
+      <header class="topbar"><div><p class="eyebrow">CATVPN / PROVIDER</p><h1>节点中心</h1></div><div class="top-actions"><button id="proxy-toggle" class="secondary">系统代理：读取中</button><button id="refresh" class="primary">刷新订阅</button></div></header>
+      <section id="notice" class="notice hidden"></section>
+      <section class="summary"><div><span>可用节点</span><strong id="node-count">--</strong></div><div><span>自动选择</span><strong id="auto-name">AUTO</strong></div><div><span>订阅更新</span><strong id="updated-at">--</strong></div></section>
+      <section class="panel"><div class="panel-heading"><div><h2>节点列表</h2><p>由内置 GitHub Provider 生成</p></div><input id="search" placeholder="搜索节点或地址" /></div><div class="table-wrap"><table><thead><tr><th>节点</th><th>地址</th><th>协议</th><th>延迟</th><th></th></tr></thead><tbody id="nodes"></tbody></table></div></section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
