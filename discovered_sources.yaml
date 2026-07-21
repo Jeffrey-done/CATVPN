@@ -1,4 +1,4 @@
-generated_at: '2026-07-20T06:25:44.128357+00:00'
+generated_at: '2026-07-21T06:05:49.695626+00:00'
 sources:
 - name: github:0xRadikal/Free-v2ray-Configs:all/clash.yaml
   url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml
@@ -14,12 +14,17 @@ sources:
   url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/clash.yaml
   repository: 0xRadikal/Free-v2ray-Configs
   path: light/clash.yaml
-  proxy_count: 923
+  proxy_count: 926
+- name: github:821869798/easysub:tests/fixtures/go_golden/generated_test_clash.yml
+  url: https://raw.githubusercontent.com/821869798/easysub/main/tests/fixtures/go_golden/generated_test_clash.yml
+  repository: 821869798/easysub
+  path: tests/fixtures/go_golden/generated_test_clash.yml
+  proxy_count: 5
 - name: github:Au1rxx/free-vpn-subscriptions:output/all-verified/clash-0001.yaml
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0001.yaml
   repository: Au1rxx/free-vpn-subscriptions
   path: output/all-verified/clash-0001.yaml
-  proxy_count: 1060
+  proxy_count: 315
 - name: github:Au1rxx/free-vpn-subscriptions:output/all-verified/clash-0002.yaml
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0002.yaml
   repository: Au1rxx/free-vpn-subscriptions
@@ -34,12 +39,12 @@ sources:
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0004.yaml
   repository: Au1rxx/free-vpn-subscriptions
   path: output/all-verified/clash-0004.yaml
-  proxy_count: 238
+  proxy_count: 762
 - name: github:Au1rxx/free-vpn-subscriptions:output/clash.yaml
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml
   repository: Au1rxx/free-vpn-subscriptions
   path: output/clash.yaml
-  proxy_count: 1060
+  proxy_count: 315
 - name: github:Au1rxx/free-vpn-subscriptions:output/country/AE/clash-0001.yaml
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AE/clash-0001.yaml
   repository: Au1rxx/free-vpn-subscriptions
@@ -59,12 +64,12 @@ sources:
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AT/clash-0001.yaml
   repository: Au1rxx/free-vpn-subscriptions
   path: output/country/AT/clash-0001.yaml
-  proxy_count: 8
+  proxy_count: 10
 - name: github:Au1rxx/free-vpn-subscriptions:output/country/AU/clash-0001.yaml
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/AU/clash-0001.yaml
   repository: Au1rxx/free-vpn-subscriptions
   path: output/country/AU/clash-0001.yaml
-  proxy_count: 51
+  proxy_count: 67
 - name: github:Au1rxx/free-vpn-subscriptions:output/country/BE/clash-0001.yaml
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/country/BE/clash-0001.yaml
   repository: Au1rxx/free-vpn-subscriptions
@@ -89,17 +94,17 @@ sources:
   url: https://raw.githubusercontent.com/HuangYurong123/p-configs/main/Clash-Profiles/ss.yaml
   repository: HuangYurong123/p-configs
   path: Clash-Profiles/ss.yaml
-  proxy_count: 9
+  proxy_count: 5
 - name: github:HuangYurong123/p-configs:Clash-Profiles/trojan.yaml
   url: https://raw.githubusercontent.com/HuangYurong123/p-configs/main/Clash-Profiles/trojan.yaml
   repository: HuangYurong123/p-configs
   path: Clash-Profiles/trojan.yaml
-  proxy_count: 2
+  proxy_count: 3
 - name: github:HuangYurong123/p-configs:Clash-Profiles/vless.yaml
   url: https://raw.githubusercontent.com/HuangYurong123/p-configs/main/Clash-Profiles/vless.yaml
   repository: HuangYurong123/p-configs
   path: Clash-Profiles/vless.yaml
-  proxy_count: 36
+  proxy_count: 40
 - name: github:HuangYurong123/p-configs:Clash-Profiles/vmess.yaml
   url: https://raw.githubusercontent.com/HuangYurong123/p-configs/main/Clash-Profiles/vmess.yaml
   repository: HuangYurong123/p-configs
@@ -110,31 +115,36 @@ sources:
   repository: LeilaoMi/AutoMergePublicNodes-Optimized
   path: tests/fixtures/protocols/clash.yaml
   proxy_count: 1
+- name: github:PhilipKindredDick/neon-subs:neon-proxy-one.yaml
+  url: https://raw.githubusercontent.com/PhilipKindredDick/neon-subs/main/neon-proxy-one.yaml
+  repository: PhilipKindredDick/neon-subs
+  path: neon-proxy-one.yaml
+  proxy_count: 1
 - name: github:SnapdragonLee/SystemProxy:dist/clash_config_extra.yaml
   url: https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/master/dist/clash_config_extra.yaml
   repository: SnapdragonLee/SystemProxy
   path: dist/clash_config_extra.yaml
-  proxy_count: 192
+  proxy_count: 198
 - name: github:SnapdragonLee/SystemProxy:dist/clash_config_extra_US.yaml
   url: https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/master/dist/clash_config_extra_US.yaml
   repository: SnapdragonLee/SystemProxy
   path: dist/clash_config_extra_US.yaml
-  proxy_count: 49
+  proxy_count: 52
 - name: github:VovaplusEXP/p-configs:Clash-Profiles/ss.yaml
   url: https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Clash-Profiles/ss.yaml
   repository: VovaplusEXP/p-configs
   path: Clash-Profiles/ss.yaml
-  proxy_count: 8
+  proxy_count: 9
 - name: github:VovaplusEXP/p-configs:Clash-Profiles/trojan.yaml
   url: https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Clash-Profiles/trojan.yaml
   repository: VovaplusEXP/p-configs
   path: Clash-Profiles/trojan.yaml
-  proxy_count: 5
+  proxy_count: 3
 - name: github:VovaplusEXP/p-configs:Clash-Profiles/vless.yaml
   url: https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Clash-Profiles/vless.yaml
   repository: VovaplusEXP/p-configs
   path: Clash-Profiles/vless.yaml
-  proxy_count: 99
+  proxy_count: 75
 - name: github:VovaplusEXP/p-configs:Clash-Profiles/vmess.yaml
   url: https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Clash-Profiles/vmess.yaml
   repository: VovaplusEXP/p-configs
@@ -149,22 +159,12 @@ sources:
   url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/hysteria2.yaml
   repository: asgharkapk/Sub-Config-Extractor
   path: output_configs/clash/10ium/HiN-VPN/subscription/base64/hysteria2.yaml
-  proxy_count: 5
-- name: github:asgharkapk/Sub-Config-Extractor:output_configs/clash/10ium/HiN-VPN/subscription/base64/mix.yaml
-  url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/mix.yaml
-  repository: asgharkapk/Sub-Config-Extractor
-  path: output_configs/clash/10ium/HiN-VPN/subscription/base64/mix.yaml
-  proxy_count: 641
+  proxy_count: 4
 - name: github:asgharkapk/Sub-Config-Extractor:output_configs/clash/10ium/HiN-VPN/subscription/base64/ss.yaml
   url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/ss.yaml
   repository: asgharkapk/Sub-Config-Extractor
   path: output_configs/clash/10ium/HiN-VPN/subscription/base64/ss.yaml
-  proxy_count: 65
-- name: github:asgharkapk/Sub-Config-Extractor:output_configs/clash/10ium/HiN-VPN/subscription/base64/trojan.yaml
-  url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/trojan.yaml
-  repository: asgharkapk/Sub-Config-Extractor
-  path: output_configs/clash/10ium/HiN-VPN/subscription/base64/trojan.yaml
-  proxy_count: 126
+  proxy_count: 48
 - name: github:asgharkapk/Sub-Config-Extractor:output_configs/clash/10ium/HiN-VPN/subscription/base64/tuic.yaml
   url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/tuic.yaml
   repository: asgharkapk/Sub-Config-Extractor
@@ -174,17 +174,7 @@ sources:
   url: https://raw.githubusercontent.com/atomhb/Auto_Update_Sub/main/sub.yaml
   repository: atomhb/Auto_Update_Sub
   path: sub.yaml
-  proxy_count: 219
-- name: github:diplole/proxy-pool:clash.yaml
-  url: https://raw.githubusercontent.com/diplole/proxy-pool/main/clash.yaml
-  repository: diplole/proxy-pool
-  path: clash.yaml
-  proxy_count: 1347
-- name: github:diplole/proxy-pool:paid_nodes.yaml
-  url: https://raw.githubusercontent.com/diplole/proxy-pool/main/paid_nodes.yaml
-  repository: diplole/proxy-pool
-  path: paid_nodes.yaml
-  proxy_count: 237
+  proxy_count: 232
 - name: github:feixingzhou/clash-subscription:clash2_latest.yml
   url: https://raw.githubusercontent.com/feixingzhou/clash-subscription/main/clash2_latest.yml
   repository: feixingzhou/clash-subscription
@@ -194,22 +184,22 @@ sources:
   url: https://raw.githubusercontent.com/feixingzhou/clash-subscription/main/clash_latest.yml
   repository: feixingzhou/clash-subscription
   path: clash_latest.yml
-  proxy_count: 988
+  proxy_count: 999
 - name: github:hvwin8/autojiedian:clash.yaml
   url: https://raw.githubusercontent.com/hvwin8/autojiedian/master/clash.yaml
   repository: hvwin8/autojiedian
   path: clash.yaml
-  proxy_count: 1662
+  proxy_count: 1773
 - name: github:sunmiao4458/free-proxy-airport:docs/clash.yaml
   url: https://raw.githubusercontent.com/sunmiao4458/free-proxy-airport/main/docs/clash.yaml
   repository: sunmiao4458/free-proxy-airport
   path: docs/clash.yaml
-  proxy_count: 115
+  proxy_count: 125
 - name: github:sunmiao4458/free-proxy-airport:output/clash.yaml
   url: https://raw.githubusercontent.com/sunmiao4458/free-proxy-airport/main/output/clash.yaml
   repository: sunmiao4458/free-proxy-airport
   path: output/clash.yaml
-  proxy_count: 115
+  proxy_count: 125
 - name: github:tytsxai/anyreality-resi-stack:examples/dual-node/clash-profile.yaml
   url: https://raw.githubusercontent.com/tytsxai/anyreality-resi-stack/main/examples/dual-node/clash-profile.yaml
   repository: tytsxai/anyreality-resi-stack
@@ -224,7 +214,7 @@ sources:
   url: https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/v2rayshare.txt
   repository: xiaoji235/airport-free
   path: clash/v2rayshare.txt
-  proxy_count: 14
+  proxy_count: 30
 - name: github:zhuhaiuk/free-nodes:clash_config.yaml
   url: https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
   repository: zhuhaiuk/free-nodes
