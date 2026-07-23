@@ -1,4 +1,4 @@
-generated_at: '2026-07-22T06:04:20.500081+00:00'
+generated_at: '2026-07-23T06:09:51.933606+00:00'
 sources:
 - name: github:0xRadikal/Free-v2ray-Configs:all/clash.yaml
   url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/all/clash.yaml
@@ -14,7 +14,7 @@ sources:
   url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/light/clash.yaml
   repository: 0xRadikal/Free-v2ray-Configs
   path: light/clash.yaml
-  proxy_count: 987
+  proxy_count: 1188
 - name: github:Au1rxx/free-vpn-subscriptions:output/all-verified/clash-0001.yaml
   url: https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/all-verified/clash-0001.yaml
   repository: Au1rxx/free-vpn-subscriptions
@@ -89,17 +89,17 @@ sources:
   url: https://raw.githubusercontent.com/HuangYurong123/p-configs/main/Clash-Profiles/ss.yaml
   repository: HuangYurong123/p-configs
   path: Clash-Profiles/ss.yaml
-  proxy_count: 5
+  proxy_count: 9
 - name: github:HuangYurong123/p-configs:Clash-Profiles/trojan.yaml
   url: https://raw.githubusercontent.com/HuangYurong123/p-configs/main/Clash-Profiles/trojan.yaml
   repository: HuangYurong123/p-configs
   path: Clash-Profiles/trojan.yaml
-  proxy_count: 2
+  proxy_count: 4
 - name: github:HuangYurong123/p-configs:Clash-Profiles/vless.yaml
   url: https://raw.githubusercontent.com/HuangYurong123/p-configs/main/Clash-Profiles/vless.yaml
   repository: HuangYurong123/p-configs
   path: Clash-Profiles/vless.yaml
-  proxy_count: 42
+  proxy_count: 41
 - name: github:HuangYurong123/p-configs:Clash-Profiles/vmess.yaml
   url: https://raw.githubusercontent.com/HuangYurong123/p-configs/main/Clash-Profiles/vmess.yaml
   repository: HuangYurong123/p-configs
@@ -114,27 +114,27 @@ sources:
   url: https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/master/dist/clash_config_extra.yaml
   repository: SnapdragonLee/SystemProxy
   path: dist/clash_config_extra.yaml
-  proxy_count: 195
+  proxy_count: 188
 - name: github:SnapdragonLee/SystemProxy:dist/clash_config_extra_US.yaml
   url: https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/master/dist/clash_config_extra_US.yaml
   repository: SnapdragonLee/SystemProxy
   path: dist/clash_config_extra_US.yaml
-  proxy_count: 47
+  proxy_count: 44
 - name: github:VovaplusEXP/p-configs:Clash-Profiles/ss.yaml
   url: https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Clash-Profiles/ss.yaml
   repository: VovaplusEXP/p-configs
   path: Clash-Profiles/ss.yaml
-  proxy_count: 7
+  proxy_count: 5
 - name: github:VovaplusEXP/p-configs:Clash-Profiles/trojan.yaml
   url: https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Clash-Profiles/trojan.yaml
   repository: VovaplusEXP/p-configs
   path: Clash-Profiles/trojan.yaml
-  proxy_count: 2
+  proxy_count: 3
 - name: github:VovaplusEXP/p-configs:Clash-Profiles/vless.yaml
   url: https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Clash-Profiles/vless.yaml
   repository: VovaplusEXP/p-configs
   path: Clash-Profiles/vless.yaml
-  proxy_count: 92
+  proxy_count: 86
 - name: github:VovaplusEXP/p-configs:Clash-Profiles/vmess.yaml
   url: https://raw.githubusercontent.com/VovaplusEXP/p-configs/main/Clash-Profiles/vmess.yaml
   repository: VovaplusEXP/p-configs
@@ -150,11 +150,21 @@ sources:
   repository: asgharkapk/Sub-Config-Extractor
   path: output_configs/clash/10ium/HiN-VPN/subscription/base64/hysteria2.yaml
   proxy_count: 5
+- name: github:asgharkapk/Sub-Config-Extractor:output_configs/clash/10ium/HiN-VPN/subscription/base64/mix.yaml
+  url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/mix.yaml
+  repository: asgharkapk/Sub-Config-Extractor
+  path: output_configs/clash/10ium/HiN-VPN/subscription/base64/mix.yaml
+  proxy_count: 611
 - name: github:asgharkapk/Sub-Config-Extractor:output_configs/clash/10ium/HiN-VPN/subscription/base64/ss.yaml
   url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/ss.yaml
   repository: asgharkapk/Sub-Config-Extractor
   path: output_configs/clash/10ium/HiN-VPN/subscription/base64/ss.yaml
-  proxy_count: 152
+  proxy_count: 103
+- name: github:asgharkapk/Sub-Config-Extractor:output_configs/clash/10ium/HiN-VPN/subscription/base64/trojan.yaml
+  url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/trojan.yaml
+  repository: asgharkapk/Sub-Config-Extractor
+  path: output_configs/clash/10ium/HiN-VPN/subscription/base64/trojan.yaml
+  proxy_count: 182
 - name: github:asgharkapk/Sub-Config-Extractor:output_configs/clash/10ium/HiN-VPN/subscription/base64/tuic.yaml
   url: https://raw.githubusercontent.com/asgharkapk/Sub-Config-Extractor/main/output_configs/clash/10ium/HiN-VPN/subscription/base64/tuic.yaml
   repository: asgharkapk/Sub-Config-Extractor
@@ -164,12 +174,7 @@ sources:
   url: https://raw.githubusercontent.com/atomhb/Auto_Update_Sub/main/sub.yaml
   repository: atomhb/Auto_Update_Sub
   path: sub.yaml
-  proxy_count: 223
-- name: github:cnfatal/subscription-converter:testdata/clash.yaml
-  url: https://raw.githubusercontent.com/cnfatal/subscription-converter/main/testdata/clash.yaml
-  repository: cnfatal/subscription-converter
-  path: testdata/clash.yaml
-  proxy_count: 4
+  proxy_count: 329
 - name: github:feixingzhou/clash-subscription:clash2_latest.yml
   url: https://raw.githubusercontent.com/feixingzhou/clash-subscription/main/clash2_latest.yml
   repository: feixingzhou/clash-subscription
@@ -179,17 +184,17 @@ sources:
   url: https://raw.githubusercontent.com/hvwin8/autojiedian/master/clash.yaml
   repository: hvwin8/autojiedian
   path: clash.yaml
-  proxy_count: 1123
+  proxy_count: 1237
 - name: github:sunmiao4458/free-proxy-airport:docs/clash.yaml
   url: https://raw.githubusercontent.com/sunmiao4458/free-proxy-airport/main/docs/clash.yaml
   repository: sunmiao4458/free-proxy-airport
   path: docs/clash.yaml
-  proxy_count: 101
+  proxy_count: 134
 - name: github:sunmiao4458/free-proxy-airport:output/clash.yaml
   url: https://raw.githubusercontent.com/sunmiao4458/free-proxy-airport/main/output/clash.yaml
   repository: sunmiao4458/free-proxy-airport
   path: output/clash.yaml
-  proxy_count: 101
+  proxy_count: 134
 - name: github:victorweichen/clash-config:tailnet_clash_mac.yaml
   url: https://raw.githubusercontent.com/victorweichen/clash-config/main/tailnet_clash_mac.yaml
   repository: victorweichen/clash-config
@@ -200,15 +205,15 @@ sources:
   repository: victorweichen/clash-config
   path: tailnet_clash_win.yaml
   proxy_count: 1
+- name: github:weed33834/freenode:nodes/clash.yaml
+  url: https://raw.githubusercontent.com/weed33834/freenode/main/nodes/clash.yaml
+  repository: weed33834/freenode
+  path: nodes/clash.yaml
+  proxy_count: 784
 - name: github:xiaoji235/airport-free:clash/v2rayshare.txt
   url: https://raw.githubusercontent.com/xiaoji235/airport-free/main/clash/v2rayshare.txt
   repository: xiaoji235/airport-free
   path: clash/v2rayshare.txt
   proxy_count: 30
-- name: github:zhuhaiuk/free-nodes:clash_config.yaml
-  url: https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
-  repository: zhuhaiuk/free-nodes
-  path: clash_config.yaml
-  proxy_count: 51
 repositories_checked: 30
 errors: []
