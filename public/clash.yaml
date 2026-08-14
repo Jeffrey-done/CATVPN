@@ -3,7 +3,7 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: trojan-448702661
+- name: trojan-419566459
   password: MiTiVPN
   port: 443
   server: 199.232.78.150
@@ -11,7 +11,28 @@ proxies:
   sni: ssl.fastly.com
   type: trojan
   udp: true
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 6'
+- name: trojan-419356370
+  password: MiTiVPN
+  port: 443
+  server: 199.232.78.160
+  skip-cert-verify: true
+  sni: default.fastly.com
+  type: trojan
+  udp: true
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 8'
+  server: 151.101.56.7
+  port: 443
+  type: trojan
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: ssl.fastly.com
+  tfo: false
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 25'
   server: 151.101.56.8
   port: 443
   type: trojan
@@ -24,150 +45,7 @@ proxies:
     headers:
       Host: ssl.fastly.com
   tfo: false
-- name: '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 2ms 3'
-  server: 151.101.56.8
-  port: 443
-  type: trojan
-  password: '%4D%69%54%69%56%50%4E'
-  sni: default.fastly.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/g-b@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: default.fastly.com
-  tfo: false
-- name: US 🇺🇸 | @Raydikalx | 02D49B
-  server: 151.101.56.0
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  udp: true
-  sni: default.fastly.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: s4z-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 9'
-  server: 151.101.56.6
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: ssl.fastly.com
-  tfo: false
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 11'
-  server: 151.101.56.0
-  port: 443
-  type: trojan
-  password: MITIVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: ssl.fastly.com
-  tfo: false
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 6ms'
-  server: 199.232.78.150
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: ssl.fastly.com
-  tfo: false
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 15'
-  server: 199.232.78.21
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: ssl.fastly.com
-  tfo: false
-- name: '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 1ms'
-  server: 151.101.56.0
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  sni: default.fastly.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: default.fastly.com
-  tfo: false
-- name: trojan-419356370
-  password: MiTiVPN
-  port: 443
-  server: 199.232.78.160
-  skip-cert-verify: true
-  sni: default.fastly.com
-  type: trojan
-  udp: true
-- name: '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 2ms'
-  server: 199.232.1.2
-  port: 80
-  type: trojan
-  password: MiTiVPN
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-  tfo: false
-- name: '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 2ms'
-  server: 199.232.78.160
-  port: 443
-  type: trojan
-  password: MITIVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: ssl.fastly.com
-  tfo: false
-- name: trojan-404344003
-  password: MITIVPN
-  port: 443
-  server: 199.232.78.160
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  udp: true
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms'
-  server: 199.232.78.160
-  port: 443
-  type: trojan
-  password: MITIVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: ssl.fastly.com
-  tfo: false
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 8'
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 26'
   server: 199.232.237.245
   port: 443
   type: trojan
@@ -180,85 +58,84 @@ proxies:
     headers:
       Host: ssl.fastly.com
   tfo: false
-- name: '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 9ms 9'
-  server: 151.101.56.9
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 6'
+  server: 151.101.56.7
   port: 443
   type: trojan
   password: MiTiVPN
-  sni: default.fastly.com
+  sni: ssl.fastly.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/f-l@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: default.fastly.com
+      Host: ssl.fastly.com
   tfo: false
-- name: US 🇺🇸 | @Raydikalx | 0446FE
-  server: 199.232.78.159
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 11'
+  server: 151.101.56.0
   port: 443
-  type: vless
-  uuid: 0f350a5d-e801-4eca-a1b9-abe9798ad48a
-  udp: true
-  tls: true
-  servername: ssl.fastly.com
+  type: trojan
+  password: MITIVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: pan1.global.ssl.fastly.net
-- name: US 🇺🇸 | @Raydikalx | C4F7D0
-  server: 199.232.78.160
+      Host: ssl.fastly.com
+  tfo: false
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 15'
+  server: 151.101.56.242
   port: 443
-  type: vless
-  uuid: XpnTeam-33
-  udp: true
-  tls: true
-  servername: ssl.fastly.com
-  client-fingerprint: chrome
+  type: trojan
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: US 🇺🇸 | @Raydikalx | 3D462B
-  server: 140.248.186.45
-  port: 443
-  type: vless
-  uuid: XpnTeam-32
-  udp: true
-  tls: true
-  servername: ssl.fastly.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: US 🇺🇸 | @Raydikalx | A24E0F
+      Host: ssl.fastly.com
+  tfo: false
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 5'
   server: 199.232.78.160
   port: 443
   type: trojan
   password: MITIVPN
-  udp: true
   sni: ssl.fastly.com
-  client-fingerprint: chrome
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: s2z-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
-- name: vless-442394841
-  network: ws
+      Host: ssl.fastly.com
+  tfo: false
+- name: trojan-404344004
+  password: MiTiVPN
   port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
+  server: 151.101.56.0
+  skip-cert-verify: true
+  sni: default.fastly.com
+  type: trojan
   udp: true
-  uuid: 0e87d003-3b20-41c4-bf3f-c006d0c94685
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 7'
-  server: 199.232.78.160
+- name: trojan-404344005
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.7
+  skip-cert-verify: true
+  sni: default.fastly.com
+  type: trojan
+  udp: true
+- name: trojan-419356367
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.9
+  skip-cert-verify: false
+  sni: default.fastly.com
+  type: trojan
+  udp: true
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 23'
+  server: 140.248.185.253
   port: 443
   type: trojan
   password: MiTiVPN
@@ -266,21 +143,34 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: ssl.fastly.com
   tfo: false
-- name: '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 9ms'
-  server: 151.101.130.172
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 24'
+  server: 151.101.56.7
+  port: 443
+  type: trojan
+  password: MITIVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: ssl.fastly.com
+  tfo: false
+- name: '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 2ms 4'
+  server: 199.232.1.2
   port: 80
   type: trojan
   password: MiTiVPN
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
   tfo: false
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 13'
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 28'
   server: 167.82.101.250
   port: 443
   type: trojan
@@ -293,7 +183,175 @@ proxies:
     headers:
       Host: ssl.fastly.com
   tfo: false
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 3'
+- name: US 🇺🇸 | @Raydikalx | 756D92
+  server: 199.232.78.150
+  port: 80
+  type: vless
+  uuid: 16569657-116c-46ed-8920-758ab8abaac4
+  udp: true
+  tls: false
+  servername: Vpsdelta2.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: Vpsdelta2.com
+- name: vless-468132582
+  network: ws
+  port: 443
+  server: 18.244.214.27
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 10'
+  server: 151.101.56.6
+  port: 443
+  type: trojan
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: ssl.fastly.com
+  tfo: false
+- name: '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 1ms 2'
+  server: 151.101.0.194
+  port: 80
+  type: trojan
+  password: MiTiVPN
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  tfo: false
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 12'
+  server: 151.101.56.7
+  port: 443
+  type: trojan
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: ssl.fastly.com
+  tfo: false
+- name: 荷兰_Amsterdam_BlueVPS OU_Claude2
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0f350a5d-e801-4eca-a1b9-abe9798ad48a
+  ws-opts:
+    headers:
+      host: pan1.global.ssl.fastly.net
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
+- name: vless-483683863
+  network: ws
+  port: 443
+  server: 199.232.78.159
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: be42674a-296a-43d8-bf04-b8314d65ff63
+- name: 🇺🇸_US_美国->🇹🇭_TH_泰国_4
+  type: vless
+  server: 18.244.214.27
+  port: 443
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+  network: ws
+  servername: d1yxsk0zprgivr.cloudfront.net
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    path: /
+    headers:
+      Host: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: true
+  udp: true
+- name: US 🇺🇸 | @Raydikalx | 50BFC9
+  server: 140.248.186.45
+  port: 443
+  type: vless
+  uuid: XpnTeam-36
+  udp: true
+  tls: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+- name: vless-408669772
+  network: ws
+  port: 443
+  server: 18.244.214.36
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+- name: vless-483502309
+  network: ws
+  port: 443
+  server: 199.232.78.160
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: XpnTeam-37
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 22'
+  server: 199.232.78.140
+  port: 443
+  type: trojan
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: ssl.fastly.com
+  tfo: false
+- name: '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 2ms 3'
+  server: 151.101.194.172
+  port: 80
+  type: trojan
+  password: MiTiVPN
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+  tfo: false
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 29'
+  server: 199.232.78.150
+  port: 443
+  type: trojan
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: ssl.fastly.com
+  tfo: false
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 30'
   server: 151.101.56.8
   port: 443
   type: trojan
@@ -306,14 +364,34 @@ proxies:
     headers:
       Host: ssl.fastly.com
   tfo: false
-- name: trojan-419356366
-  password: MiTiVPN
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 31'
+  server: 199.232.78.21
   port: 443
-  server: 151.101.56.8
-  skip-cert-verify: false
-  sni: default.fastly.com
   type: trojan
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: ssl.fastly.com
+  tfo: false
+- name: 🔴🇳🇱[🤖🎪]_github.com/Ruk1ng001_a9a4942f
+  type: vless
+  server: 199.232.78.159
+  port: 443
+  uuid: 0f350a5d-e801-4eca-a1b9-abe9798ad48a
+  network: ws
+  tls: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  ws-opts:
+    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053
+    headers:
+      Host: pan1.global.ssl.fastly.net
   udp: true
+  skip-cert-verify: false
 - name: US 🇺🇸 | @Raydikalx | 722B86
   server: 199.232.78.159
   port: 443
@@ -327,194 +405,592 @@ proxies:
     path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER
     headers:
       Host: pane2.global.ssl.fastly.net
-- name: US 🇺🇸 | @Raydikalx | 799B64
-  server: 199.232.78.159
+- name: SC 🇸🇨 | @Raydikalx | 313190
+  server: 45.130.125.207
   port: 443
   type: vless
-  uuid: 0f350a5d-e801-4eca-a1b9-abe9798ad48a
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
   udp: true
   tls: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER,TELEGRAM_NUFiLTER?ed=2053fp=chrome
-    headers:
-      Host: pan1.global.ssl.fastly.net
-- name: US 🇺🇸 | @Raydikalx | DCDD30
-  server: 199.232.78.160
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  udp: true
-  sni: default.fastly.com
+  servername: terazhediii.info
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /hdgrbws
     headers:
-      Host: s2z-mitivpn--mitivpn--mitivpn-mitivpn---mitivpn.global.ssl.fastly.net
-- name: vless-408669772
+      Host: terazhediii.info
+- name: CA 🇨🇦 | @Raydikalx | E1EF5A
+  server: 104.18.30.170
+  port: 8880
+  type: vless
+  uuid: 243ad93d-9732-4e19-9784-8b1a642cff70
+  udp: true
+  tls: false
+  servername: fancy-king-6fb5.33-615.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: fancy-king-6fb5.33-615.workers.dev
+- name: trojan-404344003
+  password: MITIVPN
+  port: 443
+  server: 199.232.78.160
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
+  udp: true
+- name: vless-474695660
   network: ws
   port: 443
-  server: 18.244.214.36
+  server: 18.244.214.108
   servername: d1yxsk0zprgivr.cloudfront.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
-- name: vless-438289185
+- name: vless-474949692
   network: ws
-  port: 443
-  server: 199.232.78.160
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
+  port: 8880
+  server: 172.66.170.53
   type: vless
   udp: true
-  uuid: XpnTeam-33
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 2'
-  server: 151.101.56.7
-  port: 443
-  type: trojan
+  uuid: 6b6733fb-580b-411b-8bf8-51137c2aa037
+- name: trojan-483466686
   password: MiTiVPN
-  sni: ssl.fastly.com
+  port: 443
+  server: 140.248.185.253
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: ssl.fastly.com
-  tfo: false
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 4ms'
-  server: 199.232.78.140
+  sni: sourceforge.net
+  type: trojan
+  udp: true
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 3ms'
+  server: 172.66.174.41
   port: 443
   type: trojan
   password: MiTiVPN
-  sni: ssl.fastly.com
+  sni: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: ssl.fastly.com
+      Host: Nl1-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   tfo: false
-- name: '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 2ms 2'
-  server: 151.101.56.7
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 9'
+  server: 199.232.78.160
   port: 443
   type: trojan
   password: MiTiVPN
-  sni: default.fastly.com
+  sni: ssl.fastly.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: default.fastly.com
-  tfo: false
-- name: '[VLESS] 🆔madshopx 🔒 VL-WS-N/A ❔ XX 2ms'
-  server: 140.248.186.45
-  port: 443
-  type: vless
-  tls: true
-  uuid: XpnTeam-27
-  servername: ssl.fastly.com
-  alpn:
-  - http%2F1.1
-  network: ws
-  ws-opts:
-    path: /
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
       Host: ssl.fastly.com
-  skip-cert-verify: true
   tfo: false
-- name: 🇺🇸 美国 | USA 34
+- name: '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 2ms 35'
   server: 199.232.78.159
   port: 443
   type: vless
-  uuid: 0e87d003-3b20-41c4-bf3f-c006d0c94685
   tls: true
+  uuid: eb14f373-2935-4db0-a74b-90bfd2ab1031
   servername: ssl.fastly.com
-  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: SvnTeamChannel.global.ssl.fastly.net
+      Host: ssl.fastly.com
+  skip-cert-verify: true
+  tfo: false
+- name: vless-173280244
+  network: ws
+  port: 2095
+  server: 172.67.202.17
+  type: vless
   udp: true
-- name: CA 🇨🇦 | @Raydikalx | 2D0525
-  server: 104.21.12.116
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- name: vless-479254290
+  network: ws
+  port: 80
+  server: 199.232.78.150
+  type: vless
+  udp: true
+  uuid: 16569657-116c-46ed-8920-758ab8abaac4
+- name: CA 🇨🇦 | @Raydikalx | 1F1818
+  server: 104.16.98.215
   port: 8880
   type: vless
-  uuid: e1bd06de-a075-4ad5-b73f-b54587368cc7
+  uuid: 23187ddc-16a5-432d-bf4e-dd42a7ae39f7
   udp: true
   tls: false
-  servername: morning-feather-dc98.136-25b.workers.dev
+  servername: steep-thunder-97fa.108-d10.workers.dev
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+    path: /
     headers:
-      Host: morning-feather-dc98.136-25b.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 522167
-  server: 172.67.209.127
+      Host: steep-thunder-97fa.108-d10.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 5A3301
+  server: 104.21.89.181
   port: 8880
   type: vless
-  uuid: 1f06dae9-e4cc-4aae-b026-07f7fc81fb56
+  uuid: 5a4d9f40-56db-402a-9fbc-31c9229bdcf6
   udp: true
   tls: false
-  servername: spring-fire-a493.251-67d.workers.dev
+  servername: floral-resonance-4baf.468.workers.dev
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
+    path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
-      Host: spring-fire-a493.251-67d.workers.dev
-- name: US 🇺🇸 | @Raydikalx | 141F03
-  server: 151.101.56.8
+      Host: floral-resonance-4baf.468.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 842AD3
+  server: 172.67.190.141
+  port: 8880
+  type: vless
+  uuid: 25322a43-4ef3-45cc-9e96-db44bcccd7be
+  udp: true
+  tls: false
+  servername: purple-disk-f68d.14-360.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip
+    headers:
+      Host: purple-disk-f68d.14-360.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 9B3AB4
+  server: 104.27.82.154
+  port: 8880
+  type: vless
+  uuid: 50c91104-c1fc-471e-914f-3ad252a0a34c
+  udp: true
+  tls: false
+  servername: quiet-snowflake-e1dd.374-ac3.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: quiet-snowflake-e1dd.374-ac3.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 6F0946
+  server: 104.21.55.229
+  port: 8880
+  type: vless
+  uuid: f769b7ea-9cd1-4d61-b578-7644b7c8eb3d
+  udp: true
+  tls: false
+  servername: quiet-waterfall-e914.180-ac4.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: quiet-waterfall-e914.180-ac4.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 9E7EBE
+  server: 104.18.32.47
   port: 443
   type: trojan
-  password: MiTiVPN
+  password: humanity
   udp: true
-  sni: default.fastly.com
+  sni: www.calmlunch.com
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/g-b@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /assignment
     headers:
-      Host: s3z-mitivpn--mitivpn------mitivpn.global.ssl.fastly.net
-- name: vless-272823123
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | 63E4EE
+  server: 104.21.12.116
+  port: 8880
+  type: vless
+  uuid: f7ebef03-3c34-4769-bfe4-66e3c92ed665
+  udp: true
+  tls: false
+  servername: lively-dream-d892.262.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: lively-dream-d892.262.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | CCEA78
+  server: 104.21.55.229
+  port: 8880
+  type: vless
+  uuid: 25322a43-4ef3-45cc-9e96-db44bcccd7be
+  udp: true
+  tls: false
+  servername: purple-disk-f68d.14-360.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: purple-disk-f68d.14-360.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 9CA875
+  server: 104.17.135.117
+  port: 443
+  type: vless
+  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
+  udp: true
+  tls: true
+  servername: jgsal.blueriverway-nexoim.sbs
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /ram
+    headers:
+      Host: jgsal.blueriverway-nexoim.sbs
+- name: CA 🇨🇦 | @Raydikalx | E1FD0A
+  server: 104.27.2.172
+  port: 80
+  type: vless
+  uuid: 234c52f2-0d7b-dc4a-0d6b-b0b300000025
+  udp: true
+  tls: false
+  servername: billowing-surf-d251.netizo06.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: billowing-surf-d251.netizo06.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 751290
+  server: 104.21.23.72
+  port: 8880
+  type: vless
+  uuid: 0b17eb47-587b-4e46-86a7-e1681cbbe76c
+  udp: true
+  tls: false
+  servername: orange-math-9c83.371.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: orange-math-9c83.371.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | AD3DF2
+  server: 104.18.152.113
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: CA 🇨🇦 | @Raydikalx | A2BE78
+  server: 172.67.190.141
+  port: 8880
+  type: vless
+  uuid: dc53f855-5025-45c8-9a85-981036839c5c
+  udp: true
+  tls: false
+  servername: summer-breeze-0574.279.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: summer-breeze-0574.279.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 2D1FFC
+  server: 172.67.187.219
+  port: 8880
+  type: vless
+  uuid: a8985e6a-f338-4b44-9a41-f94495603a96
+  udp: true
+  tls: false
+  servername: dawn-cell-346f.238-df6.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: dawn-cell-346f.238-df6.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | F43CC8
+  server: 104.17.21.32
+  port: 8880
+  type: vless
+  uuid: 300f44af-adb8-42b7-b869-bef70b205d7e
+  udp: true
+  tls: false
+  servername: icy-rice-3c1c.340-680.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: icy-rice-3c1c.340-680.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 332E08
+  server: 104.21.55.229
+  port: 8880
+  type: vless
+  uuid: 3adac494-0eb1-4d89-a187-b2181691444d
+  udp: true
+  tls: false
+  servername: tiny-lake-bbf1.369-766.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: tiny-lake-bbf1.369-766.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | F2988D
+  server: 104.21.89.181
+  port: 8880
+  type: vless
+  uuid: 3adac494-0eb1-4d89-a187-b2181691444d
+  udp: true
+  tls: false
+  servername: tiny-lake-bbf1.369-766.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: tiny-lake-bbf1.369-766.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 91067B
+  server: 104.16.100.66
+  port: 8880
+  type: vless
+  uuid: 3e7bb66e-d7c6-4711-aa05-e4ab0ec58c6d
+  udp: true
+  tls: false
+  servername: shrill-cell-cca7.158-6fa.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: shrill-cell-cca7.158-6fa.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 8ED15B
+  server: 104.26.13.40
+  port: 8880
+  type: vless
+  uuid: 9d45d137-9892-4a83-a04a-f30b4da28243
+  udp: true
+  tls: false
+  servername: broken-wave-8a45.483.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: broken-wave-8a45.483.workers.dev
+- name: vless-166176161
+  network: ws
+  port: 2087
+  server: 104.16.150.108
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- name: vless-235039178
+  network: ws
+  port: 2095
+  server: 104.16.148.244
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- name: vless-287147951
   network: ws
   port: 2096
-  server: 104.17.70.206
+  server: 91.193.58.250
   servername: free-server.techsonic.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-391805700
+- name: vless-292031483
   network: ws
-  port: 2053
-  server: 172.67.118.45
-  servername: music1000.melobitmusic1.ir
+  port: 2096
+  server: 91.193.58.99
+  servername: free-server.techsonic.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: da4747a6-be0d-4c1b-90f4-d82ec3012be2
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 5ms 2'
-  server: 151.101.56.7
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- name: vless-419307127
+  network: ws
+  port: 443
+  server: 104.17.135.117
+  servername: nmrgf.minipixelbox-nexoim.sbs
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
+- name: trojan-419356366
+  password: MiTiVPN
+  port: 443
+  server: 151.101.56.8
+  skip-cert-verify: false
+  sni: default.fastly.com
+  type: trojan
+  udp: true
+- name: vless-467953655
+  network: ws
+  port: 80
+  server: 104.26.11.238
+  type: vless
+  udp: true
+  uuid: bea3807d-4080-4078-a08d-747107a3426b
+- name: vless-467953676
+  network: ws
+  port: 80
+  server: 172.64.152.23
+  type: vless
+  udp: true
+  uuid: 67e40783-6546-4fda-90f6-9ee3c5b2efff
+- name: vless-467953683
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: 1e78f247-1e3e-400e-bf1f-bb0c908b9a60
+- name: vless-467953763
+  network: ws
+  port: 443
+  server: 104.26.11.238
+  servername: worker3.ragiki7564.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 67e40783-6546-4fda-90f6-9ee3c5b2efff
+- name: vless-467953767
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: worker3.ragiki7564.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 67e40783-6546-4fda-90f6-9ee3c5b2efff
+- name: vless-467953897
+  network: ws
+  port: 80
+  server: 104.18.93.3
+  type: vless
+  udp: true
+  uuid: 4cafebe8-8242-4238-bfea-0f26bd05accc
+- name: vless-468231460
+  network: ws
+  port: 2053
+  server: 172.67.155.231
+  servername: index.arcane509.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+- name: vless-470314077
+  network: ws
+  port: 443
+  server: 104.21.86.233
+  servername: tiny-leaf-f59f.my-lla-s-a-njo-s-e.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 49d598ee-4dfc-4001-95ca-99a5b6002e3c
+- name: vless-470327032
+  network: ws
+  port: 443
+  server: 104.24.34.193
+  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: d042a74a-c305-4eec-a89f-39a348022c92
+- name: vless-474906696
+  network: ws
+  port: 8880
+  server: 172.64.94.251
+  type: vless
+  udp: true
+  uuid: 30a88c40-581e-4952-aa4c-8af95686ede0
+- name: vless-474956661
+  network: ws
+  port: 8880
+  server: 104.24.152.211
+  type: vless
+  udp: true
+  uuid: 7b8ff2bf-29c0-4a4f-8925-9f9ef6e486f5
+- name: vless-474967667
+  network: ws
+  port: 8880
+  server: 172.67.209.127
+  type: vless
+  udp: true
+  uuid: 942bdcfc-e522-44f1-b899-3bd8db7c5ae2
+- name: vless-474970718
+  network: ws
+  port: 8880
+  server: 172.64.94.251
+  type: vless
+  udp: true
+  uuid: 9f4b666c-ecf1-49e9-8ab8-9ae2c4f4c613
+- name: vless-479061096
+  network: ws
+  port: 2083
+  server: 8.35.211.101
+  servername: go.iranfree.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+- name: vless-483479183
+  network: ws
+  port: 443
+  server: 140.248.186.45
+  servername: ssl.fastly.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: XpnTeam-36
+- name: '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 2ms 12'
+  server: 104.18.152.229
+  port: 443
+  type: vless
+  tls: true
+  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
+  servername: H-k-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
+  alpn:
+  - h2%2Chttp%2F1.1
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: H-k-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
+  skip-cert-verify: true
+  tfo: false
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 13'
+  server: 188.114.98.0
   port: 443
   type: trojan
   password: MITIVPN
-  sni: ssl.fastly.com
+  sni: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: Ddee2-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
+  tfo: false
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 21'
+  server: 104.17.148.22
+  port: 443
+  type: trojan
+  password: MITIVPN
+  sni: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: ssl.fastly.com
+      Host: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
   tfo: false
-- name: '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 14ms'
+- name: '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 2ms 2'
   server: 151.101.64.172
   port: 80
   type: trojan
@@ -524,7 +1000,20 @@ proxies:
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
   tfo: false
-- name: '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 21ms'
+- name: '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 1ms'
+  server: 151.101.56.8
+  port: 443
+  type: trojan
+  password: MiTiVPN
+  sni: default.fastly.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/g-b@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: default.fastly.com
+  tfo: false
+- name: '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 7ms'
   server: 66.33.22.128
   port: 443
   type: vless
@@ -540,122 +1029,62 @@ proxies:
       Host: daring-tenderness-production-4fba.up.railway.app
   skip-cert-verify: true
   tfo: false
-- name: 🇺🇸 美国 | USA 31
-  server: 199.232.78.159
-  port: 443
+- name: '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 2ms 19'
+  server: 104.21.43.125
+  port: 2083
   type: vless
-  uuid: 885bb65f-65a8-473b-a074-f6ccde529211
   tls: true
-  servername: ssl.fastly.com
+  uuid: d8374536-dd5f-4400-a8f1-8c203a7e5db8
+  servername: us.mhrnet.com
+  network: ws
+  ws-opts:
+    path: /speedtest
+    headers:
+      Host: us.mhrnet.com
+  skip-cert-verify: true
+  tfo: false
+- name: 🇸🇬 新加坡 | SGP 5
+  server: 91.193.58.250
+  port: 2096
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  tls: true
+  servername: free-server.techsonic.dev
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /free-server.techsonic.dev
     headers:
-      Host: SvnTeamChannel.global.ssl.fastly.net
+      Host: free-server.techsonic.dev
   udp: true
-- name: trojan-448702657
-  password: MiTiVPN
-  port: 443
-  server: 151.101.56.0
   skip-cert-verify: false
-  sni: default.fastly.com
-  type: trojan
+- name: 新加坡_Singapore_Aceville Pte.ltd_Gemini5
+  network: ws
+  port: 443
+  server: 104.17.22.240
+  servername: hhlfy.twiladaphne.ndjp.net
+  tls: true
+  type: vless
   udp: true
-- name: trojan-2517780
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/41.0.2228.0 Safari/537.36
+    path: /
+- name: us|a98a|puddincat07@Telegram
+  network: ws
   password: humanity
   port: 443
-  server: 188.114.97.6
-  skip-cert-verify: true
-  sni: www.calmlunch.com
+  server: 104.18.32.47
+  skip-cert-verify: false
+  sni: www.gossipglove.com
   type: trojan
-  udp: true
-- name: trojan-11670
-  password: humanity
-  port: 443
-  server: 104.17.121.71
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-16421
-  password: humanity
-  port: 443
-  server: 45.130.125.76
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: vless-296847779
-  network: ws
-  port: 443
-  server: 104.16.151.220
-  servername: free-7f1.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-- name: vless-296849783
-  network: ws
-  port: 443
-  server: 104.17.17.167
-  servername: free-7f1.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-- name: vless-279510859
-  network: ws
-  port: 2096
-  server: 91.193.58.140
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-294281608
-  network: ws
-  port: 2096
-  server: 91.193.58.249
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-279510863
-  network: ws
-  port: 2096
-  server: 91.193.58.27
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-279510861
-  network: ws
-  port: 2096
-  server: 91.193.58.157
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-408540877
-  network: ws
-  port: 2096
-  server: 91.193.58.255
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  ws-opts:
+    headers:
+      Host: www.gossipglove.com
+    path: /assignment
 - name: vless-408540878
   network: ws
   port: 2096
@@ -666,335 +1095,6 @@ proxies:
   type: vless
   udp: true
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- client-fingerprint: chrome
-  name: us|b395|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.26.15.137
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
-        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
-    path: /assignment
-- name: CA 🇨🇦 | @Raydikalx | F52786
-  server: 104.21.76.231
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  tls: false
-  servername: nmslfangbinxing.pusytroller.gq
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nmslfangbinxing.pusytroller.gq
-- name: CA 🇨🇦 | @Raydikalx | 4CB09D
-  server: 172.67.202.17
-  port: 2095
-  type: vless
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  udp: true
-  tls: false
-  servername: nmslfangbinxing.pusytroller.gq
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nmslfangbinxing.pusytroller.gq
-- name: CA 🇨🇦 | @Raydikalx | 3E6EDC
-  server: 104.16.100.66
-  port: 8880
-  type: vless
-  uuid: 86dc5fb4-f279-45b7-a2c6-0d1e84b85c18
-  udp: true
-  tls: false
-  servername: lingering-dawn-5d4a.163-3f1.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: lingering-dawn-5d4a.163-3f1.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | B00AD2
-  server: 104.16.100.66
-  port: 8880
-  type: vless
-  uuid: 3fe8191f-52ae-4e38-8385-5869ab47fb70
-  udp: true
-  tls: false
-  servername: jolly-violet-a006.10-ae8.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: jolly-violet-a006.10-ae8.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 78823F
-  server: 104.16.107.139
-  port: 8880
-  type: vless
-  uuid: bf380279-cbd5-4e55-96d1-f5a652aaf6b3
-  udp: true
-  tls: false
-  servername: mute-dust-f0c4.456-8ae.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=proxyip.us.cmliussss.net
-    headers:
-      Host: mute-dust-f0c4.456-8ae.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 2B9596
-  server: 172.64.80.1
-  port: 8880
-  type: vless
-  uuid: 6d613d5f-1d65-48ca-b2e8-d83a2c3a17d9
-  udp: true
-  tls: false
-  servername: tight-star-08eb.331-729.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: tight-star-08eb.331-729.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 07C3D2
-  server: 172.64.88.168
-  port: 8880
-  type: vless
-  uuid: 6f876b28-1b3e-4088-85c0-d299e56bfccd
-  udp: true
-  tls: false
-  servername: throbbing-haze-fbde.388-6c4.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: throbbing-haze-fbde.388-6c4.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 17EBC8
-  server: 104.16.133.220
-  port: 443
-  type: vless
-  uuid: 77a89d8d-9de3-cf40-bafb-e68f0000001a
-  udp: true
-  tls: true
-  servername: ez-5b038e.ezaccess1c7f862.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: ez-5b038e.ezaccess1c7f862.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | CE54D6
-  server: 172.67.174.37
-  port: 8880
-  type: vless
-  uuid: 8cc8bedd-5103-4d22-a79c-a88f1160055a
-  udp: true
-  tls: false
-  servername: red-unit-60bc.165-1dd.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: red-unit-60bc.165-1dd.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 12A4F4
-  server: 104.21.12.116
-  port: 8880
-  type: vless
-  uuid: 565326ee-c588-4843-9472-a051578ab1ae
-  udp: true
-  tls: false
-  servername: lucky-cell-e8c5.490-f12.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: lucky-cell-e8c5.490-f12.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 5DE7ED
-  server: 104.16.174.117
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: CA 🇨🇦 | @Raydikalx | 9A9CCD
-  server: 104.17.121.71
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 1CFF40
-  server: 172.67.152.71
-  port: 8880
-  type: vless
-  uuid: 38135fde-7044-4407-8faf-e1ab08e47402
-  udp: true
-  tls: false
-  servername: white-bush-712e.498-f8f.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: white-bush-712e.498-f8f.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | DB5DB4
-  server: 104.18.152.208
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: CA 🇨🇦 | @Raydikalx | 0CCAD5
-  server: 104.21.55.229
-  port: 8880
-  type: vless
-  uuid: 31f345f3-b8eb-4ca6-8b14-bb555ae2c1f9
-  udp: true
-  tls: false
-  servername: tiny-feather-4c41.227.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: tiny-feather-4c41.227.workers.dev
-- name: GB 🇬🇧 | @Raydikalx | 168B99
-  server: 91.193.58.140
-  port: 2096
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-  udp: true
-  tls: true
-  servername: free-server.techsonic.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-- name: CA 🇨🇦 | @Raydikalx | 697949
-  server: 104.21.89.181
-  port: 8880
-  type: vless
-  uuid: 91c7ea79-9187-4f07-ab97-68c584186843
-  udp: true
-  tls: false
-  servername: skk.moe
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: nameless-dust-1a36.207-b50.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 1D36AB
-  server: 104.16.101.215
-  port: 8880
-  type: vless
-  uuid: 7a2df38b-2d8b-486b-9b43-641c81e11f40
-  udp: true
-  tls: false
-  servername: shiny-mud-d9fa.466.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: shiny-mud-d9fa.466.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | EC56A7
-  server: 104.21.88.129
-  port: 8880
-  type: vless
-  uuid: 8546bcef-8456-41a2-82bc-d2231b42b769
-  udp: true
-  tls: false
-  servername: small-tree-9ec0.84-971.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: small-tree-9ec0.84-971.workers.dev
-- name: US 🇺🇸 | @Raydikalx | 495CC2
-  server: 208.103.161.32
-  port: 443
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  tls: true
-  servername: josni.hoyes.cloudns.ch
-  network: ws
-  ws-opts:
-    path: /sg-melbi_/@sil3nt_network
-    headers:
-      Host: josni.hoyes.cloudns.ch
-- name: CA 🇨🇦 | @Raydikalx | 70BF74
-  server: 162.159.140.78
-  port: 8880
-  type: vless
-  uuid: f35fb51f-8d34-49ec-80cb-7d04ffc1a69b
-  udp: true
-  tls: false
-  servername: damp-sky-9aaa.224-8b4.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: damp-sky-9aaa.224-8b4.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | C9240A
-  server: 172.67.173.138
-  port: 443
-  type: vless
-  uuid: d8b54a64-3e9a-4455-93c4-452202fbe440
-  udp: true
-  tls: true
-  servername: www.chinns.us.ci
-  client-fingerprint: chrome
-  network: xhttp
-  xhttp-opts:
-    path: /index
-    host: www.chinns.us.ci
-    mode: stream-one
-- name: US 🇺🇸 | @Raydikalx | 3AE676
-  server: 160.153.0.7
-  port: 8443
-  type: vless
-  uuid: 7967bf59-57e3-4cde-9898-527b0fe60022
-  udp: true
-  tls: true
-  servername: speed.dulacloud.store
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /dula?Telegram-WangCai2
-    headers:
-      Host: speed.dulacloud.store
-- name: CA 🇨🇦 | @Raydikalx | 81775F
-  server: 104.21.23.72
-  port: 8880
-  type: vless
-  uuid: 73ae7d45-1046-4cc5-9741-199375b620f1
-  udp: true
-  tls: false
-  servername: round-resonance-a84c.13-531.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip
-    headers:
-      Host: round-resonance-a84c.13-531.workers.dev
 - name: vless-143263695
   network: ws
   port: 2095
@@ -1002,507 +1102,71 @@ proxies:
   type: vless
   udp: true
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- name: vless-143297892
+- name: vless-130896316
   network: ws
   port: 2095
-  server: 172.67.161.104
+  server: 104.18.42.98
   type: vless
   udp: true
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- name: vless-213124939
+- name: vless-479258286
   network: ws
-  port: 2095
-  server: 172.64.146.66
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- name: vless-287147951
-  network: ws
-  port: 2096
-  server: 91.193.58.250
-  servername: free-server.techsonic.dev
+  port: 443
+  server: 159.112.235.52
+  servername: josni.hoyes.cloudns.ch
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-294281604
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+- name: vless-415263972
   network: ws
-  port: 2096
-  server: 91.193.58.131
-  servername: free-server.techsonic.dev
+  port: 443
+  server: 104.17.134.117
+  servername: jgsal.blueriverway-nexoim.sbs
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-335074415
-  network: ws
-  port: 2095
-  server: 104.17.21.111
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- name: vless-377167827
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: ssl.fastly.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: be42674a-296a-43d8-bf04-b8314d65ff63
-- name: vless-446488122
-  network: ws
-  port: 80
-  server: 104.18.43.240
-  type: vless
-  udp: true
-  uuid: 288bb3f1-8994-47cf-8bd8-9b7d4d716461
-- name: '[Trojan] 🇺🇸 🆔soskeynet 🔒 TR-WS-N/A 🇺🇸 US 4ms'
-  server: 151.101.56.8
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  sni: default.fastly.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/g-b@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: default.fastly.com
-  tfo: false
-- name: '[VLESS] 🇩🇪 🆔configfa 🔒 VL-WS-N/A 🇩🇪 DE 10ms'
-  server: 45.80.111.7
-  port: 443
-  type: vless
-  tls: true
-  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
-  servername: 2--ldej--MiTiVPN---MiTiVPN-o.KingNetwork.ir
-  alpn:
-  - h2%2Chttp%2F1.1
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de2---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: 2--ldej--MiTiVPN---MiTiVPN-o.KingNetwork.ir
-  skip-cert-verify: true
-  tfo: false
-- name: '[VLESS] 🆔configfa 🔒 VL-WS-N/A 🇪🇪 EE 10ms'
-  server: 45.80.108.182
-  port: 443
-  type: vless
-  tls: true
-  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
-  servername: ii--6---6--MiTiVPN---MiTiVPN-o.KinGNetWork.iR
-  alpn:
-  - h2%2Chttp%2F1.1
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: ii--6---6--MiTiVPN---MiTiVPN-o.KinGNetWork.iR
-  skip-cert-verify: true
-  tfo: false
-- name: '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 9ms'
-  server: 188.114.97.6
-  port: 443
-  type: vless
-  tls: true
-  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
-  servername: sw-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
-  alpn:
-  - h2%2Chttp%2F1.1
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: sw-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
-  skip-cert-verify: true
-  tfo: false
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 5'
-  server: 140.248.185.253
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: ssl.fastly.com
-  tfo: false
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms'
-  server: 151.101.56.7
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/dde---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: ssl.fastly.com
-  tfo: false
-- name: '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 17ms'
-  server: 66.33.22.78
-  port: 443
-  type: vless
-  tls: true
-  uuid: 20700b40-8837-45d0-e449-e2095a9f5145
-  servername: daring-tenderness-production-4fba.up.railway.app
-  alpn:
-  - http%2F1.1
-  network: ws
-  ws-opts:
-    path: /ws/20700b40-8837-45d0-e449-e2095a9f5145
-    headers:
-      Host: daring-tenderness-production-4fba.up.railway.app
-  skip-cert-verify: true
-  tfo: false
-- name: 🇨🇦🚀 Канада [🏴BL/SNI] | 🥭🔥_10
-  type: vless
-  server: 172.67.223.190
-  port: 2086
-  uuid: e6bad6ca-ab7c-4bdd-b07e-5c8ec407decd
-  network: ws
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoidGpkTkY2VHk0bE1pV3AiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=
-    headers:
-      Host: cool-hill-7fe5.thenewata.workers.dev
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦🚀 Канада [🏴BL/SNI] | 🥭🔥_18
-  type: vless
-  server: 104.18.35.15
-  port: 8880
-  uuid: f989cbf4-40d2-41d2-8a00-1fe4e29b2192
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net@https://t.me/QiangLieTuiJian
-    headers:
-      Host: ancient-rice-c180.455-8ad.workers.dev
-  udp: true
-  skip-cert-verify: false
-- name: 🇫🇮🚀 Финляндия [🏴BL/SNI] | 🥭🔥
-  type: vless
-  server: 104.18.28.234
-  port: 8880
-  uuid: 8ddedcc7-6c4e-4df3-a190-ac40926f6694
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip
-    headers:
-      Host: late-boat-fbd7.152-de6.workers.dev
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸🚀 США [🏴BL/SNI] | 🥭🔥_4
-  type: vless
-  server: 104.17.21.111
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  tls: false
-  ws-opts:
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-  udp: true
-  skip-cert-verify: false
-- name: 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-1916
-  type: vless
-  server: 104.26.2.173
-  port: 443
-  udp: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-  tls: true
-  servername: support.zoom.us.yxls.eu.cc
-  client-fingerprint: chrome
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-- name: 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-2864
-  type: vless
-  server: 108.162.195.58
-  port: 443
-  udp: true
-  network: ws
-  ws-opts:
-    path: /fdip=tw.william.us.ci!txt
-    headers:
-      Host: learn00.evany.de5.net
-  tls: true
-  servername: learn00.evany.de5.net
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-- name: 🇺🇸 · 14
-  type: vless
-  server: 172.64.145.202
-  port: 2095
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- name: 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-3251
-  type: vless
-  server: 104.16.253.69
-  port: 443
-  udp: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-  tls: true
-  servername: support.zoom.us.yxls.eu.cc
-  client-fingerprint: chrome
-  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-- name: 🇺🇸 US | [www.v2nodes.com] V2Ray Vless-SG-1531
-  type: vless
-  server: 162.159.0.8
-  port: 443
-  udp: true
-  network: ws
-  ws-opts:
-    path: pyip=proxyip.cmliussss.net
-    headers:
-      Host: soucuovls.pages.dev
-  tls: true
-  servername: soucuovls.pages.dev
-  client-fingerprint: random
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
-- name: 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-2194
-  type: vless
-  server: 172.67.185.178
-  port: 443
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-- name: trojan-294267606
+  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
+- name: trojan-11938
   password: humanity
   port: 443
   server: 45.130.125.75
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-24728
-  password: humanity
-  port: 443
-  server: 172.64.152.23
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-2515730
-  password: humanity
-  port: 443
-  server: 104.19.229.21
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-2514925
-  password: humanity
-  port: 443
-  server: 104.18.9.83
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-2513858
-  password: humanity
-  port: 443
-  server: 104.17.121.9
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: trojan-2515929
-  password: humanity
-  port: 443
-  server: 162.159.36.20
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-113446
-  password: humanity
-  port: 443
-  server: 162.159.91.211
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: vless-4646860
-  network: ws
-  port: 2087
-  server: 188.114.97.6
-  servername: mjtbknetmkhremge.ordak.qzz.io
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4311bd3f-4f66-4538-a624-221b87690b2c
-- name: vless-23906902
-  network: ws
-  port: 8880
-  server: 104.16.8.66
-  type: vless
-  udp: true
-  uuid: b92380e2-e03f-4861-856e-7c2373b04728
-- name: vless-393786595
+- name: vless-481517146
   network: ws
   port: 443
-  server: 188.114.99.0
-  servername: hhlfy.twiladaphne.ndjp.net
+  server: 104.16.174.2
+  servername: dark-sun-2c52.tootfarangijangi.workers.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-- name: vless-335074412
+  uuid: ee63b875-215e-4a2e-879d-d8ebb5dc2da5
+- name: vless-351865143
+  network: ws
+  port: 2053
+  server: 104.21.35.235
+  servername: music1000.melobitmusic1.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: da4747a6-be0d-4c1b-90f4-d82ec3012be2
+- name: vless-412978131
   network: ws
   port: 443
-  server: 172.66.44.97
-  servername: josni.hoyes.cloudns.ch
+  server: 104.21.80.209
+  servername: vps.181110.xyz
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-- name: vless-294281607
-  network: ws
-  port: 2096
-  server: 91.193.58.218
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-429863172
-  network: ws
-  port: 443
-  server: 208.103.161.32
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-- name: vless-292031481
-  network: ws
-  port: 2096
-  server: 91.193.58.57
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-393938869
-  network: ws
-  port: 2096
-  server: 91.193.58.31
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-412982130
-  network: ws
-  port: 8880
-  server: 104.26.13.40
-  type: vless
-  udp: true
-  uuid: 723c410e-5789-4b21-abb9-d6ec05547ba9
-- name: vless-294281605
-  network: ws
-  port: 2096
-  server: 91.193.58.136
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-362371192
-  network: ws
-  port: 2096
-  server: 172.66.0.216
-  servername: free-7f1.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-- name: vless-335172166
-  network: ws
-  port: 8880
-  server: 172.67.152.71
-  type: vless
-  udp: true
-  uuid: df26029b-bffe-4ce2-9246-25b52ed2b1c7
-- name: vless-335074409
-  network: ws
-  port: 443
-  server: 104.18.37.228
-  servername: josni.hoyes.cloudns.ch
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-- name: 🇺🇸US_159 ⇽中转_1@158
-  server: 104.17.77.77
-  type: vmess
-  country: 🏁ZZ
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  network: ws
-  servername: v2ray1.dozapp.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      HOST: v2ray1.dozapp.xyz
-- client-fingerprint: chrome
-  name: us|b3d2|puddincat07@Telegram
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.16.7.70
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
-    path: /assignment
+  uuid: cf63446e-f6b7-4d34-b7ed-d8648eeed0f7
 - client-fingerprint: chrome
   name: us|4896|puddincat07@Telegram
   network: ws
@@ -1519,19 +1183,34 @@ proxies:
         Gecko) Chrome/41.0.2272.76 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: us|e9fc|puddincat07@Telegram
+  name: us|b395|puddincat07@Telegram
   network: ws
   password: humanity
   port: '443'
-  server: 104.21.46.3
+  server: 104.26.15.137
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /assignment
+- client-fingerprint: chrome
+  name: us|f508|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: '443'
+  server: 130.250.137.171
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
+        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
     path: /assignment
 - name: 13|US_speednode_0122
   network: ws
@@ -1547,49 +1226,8 @@ proxies:
     headers:
       Host: josni.hoyes.cloudns.ch
     path: /
-- name: CA 🇨🇦 | @Raydikalx | 2FE6A2
-  server: 104.16.99.215
-  port: 8880
-  type: vless
-  uuid: 0c13ef54-3890-4bbc-baec-e80335db9fe7
-  udp: true
-  tls: false
-  servername: plain-dawn-765f.452.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: plain-dawn-765f.452.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 0CA412
-  server: 172.64.144.162
-  port: 2096
-  type: vless
-  uuid: 20a25a96-61df-4a4f-8424-165fc9cfc84e
-  udp: true
-  tls: true
-  servername: empty-band-d17d.raana2710.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: empty-band-d17d.raana2710.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | DA1704
-  server: 172.64.94.251
-  port: 8880
-  type: vless
-  uuid: 645ea5d2-7d0a-4d66-940d-eefc2b84f4e9
-  udp: true
-  tls: false
-  servername: fragrant-surf-4797.496-345.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: fragrant-surf-4797.496-345.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | B56B01
-  server: 104.21.23.72
+- name: CA 🇨🇦 | @Raydikalx | 972965
+  server: 162.159.140.78
   port: 8880
   type: vless
   uuid: bf667068-11cb-4c37-a867-4a2b03b45555
@@ -1601,6 +1239,84 @@ proxies:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
       Host: flat-sun-b8d3.225-154.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | F47559
+  server: 172.66.140.62
+  port: 8880
+  type: vless
+  uuid: 5a4d9f40-56db-402a-9fbc-31c9229bdcf6
+  udp: true
+  tls: false
+  servername: floral-resonance-4baf.468.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: floral-resonance-4baf.468.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 8AE5D1
+  server: 104.21.89.181
+  port: 8880
+  type: vless
+  uuid: 25322a43-4ef3-45cc-9e96-db44bcccd7be
+  udp: true
+  tls: false
+  servername: purple-disk-f68d.14-360.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: purple-disk-f68d.14-360.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 477DC0
+  server: 104.21.12.116
+  port: 8880
+  type: vless
+  uuid: df26029b-bffe-4ce2-9246-25b52ed2b1c7
+  udp: true
+  tls: false
+  servername: polished-field-4448.186-705.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: polished-field-4448.186-705.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 42C20D
+  server: 172.67.152.71
+  port: 8880
+  type: vless
+  uuid: f7ebef03-3c34-4769-bfe4-66e3c92ed665
+  udp: true
+  tls: false
+  servername: lively-dream-d892.262.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: lively-dream-d892.262.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 128E5B
+  server: 172.67.190.141
+  port: 8880
+  type: vless
+  uuid: 25322a43-4ef3-45cc-9e96-db44bcccd7be
+  udp: true
+  tls: false
+  servername: purple-disk-f68d.14-360.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: purple-disk-f68d.14-360.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 098DE3
+  server: 172.64.146.66
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  tls: false
+  servername: cnmfangbinxing.cnmfangbinxing-f.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cnmfangbinxing.cnmfangbinxing-f.workers.dev
 - name: CA 🇨🇦 | @Raydikalx | 5D9590
   server: 104.18.1.1
   port: 2083
@@ -1615,297 +1331,205 @@ proxies:
     path: /
     headers:
       Host: calm-smoke-1a21.alvlirm6262.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 2BF81B
-  server: 104.17.21.137
-  port: 8880
-  type: vless
-  uuid: 9e648bb6-25f7-4b16-9949-55ac0952d66b
-  udp: true
-  tls: false
-  servername: lingering-grass-6728.131-a78.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: lingering-grass-6728.131-a78.workers.dev
-- name: US 🇺🇸 | @Raydikalx | B2B0AD
-  server: 66.175.217.170
+- name: CA 🇨🇦 | @Raydikalx | BE96AE
+  server: 104.17.121.110
   port: 443
   type: vless
-  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
   udp: true
   tls: true
-  flow: xtls-rprx-vision
-  servername: www.amazon.com
-  reality-opts:
-    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-    short-id: 1a
+  servername: terazhediii.info
   client-fingerprint: chrome
-  network: tcp
-- name: CA 🇨🇦 | @Raydikalx | 202210
-  server: 104.16.106.213
-  port: 8880
-  type: vless
-  uuid: d503ca85-91c2-426d-98ce-7a6f44666be1
-  udp: true
-  tls: false
-  servername: winter-hall-a0a2.74-532.workers.dev
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
+    path: /hdgrbws
     headers:
-      Host: winter-hall-a0a2.74-532.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 842AD3
-  server: 172.67.190.141
-  port: 8880
+      Host: terazhediii.info
+- name: CA 🇨🇦 | @Raydikalx | FD5A98
+  server: 104.18.35.15
+  port: 8443
   type: vless
-  uuid: 25322a43-4ef3-45cc-9e96-db44bcccd7be
+  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+  udp: true
+  tls: true
+  servername: us-akile.nanniang.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: us-akile.nanniang.top
+- name: CA 🇨🇦 | @Raydikalx | 383583
+  server: 104.16.148.244
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   udp: true
   tls: false
-  servername: purple-disk-f68d.14-360.workers.dev
+  servername: fuckingfangbinxing.pusytroller.cf
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+- name: CA 🇨🇦 | @Raydikalx | 20FB3F
+  server: 172.67.187.219
+  port: 8880
+  type: vless
+  uuid: 2b5753cf-4d0a-4746-b63d-cd67a3de2ccc
+  udp: true
+  tls: false
+  servername: crimson-hill-8061.166-dcf.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: crimson-hill-8061.166-dcf.workers.dev
+- name: ES 🇪🇸 | @Raydikalx | D6C206
+  server: 185.18.250.252
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | AB16E3
+  server: 104.16.149.244
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  tls: false
+  servername: fuckingfangbinxing.pusytroller.cf
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fuckingfangbinxing.pusytroller.cf
+- name: CA 🇨🇦 | @Raydikalx | CE8BED
+  server: 104.18.42.163
+  port: 2095
+  type: vless
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+  tls: false
+  servername: download.pusytroller.gq
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: download.pusytroller.gq
+- name: CA 🇨🇦 | @Raydikalx | 339D26
+  server: 104.16.72.41
+  port: 8880
+  type: vless
+  uuid: 1bc8fb2a-3bee-4ae0-aa12-957885e63e18
+  udp: true
+  tls: false
+  servername: super-mud-8b38.114-a90.workers.dev
   network: ws
   ws-opts:
     path: /pyip
     headers:
-      Host: purple-disk-f68d.14-360.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 7DF934
-  server: 172.67.152.71
-  port: 8880
+      Host: super-mud-8b38.114-a90.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 97D90F
+  server: 104.18.1.1
+  port: 443
   type: vless
-  uuid: 2a8cafda-479d-4e30-82d1-0bd4c6da6db9
-  udp: true
-  tls: false
-  servername: delicate-meadow-15da.423-c77.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: delicate-meadow-15da.423-c77.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | A98292
-  server: 172.67.75.172
-  port: 80
-  type: vless
-  uuid: df301b32-1152-4526-9a63-beedd93d3156
-  udp: true
-  tls: false
-  servername: vl.dalazhi.cloudns.biz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vl.dalazhi.cloudns.biz
-- name: CA 🇨🇦 | @Raydikalx | DDDDEB
-  server: 172.67.179.98
-  port: 8880
-  type: vless
-  uuid: 70c16ec7-13f7-473b-b97d-06399f1481e3
-  udp: true
-  tls: false
-  servername: mute-surf-0003.209.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: mute-surf-0003.209.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 325C8E
-  server: 104.21.12.116
-  port: 8880
-  type: vless
-  uuid: d6d0ba7b-fa88-4b2c-9915-530ae4a81035
-  udp: true
-  tls: false
-  servername: aged-mud-9b4c.202-2dc.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip
-    headers:
-      Host: aged-mud-9b4c.202-2dc.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | B64A4A
-  server: 104.17.58.113
-  port: 8880
-  type: vless
-  uuid: 14e0ab2e-fb3e-4fd1-a6d9-62eeae62976b
-  udp: true
-  tls: false
-  servername: jolly-shape-3ce6.392.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: jolly-shape-3ce6.392.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | DCD2D8
-  server: 172.67.179.98
-  port: 8880
-  type: vless
-  uuid: 129b50b6-060d-475c-b1de-b87c2a67051f
-  udp: true
-  tls: false
-  servername: shrill-waterfall-bfe2.416.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: shrill-waterfall-bfe2.416.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | FF769E
-  server: 104.21.88.129
-  port: 8880
-  type: vless
-  uuid: 6d613d5f-1d65-48ca-b2e8-d83a2c3a17d9
-  udp: true
-  tls: false
-  servername: tight-star-08eb.331-729.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: tight-star-08eb.331-729.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 8EC4EE
-  server: 104.18.32.47
-  port: 8880
-  type: vless
-  uuid: 8ddedcc7-6c4e-4df3-a190-ac40926f6694
-  udp: true
-  tls: false
-  servername: late-boat-fbd7.152-de6.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip
-    headers:
-      Host: late-boat-fbd7.152-de6.workers.dev
-- name: GB 🇬🇧 | @Raydikalx | 304609
-  server: 91.193.58.122
-  port: 2096
-  type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
   udp: true
   tls: true
-  servername: free-server.techsonic.dev
+  servername: terazhediii.info
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /free-server.techsonic.dev
+    path: /hdgrbws
     headers:
-      Host: free-server.techsonic.dev
-- name: CA 🇨🇦 | @Raydikalx | B69764
-  server: 104.18.31.170
+      Host: terazhediii.info
+- name: CA 🇨🇦 | @Raydikalx | 08C874
+  server: 172.66.170.53
   port: 8880
   type: vless
-  uuid: b85c8be2-3109-4b8a-aa82-f0d8fe06f5ae
+  uuid: e4927998-38dd-4bf4-a37d-4cc67a06ee2d
   udp: true
   tls: false
-  servername: young-dust-b8d9.31-8ba.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: young-dust-b8d9.31-8ba.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | F2AC4A
-  server: 162.159.156.214
-  port: 8880
-  type: vless
-  uuid: 8dd8af16-cae0-4431-b04c-a637b4d7645b
-  udp: true
-  tls: false
-  servername: wild-frog-c709.403-6ff.workers.dev
+  servername: cold-shadow-66a0.278.workers.dev
   network: ws
   ws-opts:
     path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
-      Host: wild-frog-c709.403-6ff.workers.dev
-- name: GB 🇬🇧 | @Raydikalx | EECDFA
-  server: 91.193.58.218
-  port: 2096
+      Host: cold-shadow-66a0.278.workers.dev
+- name: US 🇺🇸 | @Raydikalx | 85FFBA
+  server: 198.62.62.23
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | 8BEFD8
+  server: 104.19.229.21
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | FEDF26
+  server: 104.17.148.22
+  port: 443
   type: vless
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  uuid: 6b3e32aa-5a97-49fb-94fc-be0800000000
   udp: true
   tls: true
-  servername: free-server.techsonic.dev
+  servername: netlivpn4020.bssbh262627.workers.dev
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /free-server.techsonic.dev
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
     headers:
-      Host: free-server.techsonic.dev
-- name: CA 🇨🇦 | @Raydikalx | B797DD
-  server: 172.67.152.71
-  port: 8880
+      Host: netlivpn4020.bssbh262627.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | BD3DFE
+  server: 104.16.75.42
+  port: 443
   type: vless
-  uuid: c6c5ad2f-b4d5-450f-862f-341cebb7f9b5
+  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
   udp: true
-  tls: false
-  servername: empty-rain-1df4.332-633.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: empty-rain-1df4.332-633.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 181014
-  server: 172.66.140.62
-  port: 8880
-  type: vless
-  uuid: 91c7ea79-9187-4f07-ab97-68c584186843
-  udp: true
-  tls: false
-  servername: skk.moe
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: nameless-dust-1a36.207-b50.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | E80F28
-  server: 172.67.190.141
-  port: 8880
-  type: vless
-  uuid: 0787cfdb-9930-4abb-8419-c1b96c3ef628
-  udp: true
-  tls: false
-  servername: red-snowflake-c399.12-ee1.workers.dev
+  tls: true
+  servername: de-new-1.ariyuz.org
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: red-snowflake-c399.12-ee1.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | A9E1F8
-  server: 172.67.152.71
-  port: 8880
+      Host: de-new-1.ariyuz.org
+- name: CA 🇨🇦 | @Raydikalx | 94A774
+  server: 104.16.75.44
+  port: 443
   type: vless
-  uuid: df26029b-bffe-4ce2-9246-25b52ed2b1c7
+  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
   udp: true
-  tls: false
-  servername: polished-field-4448.186-705.workers.dev
+  tls: true
+  servername: de-new.ariyuz.org
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: polished-field-4448.186-705.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 218D2F
-  server: 104.26.6.214
-  port: 8880
-  type: vless
-  uuid: 4bf6fee9-d3c4-4a98-b83b-170bf37c669c
-  udp: true
-  tls: false
-  servername: cold-water-945c.43-bc5.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cold-water-945c.43-bc5.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 8CAFCF
-  server: 172.67.207.26
-  port: 8880
-  type: vless
-  uuid: 65aed3c1-1999-46a1-a3f3-2e5eb119ec64
-  udp: true
-  tls: false
-  servername: weathered-hat-76a5.380-d00.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: weathered-hat-76a5.380-d00.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 37A12E
-  server: 104.16.174.121
+      Host: de-new.ariyuz.org
+- name: CA 🇨🇦 | @Raydikalx | 617EEF
+  server: 104.17.111.3
   port: 443
   type: trojan
   password: humanity
@@ -1916,21 +1540,276 @@ proxies:
     path: /assignment
     headers:
       Host: www.ignitelimit.com
-- name: CA 🇨🇦 | @Raydikalx | F35119
-  server: 172.67.179.98
-  port: 8880
-  type: vless
-  uuid: 8c9be850-32a0-4cc1-809b-4a5161413a90
+- name: CA 🇨🇦 | @Raydikalx | C9939C
+  server: 104.18.152.187
+  port: 443
+  type: trojan
+  password: humanity
   udp: true
-  tls: false
-  servername: sparkling-frog-59e1.256-d4e.workers.dev
+  sni: www.ignitelimit.com
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
+    path: /assignment
     headers:
-      Host: sparkling-frog-59e1.256-d4e.workers.dev
-- name: GB 🇬🇧 | @Raydikalx | 575323
-  server: 91.193.58.15
+      Host: www.ignitelimit.com
+- name: CA 🇨🇦 | @Raydikalx | 520263
+  server: 104.16.174.72
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: CA 🇨🇦 | @Raydikalx | 4CF504
+  server: 104.16.174.12
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: CA 🇨🇦 | @Raydikalx | 385D78
+  server: 104.18.152.229
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: US 🇺🇸 | @Raydikalx | 846ED0
+  server: 199.232.78.160
+  port: 443
+  type: vless
+  uuid: XpnTeam-37
+  udp: true
+  tls: true
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+- name: CA 🇨🇦 | @Raydikalx | E92682
+  server: 104.16.174.37
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: CA 🇨🇦 | @Raydikalx | D6941E
+  server: 104.16.174.34
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: CA 🇨🇦 | @Raydikalx | 67CC85
+  server: 104.16.174.2
+  port: 443
+  type: vless
+  uuid: ee63b875-215e-4a2e-879d-d8ebb5dc2da5
+  udp: true
+  tls: true
+  servername: dark-sun-2c52.tootfarangijangi.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tootfarangijangi
+    headers:
+      Host: dark-sun-2c52.tootfarangijangi.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 4659CE
+  server: 104.16.72.41
+  port: 8880
+  type: vless
+  uuid: 74705348-bb9c-47c6-9e91-057c6407bb20
+  udp: true
+  tls: false
+  servername: small-glitter-aa35.76-21d.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip
+    headers:
+      Host: small-glitter-aa35.76-21d.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 8E9524
+  server: 172.66.140.62
+  port: 8880
+  type: vless
+  uuid: adda46c3-eab1-40bc-b88d-6b92c1e8c558
+  udp: true
+  tls: false
+  servername: delicate-base-12ed.287-133.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: delicate-base-12ed.287-133.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 2E6CDA
+  server: 172.66.170.53
+  port: 8880
+  type: vless
+  uuid: 68662961-6c5f-48c1-b807-6398f3287dbc
+  udp: true
+  tls: false
+  servername: polished-meadow-2ac5.228-76d.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: polished-meadow-2ac5.228-76d.workers.dev
+- name: GB 🇬🇧 | @Raydikalx | 9386D5
+  server: 91.193.58.5
+  port: 2096
+  type: vless
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  tls: true
+  servername: free-server.techsonic.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
+- name: CA 🇨🇦 | @Raydikalx | BE9312
+  server: 172.66.140.62
+  port: 8880
+  type: vless
+  uuid: 2b5753cf-4d0a-4746-b63d-cd67a3de2ccc
+  udp: true
+  tls: false
+  servername: crimson-hill-8061.166-dcf.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: crimson-hill-8061.166-dcf.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 522167
+  server: 172.67.209.127
+  port: 8880
+  type: vless
+  uuid: 1f06dae9-e4cc-4aae-b026-07f7fc81fb56
+  udp: true
+  tls: false
+  servername: spring-fire-a493.251-67d.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: spring-fire-a493.251-67d.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 891C30
+  server: 104.17.111.8
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.ignitelimit.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: CA 🇨🇦 | @Raydikalx | 5F6485
+  server: 104.17.147.22
+  port: 443
+  type: vless
+  uuid: 030852fe-6dac-4e23-88b1-727f00000000
+  udp: true
+  tls: true
+  servername: netlivpn8371.hhiht63726.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN-NetliVPN
+    headers:
+      Host: netlivpn8371.hhiht63726.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 5B555C
+  server: 172.67.118.45
+  port: 2053
+  type: vless
+  uuid: da4747a6-be0d-4c1b-90f4-d82ec3012be2
+  udp: true
+  tls: true
+  servername: music1000.melobitmusic1.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: music1000.melobitmusic1.ir
+- name: CA 🇨🇦 | @Raydikalx | E41AC4
+  server: 104.16.7.70
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: US 🇺🇸 | @Raydikalx | 676A90
+  server: 208.103.161.32
+  port: 443
+  type: vless
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  udp: true
+  tls: true
+  servername: josni.hoyes.cloudns.ch
+  network: ws
+  ws-opts:
+    path: /sg-melbi_/v2rayNplus--v2rayNplus--v2rayNplus
+    headers:
+      Host: josni.hoyes.cloudns.ch
+- name: US 🇺🇸 | @Raydikalx | 4AECE1
+  server: 8.6.112.6
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: CA 🇨🇦 | @Raydikalx | 55451B
+  server: 104.26.15.137
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.ignitelimit.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.ignitelimit.com
+- name: GB 🇬🇧 | @Raydikalx | EBB878
+  server: 91.193.58.198
   port: 2096
   type: vless
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
@@ -1943,223 +1822,8 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
-- name: CA 🇨🇦 | @Raydikalx | 868668
-  server: 104.17.121.43
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 9B2AEA
-  server: 104.18.152.133
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: CA 🇨🇦 | @Raydikalx | 81B423
-  server: 172.64.152.23
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | E0895F
-  server: 172.66.132.196
-  port: 8880
-  type: vless
-  uuid: d8a7b463-dc98-474d-a87e-8781476aef32
-  udp: true
-  tls: false
-  servername: ancient-tree-7dc9.336-5f9.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: ancient-tree-7dc9.336-5f9.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 0FC6C9
-  server: 104.19.229.21
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: CA 🇨🇦 | @Raydikalx | F9DE63
-  server: 104.16.100.66
-  port: 8880
-  type: vless
-  uuid: 730cbebb-39b2-4a1c-b2f8-f922095d6623
-  udp: true
-  tls: false
-  servername: wandering-bonus-e035.272.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: wandering-bonus-e035.272.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | BF4580
-  server: 172.67.209.127
-  port: 8880
-  type: vless
-  uuid: 0b17eb47-587b-4e46-86a7-e1681cbbe76c
-  udp: true
-  tls: false
-  servername: orange-math-9c83.371.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: orange-math-9c83.371.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 2D1FFC
-  server: 172.67.187.219
-  port: 8880
-  type: vless
-  uuid: a8985e6a-f338-4b44-9a41-f94495603a96
-  udp: true
-  tls: false
-  servername: dawn-cell-346f.238-df6.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: dawn-cell-346f.238-df6.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 93D519
-  server: 104.17.121.9
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 9E7EBE
-  server: 104.18.32.47
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | BF2908
-  server: 172.67.152.71
-  port: 8880
-  type: vless
-  uuid: 565326ee-c588-4843-9472-a051578ab1ae
-  udp: true
-  tls: false
-  servername: lucky-cell-e8c5.490-f12.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: lucky-cell-e8c5.490-f12.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 1A3005
-  server: 104.16.174.22
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: CA 🇨🇦 | @Raydikalx | 904F09
-  server: 172.67.179.98
-  port: 8880
-  type: vless
-  uuid: 56c673ba-865a-48ec-8dc0-fd7133a7ecfd
-  udp: true
-  tls: false
-  servername: curly-surf-4401.75-08c.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: curly-surf-4401.75-08c.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | E8E037
-  server: 172.67.207.26
-  port: 8880
-  type: vless
-  uuid: 38ede46b-d237-4c76-9de1-a10738642adc
-  udp: true
-  tls: false
-  servername: summer-hat-ba5c.430.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: summer-hat-ba5c.430.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 12D2FD
-  server: 104.16.107.139
-  port: 8880
-  type: vless
-  uuid: 3c04e891-dc32-40a3-bcd0-d5e8283a6a03
-  udp: true
-  tls: false
-  servername: polished-firefly-3e2d.20-645.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: polished-firefly-3e2d.20-645.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | C2D3AD
-  server: 104.18.152.159
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: CA 🇨🇦 | @Raydikalx | 14EDBC
-  server: 104.21.55.229
-  port: 8880
-  type: vless
-  uuid: b2c879ed-08a2-4a79-9c57-37c7db614e96
-  udp: true
-  tls: false
-  servername: sweet-cake-1340.474-288.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: sweet-cake-1340.474-288.workers.dev
-- name: US 🇺🇸 | @Raydikalx | 56C655
-  server: 165.215.250.14
+- name: CA 🇨🇦 | @Raydikalx | 1543D3
+  server: 104.16.174.44
   port: 443
   type: trojan
   password: humanity
@@ -2182,414 +1846,20 @@ proxies:
     path: /assignment
     headers:
       Host: www.ignitelimit.com
-- name: CA 🇨🇦 | @Raydikalx | 1543D3
-  server: 104.16.174.44
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: CA 🇨🇦 | @Raydikalx | C9F271
-  server: 104.18.152.73
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.ignitelimit.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.ignitelimit.com
-- name: CA 🇨🇦 | @Raydikalx | 58A13A
-  server: 104.16.239.191
-  port: 8880
-  type: vless
-  uuid: 7a2df38b-2d8b-486b-9b43-641c81e11f40
-  udp: true
-  tls: false
-  servername: shiny-mud-d9fa.466.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: shiny-mud-d9fa.466.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | FF87FC
-  server: 104.17.147.22
-  port: 80
-  type: vless
-  uuid: 7201b2cd-0675-4c1a-9c76-07ca14ffcf08
-  udp: true
-  tls: false
-  servername: 6crihfknlqjdu3yuzco9phspq86dbp6q.christanmoccasin.workers.dev
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiTlZxbGYyajQiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119
-    headers:
-      Host: 6crihfknlqjdu3yuzco9phspq86dbp6q.christanmoccasin.workers.dev
-- name: DE 🇩🇪 | @Raydikalx | 4A84D9
-  server: 45.80.111.7
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  udp: true
-  sni: d-2-AA-ia-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: D-2A-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-- name: CA 🇨🇦 | @Raydikalx | 155859
-  server: 104.16.106.213
-  port: 8880
-  type: vless
-  uuid: ae83f4a6-7fd3-4168-9f42-1260fc601155
-  udp: true
-  tls: false
-  servername: shy-mud-e936.15-bb9.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: shy-mud-e936.15-bb9.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 54186B
-  server: 172.66.170.53
-  port: 8880
-  type: vless
-  uuid: 38ede46b-d237-4c76-9de1-a10738642adc
-  udp: true
-  tls: false
-  servername: summer-hat-ba5c.430.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: summer-hat-ba5c.430.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | FEC3D7
-  server: 172.66.44.97
-  port: 443
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  tls: true
-  servername: josni.hoyes.cloudns.ch
-  network: ws
-  ws-opts:
-    path: /sg-melbi/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
-    headers:
-      Host: josni.hoyes.cloudns.ch
-- name: US 🇺🇸 | @Raydikalx | E0B03F
-  server: 188.114.99.0
-  port: 443
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  tls: true
-  servername: josni.hoyes.cloudns.ch
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: josni.hoyes.cloudns.ch
-- name: CA 🇨🇦 | @Raydikalx | 2E6CDA
-  server: 172.66.170.53
-  port: 8880
-  type: vless
-  uuid: 68662961-6c5f-48c1-b807-6398f3287dbc
-  udp: true
-  tls: false
-  servername: polished-meadow-2ac5.228-76d.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: polished-meadow-2ac5.228-76d.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | D4668C
-  server: 172.67.68.240
-  port: 8880
-  type: vless
-  uuid: 4bf6fee9-d3c4-4a98-b83b-170bf37c669c
-  udp: true
-  tls: false
-  servername: cold-water-945c.43-bc5.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cold-water-945c.43-bc5.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | B5582E
-  server: 104.18.37.228
-  port: 443
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  tls: true
-  servername: josni.hoyes.cloudns.ch
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-NexVexo_NexVexo_NexVexo_NexVexo_NexVexo?ed=512
-    headers:
-      Host: josni.hoyes.cloudns.ch
-- name: CA 🇨🇦 | @Raydikalx | AD543F
-  server: 104.16.8.66
-  port: 8880
-  type: vless
-  uuid: 725c66a2-2bce-4a24-ba52-b4e2e7047076
-  udp: true
-  tls: false
-  servername: rapid-base-6c9e.45-d79.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: rapid-base-6c9e.45-d79.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 0BF99E
-  server: 172.65.90.52
-  port: 8880
-  type: vless
-  uuid: 812b1aeb-c6f7-43cb-8d8b-981711fea21a
-  udp: true
-  tls: false
-  servername: dark-cake-4743.198-46c.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: dark-cake-4743.198-46c.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | F670A2
-  server: 104.16.107.139
-  port: 8880
-  type: vless
-  uuid: 2fb22d40-598f-4890-85a6-d69928b1fd55
-  udp: true
-  tls: false
-  servername: odd-cloud-f2a1.73-12e.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: odd-cloud-f2a1.73-12e.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | CBC53D
-  server: 104.16.106.213
-  port: 8880
-  type: vless
-  uuid: 82a3c394-55b7-4780-93a0-5f45c0e89625
-  udp: true
-  tls: false
-  servername: square-brook-e650.353-3ac.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: square-brook-e650.353-3ac.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | AA1419
-  server: 172.66.214.247
-  port: 8880
-  type: vless
-  uuid: e7f6f783-6754-4228-a5d0-aeed84b9949a
-  udp: true
-  tls: false
-  servername: sweet-sun-c70f.317-ba5.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: sweet-sun-c70f.317-ba5.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | DB6E55
-  server: 104.17.21.32
-  port: 8880
-  type: vless
-  uuid: d1eeb74f-e5ea-45eb-9934-5376bfeb5ba4
-  udp: true
-  tls: false
-  servername: fragrant-shape-07a0.269-144.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: fragrant-shape-07a0.269-144.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | C64D1F
-  server: 104.24.152.211
-  port: 8880
-  type: vless
-  uuid: 34ce8760-24ed-41e7-a1f5-aa6c2660a53c
-  udp: true
-  tls: false
-  servername: quiet-frost-ac61.333-07d.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: quiet-frost-ac61.333-07d.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | B1E107
-  server: 172.66.44.97
-  port: 443
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  tls: true
-  servername: josni.hoyes.cloudns.ch
-  network: ws
-  ws-opts:
-    path: /sg-melbi/Telegram-MTMVPN-Telegram-MTMVPN-Telegram-Telegram-MTMVPN-Telegram-MTMVPN-Telegram-MTMVPN-Telegram-MTMVPN-Telegram-MTMVPNMTMVPN-Telegram-MTMVPN-Telegram-MTMVPN-=512
-    headers:
-      Host: josni.hoyes.cloudns.ch
-- name: CA 🇨🇦 | @Raydikalx | BAF624
-  server: 172.67.209.127
-  port: 8880
-  type: vless
-  uuid: 4e81922a-1c2e-41ee-bb4c-9095a0a363fe
-  udp: true
-  tls: false
-  servername: gentle-cell-501a.273-d6b.workers.dev
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: gentle-cell-501a.273-d6b.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | EF0666
-  server: 188.114.97.6
-  port: 443
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  tls: true
-  servername: josni.hoyes.cloudns.ch
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: josni.hoyes.cloudns.ch
-- name: CA 🇨🇦 | @Raydikalx | F54CB1
-  server: 172.66.44.97
-  port: 443
-  type: vless
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-  tls: true
-  servername: josni.hoyes.cloudns.ch
-  network: ws
-  ws-opts:
-    path: musiclovers85_musiclovers85
-    headers:
-      Host: josni.hoyes.cloudns.ch
-- name: CA 🇨🇦 | @Raydikalx | E0668D
-  server: 104.21.12.21
-  port: 443
-  type: vless
-  uuid: 73796e63-0000-4000-8000-000000000000
-  udp: true
-  tls: true
-  servername: nahan-core.fatitelegram.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.fatitelegram.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 3E84C8
-  server: 188.114.97.3
-  port: 443
-  type: vless
-  uuid: d7d8af23-36cd-4c66-a42a-4469c177210f
-  udp: true
-  tls: true
-  servername: FanCy-raIn-136E.tHisIsaLEe.wOrKeRS.deV
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoidmJOWHUwYnBOS00zT04iLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6WyI5MS4xODYuMjE5LjgyIl19?ed=2560
-    headers:
-      Host: fancy-rain-136e.thisisalee.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 3C6FDA
-  server: 104.17.148.22
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  udp: true
-  sni: gbss-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: gbss-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
-- name: CA 🇨🇦 | @Raydikalx | D7EBC8
-  server: 188.114.97.6
-  port: 8443
-  type: vless
-  uuid: 05cf7b0e-ad1a-42bb-80e7-73ae45b1019a
-  udp: true
-  tls: true
-  servername: france.io-com-de-dev.org
-  network: ws
-  ws-opts:
-    path: /api/voip/updates/static/x9i2
-    headers:
-      Host: france.io-com-de-dev.org
-- name: CA 🇨🇦 | @Raydikalx | B845C3
-  server: 104.17.135.117
-  port: 443
-  type: vless
-  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
-  udp: true
-  tls: true
-  servername: nmrgf.minipixelbox-nexoim.sbs
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ram
-    headers:
-      Host: nmrgf.minipixelbox-nexoim.sbs
-- name: SC 🇸🇨 | @Raydikalx | AC10C0
-  server: 45.130.125.200
+- name: CA 🇨🇦 | @Raydikalx | F1F2D8
+  server: 104.18.32.47
   port: 2053
   type: vless
-  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
+  uuid: d361072e-9e0e-4e2d-8ec7-2a4189b5b23a
   udp: true
   tls: true
-  servername: po.fastbrokencompony.com
+  servername: ov.iran-servers.shop
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /J5aLQOY1R9ONWYCM
     headers:
-      Host: po.fastbrokencompony.com
-- name: CA 🇨🇦 | @Raydikalx | 381D6A
-  server: 172.67.180.173
-  port: 2053
-  type: vless
-  uuid: da4747a6-be0d-4c1b-90f4-d82ec3012be2
-  udp: true
-  tls: true
-  servername: music1000.melobitmusic1.ir
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: music1000.melobitmusic1.ir
-- name: CA 🇨🇦 | @Raydikalx | A2407D
-  server: 172.64.80.1
-  port: 8443
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
+      Host: ov.iran-servers.shop
 - name: CA 🇨🇦 | @Raydikalx | 7663AC
   server: 172.64.155.209
   port: 2053
@@ -2604,34 +1874,149 @@ proxies:
     path: /J5aLQOY1R9ONWYCM
     headers:
       Host: ov.iran-servers.shop
-- name: CA 🇨🇦 | @Raydikalx | 212946
-  server: 104.17.77.77
-  port: 8443
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: CA 🇨🇦 | @Raydikalx | C8CD1F
-  server: 172.67.174.37
+- name: CA 🇨🇦 | @Raydikalx | 1EFCBA
+  server: 104.16.106.213
   port: 8880
   type: vless
-  uuid: 160ca353-676d-4b7f-a041-0289e388b865
+  uuid: 7121d0be-40f5-4eda-b3d1-1556e71ea4fa
   udp: true
   tls: false
-  servername: skk.moe
+  servername: shrill-recipe-0c1d.404-a1d.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: shrill-recipe-0c1d.404-a1d.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | F036EA
+  server: 104.16.100.66
+  port: 8880
+  type: vless
+  uuid: b4a18856-301d-4bb2-b729-6afcb700faf5
+  udp: true
+  tls: false
+  servername: red-flower-a2bf.363.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: red-flower-a2bf.363.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | D4668C
+  server: 172.67.68.240
+  port: 8880
+  type: vless
+  uuid: 4bf6fee9-d3c4-4a98-b83b-170bf37c669c
+  udp: true
+  tls: false
+  servername: cold-water-945c.43-bc5.workers.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: proud-cloud-7bdd.208-a52.workers.dev
+      Host: cold-water-945c.43-bc5.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | E3B9D6
+  server: 104.21.89.181
+  port: 8880
+  type: vless
+  uuid: afb13fa2-bba2-417f-b8c2-62565f92a78d
+  udp: true
+  tls: false
+  servername: orange-block-5cd1.124-199.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: orange-block-5cd1.124-199.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 2D0525
+  server: 104.21.12.116
+  port: 8880
+  type: vless
+  uuid: e1bd06de-a075-4ad5-b73f-b54587368cc7
+  udp: true
+  tls: false
+  servername: morning-feather-dc98.136-25b.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: morning-feather-dc98.136-25b.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | F0D33F
+  server: 172.66.214.247
+  port: 8880
+  type: vless
+  uuid: 9b14cdbe-bcfe-4178-a674-3ad88a7c6f6a
+  udp: true
+  tls: false
+  servername: summer-snow-c151.320-3ef.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: summer-snow-c151.320-3ef.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | A2DFD3
+  server: 104.16.106.213
+  port: 8880
+  type: vless
+  uuid: d829cf8d-0a32-4e60-bcc3-a03fb4658ea4
+  udp: true
+  tls: false
+  servername: shy-wind-a26f.182-104.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: shy-wind-a26f.182-104.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | EC56A7
+  server: 104.21.88.129
+  port: 8880
+  type: vless
+  uuid: 8546bcef-8456-41a2-82bc-d2231b42b769
+  udp: true
+  tls: false
+  servername: small-tree-9ec0.84-971.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: small-tree-9ec0.84-971.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | D32DDC
+  server: 172.67.174.37
+  port: 8880
+  type: vless
+  uuid: b2c879ed-08a2-4a79-9c57-37c7db614e96
+  udp: true
+  tls: false
+  servername: sweet-cake-1340.474-288.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: sweet-cake-1340.474-288.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 464C8F
+  server: 104.21.56.202
+  port: 8880
+  type: vless
+  uuid: 8cc8bedd-5103-4d22-a79c-a88f1160055a
+  udp: true
+  tls: false
+  servername: red-unit-60bc.165-1dd.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: red-unit-60bc.165-1dd.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 81775F
+  server: 104.21.23.72
+  port: 8880
+  type: vless
+  uuid: 73ae7d45-1046-4cc5-9741-199375b620f1
+  udp: true
+  tls: false
+  servername: round-resonance-a84c.13-531.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip
+    headers:
+      Host: round-resonance-a84c.13-531.workers.dev
 - name: CA 🇨🇦 | @Raydikalx | E3A26D
   server: 172.66.140.62
   port: 8880
@@ -2645,91 +2030,165 @@ proxies:
     path: /
     headers:
       Host: proud-cloud-7bdd.208-a52.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | A55E3F
-  server: 104.21.23.72
+- name: CA 🇨🇦 | @Raydikalx | 86FD11
+  server: 172.67.209.127
   port: 8880
   type: vless
-  uuid: 4e81922a-1c2e-41ee-bb4c-9095a0a363fe
+  uuid: 73ae7d45-1046-4cc5-9741-199375b620f1
   udp: true
   tls: false
-  servername: gentle-cell-501a.273-d6b.workers.dev
+  servername: round-resonance-a84c.13-531.workers.dev
   network: ws
   ws-opts:
     path: /pyip=ProxyIP.SG.CMLiussss.net
     headers:
-      Host: gentle-cell-501a.273-d6b.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 20FB3F
-  server: 172.67.187.219
+      Host: round-resonance-a84c.13-531.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 9EAE5A
+  server: 172.66.140.62
   port: 8880
   type: vless
-  uuid: 2b5753cf-4d0a-4746-b63d-cd67a3de2ccc
+  uuid: b2c879ed-08a2-4a79-9c57-37c7db614e96
   udp: true
   tls: false
-  servername: crimson-hill-8061.166-dcf.workers.dev
+  servername: sweet-cake-1340.474-288.workers.dev
   network: ws
   ws-opts:
-    path: /
+    path: /pyip=ProxyIP.KR.CMLiussss.net
     headers:
-      Host: crimson-hill-8061.166-dcf.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 6E5681
-  server: 172.65.90.52
+      Host: sweet-cake-1340.474-288.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 7150F8
+  server: 104.26.13.40
   port: 8880
   type: vless
-  uuid: 667a035b-6656-4a4f-a74c-8cd6a679f8d4
+  uuid: 875d3876-ab9a-4dd6-8a8d-bf57f03403aa
   udp: true
   tls: false
-  servername: winter-mode-7f4e.89-136.workers.dev
+  servername: square-sea-01d1.339-be3.workers.dev
   network: ws
   ws-opts:
-    path: /pyip
+    path: /pyip=ProxyIP.JP.CMLiussss.net
     headers:
-      Host: winter-mode-7f4e.89-136.workers.dev
-- alterId: 0
-  cipher: auto
-  name: vmess-97487
+      Host: square-sea-01d1.339-be3.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | A7ED35
+  server: 104.17.21.32
+  port: 8880
+  type: vless
+  uuid: 6e5270b6-9f28-4bc6-8a41-9c197f33f4bb
+  udp: true
+  tls: false
+  servername: autumn-dawn-fa6b.337-272.workers.dev
   network: ws
-  port: 8443
-  server: 172.67.167.78
-  servername: v2ray1.dozapp.xyz
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: autumn-dawn-fa6b.337-272.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 8BEAAC
+  server: 172.67.152.71
+  port: 8880
+  type: vless
+  uuid: 21b93e91-5bb1-4d6d-9093-1fd09ae06903
+  udp: true
+  tls: false
+  servername: morning-silence-7b1b.222-46c.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: morning-silence-7b1b.222-46c.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | AA1419
+  server: 172.66.214.247
+  port: 8880
+  type: vless
+  uuid: e7f6f783-6754-4228-a5d0-aeed84b9949a
+  udp: true
+  tls: false
+  servername: sweet-sun-c70f.317-ba5.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: sweet-sun-c70f.317-ba5.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | B1FFC6
+  server: 104.21.23.72
+  port: 8880
+  type: vless
+  uuid: 1f06dae9-e4cc-4aae-b026-07f7fc81fb56
+  udp: true
+  tls: false
+  servername: spring-fire-a493.251-67d.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.JP.CMLiussss.net
+    headers:
+      Host: spring-fire-a493.251-67d.workers.dev
+- name: trojan-11667
+  password: humanity
+  port: 443
+  server: 104.16.72.2
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  sni: www.calmlunch.com
+  type: trojan
   udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: vless-2066045
+- name: trojan-11926
+  password: humanity
+  port: 443
+  server: 198.62.62.23
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-16165
+  password: humanity
+  port: 443
+  server: 185.18.250.245
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: vless-38398
   network: ws
   port: 443
-  server: 104.21.117.9
-  servername: netlivpn2950.bbxff.workers.dev
+  server: 104.17.22.240
+  servername: hhlfy.twiladaphne.ndjp.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: bd9ff08b-d042-3650-48e4-c4b400000000
-- alterId: 0
-  cipher: auto
-  name: vmess-2120911
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- name: vless-57776
   network: ws
-  port: 8443
-  server: 104.21.91.53
-  servername: v2ray1.dozapp.xyz
+  port: 443
+  server: 172.67.185.178
+  servername: hhlfy.twiladaphne.ndjp.net
   skip-cert-verify: false
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- alterId: 0
-  cipher: auto
-  name: vmess-2384173
-  network: ws
-  port: 8443
-  server: 172.67.161.144
-  servername: v2ray1.dozapp.xyz
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- name: trojan-118986
+  password: humanity
+  port: 443
+  server: 45.130.125.190
   skip-cert-verify: false
-  tls: true
-  type: vmess
+  sni: www.calmlunch.com
+  type: trojan
   udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+- name: trojan-2513809
+  password: humanity
+  port: 443
+  server: 104.16.72.50
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-2514876
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
 - name: vless-23790901
   network: ws
   port: 443
@@ -2740,168 +2199,221 @@ proxies:
   type: vless
   udp: true
   uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
-- name: vless-65128004
-  network: ws
-  port: 8080
-  server: 172.67.69.63
-  type: vless
+- name: trojan-72890584
+  password: humanity
+  port: 443
+  server: 104.19.229.21
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
   udp: true
-  uuid: 4e0f4e59-3613-4f0c-b824-7348413d20e6
-- name: vless-130896315
+- name: vless-153626536
   network: ws
-  port: 2095
-  server: 104.18.35.15
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- name: vless-130896317
-  network: ws
-  port: 2095
-  server: 104.18.43.174
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- name: vless-143263694
-  network: ws
-  port: 2095
-  server: 172.64.146.153
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- name: vless-143268893
-  network: ws
-  port: 2095
-  server: 104.18.38.47
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- name: vless-143294892
-  network: ws
-  port: 2095
-  server: 172.64.144.82
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- name: vless-165851066
-  network: ws
-  port: 2095
-  server: 104.21.76.231
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- alterId: 0
-  cipher: auto
-  name: vmess-178126885
-  network: ws
-  port: 8443
-  server: 172.64.80.1
-  servername: v2ray1.dozapp.xyz
+  port: 2096
+  server: 172.67.198.109
+  servername: ez-abcc2c.igunsjgjnfgn.workers.dev
   skip-cert-verify: false
   tls: true
-  type: vmess
+  type: vless
   udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: vless-182809885
+  uuid: 50414e45-4c5f-5a45-5553-9b0ee99e36dd
+- name: vless-154323162
+  network: ws
+  port: 2096
+  server: 104.21.60.169
+  servername: ez-abcc2c.igunsjgjnfgn.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-9b0ee99e36dd
+- name: vless-166176163
+  network: ws
+  port: 2087
+  server: 104.18.38.47
+  servername: fx3l5i2wdfxln0.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- name: vless-166176166
+  network: ws
+  port: 2087
+  server: 104.18.42.54
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- name: vless-166176169
+  network: ws
+  port: 2087
+  server: 172.64.145.166
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- name: vless-166176173
+  network: ws
+  port: 2087
+  server: 172.64.52.24
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- name: vless-175442443
   network: ws
   port: 443
-  server: 104.18.95.26
+  server: 172.67.149.60
+  servername: support.zoom.us.yxls.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
+- name: vless-175727218
+  network: ws
+  port: 443
+  server: 104.16.72.70
   servername: hhlfy.twiladaphne.ndjp.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-- name: vless-187359195
-  network: ws
-  port: 8443
-  server: 104.21.66.61
-  servername: france.io-com-de-dev.org
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05cf7b0e-ad1a-42bb-80e7-73ae45b1019a
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: vless-262811484
-  network: raw
-  port: 443
-  reality-opts:
-    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-    short-id: 1a
-  server: 66.175.217.170
-  servername: www.amazon.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
-- name: vless-290359797
-  network: ws
-  port: 2095
-  server: 104.16.149.244
-  type: vless
-  udp: true
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- name: vless-292030481
-  network: ws
-  port: 2096
-  server: 91.193.58.108
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-294281610
-  network: ws
-  port: 2096
-  server: 91.193.58.45
-  servername: free-server.techsonic.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-305820612
+- name: vless-189919219
   network: ws
   port: 2053
-  server: 172.66.44.97
+  server: 104.21.41.140
   servername: po.fastbrokencompony.com
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
-- name: vless-379149240
+- name: vless-213124939
   network: ws
-  port: 443
-  server: 104.26.15.137
-  servername: lucxi.lightorbitlab-kiloilm.sbs
+  port: 2095
+  server: 172.64.146.66
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- name: vless-220480869
+  network: ws
+  port: 2087
+  server: 172.64.53.74
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
-- name: vless-383347708
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- name: vless-248682936
   network: ws
-  port: 443
-  server: 172.67.74.2
-  servername: lucxi.lightorbitlab-kiloilm.sbs
+  port: 2087
+  server: 172.64.53.42
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
-- name: vless-387514549
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- name: vless-272669137
   network: ws
-  port: 443
-  server: 172.67.178.251
-  servername: admin.jikebet.com
+  port: 2087
+  server: 172.64.53.140
+  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: c0f16ee2-a909-4890-ab1c-96489230658a
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+- name: vless-292030482
+  network: ws
+  port: 2096
+  server: 91.193.58.132
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- name: vless-292031482
+  network: ws
+  port: 2096
+  server: 91.193.58.5
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- name: vless-292638718
+  network: ws
+  port: 8443
+  server: 104.18.35.15
+  servername: us-akile.nanniang.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 916e3030-6eac-418b-9402-7508ca7d6280
+- name: vless-294268607
+  network: ws
+  port: 8443
+  server: 172.64.80.1
+  servername: france.io-com-de-dev.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 05cf7b0e-ad1a-42bb-80e7-73ae45b1019a
+- name: vless-294281605
+  network: ws
+  port: 2096
+  server: 91.193.58.136
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- name: vless-294281611
+  network: ws
+  port: 2096
+  server: 91.193.58.80
+  servername: free-server.techsonic.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+- name: vless-334995958
+  network: ws
+  port: 443
+  server: 172.67.69.106
+  servername: zero.csmaster.ggff.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1bc380b1-cff7-446f-b13f-5c0ad29fc75a
+- name: vless-391805700
+  network: ws
+  port: 2053
+  server: 172.67.118.45
+  servername: music1000.melobitmusic1.ir
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: da4747a6-be0d-4c1b-90f4-d82ec3012be2
 - name: vless-408710083
   network: ws
   port: 2096
@@ -2912,71 +2424,506 @@ proxies:
   type: vless
   udp: true
   uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-- name: vless-419307127
+- name: vless-415079592
   network: ws
   port: 443
-  server: 104.17.135.117
-  servername: nmrgf.minipixelbox-nexoim.sbs
+  server: 104.16.96.168
+  servername: hhlfy.twiladaphne.ndjp.net
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 49e76398-5127-4005-90cb-c2a971f745f1
-- name: vless-423594739
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- name: vless-467953656
   network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: bea3807d-4080-4078-a08d-747107a3426b
+- name: vless-467953664
+  network: ws
+  port: 80
+  server: 104.26.11.238
+  type: vless
+  udp: true
+  uuid: 74ed78f1-4095-47e6-b043-094e494fb7e5
+- name: vless-467953666
+  network: ws
+  port: 80
+  server: 162.159.152.4
+  type: vless
+  udp: true
+  uuid: 74ed78f1-4095-47e6-b043-094e494fb7e5
+- name: vless-467953673
+  network: ws
+  port: 80
+  server: 104.26.11.238
+  type: vless
+  udp: true
+  uuid: 67e40783-6546-4fda-90f6-9ee3c5b2efff
+- name: vless-467953682
+  network: ws
+  port: 80
+  server: 104.26.11.238
+  type: vless
+  udp: true
+  uuid: 1e78f247-1e3e-400e-bf1f-bb0c908b9a60
+- name: vless-467953684
+  network: ws
+  port: 80
+  server: 162.159.152.4
+  type: vless
+  udp: true
+  uuid: 1e78f247-1e3e-400e-bf1f-bb0c908b9a60
+- name: vless-467953692
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: 0c6c9627-95fe-418a-bd4c-50df888c44bd
+- name: vless-467953694
+  network: ws
+  port: 80
+  server: 172.64.152.23
+  type: vless
+  udp: true
+  uuid: 0c6c9627-95fe-418a-bd4c-50df888c44bd
+- name: vless-467953695
+  network: ws
+  port: 80
+  server: 188.114.98.0
+  type: vless
+  udp: true
+  uuid: 0c6c9627-95fe-418a-bd4c-50df888c44bd
+- name: vless-467953736
+  network: ws
+  port: 443
+  server: 104.26.11.238
+  servername: worker3.wocayir177.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 08e3dc8c-596a-4f4c-97ce-b6e3b93cd949
+- name: vless-467953738
+  network: ws
+  port: 443
+  server: 162.159.152.4
+  servername: worker3.wocayir177.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 08e3dc8c-596a-4f4c-97ce-b6e3b93cd949
+- name: vless-467953745
+  network: ws
+  port: 443
+  server: 104.26.11.238
+  servername: worker3.tacajop464.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bea3807d-4080-4078-a08d-747107a3426b
+- name: vless-467953746
+  network: ws
+  port: 443
+  server: 104.18.32.47
+  servername: worker3.tacajop464.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bea3807d-4080-4078-a08d-747107a3426b
+- name: vless-467953748
+  network: ws
+  port: 443
+  server: 172.64.152.23
+  servername: worker3.tacajop464.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: bea3807d-4080-4078-a08d-747107a3426b
+- name: vless-467953765
+  network: ws
+  port: 443
+  server: 162.159.152.4
+  servername: worker3.ragiki7564.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 67e40783-6546-4fda-90f6-9ee3c5b2efff
+- name: vless-467953772
+  network: ws
+  port: 443
+  server: 104.26.11.238
+  servername: worker3.laton16859.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1e78f247-1e3e-400e-bf1f-bb0c908b9a60
+- name: vless-467953773
+  network: ws
+  port: 443
+  server: 104.18.32.47
+  servername: worker3.laton16859.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1e78f247-1e3e-400e-bf1f-bb0c908b9a60
+- name: vless-467953775
+  network: ws
+  port: 443
+  server: 172.64.152.23
+  servername: worker3.laton16859.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1e78f247-1e3e-400e-bf1f-bb0c908b9a60
+- name: vless-467953785
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: worker3.bobiv63003.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 0c6c9627-95fe-418a-bd4c-50df888c44bd
+- name: vless-467953840
+  network: ws
+  port: 80
+  server: 31.43.179.0
+  type: vless
+  udp: true
+  uuid: a41322e9-d0f1-4ff1-ac5c-a486e2b680b2
+- name: vless-467953849
+  network: ws
+  port: 80
+  server: 104.18.32.47
+  type: vless
+  udp: true
+  uuid: 9b6923a6-2f2c-4cc7-a753-4272d94c7875
+- name: vless-467953860
+  network: ws
+  port: 80
+  server: 31.43.179.0
+  type: vless
+  udp: true
+  uuid: 492465ab-3855-46f2-bac3-a2cd19074a87
+- name: vless-467953912
+  network: ws
+  port: 80
+  server: 104.26.11.238
+  type: vless
+  udp: true
+  uuid: 40d36acd-5743-4b96-b8f6-b195e35e7336
+- name: vless-467953930
+  network: ws
+  port: 443
+  server: 31.43.179.0
+  servername: worker2.yobagov334.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 381806c4-d486-4769-a7be-ff778f4db511
+- name: vless-467953940
+  network: ws
+  port: 443
+  server: 31.43.179.0
+  servername: worker3.yahoya44555.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: a41322e9-d0f1-4ff1-ac5c-a486e2b680b2
+- name: vless-467954002
+  network: ws
+  port: 443
+  server: 104.26.11.238
+  servername: worker3.hevebam556.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4cafebe8-8242-4238-bfea-0f26bd05accc
+- name: vless-467954008
+  network: ws
+  port: 443
+  server: 172.64.152.23
+  servername: worker3.tacemor185.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 40d36acd-5743-4b96-b8f6-b195e35e7336
+- name: trojan-468073412
+  password: r137979f
+  port: 443
+  server: 104.19.63.25
+  skip-cert-verify: false
+  sni: sheleqaz.emotionreza.workers.dev
+  type: trojan
+  udp: true
+- name: trojan-468105879
+  password: 8_]O5ff+7.]_
   port: 2087
-  server: 188.114.97.8
-  servername: da2.jakkkat.ir
+  server: 172.66.44.124
+  skip-cert-verify: false
+  sni: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  type: trojan
+  udp: true
+- name: vless-468112879
+  network: ws
+  port: 2083
+  server: 172.66.44.124
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
-- name: vless-446488120
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+- name: vless-468227203
   network: ws
-  port: 2082
-  server: 104.17.191.186
+  port: 80
+  server: 185.207.197.12
   type: vless
   udp: true
-  uuid: 288bb3f1-8994-47cf-8bd8-9b7d4d716461
-- name: vless-446488123
+  uuid: 080fad7c-ff4b-499f-ab5d-52d69ea5745a
+- name: vless-470313417
+  network: ws
+  port: 443
+  server: 172.67.135.69
+  servername: v2ngfast-v2ngfast-v2ngfast-v2ngfast.jovego2551.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2730487f-0ed5-4f04-92d5-f95f9253d4f4
+- name: vless-470314316
+  network: ws
+  port: 443
+  server: 104.21.63.208
+  servername: yellow-disk-0edf.diyenec996.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e73d4e2a-ac73-4948-960a-2c2dd57b7ea8
+- name: vless-474695661
+  network: ws
+  port: 443
+  server: 18.244.214.28
+  servername: d1yxsk0zprgivr.cloudfront.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7ce54bb3-d612-4aa7-be08-089d3c461d53
+- name: vless-474921671
   network: ws
   port: 8880
-  server: 104.19.145.222
+  server: 104.17.21.32
   type: vless
   udp: true
-  uuid: 288bb3f1-8994-47cf-8bd8-9b7d4d716461
-- name: '[VLESS] 🆔soskeynet 🔒 VL-WS-N/A 🇳🇿 NZ 13ms'
-  server: 202.37.33.80
-  port: 443
-  type: vless
-  tls: true
-  uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca
-  servername: support.zoom.us.yxls.eu.cc
+  uuid: 4070e7c9-a412-4ed0-a5fa-fdb455451d2c
+- name: vless-474948663
   network: ws
-  ws-opts:
-    path: /id-tksi?ed=2048_/@sil3nt_network
-    headers:
-      Host: support.zoom.us.yxls.eu.cc
-  skip-cert-verify: true
-  tfo: false
-- name: '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 11ms'
-  server: 162.159.0.8
+  port: 8880
+  server: 172.65.90.52
+  type: vless
+  udp: true
+  uuid: 667a035b-6656-4a4f-a74c-8cd6a679f8d4
+- name: vless-474949688
+  network: ws
+  port: 8880
+  server: 104.21.12.116
+  type: vless
+  udp: true
+  uuid: 6b504c50-8535-44cf-8e4e-f8ee674a922e
+- name: vless-474951668
+  network: ws
+  port: 8880
+  server: 172.67.179.98
+  type: vless
+  udp: true
+  uuid: 70c16ec7-13f7-473b-b97d-06399f1481e3
+- name: vless-474952694
+  network: ws
+  port: 8880
+  server: 104.16.107.139
+  type: vless
+  udp: true
+  uuid: 75323b6f-184f-4d00-839d-323b8fc70221
+- name: vless-474959679
+  network: ws
+  port: 8880
+  server: 104.21.88.129
+  type: vless
+  udp: true
+  uuid: 82a3c394-55b7-4780-93a0-5f45c0e89625
+- name: vless-474959680
+  network: ws
+  port: 8880
+  server: 172.67.179.98
+  type: vless
+  udp: true
+  uuid: 82a3c394-55b7-4780-93a0-5f45c0e89625
+- name: vless-474962682
+  network: ws
+  port: 8880
+  server: 162.159.156.214
+  type: vless
+  udp: true
+  uuid: 8991a496-1baa-486f-9948-ffe44e68c072
+- name: vless-474975681
+  network: ws
+  port: 8880
+  server: 172.67.187.219
+  type: vless
+  udp: true
+  uuid: a8985e6a-f338-4b44-9a41-f94495603a96
+- name: vless-474977695
+  network: ws
+  port: 8880
+  server: 104.16.106.213
+  type: vless
+  udp: true
+  uuid: ae83f4a6-7fd3-4168-9f42-1260fc601155
+- name: vless-474985675
+  network: ws
+  port: 8880
+  server: 172.66.200.130
+  type: vless
+  udp: true
+  uuid: c6171ace-4580-45c7-b00f-5e6c56f48794
+- name: vless-474987673
+  network: ws
+  port: 8880
+  server: 104.16.107.139
+  type: vless
+  udp: true
+  uuid: cc9082e4-9c7c-4cef-a0f5-963363bed638
+- name: vless-474993679
+  network: ws
+  port: 443
+  server: 188.114.96.3
+  servername: kievh9yxcgg14-gy4wxqcav0pegkd.d-0ezpk5xp5wk8ltdgb6evlpgc-jin.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: daf485ba-60fc-4166-a72c-8d2a5407cbc5
+- name: vless-474994694
+  network: ws
+  port: 8880
+  server: 104.24.152.211
+  type: vless
+  udp: true
+  uuid: def8ed1e-e07b-40e0-9bc0-7a2ba2cedd56
+- name: vless-475007667
+  network: ws
+  port: 8880
+  server: 104.17.58.113
+  type: vless
+  udp: true
+  uuid: f77a1ad9-5ffa-4684-ba91-82f0df247eef
+- name: vless-475007671
+  network: ws
+  port: 8880
+  server: 104.17.58.113
+  type: vless
+  udp: true
+  uuid: f7cc1898-52f8-4e8e-9a90-320fc7fdadb8
+- name: vless-475008691
+  network: ws
+  port: 8880
+  server: 104.17.58.113
+  type: vless
+  udp: true
+  uuid: fbd6ffcc-f07b-4790-898e-2a6827f6d10f
+- name: vless-477033855
+  network: ws
+  port: 8880
+  server: 185.162.229.30
+  type: vless
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+- name: vless-477691372
+  network: ws
+  port: 8880
+  server: 172.64.144.180
+  type: vless
+  udp: true
+  uuid: 530868e7-d788-4595-b2d6-6a40c098164d
+- name: vless-479061091
+  network: ws
+  port: 8443
+  server: 104.19.40.245
+  servername: go.iranfree.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+- name: vless-480358351
+  network: ws
+  port: 2053
+  server: 172.67.170.140
+  servername: index.arcane509.workers.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+- name: vless-480358371
+  network: ws
+  port: 8880
+  server: 172.67.179.98
+  type: vless
+  udp: true
+  uuid: 86d998bc-a5a2-45d5-8169-b906259110a6
+- name: '[VLESS] 🇨🇦 🆔configfa 🔒 VL-WS-N/A 🇨🇦 CA 1ms'
+  server: 188.114.97.6
   port: 443
   type: vless
   tls: true
   uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
-  servername: 1111--MiTiVPN---MiTiVPN-o.KinGNetWork.iR
+  servername: sw-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   alpn:
   - h2%2Chttp%2F1.1
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/de---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: 1111--MiTiVPN---MiTiVPN-o.KinGNetWork.iR
+      Host: sw-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   skip-cert-verify: true
   tfo: false
-- name: '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 10ms 2'
+- name: '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 2ms 5'
+  server: 104.18.152.229
+  port: 443
+  type: vless
+  tls: true
+  uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
+  servername: H-k-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+  alpn:
+  - h2%2Chttp%2F1.1
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/HK---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: H-k-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+  skip-cert-verify: true
+  tfo: false
+- name: '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 2ms 7'
   server: 104.18.8.83
   port: 443
   type: vless
@@ -2992,23 +2939,23 @@ proxies:
       Host: SG-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   skip-cert-verify: true
   tfo: false
-- name: '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 9ms 5'
-  server: 172.64.146.59
+- name: '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 1ms'
+  server: 188.114.96.3
   port: 443
   type: vless
   tls: true
   uuid: 926bc4cd-709e-4e90-8aa7-78db75fbe86b
-  servername: nls-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
+  servername: ii--6---6--MiTiVPN---MiTiVPN-o.KinGNetWork.iR
   alpn:
   - h2%2Chttp%2F1.1
   network: ws
   ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NL---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: nls-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.s88r.iR
+      Host: ii--6---6--MiTiVPN---MiTiVPN-o.KinGNetWork.iR
   skip-cert-verify: true
   tfo: false
-- name: '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 10ms 6'
+- name: '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 2ms 14'
   server: 104.254.140.62
   port: 443
   type: vless
@@ -3024,102 +2971,48 @@ proxies:
       Host: gbs-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
   skip-cert-verify: true
   tfo: false
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 9ms 4'
-  server: 104.18.16.56
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 7'
+  server: 104.26.2.173
   port: 443
   type: trojan
   password: MiTiVPN
-  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+  sni: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/SG---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+    headers:
+      Host: S-G-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
+  tfo: false
+- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 19'
+  server: 104.16.6.189
+  port: 443
+  type: trojan
+  password: MiTiVPN
+  sni: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/JP---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
     headers:
-      Host: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.KinGNetWork.iR
+      Host: J--P-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   tfo: false
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 10ms 5'
-  server: 104.17.148.22
-  port: 443
-  type: trojan
-  password: MITIVPN
-  sni: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/usa---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: Duss-a-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S-s-S.iR
-  tfo: false
-- name: '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 3'
-  server: 151.101.56.7
-  port: 443
-  type: trojan
-  password: MiTiVPN
-  sni: ssl.fastly.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: ssl.fastly.com
-  tfo: false
-- name: '[VLESS] 🆔capoit 🔒 VL-WS-N/A ❔ XX 11ms'
-  server: 104.26.14.85
-  port: 8443
-  type: vless
-  tls: true
-  uuid: f798a2c4-c51b-409d-b349-ca8455b36796
-  servername: chopin.adaspoloandco.com
-  network: ws
-  ws-opts:
-    path: /download.php
-    headers:
-      Host: chopin.adaspoloandco.com
-  skip-cert-verify: true
-  tfo: false
-- name: '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 9ms 5'
-  server: 104.18.32.47
-  port: 443
-  type: trojan
-  password: 53e03f60-d167-c776-39a3-605f136c5a4f
-  sni: net-936fcd-30743f.lpumiopfg7.workers.dev
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiSFJXb3dKUWhMSzgiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W10sInJlbGF5SWR4IjowfQ==
-    headers:
-      Host: net-936fcd-30743f.lpumiopfg7.workers.dev
-  tfo: false
-- name: '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 11ms'
-  server: 172.67.172.95
+- name: '[VLESS] 🆔capoit 🔒 VL-WS-N/A ❔ XX 2ms'
+  server: 172.66.44.97
   port: 443
   type: vless
   tls: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  servername: rubifen.adaspoloandco.com
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  servername: josni.hoyes.cloudns.ch
   network: ws
   ws-opts:
-    path: /GOrbEh
+    path: /sg-melbi
     headers:
-      Host: rubifen.adaspoloandco.com
+      Host: josni.hoyes.cloudns.ch
   skip-cert-verify: true
   tfo: false
-- name: '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 9ms 6'
-  server: 104.26.14.85
-  port: 443
-  type: vless
-  tls: true
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
-  servername: rubifen.adaspoloandco.com
-  network: ws
-  ws-opts:
-    path: /GOrbEh
-    headers:
-      Host: rubifen.adaspoloandco.com
-  skip-cert-verify: true
-  tfo: false
-- name: '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 21ms 2'
-  server: 66.33.22.70
+- name: '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 2ms 16'
+  server: 66.33.22.93
   port: 443
   type: vless
   tls: true
@@ -3134,295 +3027,55 @@ proxies:
       Host: daring-tenderness-production-4fba.up.railway.app
   skip-cert-verify: true
   tfo: false
-- name: 🇸🇪🚀 Швеция [🏴BL/SNI] | 🥭🔥
-  type: vless
-  server: 188.114.96.0
-  port: 2086
-  uuid: 81d0dbc8-e69e-4cb1-b1a0-7d86af7f0db4
-  network: ws
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoiTGNlS21Bb0pMQUZaNEtUNiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSJdfQ
-    headers:
-      Host: solitary-rain-0c9b.freecreat2.workers.dev
-  udp: true
-  skip-cert-verify: false
-- name: 🇸🇪🚀 Швеция [🏴BL/SNI] | 🥭🔥_3
-  type: vless
-  server: 172.66.132.196
-  port: 8880
-  uuid: b2c879ed-08a2-4a79-9c57-37c7db614e96
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net
-    headers:
-      Host: sweet-cake-1340.474-288.workers.dev
-  udp: true
-  skip-cert-verify: false
-- name: 🇸🇪🚀 Швеция [🏴BL/SNI] | 🥭🔥_4
-  type: vless
-  server: 104.26.12.23
-  port: 8880
-  uuid: d33cc776-9c57-4ea3-8c5a-6d85043029d7
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: shiny-flower-c72d.105-161.workers.dev
-  udp: true
-  skip-cert-verify: false
-- name: 🇷🇺🚀 Обход БС [🏴BL/SNI] | 🥭🔥_2
-  type: vless
-  server: 104.18.32.47
-  port: 8880
-  uuid: b01cadb4-428b-42d2-8c56-d6c13e582ede
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip
-    headers:
-      Host: lingering-water-9e69.219.workers.dev
-  udp: true
-  skip-cert-verify: false
-- name: 🇺🇸 美国 | USA 33
-  server: 173.245.49.50
-  port: 8880
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vms.lifetime36.workers.dev
-  udp: true
-  skip-cert-verify: false
-- name: 🇸🇪🚀 Швеция [🏴BL/SNI] | 🥭🔥_8
-  type: vless
-  server: 172.67.209.127
-  port: 8880
-  uuid: a62a4c64-2270-4d41-828b-2591906c48ba
-  network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=ProxyIP.SG.CMLiussss.net
-    headers:
-      Host: sweet-disk-a026.253-54b.workers.dev
-  udp: true
-  skip-cert-verify: false
-- type: vless
-  name: 🇺🇸 US-7 | Filter
-  server: 104.18.37.228
+- name: '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 2ms 22'
+  server: 208.103.161.32
   port: 443
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
+  type: vless
   tls: true
-  skip-cert-verify: false
-  servername: hhlfy.twiladaphne.ndjp.net
+  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+  servername: josni.hoyes.cloudns.ch
   network: ws
   ws-opts:
-    path: /fp
+    path: /sg-melbi_/@sil3nt_network
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇨🇦🚀 Канада [🏴BL/SNI] | 🥭🔥_14
+      Host: josni.hoyes.cloudns.ch
+  skip-cert-verify: true
+  tfo: false
+- name: '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 2ms 23'
+  server: 66.33.22.244
+  port: 443
   type: vless
-  server: 104.21.19.226
-  port: 8880
-  uuid: abc2f94e-af29-4f59-a0a0-6e3299d51f64
-  network: ws
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoiQXZDMHBUakpZIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OjExOjY0OjpdIl19?ed=2560
-    headers:
-      Host: cold-bush-a762.lidrezvpn.workers.dev
-  udp: true
-  skip-cert-verify: false
-- name: 🇸🇬 新加坡 | SGP 5
-  server: 172.64.147.210
-  port: 8880
-  type: vless
-  uuid: 11046a7c-fa1b-4653-ab87-400feb465540
-  tls: false
+  tls: true
+  uuid: 413ed615-9ecf-40b9-8a2e-e294395a3566
+  servername: web-production-febbb.up.railway.app
+  alpn:
+  - h3
   network: ws
   ws-opts:
-    path: /pyip=ProxyIP.KR.CMLiussss.net@https://t.me/QiangLieTuiJian
+    path: /ws/vless/413ed615-9ecf-40b9-8a2e-e294395a3566?ed=2048
     headers:
-      Host: nameless-poetry-12fb.8-0a2.workers.dev
-  udp: true
-  skip-cert-verify: false
-- name: 🇸🇪🚀 Швеция [🏴BL/SNI] | 🥭🔥_9
-  type: vless
-  server: 104.21.89.181
-  port: 8880
-  uuid: d6c595c9-bff4-4510-893a-dfa3c87fa0cd
+      Host: web-production-febbb.up.railway.app
+  skip-cert-verify: true
+  tfo: false
+- name: 145.239.55.210_Claude4
   network: ws
-  tls: false
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: lucky-cell-d20c.78-107.workers.dev
-  udp: true
-  skip-cert-verify: false
-- name: 中文官网：[卷王.cc]-海外 -超时更新-17
-  type: vless
-  server: 172.67.89.31
-  port: 2086
-  uuid: 98b6cb05-b5ab-4c82-8683-07de28f796a9
-  network: ws
-  tls: false
-  ws-opts:
-    path: /eyJqdW5rIjoiRHF6VWU4SmYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0
-    headers:
-      Host: holy-glitter-39f9.wwewee2dasdds.workers.dev
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦🚀 Канада [🏴BL/SNI] | 🥭🔥_36
-  type: vless
-  server: 162.159.36.5
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-  udp: true
-  skip-cert-verify: false
-- name: 🇨🇦🚀 Канада [🏴BL/SNI] | 🥭🔥_43
-  type: vless
-  server: 172.67.161.104
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  network: ws
-  tls: false
-  ws-opts:
-    path: /
-    headers:
-      Host: fangbinxingnmsl.pusytroller.gq
-  udp: true
-  skip-cert-verify: false
-- name: 162.19.228.119_Claude
-  network: ws
-  port: 80
-  server: 104.16.72.41
+  port: 2053
+  server: 104.18.32.47
+  servername: ov.iran-servers.shop
+  tls: true
   type: vless
   udp: true
-  uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  uuid: d361072e-9e0e-4e2d-8ec7-2a4189b5b23a
   ws-opts:
     headers:
-      Host: de.vpnbase.net
+      Host: ov.iran-servers.shop
       User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/47.0.2526.106 Safari/537.36
-    path: /http
-- alpn:
-  - ''
-  alterId: 0
-  cipher: auto
-  name: 207.244.230.92_Claude
-  network: ws
-  port: 8443
-  server: 104.21.91.53
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  ws-opts:
-    headers:
-      Host: v2ray1.dozapp.xyz
-    path: /lMnsZUN4/
-- name: 2a01:4f8:13b:1019::2_Claude
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /J5aLQOY1R9ONWYCM
+- name: 新加坡_Singapore_SGP VULTR_Gemini_Claude3
   network: ws
   port: 443
-  server: 104.16.75.99
-  servername: germany-2.ariyuz.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 03707fb7-0990-440f-88f6-b0e0f7242a38
-  ws-opts:
-    headers:
-      Host: germany-2.ariyuz.org
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
-        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-- name: 37.187.133.170_Claude1
-  network: ws
-  port: 8443
-  server: 172.67.201.133
-  servername: france.io-com-de-dev.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05cf7b0e-ad1a-42bb-80e7-73ae45b1019a
-  ws-opts:
-    headers:
-      Host: france.io-com-de-dev.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/48.0.2564.116 Safari/537.36
-    path: /api/voip/updates/static/x9i2
-- name: 54.37.131.126_Claude
-  network: ws
-  port: 2053
-  server: 172.67.180.173
-  servername: music1000.melobitmusic1.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: da4747a6-be0d-4c1b-90f4-d82ec3012be2
-  ws-opts:
-    headers:
-      Host: music1000.melobitmusic1.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/47.0.2526.111 Safari/537.36 MVisionPlayer/1.0.0.0
-    path: /
-- name: 俄罗斯_St Petersburg_Beget LLC_Claude
-  network: xhttp
-  port: 443
-  server: 104.18.32.47
-  servername: rus.aba-hum.store
-  tls: true
-  type: vless
-  udp: true
-  uuid: a5a544bf-e4b3-4651-9ff4-de3461910d87
-- name: 德国_Nuremberg_Hetzner Online GmbH_Claude2
-  network: ws
-  port: 2053
-  server: 104.21.41.140
-  servername: po.fastbrokencompony.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c
-  ws-opts:
-    headers:
-      Host: po.fastbrokencompony.com
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-- name: 德国_Saarbrücken_OVH SAS_Claude2
-  network: ws
-  port: 2053
-  server: 104.21.36.164
-  servername: ger-full.deepinsane.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 42f3c6bc-fdc3-4d4e-b95d-f84f9e6bf27f
-  ws-opts:
-    headers:
-      Host: ger-full.deepinsane.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /api/vote/number/row/n1
-- name: 新加坡_Singapore_Aceville Pte.ltd_Gemini2
-  network: ws
-  port: 443
-  server: 104.17.22.240
+  server: 104.16.72.70
   servername: hhlfy.twiladaphne.ndjp.net
   tls: true
   type: vless
@@ -3432,65 +3085,88 @@ proxies:
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
       User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/41.0.2228.0 Safari/537.36
-    path: /
-- name: 新加坡_Singapore_SGP VULTR_Gemini_Claude2
-  network: ws
-  port: 443
-  server: 104.17.144.235
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
-    path: /
-- name: 法国_Roubaix_OVH SAS_Claude2
-  network: ws
-  port: 8443
-  server: 104.21.66.61
-  servername: france.io-com-de-dev.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 05cf7b0e-ad1a-42bb-80e7-73ae45b1019a
-  ws-opts:
-    headers:
-      Host: france.io-com-de-dev.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/67.0.3396.99 Safari/537.36
-    path: /api/voip/updates/static/x9i2
-- name: 美国_Cheyenne_Microsoft Corporation_Gemini_Claude9
+        Chrome/56.0.2924.87 Safari/537.36
+    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
+- name: 美国_Boydton_Microsoft_Gemini_Claude
   network: ws
   port: 2095
-  server: 104.16.149.244
+  server: 188.114.97.6
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  ws-opts:
+    headers:
+      Host: download.pusytroller.gq
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.77 Safari/537.36
+    path: /
+- name: 美国_Cheyenne_Microsoft Corporation_Gemini_Claude2
+  network: ws
+  port: 2095
+  server: 104.18.42.98
   type: vless
   udp: true
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
   ws-opts:
     headers:
       Host: fuckingfangbinxing.pusytroller.cf
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/50.0.2661.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/66.0.3359.117 Safari/537.36
     path: /
-- name: 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-1912
+- name: us|9397|puddincat07@Telegram
+  network: ws
+  password: MiTiVPN
+  port: 2083
+  server: 104.18.7.178
+  skip-cert-verify: true
+  sni: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: swsjh--MiTiVPN---MiTiVPN-ao.kingnetwork.ir
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/sw
+- name: 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-1916
   type: vless
-  server: 108.162.192.9
+  server: 104.26.2.173
   port: 443
   udp: true
   network: ws
   ws-opts:
-    path: /pyip=proxyip.cmliussss.net
+    path: /sg-melbi
     headers:
-      Host: soucuovls.pages.dev
+      Host: support.zoom.us.yxls.eu.cc
   tls: true
-  servername: soucuovls.pages.dev
-  client-fingerprint: random
-  uuid: dd321f25-8f90-4e7c-a1fa-01883a8988a7
+  servername: support.zoom.us.yxls.eu.cc
+  client-fingerprint: chrome
+  uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
+- name: 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-8430
+  type: vless
+  server: 162.159.3.186
+  port: 8443
+  udp: true
+  network: ws
+  ws-opts:
+    path: /fdip=tw.william.us.ci!txt?ed=2560
+    headers:
+      Host: learn00.evany.de5.net
+  tls: true
+  servername: learn00.evany.de5.net
+  client-fingerprint: chrome
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- name: 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-9203
+  type: vless
+  server: 91.193.58.163
+  port: 8443
+  udp: true
+  network: ws
+  ws-opts:
+    path: /socks5=888:888@8.210.127.248:1080
+    headers:
+      Host: vlso.1d.mom
+  tls: true
+  servername: vlso.1d.mom
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
 - name: 🇺🇸 · 9
   type: vless
   server: 172.64.146.153
@@ -3502,22 +3178,20 @@ proxies:
     headers:
       Host: fangbinxingnmsl.pusytroller.gq
   uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-- name: 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-4567
+- name: 🇺🇸 · 14
   type: vless
-  server: 162.159.8.155
-  port: 443
+  server: 172.64.145.202
+  port: 2095
   udp: true
   network: ws
   ws-opts:
-    path: /fdip
+    path: /
     headers:
-      Host: learn00.evany.de5.net
-  tls: true
-  servername: learn00.evany.de5.net
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-- name: 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-1661
+      Host: fangbinxingnmsl.pusytroller.gq
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+- name: 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-3715
   type: vless
-  server: 104.26.12.41
+  server: 104.20.39.109
   port: 443
   udp: true
   network: ws
@@ -3543,23 +3217,37 @@ proxies:
   servername: support.zoom.us.yxls.eu.cc
   client-fingerprint: chrome
   uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-- name: 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-9271
+- name: 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-2742
   type: vless
-  server: 91.193.59.27
-  port: 2096
+  server: 172.64.52.97
+  port: 443
   udp: true
   network: ws
   ws-opts:
-    path: /socks5=888:888@hkip.1d.mom:1080
+    path: /fdip=tw.william.us.ci!txt?ed=2560
     headers:
-      Host: vlso300.1d.mom
+      Host: learn00.evany.de5.net
   tls: true
-  servername: vlso300.1d.mom
-  client-fingerprint: chrome
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-- name: 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-4655
+  servername: learn00.evany.de5.net
+  client-fingerprint: random
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+- name: 🇭🇰 HK | HK香港節點丨yoyapai.com_1
+  network: ws
+  port: 443
+  server: 91.193.58.195
+  servername: jamph131-1228.pages.dev
+  skip-cert-verify: true
+  tls: true
   type: vless
-  server: 162.159.2.228
+  udp: true
+  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
+  ws-opts:
+    headers:
+      Host: jamph131-1228.pages.dev
+    path: Telegram-WangCai2🇨🇳
+- name: 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-7456
+  type: vless
+  server: 104.21.2.192
   port: 443
   udp: true
   network: ws
@@ -3571,20 +3259,6 @@ proxies:
   servername: support.zoom.us.yxls.eu.cc
   client-fingerprint: chrome
   uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-- name: 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-15279483
-  type: vless
-  server: 91.193.58.250
-  port: 2096
-  udp: true
-  network: ws
-  ws-opts:
-    path: /free-server.techsonic.dev
-    headers:
-      Host: free-server.techsonic.dev
-  tls: true
-  servername: free-server.techsonic.dev
-  client-fingerprint: chrome
-  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
 - name: 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-7971
   type: vless
   server: 172.64.146.86
@@ -3599,396 +3273,401 @@ proxies:
   servername: support.zoom.us.yxls.eu.cc
   client-fingerprint: chrome
   uuid: 4d10c997-4781-4cd9-82c3-15453523e12c
-- name: '🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-4655 #2'
+- name: 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-2194
   type: vless
-  server: 91.193.58.217
-  port: 2053
-  udp: true
-  network: ws
-  ws-opts:
-    path: /socks5=888:888@hkip.1d.mom:1080
-    headers:
-      Host: vlso200.1d.mom
-  tls: true
-  servername: vlso200.1d.mom
-  client-fingerprint: chrome
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-- name: 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-3263
-  type: vless
-  server: 104.16.72.70
+  server: 172.67.185.178
   port: 443
   udp: true
   network: ws
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560
+    path: /
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
   tls: true
   servername: hhlfy.twiladaphne.ndjp.net
-  client-fingerprint: chrome
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-- name: 🇩🇪 DE | [www.v2nodes.com] V2Ray Vless-SG-3649
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  udp: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiVXFEMlhKZVY4dzNoTUtpZCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: TIGHT-busH-0Bb4.BSHXYyXhDJdGGb.wOrkERS.DEV
-  tls: true
-  servername: TIGHT-busH-0Bb4.BSHXYyXhDJdGGb.wOrkERS.DEV
-  uuid: 934f2038-17f8-4ec5-9204-8381e19fc6e3
-- name: 🇩🇪 DE | [www.v2nodes.com] V2Ray Vless-SG-7966
-  type: vless
-  server: 188.114.96.3
-  port: 443
-  udp: true
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoieE1zSFhYR2hkcHZGUHI3cSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: maSterserVeR1-VSH.KaLlEH.WORkERs.DEV
-  tls: true
-  servername: maSterserVeR1-VSH.KaLlEH.WORkERs.DEV
-  alpn:
-  - http%2F1.1
-  uuid: 893096ae-ed76-4440-bc34-f77c4872540f
-- name: 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-1531
+- name: 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-1948
   type: vless
   server: 172.66.44.97
   port: 443
   udp: true
   network: ws
   ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
+    path: /sg-melbi/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512
     headers:
       Host: josni.hoyes.cloudns.ch
   tls: true
   servername: josni.hoyes.cloudns.ch
   uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
+- name: '🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-2194 #2'
+  type: vless
+  server: 172.67.153.110
+  port: 443
+  udp: true
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiNDIxWGNPNW5CQXYiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iLCJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ==
+    headers:
+      Host: free.server11peekconfig.workers.dev
+  tls: true
+  servername: FRee.SeRver11pEEkcONFIg.WorkeRS.DEv
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  uuid: 63f1ce15-1a88-4698-8a0e-59b85d75e607
 - client-fingerprint: chrome
-  name: 🇫🇷 FR | e9fc|puddincat07@Telegram
+  name: 🇫🇷 FR | 4896|puddincat07@Telegram
   network: ws
   password: humanity
   port: 443
-  server: 104.21.46.3
+  server: 104.16.174.44
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.76 Safari/537.36
     path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷 FR | 9165|puddincat07@Telegram
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.18.152.233
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
+    path: /assignment
+- name: vless-474998671
+  network: ws
+  port: 443
+  server: 104.18.34.124
+  servername: hhlfy.twiladaphne.ndjp.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+- name: vless-290359797
+  network: ws
+  port: 2095
+  server: 104.16.149.244
+  type: vless
+  udp: true
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
 proxy-groups:
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - trojan-448702661
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 6'
-  - '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 2ms 3'
-  - US 🇺🇸 | @Raydikalx | 02D49B
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 9'
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 11'
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 6ms'
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 15'
-  - '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 1ms'
+  - trojan-419566459
   - trojan-419356370
-  - '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 2ms'
-  - '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 2ms'
-  - trojan-404344003
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms'
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 8'
-  - '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 9ms 9'
-  - US 🇺🇸 | @Raydikalx | 0446FE
-  - US 🇺🇸 | @Raydikalx | C4F7D0
-  - US 🇺🇸 | @Raydikalx | 3D462B
-  - US 🇺🇸 | @Raydikalx | A24E0F
-  - vless-442394841
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 7'
-  - '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 9ms'
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 13'
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 3'
-  - trojan-419356366
-  - US 🇺🇸 | @Raydikalx | 722B86
-  - US 🇺🇸 | @Raydikalx | 799B64
-  - US 🇺🇸 | @Raydikalx | DCDD30
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 8'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 25'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 26'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 6'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 11'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 15'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 5'
+  - trojan-404344004
+  - trojan-404344005
+  - trojan-419356367
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 23'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 24'
+  - '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 2ms 4'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 28'
+  - US 🇺🇸 | @Raydikalx | 756D92
+  - vless-468132582
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 10'
+  - '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 1ms 2'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 12'
+  - 荷兰_Amsterdam_BlueVPS OU_Claude2
+  - vless-483683863
+  - 🇺🇸_US_美国->🇹🇭_TH_泰国_4
+  - US 🇺🇸 | @Raydikalx | 50BFC9
   - vless-408669772
-  - vless-438289185
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 2'
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 4ms'
-  - '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 2ms 2'
-  - '[VLESS] 🆔madshopx 🔒 VL-WS-N/A ❔ XX 2ms'
-  - 🇺🇸 美国 | USA 34
-  - CA 🇨🇦 | @Raydikalx | 2D0525
-  - CA 🇨🇦 | @Raydikalx | 522167
-  - US 🇺🇸 | @Raydikalx | 141F03
-  - vless-272823123
-  - vless-391805700
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 5ms 2'
-  - '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 14ms'
-  - '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 21ms'
-  - 🇺🇸 美国 | USA 31
-  - trojan-448702657
-  - trojan-2517780
-  - trojan-11670
-  - trojan-16421
-  - vless-296847779
-  - vless-296849783
-  - vless-279510859
-  - vless-294281608
-  - vless-279510863
-  - vless-279510861
-  - vless-408540877
-  - vless-408540878
-  - us|b395|puddincat07@Telegram
-  - CA 🇨🇦 | @Raydikalx | F52786
-  - CA 🇨🇦 | @Raydikalx | 4CB09D
-  - CA 🇨🇦 | @Raydikalx | 3E6EDC
-  - CA 🇨🇦 | @Raydikalx | B00AD2
-  - CA 🇨🇦 | @Raydikalx | 78823F
-  - CA 🇨🇦 | @Raydikalx | 2B9596
-  - CA 🇨🇦 | @Raydikalx | 07C3D2
-  - CA 🇨🇦 | @Raydikalx | 17EBC8
-  - CA 🇨🇦 | @Raydikalx | CE54D6
-  - CA 🇨🇦 | @Raydikalx | 12A4F4
-  - CA 🇨🇦 | @Raydikalx | 5DE7ED
-  - CA 🇨🇦 | @Raydikalx | 9A9CCD
-  - CA 🇨🇦 | @Raydikalx | 1CFF40
-  - CA 🇨🇦 | @Raydikalx | DB5DB4
-  - CA 🇨🇦 | @Raydikalx | 0CCAD5
-  - GB 🇬🇧 | @Raydikalx | 168B99
-  - CA 🇨🇦 | @Raydikalx | 697949
-  - CA 🇨🇦 | @Raydikalx | 1D36AB
-  - CA 🇨🇦 | @Raydikalx | EC56A7
-  - US 🇺🇸 | @Raydikalx | 495CC2
-  - CA 🇨🇦 | @Raydikalx | 70BF74
-  - CA 🇨🇦 | @Raydikalx | C9240A
-  - US 🇺🇸 | @Raydikalx | 3AE676
-  - CA 🇨🇦 | @Raydikalx | 81775F
-  - vless-143263695
-  - vless-143297892
-  - vless-213124939
-  - vless-287147951
-  - vless-294281604
-  - vless-335074415
-  - vless-377167827
-  - vless-446488122
-  - '[Trojan] 🇺🇸 🆔soskeynet 🔒 TR-WS-N/A 🇺🇸 US 4ms'
-  - '[VLESS] 🇩🇪 🆔configfa 🔒 VL-WS-N/A 🇩🇪 DE 10ms'
-  - '[VLESS] 🆔configfa 🔒 VL-WS-N/A 🇪🇪 EE 10ms'
-  - '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 9ms'
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 5'
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms'
-  - '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 17ms'
-  - 🇨🇦🚀 Канада [🏴BL/SNI] | 🥭🔥_10
-  - 🇨🇦🚀 Канада [🏴BL/SNI] | 🥭🔥_18
-  - 🇫🇮🚀 Финляндия [🏴BL/SNI] | 🥭🔥
-  - 🇺🇸🚀 США [🏴BL/SNI] | 🥭🔥_4
-  - 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-1916
-  - 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-2864
-  - 🇺🇸 · 14
-  - 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-3251
-  - 🇺🇸 US | [www.v2nodes.com] V2Ray Vless-SG-1531
-  - 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-2194
-  - trojan-294267606
-  - trojan-24728
-  - trojan-2515730
-  - trojan-2514925
-  - trojan-2513858
-  - trojan-2515929
-  - trojan-113446
-  - vless-4646860
-  - vless-23906902
-  - vless-393786595
-  - vless-335074412
-  - vless-294281607
-  - vless-429863172
-  - vless-292031481
-  - vless-393938869
-  - vless-412982130
-  - vless-294281605
-  - vless-362371192
-  - vless-335172166
-  - vless-335074409
-  - 🇺🇸US_159 ⇽中转_1@158
-  - us|b3d2|puddincat07@Telegram
-  - us|4896|puddincat07@Telegram
-  - us|e9fc|puddincat07@Telegram
-  - 13|US_speednode_0122
-  - CA 🇨🇦 | @Raydikalx | 2FE6A2
-  - CA 🇨🇦 | @Raydikalx | 0CA412
-  - CA 🇨🇦 | @Raydikalx | DA1704
-  - CA 🇨🇦 | @Raydikalx | B56B01
-  - CA 🇨🇦 | @Raydikalx | 5D9590
-  - CA 🇨🇦 | @Raydikalx | 2BF81B
-  - US 🇺🇸 | @Raydikalx | B2B0AD
-  - CA 🇨🇦 | @Raydikalx | 202210
+  - vless-483502309
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 22'
+  - '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 2ms 3'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 29'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 30'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 31'
+  - 🔴🇳🇱[🤖🎪]_github.com/Ruk1ng001_a9a4942f
+  - US 🇺🇸 | @Raydikalx | 722B86
+  - SC 🇸🇨 | @Raydikalx | 313190
+  - CA 🇨🇦 | @Raydikalx | E1EF5A
+  - trojan-404344003
+  - vless-474695660
+  - vless-474949692
+  - trojan-483466686
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 3ms'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 9'
+  - '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 2ms 35'
+  - vless-173280244
+  - vless-479254290
+  - CA 🇨🇦 | @Raydikalx | 1F1818
+  - CA 🇨🇦 | @Raydikalx | 5A3301
   - CA 🇨🇦 | @Raydikalx | 842AD3
-  - CA 🇨🇦 | @Raydikalx | 7DF934
-  - CA 🇨🇦 | @Raydikalx | A98292
-  - CA 🇨🇦 | @Raydikalx | DDDDEB
-  - CA 🇨🇦 | @Raydikalx | 325C8E
-  - CA 🇨🇦 | @Raydikalx | B64A4A
-  - CA 🇨🇦 | @Raydikalx | DCD2D8
-  - CA 🇨🇦 | @Raydikalx | FF769E
-  - CA 🇨🇦 | @Raydikalx | 8EC4EE
-  - GB 🇬🇧 | @Raydikalx | 304609
-  - CA 🇨🇦 | @Raydikalx | B69764
-  - CA 🇨🇦 | @Raydikalx | F2AC4A
-  - GB 🇬🇧 | @Raydikalx | EECDFA
-  - CA 🇨🇦 | @Raydikalx | B797DD
-  - CA 🇨🇦 | @Raydikalx | 181014
-  - CA 🇨🇦 | @Raydikalx | E80F28
-  - CA 🇨🇦 | @Raydikalx | A9E1F8
-  - CA 🇨🇦 | @Raydikalx | 218D2F
-  - CA 🇨🇦 | @Raydikalx | 8CAFCF
-  - CA 🇨🇦 | @Raydikalx | 37A12E
-  - CA 🇨🇦 | @Raydikalx | F35119
-  - GB 🇬🇧 | @Raydikalx | 575323
-  - CA 🇨🇦 | @Raydikalx | 868668
-  - CA 🇨🇦 | @Raydikalx | 9B2AEA
-  - CA 🇨🇦 | @Raydikalx | 81B423
-  - CA 🇨🇦 | @Raydikalx | E0895F
-  - CA 🇨🇦 | @Raydikalx | 0FC6C9
-  - CA 🇨🇦 | @Raydikalx | F9DE63
-  - CA 🇨🇦 | @Raydikalx | BF4580
-  - CA 🇨🇦 | @Raydikalx | 2D1FFC
-  - CA 🇨🇦 | @Raydikalx | 93D519
+  - CA 🇨🇦 | @Raydikalx | 9B3AB4
+  - CA 🇨🇦 | @Raydikalx | 6F0946
   - CA 🇨🇦 | @Raydikalx | 9E7EBE
-  - CA 🇨🇦 | @Raydikalx | BF2908
-  - CA 🇨🇦 | @Raydikalx | 1A3005
-  - CA 🇨🇦 | @Raydikalx | 904F09
-  - CA 🇨🇦 | @Raydikalx | E8E037
-  - CA 🇨🇦 | @Raydikalx | 12D2FD
-  - CA 🇨🇦 | @Raydikalx | C2D3AD
-  - CA 🇨🇦 | @Raydikalx | 14EDBC
-  - US 🇺🇸 | @Raydikalx | 56C655
-  - CA 🇨🇦 | @Raydikalx | 0B0F91
-  - CA 🇨🇦 | @Raydikalx | 1543D3
-  - CA 🇨🇦 | @Raydikalx | C9F271
-  - CA 🇨🇦 | @Raydikalx | 58A13A
-  - CA 🇨🇦 | @Raydikalx | FF87FC
-  - DE 🇩🇪 | @Raydikalx | 4A84D9
-  - CA 🇨🇦 | @Raydikalx | 155859
-  - CA 🇨🇦 | @Raydikalx | 54186B
-  - CA 🇨🇦 | @Raydikalx | FEC3D7
-  - US 🇺🇸 | @Raydikalx | E0B03F
-  - CA 🇨🇦 | @Raydikalx | 2E6CDA
-  - CA 🇨🇦 | @Raydikalx | D4668C
-  - CA 🇨🇦 | @Raydikalx | B5582E
-  - CA 🇨🇦 | @Raydikalx | AD543F
-  - CA 🇨🇦 | @Raydikalx | 0BF99E
-  - CA 🇨🇦 | @Raydikalx | F670A2
-  - CA 🇨🇦 | @Raydikalx | CBC53D
-  - CA 🇨🇦 | @Raydikalx | AA1419
-  - CA 🇨🇦 | @Raydikalx | DB6E55
-  - CA 🇨🇦 | @Raydikalx | C64D1F
-  - CA 🇨🇦 | @Raydikalx | B1E107
-  - CA 🇨🇦 | @Raydikalx | BAF624
-  - CA 🇨🇦 | @Raydikalx | EF0666
-  - CA 🇨🇦 | @Raydikalx | F54CB1
-  - CA 🇨🇦 | @Raydikalx | E0668D
-  - CA 🇨🇦 | @Raydikalx | 3E84C8
-  - CA 🇨🇦 | @Raydikalx | 3C6FDA
-  - CA 🇨🇦 | @Raydikalx | D7EBC8
-  - CA 🇨🇦 | @Raydikalx | B845C3
-  - SC 🇸🇨 | @Raydikalx | AC10C0
-  - CA 🇨🇦 | @Raydikalx | 381D6A
-  - CA 🇨🇦 | @Raydikalx | A2407D
-  - CA 🇨🇦 | @Raydikalx | 7663AC
-  - CA 🇨🇦 | @Raydikalx | 212946
-  - CA 🇨🇦 | @Raydikalx | C8CD1F
-  - CA 🇨🇦 | @Raydikalx | E3A26D
-  - CA 🇨🇦 | @Raydikalx | A55E3F
-  - CA 🇨🇦 | @Raydikalx | 20FB3F
-  - CA 🇨🇦 | @Raydikalx | 6E5681
-  - vmess-97487
-  - vless-2066045
-  - vmess-2120911
-  - vmess-2384173
-  - vless-23790901
-  - vless-65128004
-  - vless-130896315
-  - vless-130896317
-  - vless-143263694
-  - vless-143268893
-  - vless-143294892
-  - vless-165851066
-  - vmess-178126885
-  - vless-182809885
-  - vless-187359195
-  - vless-262811484
-  - vless-290359797
-  - vless-292030481
-  - vless-294281610
-  - vless-305820612
-  - vless-379149240
-  - vless-383347708
-  - vless-387514549
-  - vless-408710083
+  - CA 🇨🇦 | @Raydikalx | 63E4EE
+  - CA 🇨🇦 | @Raydikalx | CCEA78
+  - CA 🇨🇦 | @Raydikalx | 9CA875
+  - CA 🇨🇦 | @Raydikalx | E1FD0A
+  - CA 🇨🇦 | @Raydikalx | 751290
+  - CA 🇨🇦 | @Raydikalx | AD3DF2
+  - CA 🇨🇦 | @Raydikalx | A2BE78
+  - CA 🇨🇦 | @Raydikalx | 2D1FFC
+  - CA 🇨🇦 | @Raydikalx | F43CC8
+  - CA 🇨🇦 | @Raydikalx | 332E08
+  - CA 🇨🇦 | @Raydikalx | F2988D
+  - CA 🇨🇦 | @Raydikalx | 91067B
+  - CA 🇨🇦 | @Raydikalx | 8ED15B
+  - vless-166176161
+  - vless-235039178
+  - vless-287147951
+  - vless-292031483
   - vless-419307127
-  - vless-423594739
-  - vless-446488120
-  - vless-446488123
-  - '[VLESS] 🆔soskeynet 🔒 VL-WS-N/A 🇳🇿 NZ 13ms'
-  - '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 11ms'
-  - '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 10ms 2'
-  - '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 9ms 5'
-  - '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 10ms 6'
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 9ms 4'
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 10ms 5'
-  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 3'
-  - '[VLESS] 🆔capoit 🔒 VL-WS-N/A ❔ XX 11ms'
-  - '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 9ms 5'
-  - '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 11ms'
-  - '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 9ms 6'
-  - '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 21ms 2'
-  - 🇸🇪🚀 Швеция [🏴BL/SNI] | 🥭🔥
-  - 🇸🇪🚀 Швеция [🏴BL/SNI] | 🥭🔥_3
-  - 🇸🇪🚀 Швеция [🏴BL/SNI] | 🥭🔥_4
-  - 🇷🇺🚀 Обход БС [🏴BL/SNI] | 🥭🔥_2
-  - 🇺🇸 美国 | USA 33
-  - 🇸🇪🚀 Швеция [🏴BL/SNI] | 🥭🔥_8
-  - 🇺🇸 US-7 | Filter
-  - 🇨🇦🚀 Канада [🏴BL/SNI] | 🥭🔥_14
+  - trojan-419356366
+  - vless-467953655
+  - vless-467953676
+  - vless-467953683
+  - vless-467953763
+  - vless-467953767
+  - vless-467953897
+  - vless-468231460
+  - vless-470314077
+  - vless-470327032
+  - vless-474906696
+  - vless-474956661
+  - vless-474967667
+  - vless-474970718
+  - vless-479061096
+  - vless-483479183
+  - '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 2ms 12'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 13'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 21'
+  - '[Trojan] 🆔configfa 🔓 TR-WS-N/A ❔ XX 2ms 2'
+  - '[Trojan] 🆔ar14n24b 🔒 TR-WS-N/A ❔ XX 1ms'
+  - '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 7ms'
+  - '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 2ms 19'
   - 🇸🇬 新加坡 | SGP 5
-  - 🇸🇪🚀 Швеция [🏴BL/SNI] | 🥭🔥_9
-  - 中文官网：[卷王.cc]-海外 -超时更新-17
-  - 🇨🇦🚀 Канада [🏴BL/SNI] | 🥭🔥_36
-  - 🇨🇦🚀 Канада [🏴BL/SNI] | 🥭🔥_43
-  - 162.19.228.119_Claude
-  - 207.244.230.92_Claude
-  - 2a01:4f8:13b:1019::2_Claude
-  - 37.187.133.170_Claude1
-  - 54.37.131.126_Claude
-  - 俄罗斯_St Petersburg_Beget LLC_Claude
-  - 德国_Nuremberg_Hetzner Online GmbH_Claude2
-  - 德国_Saarbrücken_OVH SAS_Claude2
-  - 新加坡_Singapore_Aceville Pte.ltd_Gemini2
-  - 新加坡_Singapore_SGP VULTR_Gemini_Claude2
-  - 法国_Roubaix_OVH SAS_Claude2
-  - 美国_Cheyenne_Microsoft Corporation_Gemini_Claude9
-  - 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-1912
+  - 新加坡_Singapore_Aceville Pte.ltd_Gemini5
+  - us|a98a|puddincat07@Telegram
+  - vless-408540878
+  - vless-143263695
+  - vless-130896316
+  - vless-479258286
+  - vless-415263972
+  - trojan-11938
+  - vless-481517146
+  - vless-351865143
+  - vless-412978131
+  - us|4896|puddincat07@Telegram
+  - us|b395|puddincat07@Telegram
+  - us|f508|puddincat07@Telegram
+  - 13|US_speednode_0122
+  - CA 🇨🇦 | @Raydikalx | 972965
+  - CA 🇨🇦 | @Raydikalx | F47559
+  - CA 🇨🇦 | @Raydikalx | 8AE5D1
+  - CA 🇨🇦 | @Raydikalx | 477DC0
+  - CA 🇨🇦 | @Raydikalx | 42C20D
+  - CA 🇨🇦 | @Raydikalx | 128E5B
+  - CA 🇨🇦 | @Raydikalx | 098DE3
+  - CA 🇨🇦 | @Raydikalx | 5D9590
+  - CA 🇨🇦 | @Raydikalx | BE96AE
+  - CA 🇨🇦 | @Raydikalx | FD5A98
+  - CA 🇨🇦 | @Raydikalx | 383583
+  - CA 🇨🇦 | @Raydikalx | 20FB3F
+  - ES 🇪🇸 | @Raydikalx | D6C206
+  - CA 🇨🇦 | @Raydikalx | AB16E3
+  - CA 🇨🇦 | @Raydikalx | CE8BED
+  - CA 🇨🇦 | @Raydikalx | 339D26
+  - CA 🇨🇦 | @Raydikalx | 97D90F
+  - CA 🇨🇦 | @Raydikalx | 08C874
+  - US 🇺🇸 | @Raydikalx | 85FFBA
+  - CA 🇨🇦 | @Raydikalx | 8BEFD8
+  - CA 🇨🇦 | @Raydikalx | FEDF26
+  - CA 🇨🇦 | @Raydikalx | BD3DFE
+  - CA 🇨🇦 | @Raydikalx | 94A774
+  - CA 🇨🇦 | @Raydikalx | 617EEF
+  - CA 🇨🇦 | @Raydikalx | C9939C
+  - CA 🇨🇦 | @Raydikalx | 520263
+  - CA 🇨🇦 | @Raydikalx | 4CF504
+  - CA 🇨🇦 | @Raydikalx | 385D78
+  - US 🇺🇸 | @Raydikalx | 846ED0
+  - CA 🇨🇦 | @Raydikalx | E92682
+  - CA 🇨🇦 | @Raydikalx | D6941E
+  - CA 🇨🇦 | @Raydikalx | 67CC85
+  - CA 🇨🇦 | @Raydikalx | 4659CE
+  - CA 🇨🇦 | @Raydikalx | 8E9524
+  - CA 🇨🇦 | @Raydikalx | 2E6CDA
+  - GB 🇬🇧 | @Raydikalx | 9386D5
+  - CA 🇨🇦 | @Raydikalx | BE9312
+  - CA 🇨🇦 | @Raydikalx | 522167
+  - CA 🇨🇦 | @Raydikalx | 891C30
+  - CA 🇨🇦 | @Raydikalx | 5F6485
+  - CA 🇨🇦 | @Raydikalx | 5B555C
+  - CA 🇨🇦 | @Raydikalx | E41AC4
+  - US 🇺🇸 | @Raydikalx | 676A90
+  - US 🇺🇸 | @Raydikalx | 4AECE1
+  - CA 🇨🇦 | @Raydikalx | 55451B
+  - GB 🇬🇧 | @Raydikalx | EBB878
+  - CA 🇨🇦 | @Raydikalx | 1543D3
+  - CA 🇨🇦 | @Raydikalx | 0B0F91
+  - CA 🇨🇦 | @Raydikalx | F1F2D8
+  - CA 🇨🇦 | @Raydikalx | 7663AC
+  - CA 🇨🇦 | @Raydikalx | 1EFCBA
+  - CA 🇨🇦 | @Raydikalx | F036EA
+  - CA 🇨🇦 | @Raydikalx | D4668C
+  - CA 🇨🇦 | @Raydikalx | E3B9D6
+  - CA 🇨🇦 | @Raydikalx | 2D0525
+  - CA 🇨🇦 | @Raydikalx | F0D33F
+  - CA 🇨🇦 | @Raydikalx | A2DFD3
+  - CA 🇨🇦 | @Raydikalx | EC56A7
+  - CA 🇨🇦 | @Raydikalx | D32DDC
+  - CA 🇨🇦 | @Raydikalx | 464C8F
+  - CA 🇨🇦 | @Raydikalx | 81775F
+  - CA 🇨🇦 | @Raydikalx | E3A26D
+  - CA 🇨🇦 | @Raydikalx | 86FD11
+  - CA 🇨🇦 | @Raydikalx | 9EAE5A
+  - CA 🇨🇦 | @Raydikalx | 7150F8
+  - CA 🇨🇦 | @Raydikalx | A7ED35
+  - CA 🇨🇦 | @Raydikalx | 8BEAAC
+  - CA 🇨🇦 | @Raydikalx | AA1419
+  - CA 🇨🇦 | @Raydikalx | B1FFC6
+  - trojan-11667
+  - trojan-11926
+  - trojan-16165
+  - vless-38398
+  - vless-57776
+  - trojan-118986
+  - trojan-2513809
+  - trojan-2514876
+  - vless-23790901
+  - trojan-72890584
+  - vless-153626536
+  - vless-154323162
+  - vless-166176163
+  - vless-166176166
+  - vless-166176169
+  - vless-166176173
+  - vless-175442443
+  - vless-175727218
+  - vless-189919219
+  - vless-213124939
+  - vless-220480869
+  - vless-248682936
+  - vless-272669137
+  - vless-292030482
+  - vless-292031482
+  - vless-292638718
+  - vless-294268607
+  - vless-294281605
+  - vless-294281611
+  - vless-334995958
+  - vless-391805700
+  - vless-408710083
+  - vless-415079592
+  - vless-467953656
+  - vless-467953664
+  - vless-467953666
+  - vless-467953673
+  - vless-467953682
+  - vless-467953684
+  - vless-467953692
+  - vless-467953694
+  - vless-467953695
+  - vless-467953736
+  - vless-467953738
+  - vless-467953745
+  - vless-467953746
+  - vless-467953748
+  - vless-467953765
+  - vless-467953772
+  - vless-467953773
+  - vless-467953775
+  - vless-467953785
+  - vless-467953840
+  - vless-467953849
+  - vless-467953860
+  - vless-467953912
+  - vless-467953930
+  - vless-467953940
+  - vless-467954002
+  - vless-467954008
+  - trojan-468073412
+  - trojan-468105879
+  - vless-468112879
+  - vless-468227203
+  - vless-470313417
+  - vless-470314316
+  - vless-474695661
+  - vless-474921671
+  - vless-474948663
+  - vless-474949688
+  - vless-474951668
+  - vless-474952694
+  - vless-474959679
+  - vless-474959680
+  - vless-474962682
+  - vless-474975681
+  - vless-474977695
+  - vless-474985675
+  - vless-474987673
+  - vless-474993679
+  - vless-474994694
+  - vless-475007667
+  - vless-475007671
+  - vless-475008691
+  - vless-477033855
+  - vless-477691372
+  - vless-479061091
+  - vless-480358351
+  - vless-480358371
+  - '[VLESS] 🇨🇦 🆔configfa 🔒 VL-WS-N/A 🇨🇦 CA 1ms'
+  - '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 2ms 5'
+  - '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 2ms 7'
+  - '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 1ms'
+  - '[VLESS] 🆔configfa 🔒 VL-WS-N/A ❔ XX 2ms 14'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 1ms 7'
+  - '[Trojan] 🆔configfa 🔒 TR-WS-N/A ❔ XX 2ms 19'
+  - '[VLESS] 🆔capoit 🔒 VL-WS-N/A ❔ XX 2ms'
+  - '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 2ms 16'
+  - '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 2ms 22'
+  - '[VLESS] 🆔v2ray1_ng 🔒 VL-WS-N/A ❔ XX 2ms 23'
+  - 145.239.55.210_Claude4
+  - 新加坡_Singapore_SGP VULTR_Gemini_Claude3
+  - 美国_Boydton_Microsoft_Gemini_Claude
+  - 美国_Cheyenne_Microsoft Corporation_Gemini_Claude2
+  - us|9397|puddincat07@Telegram
+  - 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-1916
+  - 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-8430
+  - 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-9203
   - 🇺🇸 · 9
-  - 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-4567
-  - 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-1661
+  - 🇺🇸 · 14
+  - 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-3715
   - 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-7966
-  - 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-9271
-  - 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-4655
-  - 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-15279483
+  - 🇸🇬[www.v2nodes.com] V2Ray Vless-SG-2742
+  - 🇭🇰 HK | HK香港節點丨yoyapai.com_1
+  - 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-7456
   - 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-7971
-  - '🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-4655 #2'
-  - 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-3263
-  - 🇩🇪 DE | [www.v2nodes.com] V2Ray Vless-SG-3649
-  - 🇩🇪 DE | [www.v2nodes.com] V2Ray Vless-SG-7966
-  - 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-1531
-  - 🇫🇷 FR | e9fc|puddincat07@Telegram
+  - 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-2194
+  - 🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-1948
+  - '🇸🇬 SG | [www.v2nodes.com] V2Ray Vless-SG-2194 #2'
+  - 🇫🇷 FR | 4896|puddincat07@Telegram
+  - 🇫🇷 FR | 9165|puddincat07@Telegram
+  - vless-474998671
+  - vless-290359797
 - name: PROXY
   type: select
   proxies:
