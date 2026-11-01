@@ -3,311 +3,219 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: CA 🇨🇦 | @Raydikalx | E8E89B
-  server: 188.114.97.6
-  port: 443
-  type: trojan
-  password: humanity
+- name: ProxyRift 266
+  type: vless
+  server: 104.18.0.181
+  port: 2082
   udp: true
-  sni: www.pleadcourt.org
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: 104.18.0.181
   network: ws
   ws-opts:
-    path: /assignment
+    path: /fp
     headers:
-      Host: www.pleadcourt.org
-- name: CA 🇨🇦 | @Raydikalx | 948F27
-  server: 104.25.238.196
+      Host: hhlfy.twiladaphne.ndjp.net
+- type: vless
+  server: 172.64.147.154
   port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.trusteeforward.com
-  network: ws
-  ws-opts:
-    path: /assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: www.trusteeforward.com
-- name: CA 🇨🇦 | @Raydikalx | 40DA7F
-  server: 188.114.98.0
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | F60DB5
-  server: 172.64.155.209
-  port: 8443
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
   tls: true
-  servername: v2ray1.dozapp.xyz
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  client-fingerprint: chrome
   network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: CA 🇨🇦 | @Raydikalx | 4EE83B
-  server: 104.17.61.37
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: vmess
-  uuid: 39135a39-e6ca-43df-a360-d859eea58d86
-  alterId: 0
-  cipher: auto
-  network: ws
-  name: 未知19
-  server: 104.19.47.20
-  port: 8443
-  udp: true
-  tls: true
-  servername: hk01.linkitnow.net
   ws-opts:
     path: /
     headers:
-      Host: hk01.linkitnow.net
-- name: ProxyRift 660
-  type: trojan
-  server: 172.67.203.46
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: vless
-  server: 104.26.12.31
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 009 | 92ms | 104.26.12.31
-- client-fingerprint: unsafe
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  name: 069 | 93ms | 172.64.147.154
+- client-fingerprint: chrome
   encryption: none
   network: ws
   port: 443
-  server: 172.66.1.36
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
+  server: 188.164.248.216
+  sub_tag: M002-260618
   tls: true
   type: vless
   uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
       Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /
-  name: 024 | 99ms | 172.66.1.36
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
+  name: 098 | 98ms | 188.164.248.216
+  udp: true
+- name: '[cbusifabcap-uri] ❓Other_82|279KB/s|M003-260806'
+  type: trojan
+  server: 216.106.186.66
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  tls: true
+  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
+  network: tcp
+  client-fingerprint: chrome
+- name: 🇺🇸US美国丨yoyapai.com_2
+  type: trojan
+  server: 216.24.57.7
+  port: 443
+  password: humanity
+  sni: www.ignitelimit.com
+  alpn:
+  - http/1.1
+  skip-cert-verify: false
+  ws-opts:
+    path: /assignment
+  udp: true
+- name: 🇫🇷 法国 | FRA
+  server: 199.232.78.170
+  port: 443
+  type: vless
+  uuid: XpnTeam-71
+  tls: true
+  alpn:
+  - http/1.1
+  servername: ssl.fastly.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
   udp: true
 - type: vless
-  server: 172.64.155.209
-  port: 8080
+  server: 104.26.12.31
+  port: 2082
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
   udp: true
-  servername: hhlfy.twiladaphne.ndjp.net
   network: ws
   ws-opts:
-    path: /sg-melbi
+    path: /
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-  name: 044 | 108ms | 172.64.155.209
-- name: vless-1863476159
-  network: ws
+  name: 013 | 76ms | 104.26.12.31
+- type: vless
+  server: 104.18.34.16
   port: 443
-  server: 104.21.6.186
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1867102735
-  network: ws
-  port: 443
-  server: 104.19.48.107
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1828654076
-  network: ws
-  port: 443
-  server: 104.21.70.228
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1946224541
-  network: ws
-  port: 2053
-  server: 172.67.199.126
-  servername: fast.145779.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-- name: trojan-1853348743
-  password: humanity
-  port: 443
-  server: 45.130.125.75
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1827149560
-  password: humanity
-  port: 443
-  server: 172.67.231.254
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1940455323
-  password: humanity
-  port: 443
-  server: 8.6.112.206
-  skip-cert-verify: false
-  sni: www.trusteeforward.com
-  type: trojan
-  udp: true
-- name: '🇸🇬 新加坡 | SGP #1'
-  password: '123456'
-  port: 2096
-  server: 104.18.35.86
-  skip-cert-verify: true
-  sni: 321dfbc6.uir-9i6.pages.dev
-  type: trojan
-- name: 🇺🇸 美国 | USA 8
-  server: 104.16.223.61
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.trusteeforward.com
-  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /assignment
+    path: /
     headers:
-      Host: www.trusteeforward.com
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  name: 025 | 82ms | 104.18.34.16
+- network: ws
+  port: 2082
+  server: 104.17.162.11
+  sub_tag: A004-260618
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/63.0.3239.132 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  name: 028 | 83ms | 104.17.162.11
   udp: true
-- name: CA 🇨🇦 | @Raydikalx | 81B423
-  server: 172.64.152.23
+- type: trojan
+  server: 172.64.80.1
   port: 443
-  type: trojan
-  password: humanity
+  password: bpb-trojan
   udp: true
-  sni: www.calmlunch.com
+  sni: vless.herogoing.top
   network: ws
   ws-opts:
-    path: /assignment
+    path: /tr?ed=2560
+  name: 037 | 85ms | 172.64.80.1
+- network: ws
+  port: 2082
+  server: 172.64.150.43
+  sub_tag: A004-260618
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: hhlfy.twiladaphne.ndjp.net
+  name: 044 | 87ms | 172.64.150.43
+  udp: true
+- type: vless
+  server: 104.129.164.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime40.workers.dev
+  name: 087 | 96ms | 104.129.164.30
+- client-fingerprint: chrome
+  encryption: none
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: 🇺🇸US_1|1.8MB/s
+  network: ws
+  port: 443
+  server: 146.75.59.186
+  servername: firefox.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /
+  xudp: true
+- name: ProxyRift 1330
+  type: trojan
+  server: 104.19.229.21
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: //assignment
     headers:
       Host: www.calmlunch.com
-- name: CR 🇨🇷 | @Raydikalx | 9AD2A3
-  server: 190.93.245.148
-  port: 443
+- name: ProxyRift 1435
   type: trojan
-  password: humanity
+  server: 108.162.194.134
+  port: 443
   udp: true
-  sni: www.pleadcourt.org
+  password: humanity
+  tls: true
+  servername: www.pleadcourt.org
   network: ws
   ws-opts:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- name: AT 🇦🇹 | @Raydikalx | 8BFCF0
-  server: 212.183.88.136
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | BE6FE0
-  server: 172.67.203.46
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | 0B7985
-  server: 104.16.34.14
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.trusteeforward.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: CA 🇨🇦 | @Raydikalx | 37B6D3
-  server: 104.25.60.205
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | 8194ED
-  server: 172.67.74.177
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | FFAFFF
-  server: 104.24.31.89
-  port: 443
+- name: ProxyRift 1753
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  server: 104.19.48.107
+  port: 443
   udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
   servername: jp3.yohototo.top
   client-fingerprint: chrome
@@ -316,194 +224,26 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | ACB678
-  server: 162.159.150.241
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
+- encryption: none
   network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | 4F2836
-  server: 104.17.119.105
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: '[cbusifabcap-uri] ❓Other_3|173KB/s|A004-260618'
+  port: 8880
+  server: 88.216.67.50
   type: vless
-  server: 104.17.44.17
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  sni: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- network: ws
-  port: 2082
-  server: 104.19.95.153
-  sub_tag: A004-260618
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   ws-opts:
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.67 Safari/537.36
+      Host: vms.lifetime05.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2560
   xudp: true
   packet-encoding: xudp
-  name: 011 | 92ms | 104.19.95.153
-  udp: true
-- type: vless
-  network: ws
-  server: 172.67.76.40
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  servername: ccc.010304.xyz
-  tls: true
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
-  name: 032 | 103ms | 172.67.76.40
-  udp: true
-- type: vless
-  server: 104.26.12.54
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 036 | 105ms | 104.26.12.54
-- client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: 172.66.0.162
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
-  name: 043 | 107ms | 172.66.0.162
-  udp: true
-- type: trojan
-  server: 104.18.153.182
-  port: 443
-  password: 19877587-ed94-4033-88cd-4ac50a5e8718
-  udp: true
-  sni: dimskiee.biz.id
-  network: ws
-  ws-opts:
-    path: /WangCai-8
-  name: 049 | 111ms | 104.18.153.182
-- type: vless
-  server: 104.18.47.73
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  name: 069 | 125ms | 104.18.47.73
-  udp: true
-- name: trojan-1827148954
-  password: humanity
-  port: 443
-  server: 104.16.7.70
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1944218172
-  password: humanity
-  port: 443
-  server: 104.27.0.1
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: '🇳🇱 荷兰 | NLD #8'
-  password: humanity
-  port: 443
-  server: 104.18.42.190
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-- name: '🇳🇱 荷兰 | NLD #12'
-  password: humanity
-  port: 443
-  server: 172.64.229.7
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-- name: CA 🇨🇦 | @Raydikalx | B0D3A0
-  server: 172.67.199.126
-  port: 2053
-  type: vless
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  udp: true
-  tls: true
-  servername: fast.145779.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws-tesla
-    headers:
-      Host: fast.145779.xyz
-- name: CA 🇨🇦 | @Raydikalx | 22A83C
-  server: 104.21.7.133
-  port: 80
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  servername: vmess.lbw666.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: CA 🇨🇦 | @Raydikalx | 5CDA48
-  server: 104.18.19.2
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | CCD0F3
-  server: 188.114.97.6
+  name: 043 | 86ms | 88.216.67.50
+- name: SC 🇸🇨 | @Raydikalx | 4A9E9D
+  server: 45.130.125.160
   port: 443
   type: trojan
   password: humanity
@@ -514,79 +254,37 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: SG 🇸🇬 | @Raydikalx | 900FE1
-  server: 154.81.141.42
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: CA 🇨🇦 | @Raydikalx | 129EB6
-  server: 104.21.7.133
-  port: 443
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: vmess.lbw666.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: CA 🇨🇦 | @Raydikalx | 4C51EA
-  server: 104.27.0.1
+- name: CA 🇨🇦 | @Raydikalx | E4B363
+  server: 162.159.91.211
   port: 443
   type: trojan
   password: humanity
   udp: true
   sni: www.calmlunch.com
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: //assignment?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+    path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | B39D19
-  server: 172.67.161.247
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.trusteeforward.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-    headers:
-      Host: www.trusteeforward.com
-- name: US 🇺🇸 | @Raydikalx | 304A71
-  server: 8.6.112.206
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.trusteeforward.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: SC 🇸🇨 | @Raydikalx | 0E75BB
-  server: 45.130.125.18
+- name: ES 🇪🇸 | @Raydikalx | BBA4E7
+  server: 185.18.250.245
   port: 443
   type: trojan
   password: humanity
   udp: true
   sni: www.calmlunch.com
-  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | B314DB
+  server: 104.18.12.149
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
   network: ws
   ws-opts:
     path: /assignment
@@ -607,1014 +305,8 @@ proxies:
     path: /lMnsZUN4/
     headers:
       Host: v2ray1.dozapp.xyz
-- name: CA 🇨🇦 | @Raydikalx | 72D103
-  server: 104.21.70.21
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | A957A8
-  server: 188.114.97.6
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- type: vmess
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  alterId: 0
-  cipher: auto
-  network: ws
-  name: 未知60
-  server: 172.67.77.76
-  port: 2083
-  udp: true
-  tls: true
-  servername: or.521166.xyz
-  ws-opts:
-    path: /or3
-    headers:
-      Host: or.521166.xyz
-- type: vless
-  uuid: 4bde8d55-d91c-45e9-9b36-e6448a194527
-  name: '🇸🇬[www.v2nodes.com] vless-SG #1'
-  server: 188.114.97.6
-  port: 443
-  udp: true
-  network: ws
-  ws-opts:
-    path: /sg-amzsecurity=tls
-    headers:
-      Host: dfsuporte.garena.com.ex33r.eu.cc
-- type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #1'
-  server: 104.16.10.2
-  port: 443
-  udp: true
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxywsfp=chrome
-    headers:
-      Host: jp3.yohototo.top
-- type: vmess
-  uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
-  alterId: 0
-  cipher: auto
-  network: ws
-  name: 未知67
-  server: 104.17.197.31
-  port: 443
-  udp: true
-  tls: true
-  servername: quiet-moon-132a.xetag42714.workers.dev
-  ws-opts:
-    path: /ivideos.sbs/linkws
-    headers:
-      Host: quiet-moon-132a.xetag42714.workers.dev
-- type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  name: '🇺🇸 美国 | USA #2'
-  server: 104.21.0.87
-  port: 443
-  udp: true
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxywsfp=chrome
-    headers:
-      Host: jp3.yohototo.top
-- name: ProxyRift 161
-  type: trojan
-  server: 212.183.88.136
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /%2Fassignment
-    headers:
-      Host: www.calmlunch.com
-- name: ProxyRift 495
-  type: trojan
-  server: 172.64.152.23
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: ProxyRift 609
-  type: trojan
-  server: 104.19.64.105
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: ProxyRift 614
-  type: trojan
-  server: 104.20.55.137
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.trusteeforward.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: ProxyRift 641
-  type: trojan
-  server: 45.130.125.75
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: ProxyRift 1513
-  type: trojan
-  server: 104.18.192.53
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.pleadcourt.org
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- type: vless
-  network: ws
-  server: 104.18.0.181
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  tls: false
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /
-  name: 006 | 92ms | 104.18.0.181
-  udp: true
-- network: ws
-  port: 2082
-  server: 104.18.0.181
-  sub_tag: A004-260618
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /fp
-  xudp: true
-  packet-encoding: xudp
-  servername: hhlfy.twiladaphne.ndjp.net
-  name: 007 | 92ms | 104.18.0.181
-  udp: true
-- type: vless
-  server: 104.16.231.20
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 010 | 92ms | 104.16.231.20
-- type: vless
-  server: 104.21.94.161
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  name: 025 | 99ms | 104.21.94.161
-- type: vless
-  network: ws
-  server: 104.18.35.86
-  port: 443
-  uuid: 1c7f675f-5923-463f-83fb-af4c898cecea
-  servername: 0Ee6wOQz4W8W0cDqiTgq6XZ-q0o9r6o9.merTEssWAgGEr08.WoRKErs.dEv
-  skip-cert-verify: false
-  tls: true
-  tfo: false
-  ws-opts:
-    headers:
-      Host: 0Ee6wOQz4W8W0cDqiTgq6XZ-q0o9r6o9.merTEssWAgGEr08.WoRKErs.dEv
-    path: /eyJqdW5rIjoiZWhuWFFGNWRISXBjSmRGWSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-  name: 072 | 130ms | 104.18.35.86
-  udp: true
-- name: trojan-1853461582
-  password: humanity
-  port: 443
-  server: 104.16.71.213
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1944218170
-  password: humanity
-  port: 443
-  server: 104.25.0.1
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '🏳[www.v2nodes.com] vless- #12'
-  network: ws
-  port: 443
-  server: cf.090227.xyz
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #7'
-  password: humanity
-  port: 443
-  server: 165.215.250.14
-  type: trojan
-  ws-opts:
-    path: '%2Fassignment'
-- name: ES 🇪🇸 | @Raydikalx | B76CDE
-  server: 109.234.211.232
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: DE 🇩🇪 | @Raydikalx | 15F711
-  server: 45.128.76.242
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.trusteeforward.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: CA 🇨🇦 | @Raydikalx | 289A9F
-  server: 172.66.40.99
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.trusteeforward.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: CA 🇨🇦 | @Raydikalx | 929E2C
-  server: 104.16.10.63
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | 9B3F13
-  server: 104.18.89.52
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: vless
-  uuid: 5f704d93-7e7f-45b5-81f5-08db4a946220
-  name: '🇩🇪 德国 | DEU #6'
-  server: 104.17.70.206
-  port: 8443
-  udp: true
-  network: ws
-  tls: true
-  servername: free.sahanwickramasinghe.com
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: free.sahanwickramasinghe.com
-- type: vmess
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  network: ws
-  name: 未知56
-  server: 104.16.32.14
-  port: 443
-  udp: true
-  ws-opts:
-    path: linkvws
-- type: vless
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  name: '🇺🇸 美国 | USA #7'
-  server: 172.67.74.90
-  port: 443
-  udp: true
-  network: ws
-  tls: true
-  servername: cvhpyn.pages.dev
-  ws-opts:
-    path: /fp=chromefp=chrome
-    headers:
-      Host: cvhpyn.pages.dev
-- name: ProxyRift 604
-  type: trojan
-  server: 104.21.13.204
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: ProxyRift 659
-  type: trojan
-  server: 162.159.84.189
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.trusteeforward.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: ProxyRift 1498
-  type: trojan
-  server: 141.193.213.172
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- type: vless
-  server: 172.64.150.43
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  servername: 'hhlfy.twiladaphne.ndjp.net '
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 008 | 92ms | 172.64.150.43
-  udp: true
-- type: vless
-  server: 172.67.68.157
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 021 | 97ms | 172.67.68.157
-  udp: true
-- type: vless
-  server: 188.114.99.0
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 047 | 110ms | 188.114.99.0
-- type: vless
-  server: 172.66.154.57
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  name: 055 | 114ms | 172.66.154.57
-  udp: true
-- client-fingerprint: chrome
-  network: ws
-  port: 443
-  server: 172.64.144.240
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  uuid: 87c467e9-f0af-4b03-8fbd-65fd375d3a26
-  ws-opts:
-    headers:
-      Host: pmpmppm.pages.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/68.0.3440.106 Safari/537.36
-    path: /?ed=2048fp=randomized
-  xudp: true
-  packet-encoding: xudp
-  servername: pmpmppm.pages.dev
-  name: 075 | 132ms | 172.64.144.240
-  udp: true
-- name: vless-1910526407
-  network: ws
-  port: 443
-  server: 104.16.0.1
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: '🇸🇬[www.v2nodes.com] vless-SG-1... #11'
-  port: 443
-  server: chatgpt.com
-  tls: false
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    path: /
-- name: CA 🇨🇦 | @Raydikalx | 81F643
-  server: 104.24.144.224
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | A774E3
-  server: 104.18.38.127
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | F3A4FF
-  server: 104.18.45.38
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: CA 🇨🇦 | @Raydikalx | 7944E1
-  server: 172.66.0.118
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | 915E41
-  server: 162.159.149.157
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | B9D05F'
-  server: 172.67.166.188
-  port: 443
-  type: vless
-  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
-  udp: true
-  tls: true
-  servername: vpn.cintaku.qzz.io
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vlessws
-    headers:
-      Host: vpn.cintaku.qzz.io
-- type: vless
-  uuid: 22424ee2-6fe3-42ca-9749-6d4c5a8acc82
-  name: 🇯🇵[www.v2nodes.com] vless-JP
-  server: 188.114.98.0
-  port: 443
-  udp: true
-  network: ws
-  tls: true
-  servername: tn1r.eu.cc
-  ws-opts:
-    path: /id-pusatfp=chrome
-    headers:
-      Host: tn1r.eu.cc
-- name: ProxyRift 608
-  type: trojan
-  server: 162.159.91.211
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: ProxyRift 656
-  type: trojan
-  server: 188.114.97.4
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: ProxyRift 1501
-  type: trojan
-  server: CHATGPT.com
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment?Telegram---Config7x--CONFIG7X
-    headers:
-      Host: www.calmlunch.com
-- port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  name: 003 | 88ms | 172.64.69.89
-  udp: true
-- type: vless
-  server: 172.64.158.170
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  name: 041 | 107ms | 172.64.158.170
-- type: vless
-  server: 104.18.37.127
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  name: 042 | 107ms | 104.18.37.127
-- type: vless
-  server: 104.18.35.15
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-  name: 053 | 114ms | 104.18.35.15
-  udp: true
-- type: vless
-  server: 104.17.154.123
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  name: 067 | 124ms | 104.17.154.123
-  udp: true
-- name: trojan-1894622732
-  password: humanity
-  port: 443
-  server: 45.130.125.126
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1853491995
-  password: humanity
-  port: 443
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #3'
-  network: ws
-  password: humanity
-  port: 443
-  server: www.calmlunch.com
-  sni: www.calmlunch.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 4
-  server: 104.17.121.71
-  port: 443
-  type: trojan
-  password: humanity
-  sni: www.calmlunch.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: '🇺🇸 美国 | USA #13'
-  network: ws
-  port: 443
-  server: 104.27.0.1
-  servername: vmess.lbw666.dpdns.org
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  ws-opts:
-    headers:
-      Host: vmess.lbw666.dpdns.org
-    path: /ws
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #14'
-  network: ws
-  port: 443
-  server: 104.18.49.85
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
-- name: CA 🇨🇦 | @Raydikalx | B4617E
-  server: 104.17.136.198
-  port: 443
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: vmess.lbw666.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: US 🇺🇸 | @Raydikalx | B881CB
-  server: support.zoom.us
-  port: 8080
-  type: vless
-  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
-  udp: true
-  tls: false
-  servername: free.nadun.store
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.nadun.store
-- name: SC 🇸🇨 | @Raydikalx | 16957B
-  server: 45.130.125.75
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 0B02EB
-  server: 172.64.150.28
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 514518
-  server: 104.18.41.167
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | 4561A3
-  server: 104.18.42.98
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | 1C776D
-  server: 104.17.221.194
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- client-fingerprint: unsafe
-  encryption: none
-  network: ws
-  port: 443
-  server: 88.216.69.253
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=chrome
-  name: 026 | 100ms | 88.216.69.253
-  udp: true
-- network: ws
-  port: 8080
-  server: 104.19.164.25
-  sub_tag: A004-260618
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /sg-melbi
-  xudp: true
-  packet-encoding: xudp
-  name: 029 | 101ms | 104.19.164.25
-  udp: true
-- type: vless
-  server: 104.24.197.20
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 058 | 114ms | 104.24.197.20
-- name: vless-1940459556
-  network: ws
-  port: 443
-  server: sg2-xr.zgrelay.com
-  servername: sg2-xr.zgrelay.com
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: e221699d-e705-4664-9162-a75a82aa3997
-- name: vless-1832764134
-  network: ws
-  port: 443
-  server: 104.16.10.135
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1854335913
-  network: ws
-  port: 443
-  server: 104.16.10.104
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1939845073
-  password: humanity
-  port: 443
-  server: 172.67.223.48
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1827188005
-  password: humanity
-  port: 443
-  server: 172.66.40.99
-  skip-cert-verify: true
-  sni: www.trusteeforward.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #1 #2'
-  network: ws
-  port: 443
-  server: 104.16.10.2
-  servername: jp3.yohototo.top
-  tls: true
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  ws-opts:
-    headers:
-      Host: jp3.yohototo.top
-    path: /tyxyws
-- name: CA 🇨🇦 | @Raydikalx | 028A48
-  server: guanwang.awsno.com
-  port: 443
-  type: vmess
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  network: ws
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-- name: CA 🇨🇦 | @Raydikalx | AC39D9
-  server: 188.114.98.0
-  port: 443
-  type: vless
-  uuid: 49996e29-93c5-4975-b56f-792acbbf3444
-  udp: true
-  tls: true
-  servername: jyfrj1cims.dev.onappjet.com
-  network: ws
-  ws-opts:
-    path: /jx-yjkteysq815pzp
-    headers:
-      Host: jyfrj1cims.dev.onappjet.com
-- name: CA 🇨🇦 | @Raydikalx | 009075
-  server: 188.114.97.3
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: CA 🇨🇦 | @Raydikalx | 076D4B
-  server: 172.64.151.23
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | E5ABBA
-  server: 172.67.161.144
+- name: CA 🇨🇦 | @Raydikalx | C65974
+  server: 172.64.80.1
   port: 8443
   type: vmess
   uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
@@ -1628,35 +320,22 @@ proxies:
     path: /lMnsZUN4/
     headers:
       Host: v2ray1.dozapp.xyz
-- name: CA 🇨🇦 | @Raydikalx | 95FC10
-  server: 188.114.98.0
+- name: CA 🇨🇦 | @Raydikalx | D47F14
+  server: 151.101.65.242
   port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment?ed
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | AAB002
-  server: 104.21.15.251
-  port: 443
-  type: vmess
-  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
-  alterId: 0
-  cipher: auto
+  type: vless
+  uuid: 51a8d623-0d6d-4018-82f4-84b76d5bd015
   udp: true
   tls: true
-  servername: www.windowssearchtools.com
+  servername: adheres-scruple.quick-cdn.net
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /truth
+    path: /ws
     headers:
-      Host: www.windowssearchtools.com
-- name: CA 🇨🇦 | @Raydikalx | 26851E
-  server: 172.67.94.180
+      Host: adheres-scruple.quick-cdn.net
+- name: CA 🇨🇦 | @Raydikalx | D12728
+  server: 104.17.117.104
   port: 443
   type: trojan
   password: humanity
@@ -1667,19 +346,37 @@ proxies:
     path: /assignment
     headers:
       Host: www.cordweave.com
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 63CEBC'
-  server: sg2-xr.zgrelay.com
+- type: trojan
+  name: '[free18-clash] 美国 (53)'
+  server: 104.19.229.21
   port: 443
-  type: vless
-  uuid: E221699D-E705-4664-9162-A75A82AA3997
+  password: humanity
   udp: true
   tls: true
+  servername: www.calmlunch.com
+  sni: www.calmlunch.com
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /700gvl-kr3
-- name: ProxyRift 600
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- type: trojan
+  name: '[free18-clash] 🇨🇦加拿大 04'
+  server: 172.64.151.23
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.cordweave.com
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: ProxyRift 1687
   type: trojan
-  server: 104.18.8.83
+  server: 141.193.213.172
   port: 443
   udp: true
   password: humanity
@@ -1690,64 +387,726 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
+- name: ProxyRift 1754
+  type: vless
+  server: 104.21.70.228
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- type: vless
+  network: ws
+  server: 104.17.44.17
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  tls: false
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /sg-melbi
+  name: 015 | 78ms | 104.17.44.17
+  udp: true
 - client-fingerprint: chrome
-  encryption: none
   network: ws
   port: 443
-  server: 188.164.248.216
-  sub_tag: M002-260618
+  server: 104.18.41.86
+  servername: ccc.010304.xyz
   tls: true
   type: vless
   uuid: d342d11e-d224-4463-b982-532309285094
   ws-opts:
     headers:
       Host: ccc.010304.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; SM-G7102 Build/KOT49H) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: ccc.010304.xyz
-  name: 031 | 103ms | 188.164.248.216
+  name: 089 | 96ms | 104.18.41.86
   udp: true
-- name: vless-1921748885
+- name: vless-1853654571
   network: ws
   port: 443
-  server: 104.24.0.1
+  server: 104.21.70.21
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1827938592
-  password: humanity
+- client-fingerprint: unsafe
+  encryption: none
+  name: 🇸🇬[www.v2nodes.com] vless-SG
+  network: ws
   port: 443
-  server: 162.159.91.211
+  server: 172.66.1.36
+  servername: ccc.010304.xyz
   skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1939845059
-  password: humanity
+  tls: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
+  name: 🇹🇷TR_1|1.4MB/s
+  network: ws
   port: 443
+  server: 146.75.59.186
+  servername: cdn.akamai.steamstatic.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7cefd992-452a-4c28-86bb-6195876582cf
+  ws-opts:
+    headers:
+      Host: looaturkeyboijji.global.ssl.fastly.net.
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+    path: /
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-8... #1'
+  network: ws
+  port: 443
+  server: 104.18.40.100
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- name: CA 🇨🇦 | @Raydikalx | C414EC
+  server: 188.114.97.6
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: //assignment
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | B9F5B6
+  server: 104.17.148.22
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: '%2Fassignment'
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | 51C037
+  server: 104.17.77.77
+  port: 8443
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: CA 🇨🇦 | @Raydikalx | 3353B7
+  server: 172.66.203.67
+  port: 443
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: '[cbusifabcap-uri] ❓Other_76|263KB/s|M003-260806'
+  type: vless
+  server: 104.18.41.188
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  sni: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: ccc.010304.xyz
+- type: trojan
+  name: '[free18-clash] 🇨🇦加拿大 02'
+  server: 104.17.28.10
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.cordweave.com
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+- type: vless
+  uuid: b15f187e-9b34-437c-8243-8651a8ada76c
+  name: '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
+  server: 188.114.96.25
+  port: 443
+  udp: true
+  network: ws
+  ws-opts:
+    path: /stream/DEVCOP/8651a8ada76c/loc-0security=tls
+    headers:
+      Host: tepar-k4j9.jounet.workers.dev
+- type: vless
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  name: '🏳[www.v2nodes.com] vless- #13'
+  server: 104.16.10.9
+  port: 443
+  udp: true
+  network: tcp
+- name: ProxyRift 261
+  type: trojan
   server: 172.64.231.133
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.trusteeforward.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.trusteeforward.com
+- name: ProxyRift 305
+  type: vless
+  server: 172.67.68.157
+  port: 8080
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: hhlfy.twiladaphne.ndjp.net
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: ProxyRift 308
+  type: vless
+  server: 185.148.107.40
+  port: 8880
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  encryption: none
+  servername: 185.148.107.40
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime55.workers.dev
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: ProxyRift 1442
+  type: trojan
+  server: 8.47.69.60
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: ProxyRift 1694
+  type: trojan
+  server: 162.159.228.224
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.pleadcourt.org
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- network: ws
+  port: 2082
+  server: 104.19.95.153
+  sub_tag: A004-260618
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko)
+        Chrome/70.0.3538.67 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  name: 021 | 80ms | 104.19.95.153
+  udp: true
+- type: vless
+  server: 104.18.33.45
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: hhlfy.twiladaphne.ndjp.net
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 033 | 85ms | 104.18.33.45
+  udp: true
+- encryption: none
+  network: ws
+  port: 8080
+  server: 172.66.158.115
+  sub_tag: M003-260806
+  type: vless
+  udp: true
+  uuid: f8f5d3a5-54bd-4f52-9759-137bdbf950db
+  ws-opts:
+    headers:
+      Host: 23g-lively-resonance-96b9hsf.msc633k2.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  name: 058 | 90ms | 172.66.158.115
+- type: vless
+  server: 104.18.32.47
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: hhlfy.twiladaphne.ndjp.net
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 062 | 92ms | 104.18.32.47
+  udp: true
+- type: vless
+  server: 104.24.197.20
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: hhlfy.twiladaphne.ndjp.net
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 068 | 93ms | 104.24.197.20
+  udp: true
+- type: vless
+  server: 104.20.5.134
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: hhlfy.twiladaphne.ndjp.net
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 077 | 94ms | 104.20.5.134
+  udp: true
+- name: vless-1827962637
+  network: ws
+  port: 443
+  server: 104.16.111.195
+  servername: jp3.yohototo.top
   skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1947413506
+  password: humanity
+  port: 443
+  server: 104.17.206.147
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  udp: true
+- name: 🇺🇸 美国 | USA 9
+  server: 172.66.0.118
+  port: 443
+  type: trojan
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+  udp: true
+- name: US 🇺🇸 | @Raydikalx | 885DF2
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  type: vless
+  uuid: e262a993-a3be-4f36-95ba-81dc1e32d78c
+  udp: true
+  tls: true
+  servername: ghosts-spasm.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+- name: US 🇺🇸 | @Raydikalx | 48B124
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  type: vless
+  uuid: c7f0b683-61ea-48c5-93f1-783459ba2124
+  udp: true
+  tls: true
+  servername: grimness-backlogs.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+- name: CA 🇨🇦 | @Raydikalx | 3DE214
+  server: 104.21.63.28
+  port: 443
+  type: vless
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  udp: true
+  tls: true
+  servername: youxuanku.kdns.fr
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: youxuanku.kdns.fr
+- name: US 🇺🇸 | @Raydikalx | 1B4DCF
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  type: vless
+  uuid: e12bb1dc-d315-47e3-9184-cb655afe6421
+  udp: true
+  tls: true
+  servername: minimize-evenness.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: minimize-evenness.cdn-content.com
+- name: CA 🇨🇦 | @Raydikalx | 832341
+  server: 104.18.9.83
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | 97767D
+  server: 104.17.0.1
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | A1A4EC
+  server: 151.101.65.242
+  port: 443
+  type: vless
+  uuid: e8bec62c-ba78-45e9-a216-44c1a138b88d
+  udp: true
+  tls: true
+  servername: adheres-scruple.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+- name: CA 🇨🇦 | @Raydikalx | 03FF3D
+  server: 172.67.221.77
+  port: 443
+  type: vmess
+  uuid: 83b09a64-1eaf-4c4d-89ed-866d4b6b8115
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: www.ubuntuupdates.com
+  network: ws
+  ws-opts:
+    path: /truth
+    headers:
+      Host: www.ubuntuupdates.com
+- name: CA 🇨🇦 | @Raydikalx | 1EFE59
+  server: 104.18.45.38
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.trusteeforward.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.trusteeforward.com
+- name: CA 🇨🇦 | @Raydikalx | 1BD5CC
+  server: 104.19.34.37
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: CA 🇨🇦 | @Raydikalx | 3543C7
+  server: 104.21.0.87
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- type: trojan
+  name: '[free18-clash] 荷兰 (3)'
+  server: 188.164.248.143
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.cordweave.com
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: ProxyRift 1392
+  type: trojan
+  server: 104.16.223.61
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.trusteeforward.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.trusteeforward.com
+- name: ProxyRift 1411
+  type: vless
+  server: 154.194.12.40
+  port: 8880
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  servername: 154.194.12.40
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime35.workers.dev
+- name: ProxyRift 1441
+  type: trojan
+  server: 104.17.121.71
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: ProxyRift 1765
+  type: vless
+  server: 104.19.90.200
+  port: 443
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  encryption: none
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: ccc.010304.xyz
+- network: ws
+  port: 8080
+  server: 172.67.71.187
+  sub_tag: A004-260618
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/62.0.3202.94 Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  name: 012 | 76ms | 172.67.71.187
+  udp: true
+- type: vless
+  network: ws
+  server: 104.18.0.181
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  tls: false
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+    path: /
+  name: 014 | 76ms | 104.18.0.181
+  udp: true
+- type: vless
+  server: 172.67.75.172
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: hhlfy.twiladaphne.ndjp.net
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 042 | 86ms | 172.67.75.172
+  udp: true
+- type: vless
+  server: 104.18.36.242
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+  name: 075 | 94ms | 104.18.36.242
+- name: trojan-1857007066
+  password: humanity
+  port: 443
+  server: 104.17.121.43
+  skip-cert-verify: true
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: '🇫🇷[www.v2nodes.com] trojan-FR-... #5'
+- name: 🇳🇱 荷兰 | NLD 10
   network: ws
   password: humanity
   port: 443
-  server: 45.130.125.160
-  skip-cert-verify: false
-  sni: www.calmlunch.com
+  server: 172.67.74.177
+  skip-cert-verify: true
+  sni: www.cordweave.com
   type: trojan
+  udp: true
   ws-opts:
     headers:
-      Host: www.calmlunch.com
-    path: '%2Fassignment'
+      Host: www.cordweave.com
+    path: /assignment
+- name: 🇺🇸 美国 | USA 10
+  server: 146.75.59.186
+  port: 443
+  type: vless
+  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
+  tls: true
+  servername: firefox.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+  udp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #17'
+  network: ws
+  port: 443
+  server: adheres-scruple.quick-cdn.net
+  servername: adheres-scruple.quick-cdn.net
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7eeeaa43-4ffd-4223-88a6-484a2be9cb95
+  ws-opts:
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+    path: /ws
+- name: US 🇺🇸 | @Raydikalx | 7DB317
+  server: 216.106.186.66
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.findlocaljobnetworkandbuildcommunityconnections.com
+  client-fingerprint: chrome
+  network: tcp
+- name: US 🇺🇸 | @Raydikalx | 99CFA3
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  type: vless
+  uuid: 0097844e-b939-4d50-93f3-591debdceb55
+  udp: true
+  tls: true
+  servername: grimness-backlogs.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: grimness-backlogs.cdn-content.com
 - name: CA 🇨🇦 | @Raydikalx | E20903
   server: 104.18.42.163
   port: 443
@@ -1763,8 +1122,22 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: CA 🇨🇦 | @Raydikalx | 8B60FE
-  server: 104.16.72.41
+- name: US 🇺🇸 | @Raydikalx | ED256C
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  type: vless
+  uuid: a97b4f58-0d47-416f-9ecd-dfdf20f31bf7
+  udp: true
+  tls: true
+  servername: minimize-evenness.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: minimize-evenness.cdn-content.com
+- name: CA 🇨🇦 | @Raydikalx | 180650
+  server: 104.17.147.22
   port: 443
   type: trojan
   password: humanity
@@ -1775,13 +1148,1771 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 0E6145
-  server: 104.16.71.213
+- name: CA 🇨🇦 | @Raydikalx | F6D4A4
+  server: 104.25.0.1
   port: 443
   type: trojan
   password: humanity
   udp: true
   sni: www.calmlunch.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | D42981
+  server: 151.101.1.242
+  port: 443
+  type: vless
+  uuid: b0cf4078-96b8-4e11-80a8-0f9352565a16
+  udp: true
+  tls: true
+  servername: minimize-evenness.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: minimize-evenness.cdn-content.com
+- name: CA 🇨🇦 | @Raydikalx | AA9CD2
+  server: 172.67.155.222
+  port: 443
+  type: vless
+  uuid: 82b279c6-5cba-3a96-f8bd-780a00000035
+  udp: true
+  tls: true
+  servername: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pi7ews-woj41w-7wx0gk.ho3ein13-3af.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 785DD9
+  server: 104.18.49.85
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.trusteeforward.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.trusteeforward.com
+- name: US 🇺🇸 | @Raydikalx | BFA44B
+  server: adheres-scruple.quick-cdn.net
+  port: 443
+  type: vless
+  uuid: d78a47b6-dbd2-4ed1-8749-17a22dbe8c3e
+  udp: true
+  tls: true
+  servername: adheres-scruple.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+- name: CA 🇨🇦 | @Raydikalx | 919469
+  server: 104.25.0.1
+  port: 8080
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  udp: true
+  tls: false
+  servername: nautica-cff.kloningstrife002.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /138.2.74.219-28616
+    headers:
+      Host: nautica-cff.kloningstrife002.workers.dev
+- encryption: none
+  name: '[cbusifabcap-clashmeta] ❓Other_40|244KB/s|S004-260618'
+  network: ws
+  port: 8080
+  server: 172.64.150.43
+  sub_tag: S004-260618
+  type: vless
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  servername: 'hhlfy.twiladaphne.ndjp.net '
+- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 58DC4E'
+  server: 162.159.61.183
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- type: trojan
+  name: '[free18-clash] 美国 (9) (2)'
+  server: 104.18.38.127
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.cordweave.com
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+- type: trojan
+  password: humanity
+  name: 🇺🇸 美国 | USA
+  server: 172.66.0.118
+  port: 443
+  udp: true
+  sni: www.cordweave.com
+  skip-cert-verify: true
+- name: ProxyRift 026
+  type: vmess
+  server: 84.17.41.2
+  port: 18000
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  servername: 84.17.41.2
+- name: ProxyRift 303
+  type: vless
+  server: 104.18.109.147
+  port: 80
+  udp: true
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  servername: 104.18.109.147
+  network: ws
+  ws-opts:
+    path: /telegram-xv2ry2?ed=2048&?q=v2rayjokerrvpnjoin_bade_channel@jokerrvpntelegram----@jokerrvpn----@jokerrvpn----@jokerrvpn----@jokerrvpn----@jokerrvpn----@jokerrvpn----@jokerrvpn----@jokerrvpn----@jokerrvpn----@jokerrvpn----@jokerrvpn
+    headers:
+      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+- name: ProxyRift 1878
+  type: vmess
+  server: 104.17.147.222
+  port: 80
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: ProxyRift 1960
+  type: trojan
+  server: 188.114.97.2
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.pleadcourt.org
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- network: ws
+  port: 80
+  server: 104.18.109.147
+  type: vless
+  udp: true
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+      User-Agent: Mozilla/5.0 (Linux; Android 6.0; CAM-L21 Build/HUAWEICAM-L21; wv)
+        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/62.0.3202.84 Mobile
+        Safari/537.36
+    path: /Telegram-XV2ry2
+    early-data-header-name: Sec-WebSocket-Protocol
+    max-early-data: 2048
+  xudp: true
+  packet-encoding: xudp
+  name: 007 | 73ms | 104.18.109.147
+- type: vless
+  server: 172.64.153.66
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+  name: 067 | 92ms | 172.64.153.66
+- type: vless
+  server: 188.114.98.0
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 074 | 93ms | 188.114.98.0
+- client-fingerprint: chrome
+  encryption: none
+  network: ws
+  port: 443
+  server: chatgpt.com
+  sub_tag: S004-260618
+  tls: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: ccc.010304.xyz
+  name: 081 | 95ms | chatgpt.com
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: vmess-1853348260
+  network: tcp
+  port: 18000
+  server: 84.17.41.2
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: vless-1832764134
+  network: ws
+  port: 443
+  server: 104.16.10.135
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1827149560
+  password: humanity
+  port: 443
+  server: 172.67.231.254
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1944218172
+  password: humanity
+  port: 443
+  server: 104.27.0.1
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: '🇸🇬[www.v2nodes.com] vless-SG #2'
+  network: ws
+  port: 8880
+  server: 135.84.72.30
+  tls: false
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime06.workers.dev
+    path: /
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #25'
+  network: ws
+  port: 443
+  server: 104.18.155.229
+  servername: www.genflix.co.id.r3xxe.eu.cc
+  tls: true
+  type: vless
+  udp: true
+  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
+  ws-opts:
+    headers:
+      Host: www.genflix.co.id.r3xxe.eu.cc
+    path: /au-do
+- name: CA 🇨🇦 | @Raydikalx | 25B7D8
+  server: 151.101.65.242
+  port: 443
+  type: vless
+  uuid: 57a8ea50-1a8d-4e9f-b6e8-e991a9914a8a
+  udp: true
+  tls: true
+  servername: ghosts-spasm.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+- name: US 🇺🇸 | @Raydikalx | 19FEDD
+  server: piracy-android.video-streams.org
+  port: 443
+  type: vless
+  uuid: abd924f4-132d-4ad3-ac2a-3aa01b8e5923
+  udp: true
+  tls: true
+  servername: piracy-android.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: piracy-android.video-streams.org
+- name: US 🇺🇸 | @Raydikalx | 20F60D
+  server: piracy-android.video-streams.org
+  port: 443
+  type: vless
+  uuid: 9b733a43-cf91-4ba0-bd76-6ca8b42e827a
+  udp: true
+  tls: true
+  servername: piracy-android.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: piracy-android.video-streams.org
+- name: US 🇺🇸 | @Raydikalx | 222692
+  server: adheres-scruple.quick-cdn.net
+  port: 443
+  type: vless
+  uuid: 5db320bf-0092-4871-9062-83f5cd00cbe4
+  udp: true
+  tls: true
+  servername: adheres-scruple.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+- name: CA 🇨🇦 | @Raydikalx | 5D836C
+  server: 104.20.61.103
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: US 🇺🇸 | @Raydikalx | 6FFD70
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  type: vless
+  uuid: 7eeeaa43-4ffd-4223-88a6-484a2be9cb95
+  udp: true
+  tls: true
+  servername: minimize-evenness.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: minimize-evenness.cdn-content.com
+- name: CA 🇨🇦 | @Raydikalx | E08020
+  server: 104.16.111.195
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: DE 🇩🇪 | @Raydikalx | 4591B3
+  server: 155.212.240.10
+  port: 443
+  type: vless
+  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
+  udp: true
+  tls: true
+  servername: n.bitpulse.me
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560
+    headers:
+      Host: n.bitpulse.me
+- name: CA 🇨🇦 | @Raydikalx | 148DC5
+  server: 188.114.98.0
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.volumeroot.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+- name: CA 🇨🇦 | @Raydikalx | 189305
+  server: 172.67.156.147
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: CA 🇨🇦 | @Raydikalx | 3B2C93
+  server: 104.18.4.5
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+- name: CA 🇨🇦 | @Raydikalx | E87B01
+  server: 104.27.21.22
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.volumeroot.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+- name: '[cbusifabcap-uri] ❓Other_47|171KB/s|K001-260618'
+  type: vless
+  server: 104.17.44.17
+  port: 443
+  uuid: d37a75db-76b6-4db8-b213-0d5b044d138d
+  tls: true
+  sni: top-e4s.pages.dev
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /fp=unsafe
+    headers:
+      Host: top-e4s.pages.dev
+- type: trojan
+  name: '[free18-clash] 美国 (6) (2)'
+  server: 165.215.250.14
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.calmlunch.com
+  sni: www.calmlunch.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- type: trojan
+  name: '[free18-clash] 美国 (64)'
+  server: 104.19.212.207
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.cordweave.com
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+- type: trojan
+  password: humanity
+  name: 🇨🇷 哥斯达黎加 | CRI
+  server: 190.93.245.148
+  port: 443
+  udp: true
+  sni: www.pleadcourt.org
+  skip-cert-verify: true
+- name: ProxyRift 657
+  type: trojan
+  server: 104.27.0.1
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: //assignment?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+    headers:
+      Host: www.calmlunch.com
+- name: ProxyRift 1365
+  type: vless
+  server: 104.17.50.53
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: ProxyRift 1369
+  type: vless
+  server: 104.27.110.37
+  port: 443
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  tls: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: ProxyRift 1425
+  type: trojan
+  server: 188.114.98.0
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: //assignment
+    headers:
+      Host: www.calmlunch.com
+- name: ProxyRift 1608
+  type: trojan
+  server: 104.25.124.54
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: //assignment
+    headers:
+      Host: www.calmlunch.com
+- name: ProxyRift 1650
+  type: vless
+  server: 185.225.195.30
+  port: 8880
+  udp: true
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  servername: 185.225.195.30
+  network: ws
+  ws-opts:
+    headers:
+      Host: vms.lifetime18.workers.dev
+- name: ProxyRift 1661
+  type: trojan
+  server: 104.18.28.234
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: ProxyRift 1734
+  type: vless
+  server: cf.877774.xyz
+  port: 443
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  encryption: none
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: ProxyRift 1759
+  type: vless
+  server: 104.17.50.227
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: ProxyRift 1836
+  type: vless
+  server: 172.67.160.192
+  port: 443
+  udp: true
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  encryption: none
+  tls: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/103.101.153.32:443
+    headers:
+      Host: nuclear.us.kg
+- name: ❓未知丨yoyapai.com_14
+  type: vless
+  server: 185.148.107.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  network: ws
+  tls: false
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime55.workers.dev
+  skip-cert-verify: false
+  udp: true
+- type: vless
+  server: 172.64.150.43
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: 'hhlfy.twiladaphne.ndjp.net '
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 018 | 80ms | 172.64.150.43
+  udp: true
+- type: vless
+  server: 104.26.13.54
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: hhlfy.twiladaphne.ndjp.net
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 046 | 87ms | 104.26.13.54
+  udp: true
+- network: ws
+  port: 8080
+  server: 104.16.162.89
+  sub_tag: A004-260618
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  name: 054 | 90ms | 104.16.162.89
+  udp: true
+- name: 🇳🇱 荷兰 | NLD 18
+  network: ws
+  password: humanity
+  port: 443
+  server: 198.41.216.1
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: '🇳🇱 荷兰 | NLD #18'
+  password: humanity
+  port: 443
+  server: 198.41.216.1
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  name: '🇫🇷 法国 | FRA #1'
+  network: ws
+  port: 443
+  server: 199.232.78.170
+  servername: ssl.fastly.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 88888888-8888-8888-8888-888888888888
+  ws-opts:
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+    path: /
+- name: US 🇺🇸 | @Raydikalx | 94BA12
+  server: 84.17.41.2
+  port: 18000
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  servername: 84.17.41.2
+  network: tcp
+- name: CA 🇨🇦 | @Raydikalx | 714DA3
+  server: 151.101.129.242
+  port: 443
+  type: vless
+  uuid: 7430b11a-3b3e-4806-9a44-638caf36cabb
+  udp: true
+  tls: true
+  servername: bounded-crammed.video-streams.org
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: bounded-crammed.video-streams.org
+- name: US 🇺🇸 | @Raydikalx | 8B7ACE
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  type: vless
+  uuid: 3d5f6543-8d96-4e94-b0dc-0a4bc7c3b363
+  udp: true
+  tls: true
+  servername: ghosts-spasm.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+- name: US 🇺🇸 | @Raydikalx | A2659B
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  type: vless
+  uuid: 01520a52-6d92-4683-b525-00d5df476dce
+  udp: true
+  tls: true
+  servername: ghosts-spasm.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+- name: CA 🇨🇦 | @Raydikalx | 7B2874
+  server: 188.114.96.3
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: US 🇺🇸 | @Raydikalx | BF89ED
+  server: piracy-android.video-streams.org
+  port: 443
+  type: vless
+  uuid: 909259b0-0a30-4ef5-bfd8-5ffe5d99cb56
+  udp: true
+  tls: true
+  servername: piracy-android.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: piracy-android.video-streams.org
+- name: CA 🇨🇦 | @Raydikalx | 82D1D2
+  server: 104.16.72.2
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | 4C51EA
+  server: 104.27.0.1
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: //assignment?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | 247B1B
+  server: 104.21.13.229
+  port: 443
+  type: vless
+  uuid: 5f11c240-89df-494c-9c81-8b619023bb58
+  udp: true
+  tls: true
+  servername: 789156.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 789156.xyz
+- name: CA 🇨🇦 | @Raydikalx | F9A26B
+  server: 151.101.1.242
+  port: 443
+  type: vless
+  uuid: 11c1c5e2-7be9-464a-8945-abe4b131abd7
+  udp: true
+  tls: true
+  servername: minimize-evenness.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: minimize-evenness.cdn-content.com
+- name: CA 🇨🇦 | @Raydikalx | 1F0C13
+  server: 104.17.70.206
+  port: 8443
+  type: vless
+  uuid: 5f704d93-7e7f-45b5-81f5-08db4a946220
+  udp: true
+  tls: true
+  servername: free.sahanwickramasinghe.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.com
+- name: US 🇺🇸 | @Raydikalx | D8E24F
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  type: vless
+  uuid: 566e98ad-4a56-4c1d-9dbc-83987079731b
+  udp: true
+  tls: true
+  servername: minimize-evenness.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: minimize-evenness.cdn-content.com
+- name: CA 🇨🇦 | @Raydikalx | A7E197
+  server: 104.21.29.192
+  port: 443
+  type: vless
+  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
+  udp: true
+  tls: true
+  servername: n.bitpulse.me
+  network: ws
+  ws-opts:
+    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed
+    headers:
+      Host: n.bitpulse.me
+- name: CA 🇨🇦 | @Raydikalx | 0AE530
+  server: 104.19.154.200
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: CA 🇨🇦 | @Raydikalx | BC72F1
+  server: 104.16.244.188
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: CA 🇨🇦 | @Raydikalx | 7C97A1
+  server: 104.21.7.133
+  port: 80
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- type: trojan
+  name: '[free18-clash] 🇨🇦加拿大 07'
+  server: 172.64.148.230
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.cordweave.com
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+- type: trojan
+  password: humanity
+  name: '🇺🇸 美国 | USA #2'
+  server: 104.18.72.213
+  port: 443
+  udp: true
+  sni: www.cordweave.com
+  skip-cert-verify: true
+- name: ProxyRift 221
+  type: trojan
+  server: 104.17.121.43
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: ProxyRift 596
+  type: vless
+  server: 104.27.110.37
+  port: 80
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: ProxyRift 1149
+  type: trojan
+  server: 104.17.17.238
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: ProxyRift 1368
+  type: vless
+  server: 104.25.199.149
+  port: 443
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-5dd075c8ae9b
+  tls: true
+  servername: web-app-gjn19f.z0zxy6ehuwgs.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-gjn19f.z0zxy6ehuwgs.workers.dev
+- name: ProxyRift 1436
+  type: trojan
+  server: 104.20.55.137
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.trusteeforward.com
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.trusteeforward.com
+- name: ProxyRift 1440
+  type: trojan
+  server: 104.18.12.149
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: ProxyRift 1537
+  type: trojan
+  server: 216.106.186.66
+  port: 443
+  udp: true
+  password: 242a3d8eee5e4ed1a6bfa4141d549a25
+  tls: true
+  servername: www.findlocaljobnetworkandbuildcommunityconnections.com
+- name: ProxyRift 1690
+  type: trojan
+  server: 8.47.69.0
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.pleadcourt.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.pleadcourt.org
+- name: ProxyRift 1730
+  type: vless
+  server: 190.93.245.175
+  port: 443
+  udp: true
+  uuid: 2ea2719c-23e1-4cde-b192-c8652d55d9e5
+  tls: true
+  servername: cfnode-11ivy8.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: cfnode-11ivy8.pages.dev
+- name: ProxyRift 1741
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- type: vless
+  server: 104.16.231.20
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: hhlfy.twiladaphne.ndjp.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 019 | 80ms | 104.16.231.20
+  udp: true
+- type: vless
+  server: 172.67.141.182
+  port: 443
+  uuid: ce440dcf-e570-4a50-af37-bf588ee8a988
+  tls: true
+  servername: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /vl/KSPdmco70dfoXFS292o2Nv6yPt?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
+  name: 032 | 85ms | 172.67.141.182
+  udp: true
+- type: vless
+  server: 185.159.247.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime59.workers.dev
+  name: 052 | 89ms | 185.159.247.30
+- type: vless
+  server: 172.64.157.229
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+  name: 059 | 91ms | 172.64.157.229
+- type: vless
+  server: 172.64.158.170
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+  name: 095 | 98ms | 172.64.158.170
+  udp: true
+- name: vless-1856200577
+  network: ws
+  port: 443
+  server: 172.67.217.240
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1858673309
+  password: humanity
+  port: 443
+  server: 104.18.8.83
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1827938592
+  password: humanity
+  port: 443
+  server: 162.159.91.211
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1937399876
+  password: humanity
+  port: 443
+  server: 45.128.76.242
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-9... #2'
+  network: ws
+  port: 443
+  server: 172.66.0.162
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #4'
+  network: ws
+  port: 443
+  server: 172.66.154.57
+  servername: ccc.010304.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- name: US 🇺🇸 | @Raydikalx | 9FF722
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  type: vless
+  uuid: f1646667-a135-4246-9a9a-de0c53b0dc8d
+  udp: true
+  tls: true
+  servername: grimness-backlogs.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+- name: US 🇺🇸 | @Raydikalx | F0C02D
+  server: piracy-android.video-streams.org
+  port: 443
+  type: vless
+  uuid: ecbc4229-e8d3-4607-8f02-fd592c9a0743
+  udp: true
+  tls: true
+  servername: piracy-android.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: piracy-android.video-streams.org
+- name: US 🇺🇸 | @Raydikalx | 4BB0F9
+  server: bounded-crammed.video-streams.org
+  port: 443
+  type: vless
+  uuid: 9819d5c6-bc6e-4e31-8af7-c023ecff6022
+  udp: true
+  tls: true
+  servername: bounded-crammed.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: bounded-crammed.video-streams.org
+- name: US 🇺🇸 | @Raydikalx | CE29A3
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  type: vless
+  uuid: 476bdb75-0d9b-49f2-a492-4cd68f594d32
+  udp: true
+  tls: true
+  servername: minimize-evenness.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: minimize-evenness.cdn-content.com
+- name: CA 🇨🇦 | @Raydikalx | 25567D
+  server: 104.26.0.1
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | B52280
+  server: 104.24.0.1
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: CA 🇨🇦 | @Raydikalx | 5A2142
+  server: 104.19.53.114
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: CA 🇨🇦 | @Raydikalx | F0D92B
+  server: 104.17.135.68
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: CA 🇨🇦 | @Raydikalx | A3F842
+  server: 151.101.1.242
+  port: 443
+  type: vless
+  uuid: 0259b0b9-c954-4de2-988e-a5877b2cd6e5
+  udp: true
+  tls: true
+  servername: piracy-android.video-streams.org
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: piracy-android.video-streams.org
+- name: CA 🇨🇦 | @Raydikalx | 3FB990
+  server: 104.16.10.234
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: CA 🇨🇦 | @Raydikalx | 514518
+  server: 104.18.41.167
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- alpn:
+  - http/1.1
+  client-fingerprint: unsafe
+  encryption: none
+  name: '[ermaozi-subscribe] 🇲🇾[www.v2nodes.com] vless-MY-1...'
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: vpn.cintaku.qzz.io
+  tls: true
+  type: vless
+  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  ws-opts:
+    headers:
+      Host: vpn.cintaku.qzz.io
+    path: /vlessws
+- type: trojan
+  name: '[free18-clash] 美国 (49)'
+  server: 104.19.0.1
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.cordweave.com
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+- type: trojan
+  name: '[free18-clash] 美国 (60)'
+  server: 104.16.251.219
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.cordweave.com
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+- type: trojan
+  password: humanity
+  name: '🇺🇸 美国 | USA #3'
+  server: 104.18.255.167
+  port: 443
+  udp: true
+  sni: www.cordweave.com
+  skip-cert-verify: true
+- name: ProxyRift 007
+  type: trojan
+  server: 216.106.186.82
+  port: 443
+  udp: true
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  tls: true
+  servername: courses.findlocaljobnetworkandbuildcommunityconnections.com
+  client-fingerprint: chrome
+- name: ProxyRift 222
+  type: trojan
+  server: 8.6.112.206
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.trusteeforward.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.trusteeforward.com
+- name: ProxyRift 250
+  type: trojan
+  server: 104.16.72.41
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: ProxyRift 311
+  type: vless
+  server: 172.66.44.124
+  port: 8443
+  udp: true
+  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  tls: true
+  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+  client-fingerprint: randomized
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    headers:
+      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
+- name: ProxyRift 1370
+  type: vless
+  server: 104.27.124.133
+  port: 443
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  tls: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: ProxyRift 1437
+  type: trojan
+  server: 104.19.95.153
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: ProxyRift 1651
+  type: vless
+  server: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+  port: 2086
+  udp: true
+  uuid: 73796e63-0000-4000-8000-000000000007
+  servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+  network: ws
+  ws-opts:
+    headers:
+      Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+- name: ProxyRift 1757
+  type: vless
+  server: 104.21.73.135
+  port: 443
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  tls: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: ProxyRift 1923
+  type: vless
+  server: 172.64.155.209
+  port: 443
+  udp: true
+  uuid: 64726966-0000-4000-8000-740000000000
+  encryption: none
+  tls: true
+  servername: parsa-panel-dy55x.railway1385-2a46.workers.dev
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /drift
+    headers:
+      Host: parsa-panel-dy55x.railway1385-2a46.workers.dev
+- name: ProxyRift 1927
+  type: vless
+  server: 8.6.112.4
+  port: 2082
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  encryption: none
+  servername: 8.6.112.4
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: ProxyRift 1934
+  type: vless
+  server: 172.67.115.132
+  port: 443
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  encryption: none
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+    headers:
+      Host: ccc.010304.xyz
+- name: ProxyRift 1982
+  type: vless
+  server: 172.66.0.1
+  port: 8080
+  udp: true
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: 172.66.0.1
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- type: vless
+  server: 104.20.6.134
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  servername: hhlfy.twiladaphne.ndjp.net
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 024 | 81ms | 104.20.6.134
+- network: ws
+  port: 8080
+  server: 104.19.164.25
+  sub_tag: A004-260618
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
+    path: /sg-melbi
+  xudp: true
+  packet-encoding: xudp
+  name: 034 | 85ms | 104.19.164.25
+  udp: true
+- type: vless
+  server: 172.64.155.209
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: hhlfy.twiladaphne.ndjp.net
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 045 | 87ms | 172.64.155.209
+  udp: true
+- name: vless-1831072390
+  network: ws
+  port: 443
+  server: 104.17.50.53
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1867102735
+  network: ws
+  port: 443
+  server: 104.19.48.107
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: '🏳[www.v2nodes.com] vless- #19'
+  port: 443
+  server: 104.16.10.9
+  tls: false
+  type: vless
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
+  ws-opts:
+    path: /ws
+- name: 🇳🇱 荷兰 | NLD 34
+  network: ws
+  password: humanity
+  port: 443
+  server: 104.16.240.177
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: www.cordweave.com
+    path: /assignment
+- name: '🇳🇱 荷兰 | NLD #34'
+  password: humanity
+  port: 443
+  server: 104.16.240.177
+  skip-cert-verify: true
+  sni: www.cordweave.com
+  type: trojan
+- name: US 🇺🇸 | @Raydikalx | EDB7E3
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  type: vless
+  uuid: d51b3246-21fe-47fb-b600-a7b7b9b6182d
+  udp: true
+  tls: true
+  servername: ghosts-spasm.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+- name: US 🇺🇸 | @Raydikalx | 50338D
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  type: vless
+  uuid: 409f4682-a458-4671-8805-40dfc6978336
+  udp: true
+  tls: true
+  servername: grimness-backlogs.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+- name: US 🇺🇸 | @Raydikalx | 0F83D5
+  server: piracy-android.video-streams.org
+  port: 443
+  type: vless
+  uuid: c9ff358e-20c4-4979-bc14-acc3daaf1297
+  udp: true
+  tls: true
+  servername: piracy-android.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: piracy-android.video-streams.org
+- name: US 🇺🇸 | @Raydikalx | 635498
+  server: bounded-crammed.video-streams.org
+  port: 443
+  type: vless
+  uuid: 18b91bec-1abf-45c0-bd06-f2c6ed22a125
+  udp: true
+  tls: true
+  servername: bounded-crammed.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: bounded-crammed.video-streams.org
+- name: US 🇺🇸 | @Raydikalx | 221887
+  server: piracy-android.video-streams.org
+  port: 443
+  type: vless
+  uuid: 66af2078-d185-4cfe-8fc2-028ec115cf66
+  udp: true
+  tls: true
+  servername: piracy-android.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: piracy-android.video-streams.org
+- name: US 🇺🇸 | @Raydikalx | 16483F
+  server: bounded-crammed.video-streams.org
+  port: 443
+  type: vless
+  uuid: d51b3246-21fe-47fb-b600-a7b7b9b6182d
+  udp: true
+  tls: true
+  servername: bounded-crammed.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: bounded-crammed.video-streams.org
+- name: CA 🇨🇦 | @Raydikalx | AC521C
+  server: 104.18.37.228
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /assignment
@@ -1800,8 +2931,8 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 180650
-  server: 104.17.147.22
+- name: CA 🇨🇦 | @Raydikalx | 95FC10
+  server: 188.114.98.0
   port: 443
   type: trojan
   password: humanity
@@ -1809,23 +2940,104 @@ proxies:
   sni: www.calmlunch.com
   network: ws
   ws-opts:
-    path: /assignment
+    path: /assignment?ed
     headers:
       Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 5FCD7E
-  server: 172.67.64.188
+- name: CA 🇨🇦 | @Raydikalx | 64E85D
+  server: 151.101.193.242
+  port: 443
+  type: vless
+  uuid: b2aa6d03-4d3e-478d-98aa-2447f09d4cb1
+  udp: true
+  tls: true
+  servername: adheres-scruple.quick-cdn.net
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+- name: US 🇺🇸 | @Raydikalx | 196EC8
+  server: adheres-scruple.quick-cdn.net
+  port: 443
+  type: vless
+  uuid: e4c62709-2791-4033-bbcc-c0a7c90d0f62
+  udp: true
+  tls: true
+  servername: adheres-scruple.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+- name: CA 🇨🇦 | @Raydikalx | 63E30C
+  server: 104.16.188.34
+  port: 443
+  type: vless
+  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
+  udp: true
+  tls: true
+  servername: n.bitpulse.me
+  network: ws
+  ws-opts:
+    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560
+    headers:
+      Host: n.bitpulse.me
+- name: CA 🇨🇦 | @Raydikalx | C04DD5
+  server: 104.16.223.61
   port: 443
   type: trojan
   password: humanity
   udp: true
   sni: www.trusteeforward.com
+  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /assignment?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
+    path: /assignment
     headers:
       Host: www.trusteeforward.com
-- name: CA 🇨🇦 | @Raydikalx | 2A4EE4
-  server: 198.41.216.1
+- name: CA 🇨🇦 | @Raydikalx | 772BDC
+  server: 172.67.67.89
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.cordweave.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: CA 🇨🇦 | @Raydikalx | 4FA2E4
+  server: 104.16.111.102
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: ios
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: CA 🇨🇦 | @Raydikalx | E9BC49
+  server: 104.16.85.85
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+- name: CA 🇨🇦 | @Raydikalx | C882C4
+  server: 172.67.203.46
   port: 443
   type: trojan
   password: humanity
@@ -1836,59 +3048,757 @@ proxies:
     path: /assignment
     headers:
       Host: www.cordweave.com
-- type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  name: '🇵🇱[www.v2nodes.com] vless-PL-1... #8'
-  server: 104.21.221.158
-  port: 443
-  udp: true
-  network: ws
-  tls: true
-  servername: ccc.010304.xyz
-  ws-opts:
-    path: /fp=chromefp=unsafe
-    headers:
-      Host: ccc.010304.xyz
-- type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  name: '🇸🇬[www.v2nodes.com] vless-SG-9... #1'
-  server: 172.66.0.1
+- name: CA 🇨🇦 | @Raydikalx | 02150B
+  server: 104.21.70.21
   port: 8080
+  type: vless
+  uuid: a8b1d666-d3ba-4b17-90c4-ba7514c74f78
   udp: true
+  tls: false
+  servername: xstack.mahanfixe.workers.dev
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /xiron
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: ProxyRift 615
-  type: trojan
-  server: 188.114.97.5
+      Host: xstack.mahanfixe.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 1C776D
+  server: 104.17.221.194
   port: 443
-  udp: true
+  type: trojan
   password: humanity
-  tls: true
-  servername: www.pleadcourt.org
+  udp: true
+  sni: www.cordweave.com
   network: ws
   ws-opts:
     path: /assignment
     headers:
-      Host: www.pleadcourt.org
-- name: ProxyRift 1517
-  type: vmess
-  server: 188.114.97.1
+      Host: www.cordweave.com
+- name: CA 🇨🇦 | @Raydikalx | 07F150
+  server: 104.16.65.1
   port: 443
+  type: trojan
+  password: humanity
   udp: true
-  uuid: ba1116e2-8c2f-4e3d-8e50-c954360cf970
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: www.windowssearchtools.com
+  sni: www.cordweave.com
   network: ws
   ws-opts:
-    path: /truth
+    path: /assignment
     headers:
-      Host: www.windowssearchtools.com
-- name: ProxyRift 1539
+      Host: www.cordweave.com
+- name: CA 🇨🇦 | @Raydikalx | F82FEB
+  server: 104.18.46.59
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 2AD1C2'
+  server: 104.17.98.29
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- type: trojan
+  name: '[free18-clash] 美国 (62)'
+  server: 162.159.45.1
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.cordweave.com
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+- type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  name: EPODONIOS
+  server: 62.72.166.30
+  port: 8880
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime40.workers.dev
+- name: ProxyRift 226
+  type: trojan
+  server: 216.106.186.32
+  port: 443
+  udp: true
+  password: dba20dcb635e430fa4d3bfc303a149d2
+  tls: true
+  servername: blog.findlocaljobnetworkandbuildcommunityconnections.com
+- name: ProxyRift 307
+  type: vless
+  server: 188.164.248.123
+  port: 8443
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  tls: true
+  servername: vp21.cc.cd
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: vp21.cc.cd
+- name: ProxyRift 374
+  type: vless
+  server: 146.75.57.238
+  port: 443
+  udp: true
+  uuid: 780aa2f6-1a02-4fa2-bcd0-fa7d469bdff7
+  encryption: none
+  tls: true
+  servername: cdn.akamai.steamstatic.com
+  network: ws
+  ws-opts:
+    headers:
+      Host: copy_az_channel_NUFiLTER_7i.global.ssl.fastly.net.
+- name: ProxyRift 1152
+  type: trojan
+  server: 104.19.64.105
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: ProxyRift 1158
+  type: trojan
+  server: 162.159.253.41
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: ProxyRift 1367
+  type: vless
+  server: 162.159.228.255
+  port: 443
+  udp: true
+  uuid: b135a1e0-ebdb-4d46-b3fa-bd1e78580244
+  tls: true
+  servername: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: wjwkhoaftdgrt8qus.mp8pmwdgwf3sdapasouszjobjr57nrxxgtx9n.workers.dev
+- name: ProxyRift 1664
+  type: trojan
+  server: 104.16.72.2
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: ProxyRift 1731
+  type: vless
+  server: 190.93.247.129
+  port: 443
+  udp: true
+  uuid: 2ea2719c-23e1-4cde-b192-c8652d55d9e5
+  tls: true
+  servername: cfnode-11ivy8.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: cfnode-11ivy8.pages.dev
+- name: ProxyRift 1818
+  type: vless
+  server: 172.64.150.43
+  port: 2052
+  udp: true
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  encryption: none
+  servername: 172.64.150.43
+  network: ws
+  ws-opts:
+    path: /rain1226
+    headers:
+      Host: eu02.123450908.xyz
+- name: ProxyRift 1838
+  type: vless
+  server: 104.25.5.52
+  port: 443
+  udp: true
+  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  tls: true
+  servername: fornewiran.ade-1000.workers.dev
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /vl/yLWNcuUuw1jlJpkDhGy
+    headers:
+      Host: fornewiran.ade-1000.workers.dev
+- name: ProxyRift 1915
+  type: vless
+  server: 104.17.154.123
+  port: 443
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  encryption: none
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: ProxyRift 1917
+  type: vless
+  server: 104.18.49.85
+  port: 443
+  udp: true
+  uuid: d342d11e-d224-4463-b982-532309285094
+  encryption: none
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: ProxyRift 1977
+  type: vless
+  server: 170.114.46.6
+  port: 8080
+  udp: true
+  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
+  servername: 170.114.46.6
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.nadun.store
+- name: ❓未知丨yoyapai.com_57
+  type: vless
+  server: 172.64.152.241
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  network: ws
+  servername: ccc.010304.xyz
+  tls: true
+  ws-opts:
+    path: /fp
+    headers:
+      Host: ccc.010304.xyz
+  skip-cert-verify: false
+  udp: true
+- type: vless
+  server: 104.26.13.31
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 009 | 75ms | 104.26.13.31
+- type: vless
+  server: 104.20.28.74
+  port: 8080
+  uuid: f8f5d3a5-54bd-4f52-9759-137bdbf950db
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 23g-lively-resonance-96b9hsf.msc633k2.workers.dev
+  name: 030 | 84ms | 104.20.28.74
+- type: vless
+  server: 104.21.70.21
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+  name: 040 | 86ms | 104.21.70.21
+  udp: true
+- type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+  name: 047 | 87ms | 104.18.32.47
+- type: vless
+  network: ws
+  server: 172.67.76.40
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  servername: ccc.010304.xyz
+  tls: true
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+  name: 055 | 90ms | 172.67.76.40
+  udp: true
+- type: vless
+  server: 154.194.12.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime35.workers.dev
+  name: 082 | 95ms | 154.194.12.30
+- type: trojan
+  server: 104.21.26.36
+  port: 443
+  password: bpb-trojan
+  udp: true
+  sni: vless.herogoing.top
+  network: ws
+  ws-opts:
+    path: /tr?ed=2560
+  name: 092 | 97ms | 104.21.26.36
+- network: ws
+  port: 8080
+  server: 104.16.215.234
+  sub_tag: A004-260618
+  type: vless
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /fp=chrome
+  xudp: true
+  packet-encoding: xudp
+  name: 099 | 98ms | 104.16.215.234
+  udp: true
+- name: vless-1927185301
+  network: ws
+  port: 443
+  server: 104.17.50.227
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1828374447
+  network: ws
+  port: 443
+  server: 188.114.97.6
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1863474247
+  network: ws
+  port: 443
+  server: 104.21.34.106
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1832764140
+  network: ws
+  port: 443
+  server: 172.67.156.147
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- client-fingerprint: chrome
+  name: '🇺🇸 美国 | USA #1'
+  network: ws
+  port: 2087
+  server: 188.114.97.6
+  servername: levikoconfig.levikogjgfdd.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  ws-opts:
+    headers:
+      Host: levikoconfig.levikogjgfdd.ir
+    path: /
+- name: US 🇺🇸 | @Raydikalx | D4C5FF
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  type: vless
+  uuid: 7ca746f8-4b6d-48f6-a344-aff7bf836388
+  udp: true
+  tls: true
+  servername: grimness-backlogs.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+- name: US 🇺🇸 | @Raydikalx | D3C8D7
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  type: vless
+  uuid: 409f4682-a458-4671-8805-40dfc6978336
+  udp: true
+  tls: true
+  servername: ghosts-spasm.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+- name: US 🇺🇸 | @Raydikalx | B2DB47
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  type: vless
+  uuid: 9d50fde6-7e89-4dee-9fee-17a77046604c
+  udp: true
+  tls: true
+  servername: ghosts-spasm.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+- name: US 🇺🇸 | @Raydikalx | 01B6C6
+  server: grimness-backlogs.cdn-content.com
+  port: 443
+  type: vless
+  uuid: 476bdb75-0d9b-49f2-a492-4cd68f594d32
+  udp: true
+  tls: true
+  servername: grimness-backlogs.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: grimness-backlogs.cdn-content.com
+- name: US 🇺🇸 | @Raydikalx | D3CB01
+  server: bounded-crammed.video-streams.org
+  port: 443
+  type: vless
+  uuid: 91c35e01-00bf-41f5-94e4-71539222d255
+  udp: true
+  tls: true
+  servername: bounded-crammed.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: bounded-crammed.video-streams.org
+- name: US 🇺🇸 | @Raydikalx | 0F0229
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  type: vless
+  uuid: c7f0b683-61ea-48c5-93f1-783459ba2124
+  udp: true
+  tls: true
+  servername: minimize-evenness.cdn-content.com
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: minimize-evenness.cdn-content.com
+- name: US 🇺🇸 | @Raydikalx | 2266BA
+  server: piracy-android.video-streams.org
+  port: 443
+  type: vless
+  uuid: 5db320bf-0092-4871-9062-83f5cd00cbe4
+  udp: true
+  tls: true
+  servername: piracy-android.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: piracy-android.video-streams.org
+- name: AT 🇦🇹 | @Raydikalx | BE2A03
+  server: 212.183.88.136
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: SC 🇸🇨 | @Raydikalx | ADDCFE
+  server: 45.130.125.76
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | FF568B
+  server: 172.67.137.158
+  port: 443
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: nomino.11hi8itbaf.workers.dev
+  network: ws
+  ws-opts:
+    path: /guanwang.awsno.com/hls/cctv5phd.m3u8
+    headers:
+      Host: nomino.11hi8itbaf.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | 5DC2F9
+  server: 104.25.109.237
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.calmlunch.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
+- name: CA 🇨🇦 | @Raydikalx | A36D74
+  server: cdn-waw.edgeptr.org
+  port: 8080
+  type: vless
+  uuid: 7ac84115-6107-47ff-a9f1-e4a9275cfaa0
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+- name: US 🇺🇸 | @Raydikalx | C420A9
+  server: bounded-crammed.video-streams.org
+  port: 443
+  type: vless
+  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
+  udp: true
+  tls: true
+  servername: bounded-crammed.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: bounded-crammed.video-streams.org
+- name: CA 🇨🇦 | @Raydikalx | 0C8E98
+  server: 172.66.203.67
+  port: 443
+  type: vmess
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: vmess.lbw666.dpdns.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: CA 🇨🇦 | @Raydikalx | BC3485
+  server: 104.21.57.25
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+- name: CA 🇨🇦 | @Raydikalx | D8F0E5
+  server: 188.114.97.3
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.volumeroot.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.volumeroot.com
+- name: CA 🇨🇦 | @Raydikalx | 776306
+  server: 172.67.155.136
+  port: 2086
+  type: vless
+  uuid: 73796e63-0000-4000-8000-000000000007
+  udp: true
+  tls: false
+  servername: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
+- name: CA 🇨🇦 | @Raydikalx | ACE830
+  server: 104.17.145.43
+  port: 443
+  type: trojan
+  password: humanity
+  udp: true
+  sni: www.cordweave.com
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- type: trojan
+  name: '[free18-clash] 美国 (51)'
+  server: 104.18.72.213
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.cordweave.com
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /assignment
+- type: trojan
+  name: '[free18-clash] 美国 (52)'
+  server: 104.25.60.205
+  port: 443
+  password: humanity
+  udp: true
+  tls: true
+  servername: www.cordweave.com
+  sni: www.cordweave.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /assignment
+- name: '[share-daily-node] US-HTTP-12'
+  type: http
+  server: 149.22.88.65
+  port: 443
+  udp: true
+  tls: true
+  skip-cert-verify: true
+- type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  name: '🏳[www.v2nodes.com] vless- #6'
+  server: 104.21.70.21
+  port: 443
+  udp: true
+  network: ws
+  tls: true
+  servername: nautica-cff.kloningstrife002.workers.dev
+  ws-opts:
+    path: /138.2.74.219-28616fp=unsafe
+    headers:
+      Host: nautica-cff.kloningstrife002.workers.dev
+- name: ProxyRift 663
+  type: vless
+  server: 104.27.124.133
+  port: 80
+  udp: true
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  client-fingerprint: ios
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: ProxyRift 1338
+  type: trojan
+  server: 104.17.206.147
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.trusteeforward.com
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.trusteeforward.com
+- name: ProxyRift 1484
+  type: trojan
+  server: 162.159.84.189
+  port: 443
+  udp: true
+  password: humanity
+  tls: true
+  servername: www.trusteeforward.com
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.trusteeforward.com
+- name: ProxyRift 1662
   type: trojan
   server: 104.17.121.9
   port: 443
@@ -1904,2148 +3814,393 @@ proxies:
     path: /assignment
     headers:
       Host: www.calmlunch.com
-- type: vless
-  server: 104.18.33.45
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 014 | 93ms | 104.18.33.45
-- type: trojan
-  server: 188.114.97.1
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-  name: 087 | 507ms | 188.114.97.1
-- name: vless-1946894790
-  network: ws
-  port: 443
-  server: 172.64.152.52
-  servername: cf.zhahui.de5.net
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
-- alterId: 0
-  cipher: auto
-  name: vmess-1827159661
-  network: ws
-  port: 8443
-  server: 104.21.91.53
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- client-fingerprint: unsafe
-  encryption: none
-  name: '🏳[www.v2nodes.com] vless- #8'
-  network: ws
-  port: 443
-  server: 104.21.70.21
-  servername: nautica-cff.kloningstrife002.workers.dev
-  tls: true
-  type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  ws-opts:
-    headers:
-      Host: nautica-cff.kloningstrife002.workers.dev
-    path: /138.2.74.219-28616
-- name: '🇳🇱 荷兰 | NLD #7'
-  password: humanity
-  port: 443
-  server: 104.26.3.162
-  skip-cert-verify: true
-  sni: www.cordweave.com
+- name: ProxyRift 1707
   type: trojan
-- name: CA 🇨🇦 | @Raydikalx | 8BEFD8
-  server: 104.19.229.21
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 8FFAF8
-  server: 188.114.98.0
-  port: 443
-  type: vless
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  udp: true
-  tls: true
-  servername: n04.jinggai.online
-  network: ws
-  ws-opts:
-    path: /nvl-n04-ws/e0577fe8fd7c8823
-    headers:
-      Host: n04.jinggai.online
-- name: CA 🇨🇦 | @Raydikalx | B00480
-  server: 188.114.98.0
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 168CD7
-  server: 188.114.96.3
-  port: 8443
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: CA 🇨🇦 | @Raydikalx | 950346
-  server: 104.19.48.107
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | 9E1B7C
-  server: 108.162.194.134
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: US 🇺🇸 | @Raydikalx | 6ABB8D
-  server: 162.159.45.1
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | 2AD1C2
-  server: 104.17.98.29
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | 05D2AC
-  server: 172.64.91.69
-  port: 443
-  type: vless
-  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
-  udp: true
-  tls: true
-  servername: n.bitpulse.me
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560
-    headers:
-      Host: n.bitpulse.me
-- type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  name: '🇺🇸 美国 | USA #14 #2'
-  server: 104.18.49.85
-  port: 443
-  udp: true
-  network: ws
-  tls: true
-  servername: ccc.010304.xyz
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: ProxyRift 606
-  type: trojan
-  server: 188.114.97.6
+  server: 104.18.192.53
   port: 443
   udp: true
   password: humanity
   tls: true
   servername: www.pleadcourt.org
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /assignment
     headers:
       Host: www.pleadcourt.org
-- encryption: none
-  network: ws
-  port: 443
-  server: 188.114.97.6
-  sub_tag: M003-260806
-  tls: true
+- name: ProxyRift 1720
   type: vless
-  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
-  ws-opts:
-    headers:
-      Host: all.speedtest03.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: all.speedtest03.ccwu.cc
-  name: 027 | 100ms | 188.114.97.6
-  udp: true
-- network: ws
-  port: 8080
-  server: 104.16.162.89
-  sub_tag: A004-260618
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.80 Mobile Safari/537.36
-    path: /sg-melbi
-  xudp: true
-  packet-encoding: xudp
-  name: 038 | 106ms | 104.16.162.89
-  udp: true
-- type: vless
-  server: 104.16.122.227
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: ccc.010304.xyz
-  name: 065 | 121ms | 104.16.122.227
-- type: vless
-  server: 172.64.153.153
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  name: 073 | 130ms | 172.64.153.153
-  udp: true
-- name: vless-1930539293
-  network: ws
-  port: 8080
-  server: 170.114.46.6
-  type: vless
-  udp: true
-  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
-- name: vless-1831072390
-  network: ws
-  port: 443
-  server: 104.17.50.53
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1853972214
-  network: ws
-  port: 443
-  server: 104.24.31.89
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-9... #2'
-  network: ws
-  port: 8880
-  server: 173.245.49.30
-  tls: false
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime36.workers.dev
-    path: /
-- name: CA 🇨🇦 | @Raydikalx | C40235
-  server: 172.67.187.145
-  port: 80
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  servername: vmess.lbw666.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: CA 🇨🇦 | @Raydikalx | E82348
-  server: 188.114.98.0
-  port: 443
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-c67e6a7b76e9
-  udp: true
-  tls: true
-  servername: kwzu1yelu3ms.ouzrzee5u7rs.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/c67e6a7b76e9
-    headers:
-      Host: kwzu1yelu3ms.ouzrzee5u7rs.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 837FD9
-  server: 162.159.84.189
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.trusteeforward.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: CA 🇨🇦 | @Raydikalx | 358B04
-  server: 104.17.155.44
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | 699C2E
-  server: 104.17.206.147
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.trusteeforward.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: CA 🇨🇦 | @Raydikalx | 6008A9
-  server: 104.20.55.137
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.trusteeforward.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: CA 🇨🇦 | @Raydikalx | 404682
-  server: 104.17.169.13
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | C1DD08
-  server: 104.19.33.25
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | 4A5227
-  server: 104.16.6.70
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: CA 🇨🇦 | @Raydikalx | FDF698
-  server: 104.19.48.73
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | 57C753
-  server: 104.17.110.1
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | 379882
-  server: 104.17.116.75
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: ProxyRift 1143
-  type: vless
-  server: 104.20.6.134
-  port: 8080
-  udp: true
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- type: vless
-  server: 8.47.69.60
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: unsafe
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-  name: 034 | 104ms | 8.47.69.60
-  udp: true
-- network: ws
-  port: 8080
-  server: 172.67.71.187
-  sub_tag: A004-260618
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /sg-melbi
-  xudp: true
-  packet-encoding: xudp
-  name: 037 | 106ms | 172.67.71.187
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | 234D06
-  server: 104.27.203.207
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: CA 🇨🇦 | @Raydikalx | C89678
-  server: 104.17.121.43
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 1DFB48
-  server: 104.21.91.53
-  port: 8443
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: CA 🇨🇦 | @Raydikalx | DEF3AC
-  server: 104.17.210.74
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: LT 🇱🇹 | @Raydikalx | 658201
-  server: 88.216.69.253
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: US 🇺🇸 | @Raydikalx | A6F110
-  server: 8.47.69.60
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: CA 🇨🇦 | @Raydikalx | 185B2A
-  server: 104.18.47.138
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: NL 🇳🇱 | @Raydikalx | 348886
-  server: 188.164.248.143
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | 11D94C
-  server: 162.159.58.65
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  name: '🇸🇬 新加坡 | SGP #3'
-  server: 104.18.41.86
-  port: 443
-  udp: true
-  network: ws
-  tls: true
-  servername: ccc.010304.xyz
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- type: vless
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-  name: 🇸🇬[www.v2nodes.com] vless-SG-9...
-  server: 172.67.75.172
-  port: 8080
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-- name: ProxyRift 1010
-  type: trojan
-  server: 104.17.0.1
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- network: ws
-  port: 8080
-  server: 188.114.97.6
-  sub_tag: A004-260618
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.7
-        (KHTML, like Gecko) Chrome/7.0.517.44 Safari/534.7
-    path: /sg-melbi
-  xudp: true
-  packet-encoding: xudp
-  name: 022 | 97ms | 188.114.97.6
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  network: ws
-  port: 443
-  server: 104.18.0.1
-  tls: true
-  type: vless
-  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
-  ws-opts:
-    headers:
-      Host: all.speedtest03.ccwu.cc
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
-        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
-    path: /
-  xudp: true
-  packet-encoding: xudp
-  servername: all.speedtest03.ccwu.cc
-  name: 064 | 120ms | 104.18.0.1
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: vmess-1947375789
-  network: ws
+  server: 104.17.167.185
   port: 2083
-  server: 162.159.130.234
-  servername: cdn.sfacg.uk
-  skip-cert-verify: false
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-- name: trojan-1939844054
-  password: humanity
-  port: 443
-  server: 104.25.240.193
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: trojan-1853462719
-  password: humanity
-  port: 443
-  server: 185.18.250.245
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🇺🇸US_147 ⇽中转_0@146
-  server: 104.17.77.77
-  type: vmess
-  country: 🏁ZZ
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
+  servername: vp21.cc.cd
   network: ws
-  servername: v2ray1.dozapp.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
   ws-opts:
-    path: /lMnsZUN4/
+    path: /
     headers:
-      HOST: v2ray1.dozapp.xyz
-- name: ProxyPool | 🇺🇸 美国 | USA 2
-  server: 104.21.0.87
-  port: 443
+      Host: vp21.cc.cd
+- name: ProxyRift 1729
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  server: 104.19.55.100
+  port: 443
+  udp: true
+  uuid: 2ea2719c-23e1-4cde-b192-c8652d55d9e5
   tls: true
-  servername: jp3.yohototo.top
+  servername: cfnode-11ivy8.pages.dev
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-  udp: true
-- name: 🇺🇸 美国 | USA 3
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.18.189.153
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: 🇺🇸 美国 | USA 9
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.16.244.188
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
-- name: CA 🇨🇦 | @Raydikalx | CB7CC6
-  server: 104.25.124.54
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | F6D4A4
-  server: 104.25.0.1
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 269005
-  server: 104.16.10.185
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | 81B71A
-  server: 104.18.0.1
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: vmess
-  uuid: 2ac4e269-1576-4f41-8c0d-6242e3c5fd8c
-  alterId: 0
-  cipher: none
-  network: ws
-  name: 未知20
-  server: 108.162.192.63
-  port: 80
-  udp: true
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: 1270.0.1.dl3.烏克爾拯救聖誕老人電影.yркельпасаетcанту.фильм.urkel.烏克爾救援.wonkacapitano.buzz.
-- type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  name: '🏳[www.v2nodes.com] vless- #4'
-  server: 104.21.70.21
-  port: 443
-  udp: true
-  network: ws
-  tls: true
-  servername: nautica-cff.kloningstrife002.workers.dev
-  ws-opts:
-    path: /138.2.74.219-28616fp=unsafe
-    headers:
-      Host: nautica-cff.kloningstrife002.workers.dev
-- name: ProxyRift 1006
-  type: trojan
-  server: 188.114.98.0
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-- name: ProxyRift 1577
-  type: trojan
-  server: 104.16.34.14
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.trusteeforward.com
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: vless-1827152152
-  network: ws
-  port: 443
-  server: 104.21.0.87
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1831081766
-  network: ws
-  port: 443
-  server: 104.27.46.35
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- client-fingerprint: unsafe
-  encryption: none
-  name: 🇵🇱[www.v2nodes.com] vless-PL-4...
-  network: ws
-  port: 443
-  server: 104.21.221.158
-  servername: ccc.010304.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /fp=unsafe
-- name: DE 🇩🇪 | @Raydikalx | 417C72
-  server: 194.156.26.6
-  port: 443
-  type: vless
-  uuid: 50414e45-4c5f-5a45-5553-10609203787d
-  udp: true
-  tls: true
-  servername: rqzt0xexu5ms.rwf5sggee1geeewwrfg.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/10609203787d/loc-1
-    headers:
-      Host: rqzt0xexu5ms.rwf5sggee1geeewwrfg.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | C65974
-  server: 172.64.80.1
-  port: 8443
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: CA 🇨🇦 | @Raydikalx | F8F560
-  server: 104.17.44.17
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-    headers:
-      Host: www.pleadcourt.org
-- name: CA 🇨🇦 | @Raydikalx | E49434
-  server: 104.17.148.22
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 146622
-  server: 104.17.159.71
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  name: 🇸🇬[www.v2nodes.com] vless-SG
-  server: 104.18.45.38
-  port: 443
-  udp: true
-  network: ws
-  tls: true
-  servername: ccc.010304.xyz
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=unsafe
-    headers:
-      Host: ccc.010304.xyz
-- type: vless
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
-  name: '🏳[www.v2nodes.com] vless- #11'
-  server: 104.16.10.9
-  port: 443
-  udp: true
-  network: tcp
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #7 #2'
-  network: ws
-  port: 443
-  server: 172.67.74.90
-  servername: cvhpyn.pages.dev
-  tls: true
-  type: vless
-  udp: true
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  ws-opts:
-    headers:
-      Host: cvhpyn.pages.dev
-    path: /fp=chrome
-- name: '🇳🇱 荷兰 | NLD #3'
-  password: humanity
-  port: 443
-  server: 104.27.55.4
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-- name: '🇺🇸 美国 | USA #15'
-  password: humanity
-  port: 443
-  server: 104.17.145.43
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-- name: CA 🇨🇦 | @Raydikalx | 4EC4EF
-  server: cf.090227.xyz
-  port: 443
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: vmess.lbw666.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: CA 🇨🇦 | @Raydikalx | C6C15A
-  server: cf.090227.xyz
-  port: 443
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: vmess.lbw666.dpdns.org
   network: ws
   ws-opts:
     path: /ws
     headers:
-      Host: vmess.lbw666.dpdns.org
-- name: CA 🇨🇦 | @Raydikalx | 24F8FF
-  server: 172.66.1.36
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: CA 🇨🇦 | @Raydikalx | AE6904
-  server: 104.18.8.83
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- type: vless
-  server: 104.25.3.123
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 004 | 89ms | 104.25.3.123
-- name: vless-1827151410
-  network: ws
-  port: 443
-  server: 104.19.164.155
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
+      Host: cfnode-11ivy8.pages.dev
+- name: ProxyRift 1815
   type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: '🇸🇬[www.v2nodes.com] vless-SG-9... #1 #2'
-  network: ws
+  server: 104.17.162.11
   port: 2082
-  server: 104.19.95.153
-  tls: false
-  type: vless
+  udp: true
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  servername: 104.17.162.11
+  network: ws
   ws-opts:
+    path: /
     headers:
       Host: hhlfy.twiladaphne.ndjp.net
-    path: /
-- name: CA 🇨🇦 | @Raydikalx | 254908
-  server: 188.114.97.4
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: CA 🇨🇦 | @Raydikalx | B314DB
-  server: 104.18.12.149
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | EA07E3
-  server: 104.19.95.153
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 8973EF
-  server: 162.159.128.253
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: CA 🇨🇦 | @Raydikalx | FDEA7D
-  server: 104.17.49.122
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: vmess
-  uuid: 92791642-1471-4b93-980a-81030985f3ce
-  alterId: 0
-  cipher: none
-  network: ws
-  name: 未知148
-  server: 198.41.193.181
-  port: 80
-  udp: true
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: 127.0.0.1.mrarsha.kомната0.房間騎自行車的人.bелосипедисты.bikeriders.wonkacapitano.buzz.
-- name: ProxyRift 887
-  type: trojan
-  server: 45.131.4.38
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.pleadcourt.org
-  client-fingerprint: chrome
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- client-fingerprint: chrome
-  network: ws
-  port: 443
-  server: 104.18.40.100
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
-    headers:
-      Host: ccc.010304.xyz
-    path: /
-  name: 061 | 115ms | 104.18.40.100
-  udp: true
-- client-fingerprint: random
-  name: '🇯🇵 日本 | JPN #1'
-  network: ws
-  port: 443
-  server: 104.18.33.121
-  servername: jp-osa.862400.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: b782eda8-7846-437c-ab93-07c3476c2887
-  ws-opts:
-    headers:
-      Host: jp-osa.862400.xyz
-    path: /announcement?ed=2048
-- name: CA 🇨🇦 | @Raydikalx | 0508C7
-  server: 104.18.33.97
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | 832341
-  server: 104.18.9.83
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | D7B491
-  server: 104.27.201.80
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: CA 🇨🇦 | @Raydikalx | 50F15C
-  server: 172.64.231.133
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.trusteeforward.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: CA 🇨🇦 | @Raydikalx | D9E52E
-  server: 104.18.37.127
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | 9C0660
-  server: 104.18.153.10
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | 0378E9
-  server: 104.21.70.228
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | 4FA2E4
-  server: 104.16.111.102
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | D1FF09
-  server: 104.18.223.253
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: '[nexus-nodes-all] @i10VPN⁶'
-  type: trojan
-  server: 8.6.112.206
-  port: 443
-  password: humanity
-  tls: true
-  sni: www.trusteeforward.com
-  network: ws
-  alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | B52CC9'
-  server: sg2-xr.zgrelay.com
-  port: 443
-  type: vless
-  uuid: e221699d-e705-4664-9162-a75a82aa3997
-  udp: true
-  tls: true
-  servername: sg2-xr.zgrelay.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /700gvl-kr3
-    headers:
-      Host: sg2-xr.zgrelay.com
-- name: '[ermaozi-subscribe] 🇰🇷 韩国 | KOR'
-  server: sg2-xr.zgrelay.com
-  port: 443
-  type: vless
-  uuid: E221699D-E705-4664-9162-A75A82AA3997
-  tls: true
-  servername: sg2-xr.zgrelay.com
-  client-fingerprint: random
-  network: ws
-  ws-opts:
-    path: /700gvl-kr3
-    headers:
-      Host: sg2-xr.zgrelay.com
-  udp: true
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | D75A2C'
-  server: 104.16.122.175
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
 - type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  name: EPODONIOS
-  server: 62.72.166.30
+  server: 154.197.75.50
   port: 8880
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime40.workers.dev
-- name: ProxyRift 631
-  type: trojan
-  server: 185.18.250.245
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: ProxyRift 1544
-  type: trojan
-  server: 172.66.1.36
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.pleadcourt.org
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- type: trojan
-  server: 88.216.69.253
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-  name: 086 | 506ms | 88.216.69.253
-- client-fingerprint: chrome
-  name: '🇯🇵[www.v2nodes.com] vless-JP #2'
-  network: ws
-  port: 443
-  server: 188.114.98.0
-  servername: tn1r.eu.cc
-  tls: true
-  type: vless
-  uuid: 22424ee2-6fe3-42ca-9749-6d4c5a8acc82
-  ws-opts:
-    headers:
-      Host: tn1r.eu.cc
-    path: /id-pusat
-- name: '🇺🇸 美国 | USA 3 #2'
-  server: 104.19.90.35
-  port: 443
-  type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: ccc.010304.xyz
-  udp: true
-- name: '🇸🇬[www.v2nodes.com] vless-SG #2'
-  network: ws
-  port: 8880
-  server: 135.84.72.30
-  tls: false
-  type: vless
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime06.workers.dev
-    path: /
-- name: CA 🇨🇦 | @Raydikalx | 314A5F
-  server: fast.145779.xyz
-  port: 2053
-  type: vless
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
   udp: true
-  tls: true
-  servername: fast.145779.xyz
   network: ws
   ws-opts:
-    path: /ws-tesla
+    path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
     headers:
-      Host: fast.145779.xyz
-- name: CA 🇨🇦 | @Raydikalx | 0AD519
-  server: 172.67.187.145
-  port: 80
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  servername: vmess.lbw666.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: CA 🇨🇦 | @Raydikalx | FFCF2F
-  server: 172.64.190.13
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: CA 🇨🇦 | @Raydikalx | FB6149
-  server: n04.jinggai.online
-  port: 8443
-  type: vless
-  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
-  udp: true
-  tls: true
-  servername: n04.jinggai.online
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /nvl-n04-ws/e0577fe8fd7c8823
-    headers:
-      Host: n04.jinggai.online
-- name: CA 🇨🇦 | @Raydikalx | 5D836C
-  server: 104.20.61.103
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.calmlunch.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: CA 🇨🇦 | @Raydikalx | A7E197
-  server: 104.21.29.192
-  port: 443
-  type: vless
-  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
-  udp: true
-  tls: true
-  servername: n.bitpulse.me
-  network: ws
-  ws-opts:
-    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed
-    headers:
-      Host: n.bitpulse.me
-- name: CA 🇨🇦 | @Raydikalx | 42C3A4
-  server: 104.16.240.177
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: vmess
-  uuid: 3a630a4a-7986-4a87-b016-489c3824440a
-  alterId: 0
-  cipher: auto
-  network: httpupgrade
-  name: 未知10
-  server: 104.21.30.221
-  port: 8080
-  udp: true
-- name: ProxyRift 627
-  type: trojan
-  server: 104.16.72.50
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: ProxyRift 628
-  type: trojan
-  server: 188.114.97.6
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: //assignment
-    headers:
-      Host: www.calmlunch.com
-- name: ProxyRift 630
-  type: trojan
-  server: 188.114.96.3
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: ProxyRift 1541
-  type: trojan
-  server: 45.130.125.69
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
+      Host: vms.lifetime37.workers.dev
+  name: 006 | 72ms | 154.197.75.50
 - network: ws
-  port: 8080
-  server: 104.18.35.86
-  servername: hhlfy.twiladaphne.ndjp.net
-  tls: false
-  type: vless
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  ws-opts:
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-    path: /sg-melbi
-  name: 005 | 91ms | 104.18.35.86
-  udp: true
-- type: vless
-  server: 172.67.141.182
-  port: 443
-  uuid: ce440dcf-e570-4a50-af37-bf588ee8a988
-  udp: true
-  tls: true
-  servername: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
-  client-fingerprint: unsafe
-  network: ws
-  ws-opts:
-    path: /vl/KSPdmco70dfoXFS292o2Nv6yPt?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: 6qwoom7kdrcoan3ui4ra5dy.pages.dev
-  name: 048 | 111ms | 172.67.141.182
-- client-fingerprint: chrome
-  name: 🇳🇱NL_4|2.7MB/s
-  network: ws
-  password: humanity
-  port: 443
-  server: 172.66.0.172
-  servername: www.cordweave.com
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  tls: true
-  type: trojan
-  udp: true
-  ws-opts:
-    path: /assignment
-- name: CA 🇨🇦 | @Raydikalx | 99B358
-  server: 104.17.148.111
-  port: 443
-  type: trojan
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- type: vless
-  uuid: d342d11e-d224-4463-b982-532309285094
-  name: '🇵🇱[www.v2nodes.com] vless-PL-4... #2'
-  server: 104.21.221.158
-  port: 443
-  udp: true
-  network: ws
-  tls: true
-  servername: ccc.010304.xyz
-  ws-opts:
-    path: /fp=unsafefp=unsafe
-    headers:
-      Host: ccc.010304.xyz
-- type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  name: 'EPODONIOS #2'
-  server: 77.75.199.30
-  port: 8880
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime59.workers.dev
-- name: ProxyRift 594
-  type: trojan
-  server: 45.128.76.242
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.trusteeforward.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.trusteeforward.com
-- name: ProxyRift 611
-  type: trojan
-  server: 108.162.194.134
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.pleadcourt.org
-- name: ProxyRift 626
-  type: trojan
-  server: 104.16.122.175
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- name: ProxyRift 1540
-  type: trojan
-  server: 104.16.72.2
-  port: 443
-  udp: true
-  password: humanity
-  tls: true
-  servername: www.calmlunch.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.calmlunch.com
-- server: 104.18.35.86
   port: 2082
+  server: 104.18.0.181
+  sub_tag: A004-260618
   type: vless
   uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  tls: false
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
   ws-opts:
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
     path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 012 | 92ms | 104.18.35.86
-  udp: true
-- type: vless
-  server: 104.16.0.1
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
+  xudp: true
+  packet-encoding: xudp
   servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-  name: 020 | 96ms | 104.16.0.1
-- type: trojan
-  server: 154.81.141.42
-  port: 443
-  password: humanity
+  name: 023 | 81ms | 104.18.0.181
   udp: true
-  sni: www.pleadcourt.org
-  network: ws
-  ws-opts:
-    path: /assignment
-  name: 092 | 526ms | 154.81.141.42
-- name: vless-1863474247
-  network: ws
-  port: 443
-  server: 104.21.34.106
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🇺🇸 美国 | USA 15
-  network: ws
-  password: humanity
-  port: 443
-  server: 104.17.145.43
-  skip-cert-verify: true
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: www.cordweave.com
-    path: /assignment
 proxy-groups:
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - CA 🇨🇦 | @Raydikalx | E8E89B
-  - CA 🇨🇦 | @Raydikalx | 948F27
-  - CA 🇨🇦 | @Raydikalx | 40DA7F
-  - CA 🇨🇦 | @Raydikalx | F60DB5
-  - CA 🇨🇦 | @Raydikalx | 4EE83B
-  - 未知19
-  - ProxyRift 660
-  - 009 | 92ms | 104.26.12.31
-  - 024 | 99ms | 172.66.1.36
-  - 044 | 108ms | 172.64.155.209
-  - vless-1863476159
-  - vless-1867102735
-  - vless-1828654076
-  - vless-1946224541
-  - trojan-1853348743
-  - trojan-1827149560
-  - trojan-1940455323
-  - '🇸🇬 新加坡 | SGP #1'
-  - 🇺🇸 美国 | USA 8
-  - CA 🇨🇦 | @Raydikalx | 81B423
-  - CR 🇨🇷 | @Raydikalx | 9AD2A3
-  - AT 🇦🇹 | @Raydikalx | 8BFCF0
-  - CA 🇨🇦 | @Raydikalx | BE6FE0
-  - CA 🇨🇦 | @Raydikalx | 0B7985
-  - CA 🇨🇦 | @Raydikalx | 37B6D3
-  - CA 🇨🇦 | @Raydikalx | 8194ED
-  - CA 🇨🇦 | @Raydikalx | FFAFFF
-  - CA 🇨🇦 | @Raydikalx | ACB678
-  - CA 🇨🇦 | @Raydikalx | 4F2836
-  - '[cbusifabcap-uri] ❓Other_3|173KB/s|A004-260618'
-  - 011 | 92ms | 104.19.95.153
-  - 032 | 103ms | 172.67.76.40
-  - 036 | 105ms | 104.26.12.54
-  - 043 | 107ms | 172.66.0.162
-  - 049 | 111ms | 104.18.153.182
-  - 069 | 125ms | 104.18.47.73
-  - trojan-1827148954
-  - trojan-1944218172
-  - '🇳🇱 荷兰 | NLD #8'
-  - '🇳🇱 荷兰 | NLD #12'
-  - CA 🇨🇦 | @Raydikalx | B0D3A0
-  - CA 🇨🇦 | @Raydikalx | 22A83C
-  - CA 🇨🇦 | @Raydikalx | 5CDA48
-  - CA 🇨🇦 | @Raydikalx | CCD0F3
-  - SG 🇸🇬 | @Raydikalx | 900FE1
-  - CA 🇨🇦 | @Raydikalx | 129EB6
-  - CA 🇨🇦 | @Raydikalx | 4C51EA
-  - CA 🇨🇦 | @Raydikalx | B39D19
-  - US 🇺🇸 | @Raydikalx | 304A71
-  - SC 🇸🇨 | @Raydikalx | 0E75BB
-  - CA 🇨🇦 | @Raydikalx | B754D5
-  - CA 🇨🇦 | @Raydikalx | 72D103
-  - CA 🇨🇦 | @Raydikalx | A957A8
-  - 未知60
-  - '🇸🇬[www.v2nodes.com] vless-SG #1'
-  - '🇯🇵[www.v2nodes.com] vless-JP-1... #1'
-  - 未知67
-  - '🇺🇸 美国 | USA #2'
-  - ProxyRift 161
-  - ProxyRift 495
-  - ProxyRift 609
-  - ProxyRift 614
-  - ProxyRift 641
-  - ProxyRift 1513
-  - 006 | 92ms | 104.18.0.181
-  - 007 | 92ms | 104.18.0.181
-  - 010 | 92ms | 104.16.231.20
-  - 025 | 99ms | 104.21.94.161
-  - 072 | 130ms | 104.18.35.86
-  - trojan-1853461582
-  - trojan-1944218170
-  - '🏳[www.v2nodes.com] vless- #12'
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #7'
-  - ES 🇪🇸 | @Raydikalx | B76CDE
-  - DE 🇩🇪 | @Raydikalx | 15F711
-  - CA 🇨🇦 | @Raydikalx | 289A9F
-  - CA 🇨🇦 | @Raydikalx | 929E2C
-  - CA 🇨🇦 | @Raydikalx | 9B3F13
-  - '🇩🇪 德国 | DEU #6'
-  - 未知56
-  - '🇺🇸 美国 | USA #7'
-  - ProxyRift 604
-  - ProxyRift 659
-  - ProxyRift 1498
-  - 008 | 92ms | 172.64.150.43
-  - 021 | 97ms | 172.67.68.157
-  - 047 | 110ms | 188.114.99.0
-  - 055 | 114ms | 172.66.154.57
-  - 075 | 132ms | 172.64.144.240
-  - vless-1910526407
-  - '🇸🇬[www.v2nodes.com] vless-SG-1... #11'
-  - CA 🇨🇦 | @Raydikalx | 81F643
-  - CA 🇨🇦 | @Raydikalx | A774E3
-  - CA 🇨🇦 | @Raydikalx | F3A4FF
-  - CA 🇨🇦 | @Raydikalx | 7944E1
-  - CA 🇨🇦 | @Raydikalx | 915E41
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | B9D05F'
-  - 🇯🇵[www.v2nodes.com] vless-JP
-  - ProxyRift 608
-  - ProxyRift 656
-  - ProxyRift 1501
-  - 003 | 88ms | 172.64.69.89
-  - 041 | 107ms | 172.64.158.170
-  - 042 | 107ms | 104.18.37.127
-  - 053 | 114ms | 104.18.35.15
-  - 067 | 124ms | 104.17.154.123
-  - trojan-1894622732
-  - trojan-1853491995
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #3'
-  - 🇺🇸 美国 | USA 4
-  - '🇺🇸 美国 | USA #13'
-  - '🇺🇸 美国 | USA #14'
-  - CA 🇨🇦 | @Raydikalx | B4617E
-  - US 🇺🇸 | @Raydikalx | B881CB
-  - SC 🇸🇨 | @Raydikalx | 16957B
-  - CA 🇨🇦 | @Raydikalx | 0B02EB
-  - CA 🇨🇦 | @Raydikalx | 514518
-  - CA 🇨🇦 | @Raydikalx | 4561A3
-  - CA 🇨🇦 | @Raydikalx | 1C776D
-  - 026 | 100ms | 88.216.69.253
-  - 029 | 101ms | 104.19.164.25
-  - 058 | 114ms | 104.24.197.20
-  - vless-1940459556
-  - vless-1832764134
-  - vless-1854335913
-  - trojan-1939845073
-  - trojan-1827188005
-  - '🇯🇵[www.v2nodes.com] vless-JP-1... #1 #2'
-  - CA 🇨🇦 | @Raydikalx | 028A48
-  - CA 🇨🇦 | @Raydikalx | AC39D9
-  - CA 🇨🇦 | @Raydikalx | 009075
-  - CA 🇨🇦 | @Raydikalx | 076D4B
-  - CA 🇨🇦 | @Raydikalx | E5ABBA
-  - CA 🇨🇦 | @Raydikalx | 95FC10
-  - CA 🇨🇦 | @Raydikalx | AAB002
-  - CA 🇨🇦 | @Raydikalx | 26851E
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 63CEBC'
-  - ProxyRift 600
-  - 031 | 103ms | 188.164.248.216
-  - vless-1921748885
-  - trojan-1827938592
-  - trojan-1939845059
-  - '🇫🇷[www.v2nodes.com] trojan-FR-... #5'
-  - CA 🇨🇦 | @Raydikalx | E20903
-  - CA 🇨🇦 | @Raydikalx | 8B60FE
-  - CA 🇨🇦 | @Raydikalx | 0E6145
-  - CA 🇨🇦 | @Raydikalx | FB9F41
-  - CA 🇨🇦 | @Raydikalx | 180650
-  - CA 🇨🇦 | @Raydikalx | 5FCD7E
-  - CA 🇨🇦 | @Raydikalx | 2A4EE4
-  - '🇵🇱[www.v2nodes.com] vless-PL-1... #8'
-  - '🇸🇬[www.v2nodes.com] vless-SG-9... #1'
-  - ProxyRift 615
-  - ProxyRift 1517
-  - ProxyRift 1539
-  - 014 | 93ms | 104.18.33.45
-  - 087 | 507ms | 188.114.97.1
-  - vless-1946894790
-  - vmess-1827159661
-  - '🏳[www.v2nodes.com] vless- #8'
-  - '🇳🇱 荷兰 | NLD #7'
-  - CA 🇨🇦 | @Raydikalx | 8BEFD8
-  - CA 🇨🇦 | @Raydikalx | 8FFAF8
-  - CA 🇨🇦 | @Raydikalx | B00480
-  - CA 🇨🇦 | @Raydikalx | 168CD7
-  - CA 🇨🇦 | @Raydikalx | 950346
-  - CA 🇨🇦 | @Raydikalx | 9E1B7C
-  - US 🇺🇸 | @Raydikalx | 6ABB8D
-  - CA 🇨🇦 | @Raydikalx | 2AD1C2
-  - CA 🇨🇦 | @Raydikalx | 05D2AC
-  - '🇺🇸 美国 | USA #14 #2'
-  - ProxyRift 606
-  - 027 | 100ms | 188.114.97.6
-  - 038 | 106ms | 104.16.162.89
-  - 065 | 121ms | 104.16.122.227
-  - 073 | 130ms | 172.64.153.153
-  - vless-1930539293
-  - vless-1831072390
-  - vless-1853972214
-  - '🇸🇬[www.v2nodes.com] vless-SG-9... #2'
-  - CA 🇨🇦 | @Raydikalx | C40235
-  - CA 🇨🇦 | @Raydikalx | E82348
-  - CA 🇨🇦 | @Raydikalx | 837FD9
-  - CA 🇨🇦 | @Raydikalx | 358B04
-  - CA 🇨🇦 | @Raydikalx | 699C2E
-  - CA 🇨🇦 | @Raydikalx | 6008A9
-  - CA 🇨🇦 | @Raydikalx | 404682
-  - CA 🇨🇦 | @Raydikalx | C1DD08
-  - CA 🇨🇦 | @Raydikalx | 4A5227
-  - CA 🇨🇦 | @Raydikalx | FDF698
-  - CA 🇨🇦 | @Raydikalx | 57C753
-  - CA 🇨🇦 | @Raydikalx | 379882
-  - ProxyRift 1143
-  - 034 | 104ms | 8.47.69.60
-  - 037 | 106ms | 172.67.71.187
-  - CA 🇨🇦 | @Raydikalx | 234D06
-  - CA 🇨🇦 | @Raydikalx | C89678
-  - CA 🇨🇦 | @Raydikalx | 1DFB48
-  - CA 🇨🇦 | @Raydikalx | DEF3AC
-  - LT 🇱🇹 | @Raydikalx | 658201
-  - US 🇺🇸 | @Raydikalx | A6F110
-  - CA 🇨🇦 | @Raydikalx | 185B2A
-  - NL 🇳🇱 | @Raydikalx | 348886
-  - CA 🇨🇦 | @Raydikalx | 11D94C
-  - '🇸🇬 新加坡 | SGP #3'
-  - 🇸🇬[www.v2nodes.com] vless-SG-9...
-  - ProxyRift 1010
-  - 022 | 97ms | 188.114.97.6
-  - 064 | 120ms | 104.18.0.1
-  - vmess-1947375789
-  - trojan-1939844054
-  - trojan-1853462719
-  - 🇺🇸US_147 ⇽中转_0@146
-  - ProxyPool | 🇺🇸 美国 | USA 2
-  - 🇺🇸 美国 | USA 3
-  - 🇺🇸 美国 | USA 9
-  - CA 🇨🇦 | @Raydikalx | CB7CC6
-  - CA 🇨🇦 | @Raydikalx | F6D4A4
-  - CA 🇨🇦 | @Raydikalx | 269005
-  - CA 🇨🇦 | @Raydikalx | 81B71A
-  - 未知20
-  - '🏳[www.v2nodes.com] vless- #4'
-  - ProxyRift 1006
-  - ProxyRift 1577
-  - vless-1827152152
-  - vless-1831081766
-  - 🇵🇱[www.v2nodes.com] vless-PL-4...
-  - DE 🇩🇪 | @Raydikalx | 417C72
-  - CA 🇨🇦 | @Raydikalx | C65974
-  - CA 🇨🇦 | @Raydikalx | F8F560
-  - CA 🇨🇦 | @Raydikalx | E49434
-  - CA 🇨🇦 | @Raydikalx | 146622
-  - 🇸🇬[www.v2nodes.com] vless-SG
-  - '🏳[www.v2nodes.com] vless- #11'
-  - '🇺🇸 美国 | USA #7 #2'
-  - '🇳🇱 荷兰 | NLD #3'
-  - '🇺🇸 美国 | USA #15'
-  - CA 🇨🇦 | @Raydikalx | 4EC4EF
-  - CA 🇨🇦 | @Raydikalx | C6C15A
-  - CA 🇨🇦 | @Raydikalx | 24F8FF
-  - CA 🇨🇦 | @Raydikalx | AE6904
-  - 004 | 89ms | 104.25.3.123
-  - vless-1827151410
-  - '🇸🇬[www.v2nodes.com] vless-SG-9... #1 #2'
-  - CA 🇨🇦 | @Raydikalx | 254908
+  - ProxyRift 266
+  - 069 | 93ms | 172.64.147.154
+  - 098 | 98ms | 188.164.248.216
+  - '[cbusifabcap-uri] ❓Other_82|279KB/s|M003-260806'
+  - 🇺🇸US美国丨yoyapai.com_2
+  - 🇫🇷 法国 | FRA
+  - 013 | 76ms | 104.26.12.31
+  - 025 | 82ms | 104.18.34.16
+  - 028 | 83ms | 104.17.162.11
+  - 037 | 85ms | 172.64.80.1
+  - 044 | 87ms | 172.64.150.43
+  - 087 | 96ms | 104.129.164.30
+  - 🇺🇸US_1|1.8MB/s
+  - ProxyRift 1330
+  - ProxyRift 1435
+  - ProxyRift 1753
+  - 043 | 86ms | 88.216.67.50
+  - SC 🇸🇨 | @Raydikalx | 4A9E9D
+  - CA 🇨🇦 | @Raydikalx | E4B363
+  - ES 🇪🇸 | @Raydikalx | BBA4E7
   - CA 🇨🇦 | @Raydikalx | B314DB
-  - CA 🇨🇦 | @Raydikalx | EA07E3
-  - CA 🇨🇦 | @Raydikalx | 8973EF
-  - CA 🇨🇦 | @Raydikalx | FDEA7D
-  - 未知148
-  - ProxyRift 887
-  - 061 | 115ms | 104.18.40.100
-  - '🇯🇵 日本 | JPN #1'
-  - CA 🇨🇦 | @Raydikalx | 0508C7
+  - CA 🇨🇦 | @Raydikalx | B754D5
+  - CA 🇨🇦 | @Raydikalx | C65974
+  - CA 🇨🇦 | @Raydikalx | D47F14
+  - CA 🇨🇦 | @Raydikalx | D12728
+  - '[free18-clash] 美国 (53)'
+  - '[free18-clash] 🇨🇦加拿大 04'
+  - ProxyRift 1687
+  - ProxyRift 1754
+  - 015 | 78ms | 104.17.44.17
+  - 089 | 96ms | 104.18.41.86
+  - vless-1853654571
+  - 🇸🇬[www.v2nodes.com] vless-SG
+  - 🇹🇷TR_1|1.4MB/s
+  - '🇸🇬[www.v2nodes.com] vless-SG-8... #1'
+  - CA 🇨🇦 | @Raydikalx | C414EC
+  - CA 🇨🇦 | @Raydikalx | B9F5B6
+  - CA 🇨🇦 | @Raydikalx | 51C037
+  - CA 🇨🇦 | @Raydikalx | 3353B7
+  - '[cbusifabcap-uri] ❓Other_76|263KB/s|M003-260806'
+  - '[free18-clash] 🇨🇦加拿大 02'
+  - '🇳🇱[www.v2nodes.com] vless-NL-1... #2'
+  - '🏳[www.v2nodes.com] vless- #13'
+  - ProxyRift 261
+  - ProxyRift 305
+  - ProxyRift 308
+  - ProxyRift 1442
+  - ProxyRift 1694
+  - 021 | 80ms | 104.19.95.153
+  - 033 | 85ms | 104.18.33.45
+  - 058 | 90ms | 172.66.158.115
+  - 062 | 92ms | 104.18.32.47
+  - 068 | 93ms | 104.24.197.20
+  - 077 | 94ms | 104.20.5.134
+  - vless-1827962637
+  - trojan-1947413506
+  - 🇺🇸 美国 | USA 9
+  - US 🇺🇸 | @Raydikalx | 885DF2
+  - US 🇺🇸 | @Raydikalx | 48B124
+  - CA 🇨🇦 | @Raydikalx | 3DE214
+  - US 🇺🇸 | @Raydikalx | 1B4DCF
   - CA 🇨🇦 | @Raydikalx | 832341
-  - CA 🇨🇦 | @Raydikalx | D7B491
-  - CA 🇨🇦 | @Raydikalx | 50F15C
-  - CA 🇨🇦 | @Raydikalx | D9E52E
-  - CA 🇨🇦 | @Raydikalx | 9C0660
-  - CA 🇨🇦 | @Raydikalx | 0378E9
-  - CA 🇨🇦 | @Raydikalx | 4FA2E4
-  - CA 🇨🇦 | @Raydikalx | D1FF09
-  - '[nexus-nodes-all] @i10VPN⁶'
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | B52CC9'
-  - '[ermaozi-subscribe] 🇰🇷 韩国 | KOR'
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | D75A2C'
-  - EPODONIOS
-  - ProxyRift 631
-  - ProxyRift 1544
-  - 086 | 506ms | 88.216.69.253
-  - '🇯🇵[www.v2nodes.com] vless-JP #2'
-  - '🇺🇸 美国 | USA 3 #2'
+  - CA 🇨🇦 | @Raydikalx | 97767D
+  - CA 🇨🇦 | @Raydikalx | A1A4EC
+  - CA 🇨🇦 | @Raydikalx | 03FF3D
+  - CA 🇨🇦 | @Raydikalx | 1EFE59
+  - CA 🇨🇦 | @Raydikalx | 1BD5CC
+  - CA 🇨🇦 | @Raydikalx | 3543C7
+  - '[free18-clash] 荷兰 (3)'
+  - ProxyRift 1392
+  - ProxyRift 1411
+  - ProxyRift 1441
+  - ProxyRift 1765
+  - 012 | 76ms | 172.67.71.187
+  - 014 | 76ms | 104.18.0.181
+  - 042 | 86ms | 172.67.75.172
+  - 075 | 94ms | 104.18.36.242
+  - trojan-1857007066
+  - 🇳🇱 荷兰 | NLD 10
+  - 🇺🇸 美国 | USA 10
+  - '🇺🇸 美国 | USA #17'
+  - US 🇺🇸 | @Raydikalx | 7DB317
+  - US 🇺🇸 | @Raydikalx | 99CFA3
+  - CA 🇨🇦 | @Raydikalx | E20903
+  - US 🇺🇸 | @Raydikalx | ED256C
+  - CA 🇨🇦 | @Raydikalx | 180650
+  - CA 🇨🇦 | @Raydikalx | F6D4A4
+  - CA 🇨🇦 | @Raydikalx | D42981
+  - CA 🇨🇦 | @Raydikalx | AA9CD2
+  - CA 🇨🇦 | @Raydikalx | 785DD9
+  - US 🇺🇸 | @Raydikalx | BFA44B
+  - CA 🇨🇦 | @Raydikalx | 919469
+  - '[cbusifabcap-clashmeta] ❓Other_40|244KB/s|S004-260618'
+  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 58DC4E'
+  - '[free18-clash] 美国 (9) (2)'
+  - 🇺🇸 美国 | USA
+  - ProxyRift 026
+  - ProxyRift 303
+  - ProxyRift 1878
+  - ProxyRift 1960
+  - 007 | 73ms | 104.18.109.147
+  - 067 | 92ms | 172.64.153.66
+  - 074 | 93ms | 188.114.98.0
+  - 081 | 95ms | chatgpt.com
+  - vmess-1853348260
+  - vless-1832764134
+  - trojan-1827149560
+  - trojan-1944218172
   - '🇸🇬[www.v2nodes.com] vless-SG #2'
-  - CA 🇨🇦 | @Raydikalx | 314A5F
-  - CA 🇨🇦 | @Raydikalx | 0AD519
-  - CA 🇨🇦 | @Raydikalx | FFCF2F
-  - CA 🇨🇦 | @Raydikalx | FB6149
+  - '🇺🇸 美国 | USA #25'
+  - CA 🇨🇦 | @Raydikalx | 25B7D8
+  - US 🇺🇸 | @Raydikalx | 19FEDD
+  - US 🇺🇸 | @Raydikalx | 20F60D
+  - US 🇺🇸 | @Raydikalx | 222692
   - CA 🇨🇦 | @Raydikalx | 5D836C
+  - US 🇺🇸 | @Raydikalx | 6FFD70
+  - CA 🇨🇦 | @Raydikalx | E08020
+  - DE 🇩🇪 | @Raydikalx | 4591B3
+  - CA 🇨🇦 | @Raydikalx | 148DC5
+  - CA 🇨🇦 | @Raydikalx | 189305
+  - CA 🇨🇦 | @Raydikalx | 3B2C93
+  - CA 🇨🇦 | @Raydikalx | E87B01
+  - '[cbusifabcap-uri] ❓Other_47|171KB/s|K001-260618'
+  - '[free18-clash] 美国 (6) (2)'
+  - '[free18-clash] 美国 (64)'
+  - 🇨🇷 哥斯达黎加 | CRI
+  - ProxyRift 657
+  - ProxyRift 1365
+  - ProxyRift 1369
+  - ProxyRift 1425
+  - ProxyRift 1608
+  - ProxyRift 1650
+  - ProxyRift 1661
+  - ProxyRift 1734
+  - ProxyRift 1759
+  - ProxyRift 1836
+  - ❓未知丨yoyapai.com_14
+  - 018 | 80ms | 172.64.150.43
+  - 046 | 87ms | 104.26.13.54
+  - 054 | 90ms | 104.16.162.89
+  - 🇳🇱 荷兰 | NLD 18
+  - '🇳🇱 荷兰 | NLD #18'
+  - '🇫🇷 法国 | FRA #1'
+  - US 🇺🇸 | @Raydikalx | 94BA12
+  - CA 🇨🇦 | @Raydikalx | 714DA3
+  - US 🇺🇸 | @Raydikalx | 8B7ACE
+  - US 🇺🇸 | @Raydikalx | A2659B
+  - CA 🇨🇦 | @Raydikalx | 7B2874
+  - US 🇺🇸 | @Raydikalx | BF89ED
+  - CA 🇨🇦 | @Raydikalx | 82D1D2
+  - CA 🇨🇦 | @Raydikalx | 4C51EA
+  - CA 🇨🇦 | @Raydikalx | 247B1B
+  - CA 🇨🇦 | @Raydikalx | F9A26B
+  - CA 🇨🇦 | @Raydikalx | 1F0C13
+  - US 🇺🇸 | @Raydikalx | D8E24F
   - CA 🇨🇦 | @Raydikalx | A7E197
-  - CA 🇨🇦 | @Raydikalx | 42C3A4
-  - 未知10
-  - ProxyRift 627
-  - ProxyRift 628
-  - ProxyRift 630
-  - ProxyRift 1541
-  - 005 | 91ms | 104.18.35.86
-  - 048 | 111ms | 172.67.141.182
-  - 🇳🇱NL_4|2.7MB/s
-  - CA 🇨🇦 | @Raydikalx | 99B358
-  - '🇵🇱[www.v2nodes.com] vless-PL-4... #2'
-  - 'EPODONIOS #2'
-  - ProxyRift 594
-  - ProxyRift 611
-  - ProxyRift 626
-  - ProxyRift 1540
-  - 012 | 92ms | 104.18.35.86
-  - 020 | 96ms | 104.16.0.1
-  - 092 | 526ms | 154.81.141.42
+  - CA 🇨🇦 | @Raydikalx | 0AE530
+  - CA 🇨🇦 | @Raydikalx | BC72F1
+  - CA 🇨🇦 | @Raydikalx | 7C97A1
+  - '[free18-clash] 🇨🇦加拿大 07'
+  - '🇺🇸 美国 | USA #2'
+  - ProxyRift 221
+  - ProxyRift 596
+  - ProxyRift 1149
+  - ProxyRift 1368
+  - ProxyRift 1436
+  - ProxyRift 1440
+  - ProxyRift 1537
+  - ProxyRift 1690
+  - ProxyRift 1730
+  - ProxyRift 1741
+  - 019 | 80ms | 104.16.231.20
+  - 032 | 85ms | 172.67.141.182
+  - 052 | 89ms | 185.159.247.30
+  - 059 | 91ms | 172.64.157.229
+  - 095 | 98ms | 172.64.158.170
+  - vless-1856200577
+  - trojan-1858673309
+  - trojan-1827938592
+  - trojan-1937399876
+  - '🇸🇬[www.v2nodes.com] vless-SG-9... #2'
+  - '🇺🇸 美国 | USA #4'
+  - US 🇺🇸 | @Raydikalx | 9FF722
+  - US 🇺🇸 | @Raydikalx | F0C02D
+  - US 🇺🇸 | @Raydikalx | 4BB0F9
+  - US 🇺🇸 | @Raydikalx | CE29A3
+  - CA 🇨🇦 | @Raydikalx | 25567D
+  - CA 🇨🇦 | @Raydikalx | B52280
+  - CA 🇨🇦 | @Raydikalx | 5A2142
+  - CA 🇨🇦 | @Raydikalx | F0D92B
+  - CA 🇨🇦 | @Raydikalx | A3F842
+  - CA 🇨🇦 | @Raydikalx | 3FB990
+  - CA 🇨🇦 | @Raydikalx | 514518
+  - '[ermaozi-subscribe] 🇲🇾[www.v2nodes.com] vless-MY-1...'
+  - '[free18-clash] 美国 (49)'
+  - '[free18-clash] 美国 (60)'
+  - '🇺🇸 美国 | USA #3'
+  - ProxyRift 007
+  - ProxyRift 222
+  - ProxyRift 250
+  - ProxyRift 311
+  - ProxyRift 1370
+  - ProxyRift 1437
+  - ProxyRift 1651
+  - ProxyRift 1757
+  - ProxyRift 1923
+  - ProxyRift 1927
+  - ProxyRift 1934
+  - ProxyRift 1982
+  - 024 | 81ms | 104.20.6.134
+  - 034 | 85ms | 104.19.164.25
+  - 045 | 87ms | 172.64.155.209
+  - vless-1831072390
+  - vless-1867102735
+  - '🏳[www.v2nodes.com] vless- #19'
+  - 🇳🇱 荷兰 | NLD 34
+  - '🇳🇱 荷兰 | NLD #34'
+  - US 🇺🇸 | @Raydikalx | EDB7E3
+  - US 🇺🇸 | @Raydikalx | 50338D
+  - US 🇺🇸 | @Raydikalx | 0F83D5
+  - US 🇺🇸 | @Raydikalx | 635498
+  - US 🇺🇸 | @Raydikalx | 221887
+  - US 🇺🇸 | @Raydikalx | 16483F
+  - CA 🇨🇦 | @Raydikalx | AC521C
+  - CA 🇨🇦 | @Raydikalx | FB9F41
+  - CA 🇨🇦 | @Raydikalx | 95FC10
+  - CA 🇨🇦 | @Raydikalx | 64E85D
+  - US 🇺🇸 | @Raydikalx | 196EC8
+  - CA 🇨🇦 | @Raydikalx | 63E30C
+  - CA 🇨🇦 | @Raydikalx | C04DD5
+  - CA 🇨🇦 | @Raydikalx | 772BDC
+  - CA 🇨🇦 | @Raydikalx | 4FA2E4
+  - CA 🇨🇦 | @Raydikalx | E9BC49
+  - CA 🇨🇦 | @Raydikalx | C882C4
+  - CA 🇨🇦 | @Raydikalx | 02150B
+  - CA 🇨🇦 | @Raydikalx | 1C776D
+  - CA 🇨🇦 | @Raydikalx | 07F150
+  - CA 🇨🇦 | @Raydikalx | F82FEB
+  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 2AD1C2'
+  - '[free18-clash] 美国 (62)'
+  - EPODONIOS
+  - ProxyRift 226
+  - ProxyRift 307
+  - ProxyRift 374
+  - ProxyRift 1152
+  - ProxyRift 1158
+  - ProxyRift 1367
+  - ProxyRift 1664
+  - ProxyRift 1731
+  - ProxyRift 1818
+  - ProxyRift 1838
+  - ProxyRift 1915
+  - ProxyRift 1917
+  - ProxyRift 1977
+  - ❓未知丨yoyapai.com_57
+  - 009 | 75ms | 104.26.13.31
+  - 030 | 84ms | 104.20.28.74
+  - 040 | 86ms | 104.21.70.21
+  - 047 | 87ms | 104.18.32.47
+  - 055 | 90ms | 172.67.76.40
+  - 082 | 95ms | 154.194.12.30
+  - 092 | 97ms | 104.21.26.36
+  - 099 | 98ms | 104.16.215.234
+  - vless-1927185301
+  - vless-1828374447
   - vless-1863474247
-  - 🇺🇸 美国 | USA 15
+  - vless-1832764140
+  - '🇺🇸 美国 | USA #1'
+  - US 🇺🇸 | @Raydikalx | D4C5FF
+  - US 🇺🇸 | @Raydikalx | D3C8D7
+  - US 🇺🇸 | @Raydikalx | B2DB47
+  - US 🇺🇸 | @Raydikalx | 01B6C6
+  - US 🇺🇸 | @Raydikalx | D3CB01
+  - US 🇺🇸 | @Raydikalx | 0F0229
+  - US 🇺🇸 | @Raydikalx | 2266BA
+  - AT 🇦🇹 | @Raydikalx | BE2A03
+  - SC 🇸🇨 | @Raydikalx | ADDCFE
+  - CA 🇨🇦 | @Raydikalx | FF568B
+  - CA 🇨🇦 | @Raydikalx | 5DC2F9
+  - CA 🇨🇦 | @Raydikalx | A36D74
+  - US 🇺🇸 | @Raydikalx | C420A9
+  - CA 🇨🇦 | @Raydikalx | 0C8E98
+  - CA 🇨🇦 | @Raydikalx | BC3485
+  - CA 🇨🇦 | @Raydikalx | D8F0E5
+  - CA 🇨🇦 | @Raydikalx | 776306
+  - CA 🇨🇦 | @Raydikalx | ACE830
+  - '[free18-clash] 美国 (51)'
+  - '[free18-clash] 美国 (52)'
+  - '[share-daily-node] US-HTTP-12'
+  - '🏳[www.v2nodes.com] vless- #6'
+  - ProxyRift 663
+  - ProxyRift 1338
+  - ProxyRift 1484
+  - ProxyRift 1662
+  - ProxyRift 1707
+  - ProxyRift 1720
+  - ProxyRift 1729
+  - ProxyRift 1815
+  - 006 | 72ms | 154.197.75.50
+  - 023 | 81ms | 104.18.0.181
 - name: PROXY
   type: select
   proxies:
