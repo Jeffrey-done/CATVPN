@@ -2,8 +2,8 @@
   "sources": [
     {
       "name": "au1rxx",
-      "count": 0,
-      "error": "TimeoutError: The read operation timed out"
+      "count": 1751,
+      "error": null
     },
     {
       "name": "systemproxy",
@@ -12,12 +12,12 @@
     },
     {
       "name": "systemproxy-extra",
-      "count": 175,
+      "count": 197,
       "error": null
     },
     {
       "name": "ermaozi",
-      "count": 467,
+      "count": 372,
       "error": null
     },
     {
@@ -37,22 +37,22 @@
     },
     {
       "name": "automerge-public-nodes",
-      "count": 343,
+      "count": 332,
       "error": null
     },
     {
       "name": "github:0xRadikal/Free-v2ray-Configs:fast/clash.yaml",
-      "count": 1009,
+      "count": 907,
       "error": null
     },
     {
       "name": "github:0xRadikal/Free-v2ray-Configs:secure/clash.yaml",
-      "count": 1021,
+      "count": 891,
       "error": null
     },
     {
       "name": "github:0xRadikal/Free-v2ray-Configs:verified/clash.yaml",
-      "count": 1444,
+      "count": 1282,
       "error": null
     },
     {
@@ -62,62 +62,87 @@
     },
     {
       "name": "github:Thordata/awesome-free-proxy-list:docs/data/clash/all.yaml",
-      "count": 362,
+      "count": 287,
       "error": null
     },
     {
       "name": "github:Thordata/awesome-free-proxy-list:docs/data/clash/fast.yaml",
-      "count": 41,
+      "count": 36,
       "error": null
     },
     {
       "name": "github:Thordata/awesome-free-proxy-list:docs/data/clash/high-anon.yaml",
-      "count": 282,
+      "count": 211,
       "error": null
     },
     {
       "name": "github:Thordata/awesome-free-proxy-list:docs/data/clash/http.yaml",
-      "count": 190,
+      "count": 146,
       "error": null
     },
     {
       "name": "github:Thordata/awesome-free-proxy-list:docs/data/clash/socks5.yaml",
-      "count": 174,
+      "count": 141,
       "error": null
     },
     {
       "name": "github:Thordata/awesome-free-proxy-list:docs/data/clash/stable.yaml",
-      "count": 86,
+      "count": 95,
+      "error": null
+    },
+    {
+      "name": "github:cloudcat214/clash-subscription-aggregator:config/embedded-nodes.yaml",
+      "count": 2,
+      "error": null
+    },
+    {
+      "name": "github:cloudcat214/clash-subscription-aggregator:docs/auto/clash/config.yaml",
+      "count": 120,
+      "error": null
+    },
+    {
+      "name": "github:cloudcat214/clash-subscription-aggregator:docs/auto/clash/providers/aggregate.yaml",
+      "count": 120,
+      "error": null
+    },
+    {
+      "name": "github:cloudcat214/clash-subscription-aggregator:docs/cn/clash/config.yaml",
+      "count": 314,
+      "error": null
+    },
+    {
+      "name": "github:cloudcat214/clash-subscription-aggregator:docs/dist/clash/config.yaml",
+      "count": 120,
+      "error": null
+    },
+    {
+      "name": "github:cloudcat214/clash-subscription-aggregator:docs/dist/clash/providers/aggregate.yaml",
+      "count": 120,
+      "error": null
+    },
+    {
+      "name": "github:cloudcat214/clash-subscription-aggregator:tests/fixtures/clash.yaml",
+      "count": 3,
       "error": null
     },
     {
       "name": "github:hvwin8/autojiedian:clash.yaml",
-      "count": 388,
+      "count": 367,
       "error": null
     },
     {
       "name": "github:jingjiangze/node-radar:dist/clash-lite.yaml",
-      "count": 125,
-      "error": null
-    },
-    {
-      "name": "github:jingjiangze/node-radar:dist/clash-verified.yaml",
-      "count": 39,
+      "count": 127,
       "error": null
     },
     {
       "name": "github:jingjiangze/node-radar:dist/clash.yaml",
-      "count": 2680,
-      "error": null
-    },
-    {
-      "name": "github:liuweicool77-maker/free-node-hub:dist/free-proxies.yaml",
-      "count": 201,
+      "count": 3060,
       "error": null
     },
     {
       "name": "github:lorenzazy7kenyon/free-vpn-subscriptions:output/by-country/clash-AE.yaml",
-      "count": 4,
+      "count": 2,
       "error": null
     },
     {
@@ -127,7 +152,7 @@
     },
     {
       "name": "github:lorenzazy7kenyon/free-vpn-subscriptions:output/by-country/clash-AM.yaml",
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
@@ -162,7 +187,7 @@
     },
     {
       "name": "github:lorenzazy7kenyon/free-vpn-subscriptions:output/by-country/clash-BG.yaml",
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
@@ -182,12 +207,12 @@
     },
     {
       "name": "github:lorenzazy7kenyon/free-vpn-subscriptions:output/by-country/clash-CA.yaml",
-      "count": 51,
+      "count": 42,
       "error": null
     },
     {
       "name": "github:lorenzazy7kenyon/free-vpn-subscriptions:output/by-country/clash-CH.yaml",
-      "count": 12,
+      "count": 9,
       "error": null
     },
     {
@@ -221,73 +246,53 @@
       "error": null
     },
     {
-      "name": "github:saadati-mohammad/proxy-subscription:subscriptions/fr-prs.yaml",
-      "count": 288,
-      "error": null
-    },
-    {
-      "name": "github:saadati-mohammad/proxy-subscription:subscriptions/gb-lnd.yaml",
-      "count": 214,
-      "error": null
-    },
-    {
-      "name": "github:saadati-mohammad/proxy-subscription:subscriptions/nl.yaml",
-      "count": 298,
-      "error": null
-    },
-    {
-      "name": "github:saadati-mohammad/proxy-subscription:subscriptions/ru-spb.yaml",
-      "count": 125,
-      "error": null
-    },
-    {
-      "name": "github:saadati-mohammad/proxy-subscription:subscriptions/sg.yaml",
-      "count": 183,
-      "error": null
-    },
-    {
-      "name": "github:saadati-mohammad/proxy-subscription:subscriptions/us-or.yaml",
-      "count": 240,
-      "error": null
-    },
-    {
-      "name": "github:saadati-mohammad/proxy-subscription:subscriptions/us-va.yaml",
-      "count": 234,
-      "error": null
-    },
-    {
       "name": "github:shifeiquan520/shifeiquan3:output/clash.yaml",
-      "count": 40,
+      "count": 38,
+      "error": null
+    },
+    {
+      "name": "github:sunmiao4458/free-proxy-airport:docs/clash.yaml",
+      "count": 66,
+      "error": null
+    },
+    {
+      "name": "github:sunmiao4458/free-proxy-airport:output/clash.yaml",
+      "count": 66,
+      "error": null
+    },
+    {
+      "name": "github:xifan001-lab/clash-sub:clash.yaml",
+      "count": 100,
       "error": null
     },
     {
       "name": "github:xyfqzy/free-nodes:docs/subscriptions/clash.yaml",
-      "count": 2,
+      "count": 11,
       "error": null
     },
     {
       "name": "github:yuluo688/clash-hot-countries:clash-hot-countries-en.yaml",
-      "count": 19,
+      "count": 16,
       "error": null
     },
     {
       "name": "github:yuluo688/clash-hot-countries:clash-hot-countries-zh.yaml",
-      "count": 19,
+      "count": 16,
       "error": null
     },
     {
       "name": "github:yuluo688/clash-hot-countries:clash-hot-countries.yaml",
-      "count": 19,
+      "count": 16,
       "error": null
     },
     {
       "name": "github:zhuhaiuk/free-nodes:clash_config.yaml",
-      "count": 36,
+      "count": 32,
       "error": null
     },
     {
       "name": "github:zhuhaiuk/free-nodes:extra_clash_config.yaml",
-      "count": 3,
+      "count": 2,
       "error": null
     },
     {
@@ -301,6 +306,6 @@
       "error": null
     }
   ],
-  "total_before_check": 5271,
+  "total_before_check": 5411,
   "total_after_check": 300
 }

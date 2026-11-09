@@ -3,1972 +3,182 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: 'Channel : @proxy_kafee-2'
-  type: vless
-  server: 199.232.78.199
-  port: 443
-  uuid: cea0f525-0b93-4a5d-8b98-9256023ff86d
-  udp: true
-- name: 🫒49@oneclickvpnkeys
-  type: trojan
-  server: 199.232.78.170
-  port: 443
-  password: mitivpn
-  udp: true
-- name: 🛕40@oneclickvpnkeys
-  type: vless
-  server: 199.232.78.170
-  port: 443
-  uuid: c5912e82-b056-5a88-b38b-065df637fe0c
-  udp: true
-- name: 'Channel : @proxy_kafee -7'
-  type: vless
-  server: 199.232.245.94
-  port: 443
-  uuid: c1acfee1-5199-4a4f-84bb-d14a7b651d0d
-  udp: true
-- name: '@V2rayng_Fast 🇫🇷-4'
-  type: vless
-  server: 199.232.77.215
-  port: 443
-  uuid: 3e89df69-7619-4788-9eee-c49c02a69705
-  udp: true
-- name: '@FarazV2ray -19'
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: 5545d204-13f5-4e3e-af5c-4ded2b945743
-  udp: true
-- name: 🆔configx2ray 🔒 VL-WS-N/A ❔ XX 13ms
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: 58d2fb1c-7ae2-42c8-8c0d-a393603ebc9f
-  udp: true
-  tls: true
-  servername: community.fastly.steamstatic.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-- name: ⚙️94@oneclickvpnkeys
-  type: trojan
-  server: 199.232.78.160
-  port: 443
-  password: MITIVPN
-  udp: true
-- name: '@prrofile_purple | ViP ⚡-7'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: 7dee06cc-4bc8-43ca-a6c2-59f81107f2e3
-  udp: true
-- name: 🛕45@oneclickvpnkeys
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: 912f0789-aea5-5739-aadf-f00b7cf141db
-  udp: true
-- name: '@FarazV2ray -27'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-80
-  udp: true
-- name: 🔰 @prrofile_purple (تلگرام)-3
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
-  udp: true
-- name: '@SERVERNETT جوین بدید'
-  type: vless
-  server: 199.232.239.239
-  port: 443
-  uuid: 0617eade-fb92-422f-9b59-c9a4b65b2906
-  udp: true
-- name: 美国 1041
-  type: vless
-  network: xhttp
-  server: 199.232.78.143
-  port: 443
-  uuid: 854860c4-b5e8-453c-a047-90d451fe9c58
-  servername: default.ssl.fastly.net
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: US 🇺🇸 | @Raydikalx | 2D3F12
-  type: vmess
-  server: 199.232.78.170
-  port: 443
-  uuid: 6ba68c69-e108-502d-7b1c-e806fbc3cccd
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: ssl.fastly.com
-- name: V2rayngninja
-  type: vless
-  server: 95.85.95.85
-  port: 443
-  uuid: 4cb39a2e-0aa0-43c4-bd94-5026c13e9ba3
-  udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-2'
-  type: vless
-  server: 146.75.57.111
-  port: 443
-  uuid: 3ceb6b43-ea1b-49bf-9e1e-4435e778db05
-  udp: true
-- name: 'Channel : @proxy_kafee-4'
-  type: vless
-  server: 146.75.57.111
-  port: 443
-  uuid: bc6bdb15-3aa6-410d-a534-412cc31bfdd2
-  udp: true
-- name: 🫑42@oneclickvpnkeys
-  type: trojan
-  server: 151.101.38.6
-  port: 443
-  password: mitivpn
-  udp: true
-- name: '@FarazV2ray-9'
-  type: vless
-  server: 199.232.78.170
-  port: 443
-  uuid: XpnTeam-15
-  udp: true
-- name: 🫡32@oneclickvpnkeys
-  type: vless
-  server: 151.101.173.16
-  port: 443
-  uuid: 4218fba1-7df3-481d-acb8-7bff10739fc8
-  udp: true
-- name: 🧩54@oneclickvpnkeys
-  type: trojan
-  server: 151.101.1.194
-  port: 443
-  password: MiTiVPN
-  udp: true
-  skip-cert-verify: true
-- name: 🫑40@oneclickvpnkeys
-  type: trojan
-  server: 167.82.64.46
-  port: 443
-  password: mitivpn
-  udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-15'
-  type: trojan
-  server: 151.101.56.9
-  port: 443
-  password: MiTiVPN
-  udp: true
-- name: 'Channel : @proxy_kafee-5'
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: fcdfed39-51aa-4bb5-beb7-61b0357e36b9
-  udp: true
-- name: '@V2rayng_Fast 🇳🇱-2'
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
-  udp: true
-- name: '@FarazV2ray -21'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: 08dd79b8-8eab-45e7-815b-29bb7ea35a61
-  udp: true
-- name: ProxyMtpVPN-26
-  type: trojan
-  server: 151.101.56.90
-  port: 443
-  password: MITIVpN
-  udp: true
-- name: US 🇺🇸 | @Raydikalx | 7DD8C0
-  server: 38.128.66.241
-  port: 1270
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: xmfhlpy.com
-  network: tcp
-- name: 美国 858
-  type: vless
-  network: xhttp
-  server: 199.232.78.150
-  port: 443
-  uuid: 1cbf2f56-926e-4a69-a325-d2794a22d411
-  servername: global.fastly.com
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: '@prrofile_purple  ♥️👈 تلگرام'
-  type: trojan
-  server: 167.82.101.252
-  port: 443
-  password: MiTiVPN
-  udp: true
-- name: YFZ 59 @Outline_Vpn
-  type: vless
-  server: 167.82.79.164
-  port: 443
-  uuid: 3ca21a1e-5ec3-4724-9890-8c28e22bdbb2
-  udp: true
-- name: 😊39@oneclickvpnkeys
-  type: trojan
-  server: 8.47.69.0
-  port: 443
-  password: humanity
-  udp: true
-  skip-cert-verify: true
-- name: 'channel : @proxy_kafee'
-  type: vless
-  server: 199.232.78.170
-  port: 443
-  uuid: XpnTeam-34
-  udp: true
-- name: 🔰 @prrofile_purple (تلگرام)
-  type: vless
-  server: 199.232.20.113
-  port: 443
-  uuid: d0136cca-a5a5-4c70-87dd-ce2ef76b7f82
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | 557D07
-  type: vmess
-  server: 151.101.193.242
-  port: 80
-  uuid: bbea3e86-bd3a-4d77-8479-89eaedd65234
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /techsonic.site
-    headers:
-      Host: techsonic.site
-- name: '@Napsternetvirani -2'
-  type: vless
-  server: 172.67.179.98
-  port: 8880
-  uuid: 56c673ba-865a-48ec-8dc0-fd7133a7ecfd
-  udp: true
-- name: 美国 171
-  type: trojan
-  network: ws
-  server: 104.16.71.213
-  port: 443
-  password: humanity
-  sni: www.calmlunch.com
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '[-20'
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: e3150605-db89-43cd-8734-2def48cc5524
-  udp: true
-- name: 'Channel : @proxy_kafee-6'
-  type: vless
-  server: 167.82.64.64
-  port: 443
-  uuid: cd07ae0d-f31d-4209-a0a4-d9d9cfcca1ad
-  udp: true
-- name: 🆔ar14n24b 🔒 VL-WS-N/A ❔ XX 15ms
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: afed9510-8648-49c6-9fbd-c2d4d8bdd417
-  udp: true
-  tls: true
-  servername: community.fastly.steamstatic.com
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-- name: YFZ 77 @Outline_Vpn
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 31f1db9f-2708-48f2-b1ba-f1d6e0098409
-  udp: true
-- name: '@prrofile_purple | ViP ⚡-4'
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: d1cafeeb-2861-4d1e-a462-38f16442f5b2
-  udp: true
-- name: 🆔ar14n24b 🔒 VL-WS-N/A ❔ XX 12ms
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: afed9510-8648-49c6-9fbd-c2d4d8bdd417
-  udp: true
-  tls: true
-  servername: community.fastly.steamstatic.com
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-----TOOTFFARANGI
-    headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-- name: 'Channel : @proxy_kafee-9'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: cd07ae0d-f31d-4209-a0a4-d9d9cfcca1ad
-  udp: true
-- name: '@FarazV2ray-19'
-  type: vless
-  server: 104.16.72.50
-  port: 443
-  uuid: 7968c546-02dc-4f8c-b791-934591a94cb2
-  udp: true
-- name: '@proxy_kafee-6'
-  type: vless
-  server: 104.21.89.41
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
-  udp: true
-- name: 🏁RELAY-188.114.97.6-5701
-  type: trojan
-  server: 188.114.97.6
-  port: 443
-  password: MiTiVPN
-  udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-27'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 97532b08-357e-4140-a6f0-8e07f2ed3327
-  udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-28'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 9f44d517-29f2-4c6d-cc06-a1268f13da58
-  udp: true
-- name: 🇺🇸 Chicago, IL, United States
-  type: ss
-  server: 103.214.111.126
-  port: 10286
-  cipher: aes-128-gcm
-  password: 1ef94aae5524d527967a92f2800ffb7c
-  udp: true
-- name: US 🇺🇸 | @Raydikalx | 672864
-  server: 216.152.155.176
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: blog.nextjobopportunityandclaimyouridealrole.com
-  network: tcp
-- name: US 🇺🇸 | @Raydikalx | 61BFA5
-  server: 216.152.155.54
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: learn.nextjobopportunityandclaimyouridealrole.com
-  network: tcp
-- name: 美国 137
-  type: trojan
-  network: ws
-  server: 173.245.58.183
-  port: 8443
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 美国 913
-  type: vless
-  network: xhttp
-  server: 199.232.78.199
-  port: 443
-  uuid: 42ff4e55-0214-45db-a2a7-02d81afa13e5
-  servername: steamstatic.com
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: 'Channel : @proxy_kafee-3'
-  type: vless
-  server: 146.75.57.111
-  port: 443
-  uuid: 5ea90a32-909e-45d2-8525-7e19c0f9d854
-  udp: true
-- name: '[-7'
-  type: vless
-  server: 146.75.57.111
-  port: 443
-  uuid: c1b6b328-c6cc-48cd-bc42-b065eef574d3
-  udp: true
-- name: '[-9'
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 0d4fd99b-06ae-4ee2-fee2-fda93a9434f1
-  udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-4'
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 79c9514e-aa3c-4cd0-bf0d-dd6df42039f6
-  udp: true
-- name: 🎨61@oneclickvpnkeys
-  type: trojan
-  server: 199.232.78.188
-  port: 443
-  password: MiTiVPN
-  udp: true
-- name: '@FarazV2ray -11'
-  type: vless
-  server: 199.232.20.113
-  port: 443
-  uuid: fcdfed39-51aa-4bb5-beb7-61b0357e36b9
-  udp: true
-- name: NormanV2ray-11
-  type: trojan
-  server: 104.20.6.134
-  port: 2096
-  password: 8r<[9'l6hAO#8ZQi
-  udp: true
-- name: '@prrofile_purple  ♥️👈 تلگرام-4'
-  type: trojan
-  server: 199.232.2.79
-  port: 443
-  password: MITIVPN
-  udp: true
-- name: 🫑37@oneclickvpnkeys
-  type: trojan
-  server: 146.75.57.238
-  port: 443
-  password: mitivpn
-  udp: true
-- name: 🆔configx2ray 🔒 VL-WS-N/A ❔ XX 15ms
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 58d2fb1c-7ae2-42c8-8c0d-a393603ebc9f
-  udp: true
-  tls: true
-  servername: community.fastly.steamstatic.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-- name: 🍎11@oneclickvpnkeys
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: eccc053a-7196-47cb-a4b5-f4b8bfd743d9
-  udp: true
-- name: '@prrofile_purple | ViP ⚡-5'
-  type: vless
-  server: 146.75.56.210
-  port: 443
-  uuid: a788913b-ea27-4198-8024-e69919916516
-  udp: true
-- name: '@prrofile_purple | ViP ⚡-6'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: 30ed2f7b-35c1-49ca-8d9f-687983382360
-  udp: true
-- name: '@FarazV2ray-17'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XlnTeam-36
-  udp: true
-- name: '@FarazV2ray -24'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-36
-  udp: true
-- name: '@prrofile_purple | ViP ⚡-8'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: bf9688e7-cdde-4a18-810e-1ec506326fb7
-  udp: true
-- name: 美国 192
-  type: trojan
-  network: ws
-  server: 104.16.174.101
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 美国 990
-  type: vless
-  network: xhttp
-  server: 199.232.78.152
-  port: 443
-  uuid: 67b7716d-64f5-4ad9-b075-c95b636bf159
-  servername: www.firefox.com
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: 🆔conectvpn10 🔒 VL-WS-N/A ❔ XX 16ms
-  type: vless
-  server: 172.66.1.36
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  servername: ccc.010304.xyz
-  client-fingerprint: unsafe
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: Tel@V2rayng_Fast 🩵
-  type: vless
-  server: 199.232.239.239
-  port: 443
-  uuid: 8e6efaba-ba3d-49ec-98aa-c8f9baaf1d17
-  udp: true
-- name: ✅🍷@vless_vmess x | همه اپراتورها-3
-  type: vless
-  server: 160.153.0.32
-  port: 443
-  uuid: 30f2d443-af46-4dd6-83c9-b5e17299ebd2
-  udp: true
-- name: '@V2rayng_Fast 🇸🇪-2'
-  type: vless
-  server: 104.18.1.1
-  port: 2087
-  uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
-  udp: true
-- name: 🎡77@oneclickvpnkeys
-  type: vless
-  server: 67.220.73.204
-  port: 16016
-  uuid: 814bd064-544d-4255-a070-5705c03f6da9
-  udp: true
-- name: XX-079 立陶宛_110719061
-  type: vless
-  server: 88.216.67.54
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-47be357e54da
-  udp: true
-  tls: true
-  servername: 52z4vtewuass.game4090taking.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/47be357e54da/loc-0
-    headers:
-      Host: 52z4vtewuass.game4090taking.workers.dev
-- name: US 🇺🇸 | @Raydikalx | 5BA270
-  server: 216.152.155.158
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: resources.nextjobopportunityandclaimyouridealrole.com
-  network: tcp
-- name: US 🇺🇸 | @Raydikalx | FC978E
-  server: 38.64.138.135
-  port: 1270
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: xmfhlpy.com
-  network: tcp
-- name: US 🇺🇸 | @Raydikalx | C3E30F
-  server: 162.251.60.97
-  port: 1270
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: xmfhlpy.com
-  network: tcp
-- name: US 🇺🇸 | @Raydikalx | 3DAA21
-  server: 216.152.155.23
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: courses.nextjobopportunityandclaimyouridealrole.com
-  network: tcp
-- name: 美国 1048
-  type: vless
-  network: xhttp
-  server: 199.232.237.245
-  port: 443
-  uuid: 8e9cbf76-b74a-46b3-8270-9453e281e613
-  servername: global.fastly.com
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: '@V2rayng_Fast 🇩🇪-2'
-  type: vless
-  server: 167.82.101.119
-  port: 443
-  uuid: ea1fb226-a033-4999-9f86-49ec57629c0d
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | A8153F
-  type: vmess
-  server: 188.114.96.19
-  port: 80
-  uuid: c5965d47-45d6-45af-b619-3b2a6bf896a2
-  alterId: 0
-  cipher: auto
-  udp: true
-- name: France 0VH
-  type: vless
-  server: 151.101.25.242
-  port: 80
-  uuid: 02d87d00-c769-48d8-91cb-bd05e2f62790
-  udp: true
-- name: '@FarazV2ray -2'
-  type: vless
-  server: 199.232.78.199
-  port: 443
-  uuid: ce63bc59-da16-4942-89ab-33ca3f4b547c
-  udp: true
-- name: '@V2rayng_Fast'
-  type: vless
-  server: 167.82.101.210
-  port: 443
-  uuid: 276a9985-4c59-4f73-a789-081d36daad48
-  udp: true
-- name: '@Napsternetvirani'
-  type: vless
-  server: 104.18.0.181
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-- name: '@FarazV2ray -5'
-  type: vless
-  server: 199.232.78.170
-  port: 443
-  uuid: XpnTeam-19
-  udp: true
-- name: vless-146.75.59.1
-  type: vless
-  server: 146.75.59.1
-  port: 443
-  uuid: 37857ebf-94bb-49a0-8ab9-548e64e57311
-  udp: true
-- name: vless-104.17.234.128-7
-  type: vless
-  server: 104.17.234.128
-  port: 443
-  uuid: 94aa7030-2292-453d-b6ff-7f26ca3e7b56
-  udp: true
-- name: 🇵🇾@v2rayNG_Matsuri
-  type: vless
-  server: 167.82.76.8
-  port: 443
-  uuid: 5e2e35f9-512b-482e-ad12-bce69590f8d4
-  udp: true
-- name: 🇮🇱Telegram👉@v2rayNG_Matsuri
-  type: vless
-  server: 151.101.1.194
-  port: 443
-  uuid: 371fa59f-e622-4776-af66-7f72c84f2dce
-  udp: true
-- name: 🐞50@oneclickvpnkeys
-  type: vless
-  server: 104.16.107.139
-  port: 8880
-  uuid: 2fb22d40-598f-4890-85a6-d69928b1fd55
-  udp: true
-- name: '@Jeyksatan-2'
-  type: vless
-  server: 104.21.72.109
-  port: 80
-  uuid: 1f5056ca-fb4c-4b51-a31e-891083588351
-  udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-14'
-  type: trojan
-  server: 151.101.56.255
-  port: 443
-  password: MiTiVPN
-  udp: true
-- name: 🇺🇸Telegram👉@v2rayNG_Matsuri-2
-  type: trojan
-  server: 167.82.76.7
-  port: 443
-  password: MITIVPN
-  udp: true
-- name: 🌐已更新于#✅ 11月08日 | 10:42- | 每15分钟更新一次
-  type: trojan
-  server: 167.82.64.7
-  port: 443
-  password: MiTiVPN
-  udp: true
-  sni: cdn.akamai.steamstatic.com
-  network: ws
-  ws-opts:
-    path: /---@MiTiVPN---@MiTiVPN
-    headers:
-      Host: MiTiVPN-1-mitivpn.ac.ir
-- name: 瑞典 013
-  type: vless
-  network: xhttp
-  server: 146.75.57.238
-  port: 443
-  uuid: 2373eb03-66b2-4f42-bb40-95db8b210877
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: 🆔capoit 🔒 VL-XHTTP-N/A ❔ XX 13ms
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: d0136cca-a5a5-4c70-87dd-ce2ef76b7f82
-  udp: true
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-  alpn:
-  - h2
-- name: Tel@V2rayng_Fast 🇹🇷
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 5545d204-13f5-4e3e-af5c-4ded2b945743
-  udp: true
-- name: '@prrofile_purple | ViP ⚡-3'
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 7dee06cc-4bc8-43ca-a6c2-59f81107f2e3
-  udp: true
-- name: 🇺🇸𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 82599a61-3580-4141-b48c-42f4594ae675
-  udp: true
-- name: Free x741 @Outline_Vpn
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: bfd5fea1-e0b5-48e2-b1e3-aabdd2eee95a
-  udp: true
-- name: 'Channel : @proxy_kafee-8'
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: cd07ae0d-f31d-4209-a0a4-d9d9cfcca1ad
-  udp: true
-- name: 🆔ar14n24b 🔒 VL-WS-N/A ❔ XX 9ms
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: 72881b3f-76f7-4cae-912d-e95e602a5ca4
-  udp: true
-  tls: true
-  servername: community.fastly.steamstatic.com
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-- name: 🫟97@oneclickvpnkeys
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: c5912e82-b056-5a88-b38b-065df637fe0c
-  udp: true
-- name: '@proxy_kafee : کانال تلگرام-2'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: c82d125b-8cb3-48a1-b9d6-1a9a5900322f
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | ADDAD1
-  type: vmess
-  server: 104.17.121.43
-  port: 443
-  uuid: e9947b42-27ed-401e-b75e-c9ebd357c0f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: omkuzygiv.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: omkuzygiv.com
-- name: 美国 532
-  type: vmess
-  network: ws
-  server: 104.19.47.79
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  skip-cert-verify: true
-  alterId: 0
-  cipher: auto
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- name: '@ShadowProxy66 🇺🇸'
-  type: vless
-  server: 172.67.130.159
-  port: 2096
-  uuid: 214bf4c5-045a-4ddb-944b-e2eef9b33338
-  udp: true
-- name: 🇧🇻@vpn_ioss ♻️ سرورهای بیشتر عضو شو
-  type: trojan
-  server: 104.21.40.34
-  port: 443
-  password: humanity
-  udp: true
-- name: ☀️53@oneclickvpnkeys
-  type: trojan
-  server: 151.101.110.219
-  port: 443
-  password: Mitivpn
-  udp: true
-- name: 美国 165
-  type: trojan
-  network: ws
-  server: 104.18.152.244
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 'Channel : @proxy_kafee -9'
-  type: vless
-  server: 104.25.179.9
-  port: 443
-  uuid: 72e5d1e3-bc83-4db0-9963-b0c6db748b4b
-  udp: true
 - type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
-  server: 104.18.42.98
+  name: 🇺🇸US丨yoyapai.com美国 (3)
+  server: 128.203.252.97
   port: 443
-  udp: true
-  network: ws
-  tls: true
-  servername: jp3.yohototo.top
-  ws-opts:
-    path: /tyxywsfp=chrome
-    headers:
-      Host: jp3.yohototo.top
-- name: XX-007 CF中转_1107196959
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
+  uuid: 5e610f80-fc6a-479d-8621-b672355b96a1
   udp: true
   tls: true
-  servername: all.speedtest03.ccwu.cc
-  client-fingerprint: unsafe
+  servername: cf-1rm.pages.dev
+  sni: cf-1rm.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: all.speedtest03.ccwu.cc
-- name: US 🇺🇸 | @Raydikalx | 882A7F
-  server: 38.128.66.212
-  port: 1270
+      Host: cf-1rm.pages.dev
+- name: CA 🇨🇦 | @Raydikalx | 0AD519
+  server: 172.67.187.145
+  port: 80
   type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
   alterId: 0
   cipher: auto
-  udp: true
-  tls: true
-  servername: xmfhlpy.com
-  network: tcp
-- name: CA 🇨🇦 | @Raydikalx | FB35B5
-  server: 188.114.97.6
-  port: 8080
-  type: vless
-  uuid: 0aab6adc-104c-4339-8d25-09755ffe2cbd
   udp: true
   tls: false
-  servername: liang92.dpdns.org
+  servername: vmess.lbw666.dpdns.org
   network: ws
   ws-opts:
-    path: /
+    path: /ws?ed=2048
     headers:
-      Host: liang92.dpdns.org
-- name: 美国_Chicago_GTHost_Claude2
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+      Host: vmess.lbw666.dpdns.org
+- name: ⛽32@oneclickvpnkeys
+  type: vless
+  server: 190.93.245.176
   port: 443
-  server: 216.152.155.176
+  uuid: 7493883f-6047-46a7-8d95-f59e137ffaec
+  udp: true
+- name: vless-1947014531
+  network: ws
+  port: 443
+  server: 104.18.40.171
+  servername: wallweb-boi.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8895be79-9817-4011-b81a-14a35a3d328e
+- name: trojan-1827188005
+  password: humanity
+  port: 443
+  server: 172.66.40.99
   skip-cert-verify: true
-  sni: blog.nextjobopportunityandclaimyouridealrole.com
+  sni: www.trusteeforward.com
   type: trojan
-- name: JP日本(v2clash.blog 2026-6.9更新)
-  type: vless
-  server: 151.101.108.223
-  port: 443
-  uuid: b4a00211-ae46-49bc-8f36-0c4425eb7e86
   udp: true
-- name: '@V2rayng_Fast 🇬🇧'
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 9503e890-3702-4847-af0a-2bceac2f0da0
-  udp: true
-- name: 瑞典 010
-  type: vless
-  network: xhttp
-  server: 146.75.57.111
-  port: 443
-  uuid: 0632a4e7-d55a-4d17-a47b-9958b471be90
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: '@V2rayng_Fast 🇫🇮'
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
-  udp: true
-- name: https://t.me/v2rayNG_Matsuri
-  type: vless
-  server: 199.232.78.101
-  port: 443
-  uuid: 'ID TEL : V2XNET'
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | 751F99
-  type: vmess
-  server: 104.19.32.226
-  port: 2052
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: cdn2.freegradely.xyz
-- name: CA 🇨🇦 | @Raydikalx | A12DC1
-  type: vmess
-  server: 104.19.138.197
-  port: 443
-  uuid: 09bbac20-2c64-4af5-b116-6c8867f10227
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: xcrouse23ed.iranpuls.ir
-- name: 🫟18@oneclickvpnkeys
-  type: trojan
-  server: 140.248.185.253
-  port: 443
-  password: MiTiVPN
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | 30FA14
-  type: vmess
-  server: 104.20.25.166
-  port: 2052
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: cdn2.freegradely.xyz
-- name: 'Channel : @proxy_kafee -4'
-  type: vless
-  server: 199.232.78.170
-  port: 443
-  uuid: XpnTeam-1
-  udp: true
-- name: '@FarazV2ray -6'
-  type: vless
-  server: 199.232.78.170
-  port: 443
-  uuid: XpnTeam-7
-  udp: true
-- name: 印度 006
-  type: vless
-  network: xhttp
-  server: 199.232.20.113
-  port: 443
-  uuid: 2373eb03-66b2-4f42-bb40-95db8b210877
-  servername: www.firefox.com
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: '@FarazV2ray -9'
-  type: vless
-  server: 199.232.20.113
-  port: 443
-  uuid: 3ca21a1e-5ec3-4724-9890-8c28e22bdbb2
-  udp: true
-- name: 🐒52@oneclickvpnkeys
-  type: vless
-  server: 91.209.253.243
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-- name: Suren TM
-  type: trojan
-  server: 162.159.138.232
-  port: 443
-  password: dQDQCtns4R
-  udp: true
-- name: 🇫🇷 V2rayngninja
-  type: vless
-  server: 2.56.220.2
-  port: 443
-  uuid: 52b45d8f-3ab7-44fd-af91-321a27982584
-  udp: true
-- name: '@FarazV2ray -13'
-  type: vless
-  server: 199.232.237.79
-  port: 443
-  uuid: turboo-server
-  udp: true
-- name: 美国 173
-  type: trojan
-  network: ws
-  server: 162.159.253.41
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  ws-opts:
-    headers:
-      Host: www.calmlunch.com
-    path: /assignment
-- name: '@FarazV2ray-14'
-  type: vless
-  server: 140.248.186.45
-  port: 443
-  uuid: XpnTeam-13
-  udp: true
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-13'
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5
-  udp: true
-- name: 美国 857
-  type: vless
-  network: xhttp
-  server: 199.232.77.215
-  port: 443
-  uuid: 1cbf2f56-926e-4a69-a325-d2794a22d411
-  servername: global.fastly.com
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: 美国 124
-  type: trojan
-  network: ws
-  server: 172.64.148.165
-  port: 8443
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: 'Channel : @proxy_kafee-7'
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 153900df-5824-4b55-98c4-418c5baea523
-  udp: true
-- name: '@proxy_kafee : کانال تلگرام'
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: c82d125b-8cb3-48a1-b9d6-1a9a5900322f
-  udp: true
-- name: 🔰 @prrofile_purple (تلگرام)-2
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
-  udp: true
-- name: ✅34@oneclickvpnkeys
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: 8942a00b-2fdf-53f7-a1c9-887fa5615dce
-  udp: true
-- name: '@V2rayng_Fast-4'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-16
-  udp: true
-- name: '@FarazV2ray -22'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-20
-  udp: true
-- name: '@FarazV2ray -25'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-39
-  udp: true
-- name: '@FarazV2ray -26'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-40
-  udp: true
-- name: 🇨🇵Telegram👉@v2rayNG_Matsuri
-  type: trojan
-  server: 104.16.72.2
-  port: 443
-  password: humanity
-  udp: true
-- name: '@Vpn_Tehran ☢️ تلگرام'
-  type: vless
-  server: 172.67.167.207
-  port: 443
-  uuid: 4a1441b0-7bc8-4906-85cf-6b59c256b480
-  udp: true
-- name: کانال+:+@V2rayNGvpni-4
-  type: vless
-  server: 104.20.2.1
-  port: 80
-  uuid: 2a269c03-fd20-46e2-8464-60b10a244801
-  udp: true
-- name: 🐊58@oneclickvpnkeys
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 142d1453-9cfe-4045-8e54-f3fb33342185
-  udp: true
-- name: Server 93
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 698b212d-ca12-4794-8256-252a6e1b4533
-  udp: true
-- name: ⛲57@oneclickvpnkeys
-  type: vless
-  server: 172.67.205.90
-  port: 2096
-  uuid: 06823dfb-4ced-425d-a905-3774ee9d5026
-  udp: true
-- name: '@V2rayng_Fast 👿'
-  type: vless
-  server: 104.21.70.228
-  port: 443
-  uuid: 44eae030-290b-4083-8102-6f8bab05701b
-  udp: true
-- type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  name: 🇨🇦[www.v2nodes.com] vless-CA-1...
-  server: 103.169.142.30
-  port: 8880
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime38.workers.dev
-- client-fingerprint: chrome
-  name: '🇺🇸 美国 | USA #9'
-  network: ws
-  port: 443
-  server: 146.75.57.7
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8fdeb819-df0c-456d-9a1d-e3a9950ece4d
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-    path: /
-- name: US 🇺🇸 | @Raydikalx | 8E071B
-  server: 38.64.138.135
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: US 🇺🇸 | @Raydikalx | 815D87
-  server: 216.152.155.59
-  port: 443
-  type: trojan
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: api.nextjobopportunityandclaimyouridealrole.com
-  network: tcp
-- name: 美国_Chicago_GTHost_Claude5
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.155.59
-  skip-cert-verify: false
-  sni: api.nextjobopportunityandclaimyouridealrole.com
-  type: trojan
-- name: 🇺🇸Telegram👉@v2rayNG_Matsuri
-  type: trojan
-  server: 199.232.78.101
-  port: 443
-  password: MITIVPN
-  udp: true
-- name: 美国 161
-  type: trojan
-  network: ws
-  server: 104.16.174.6
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
 - name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚'
   type: vless
-  server: 167.82.76.31
+  server: 188.114.97.6
   port: 443
-  uuid: e86d9264-a736-46c3-adcc-f5f0cc088a72
+  uuid: 03790b11-e3d9-4966-859b-4e524bb04645
   udp: true
-- name: '@FarazV2ray -3'
+- name: 巴西 035
   type: vless
-  server: 146.75.57.111
-  port: 443
-  uuid: a702fd30-aea7-4a07-8a6e-cef67e3ec9ef
-  udp: true
-- name: 🔥34@oneclickvpnkeys
-  type: trojan
-  server: 151.101.56.6
-  port: 443
-  password: MiTiVPN
-  udp: true
-- name: '@FarazV2ray-6'
-  type: vless
-  server: 162.159.38.119
-  port: 443
-  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
-  udp: true
-- name: 美国 712
-  type: vmess
   network: ws
-  server: 172.67.79.117
-  port: 443
-  uuid: bd014532-1f8b-4d33-b79d-50131d8d4633
-  skip-cert-verify: true
+  server: 188.114.98.0
+  port: 2053
+  uuid: 3ee10440-225e-4cbc-83ed-3c80b90bcb07
+  servername: ovh-gr1.mahkhorshidi.ir
+  skip-cert-verify: false
   tls: true
-  alterId: 0
-  cipher: auto
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
   ws-opts:
     headers:
-      Host: www.998808.xyz
-    path: /vbje5ytgwfgdrhe
-- name: '@prrofile_purple | ViP ⚡'
-  type: vless
-  server: 199.232.129.192
-  port: 443
-  uuid: 9b0ae636-a50b-4667-bbe0-22a0600610a5
+      Host: ovh-gr1.mahkhorshidi.ir
+    path: /movies/12345
+- name: CA 🇨🇦 | @Raydikalx | C5361A
+  type: vmess
+  server: 108.162.192.188
+  port: 80
+  uuid: 2ac4e269-1576-4f41-8c0d-6242e3c5fd8c
+  alterId: 0
+  cipher: auto
   udp: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 1270.0.1.dl3.烏克爾拯救聖誕老人電影.yркельпасаетcанту.фильм.urkel.烏克爾救援.wonkacapitano.buzz.
 - name: vless-104.17.234.128-3
   type: vless
   server: 104.17.234.128
   port: 443
   uuid: 65c1cef9-cfa8-460a-b583-9d2d7ff91a21
   udp: true
-- name: Free x208 @Outline_Vpn
-  type: vless
-  server: 151.101.56.7
-  port: 443
-  uuid: 7247b284-c40d-47c7-af4e-c4738f827a3d
-  udp: true
-- name: TLS4-ALL
-  type: vless
-  server: 151.101.194.133
-  port: 443
-  uuid: telegram-id-ArV2ray
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | FDA7C6
+- name: CA 🇨🇦 | @Raydikalx | 85668D
   type: vmess
-  server: 104.21.224.23
+  server: 188.114.96.42
   port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
   alterId: 0
   cipher: auto
   udp: true
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
     headers:
-      Host: a.prapt4.ir
-- name: 美国 117
-  type: trojan
-  network: ws
-  server: 104.18.43.29
-  port: 8443
-  password: eeb6823c-b926-4ea2-866a-5542edd26e59
-  skip-cert-verify: false
-  sni: tjsp.hhxaf.cc.cd
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: tjsp.hhxaf.cc.cd
-    path: /
-- name: v2ray_configs_pool-344
+      Host: tr1-smart.adelping.com
+- name: 🐒52@oneclickvpnkeys
   type: vless
-  server: 104.24.165.148
-  port: 2087
-  uuid: 90235096-9296-3d36-c77c-715577598fd5
+  server: 91.209.253.243
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
-- name: CA 🇨🇦 | @Raydikalx | 0E16CB
-  type: vmess
-  server: 104.19.38.18
-  port: 2052
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: cdn2.freegradely.xyz
-- name: 🆔ar14n24b 🔒 VL-WS-N/A ❔ XX 13ms-2
+- name: '@ShadowProxy66 🇺🇸-4'
   type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 72881b3f-76f7-4cae-912d-e95e602a5ca4
-  udp: true
-  tls: true
-  servername: community.fastly.steamstatic.com
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
-- name: YFZ 56 @Outline_Vpn
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 3ca21a1e-5ec3-4724-9890-8c28e22bdbb2
-  udp: true
-- name: FR法国(v2clash.blog 2026-7.16更新)
-  type: vless
-  server: 104.24.9.6
-  port: 443
-  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
-  udp: true
-- name: US 🇺🇸 | @Raydikalx | A8EEF5
-  type: vmess
-  server: 199.232.78.160
-  port: 443
-  uuid: 6ba68c69-e108-502d-7b1c-e806fbc3cccd
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: ssl.fastly.com
-- name: '@FarazV2ray -23'
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-35
-  udp: true
-- name: 美国 229
-  type: trojan
-  network: ws
-  server: 104.18.152.229
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: '@prrofile_purple  ♥️👈 تلگرام-5'
-  type: vless
-  server: 172.64.145.158
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  udp: true
-- name: '@proxy_kafee : کانال تلگرام-4'
-  type: vless
-  server: 172.66.44.97
-  port: 443
-  uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8
-  udp: true
-- name: '[-26'
-  type: trojan
-  server: 188.114.97.6
-  port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  udp: true
-- name: 📪87@oneclickvpnkeys
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
-  udp: true
-- name: 'Channel : @proxy_kafee-12'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-- name: '@Jeyksatan-3'
-  type: vless
-  server: 151.101.3.8
-  port: 80
-  uuid: c943eaf7-70c6-45f1-bd3a-71360eedf16b
-  udp: true
-- name: '[-29'
-  type: vless
-  server: 185.146.173.37
-  port: 2095
-  uuid: 00a26afd-093b-47f5-a396-dbe994325a45
-  udp: true
-- name: canfingV2rayNG-43
-  type: trojan
-  server: 104.18.152.246
-  port: 443
-  password: humanity
-  udp: true
-- name: 🆔ar14n24b 🔒 VL-WS-N/A ❔ XX 20ms
-  type: vless
-  server: 188.114.96.3
-  port: 443
-  uuid: 5b716e51-489e-4e97-b5c8-dd10803eff93
-  udp: true
-  tls: true
-  servername: snc9ne2f7zclhn5uzth7hcfgsrnympmmrnej7w2uzdjtsyt2fssssssssssssss.n0xp4ed8mc.workers.Dev
-  client-fingerprint: chrome
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: 'Telegram channel : @pandavpntc'
-    headers:
-      Host: snc9ne2f7zclhn5uzth7hcfgsrnympmmrnej7w2uzdjtsyt2fssssssssssssss.n0xp4ed8mc.workers.Dev
-- name: canfingV2rayNG-146
-  type: vless
-  server: 151.101.3.147
-  port: 80
-  uuid: 24d49ddd-67c1-4821-b5b9-f12107366978
-  udp: true
-- name: US-012 美国 020
-  type: vless
-  network: ws
-  server: 104.21.0.1
-  port: 8080
-  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
-  servername: ip.sb
-  tls: false
-  udp: true
-  ws-opts:
-    headers:
-      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
-    path: /
-- name: XX-009 CF中转_1107191564
-  type: vless
-  server: 162.159.152.205
-  port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
-  udp: true
-  tls: true
-  servername: vless2-8vx.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vless2-8vx.pages.dev
-- name: FR-005 FR_96 1.5MB/s M003-260806 [4aaafff0fd6c]
-  client-fingerprint: chrome
-  network: ws
-  port: 2083
-  server: 162.159.130.234
-  sub_tag: M003-260806
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  ws-opts:
-    headers:
-      Host: vp14.1145678.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.110 Safari/537.36
-    path: /community/redirect.html
-  xudp: true
-  packet-encoding: xudp
-  servername: vp14.1145678.xyz
-- name: US 🇺🇸 | @Raydikalx | 64D2F8
-  server: 38.64.138.187
-  port: 1270
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: xmfhlpy.com
-  network: tcp
-- name: US 🇺🇸 | @Raydikalx | 572B79
-  server: 38.128.66.249
-  port: 1270
-  type: vmess
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: xmfhlpy.com
-  network: tcp
-- name: CA 🇨🇦 | @Raydikalx | 8C3B14
-  server: 104.16.10.22
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 美国 876
-  type: vless
-  network: xhttp
-  server: 199.232.237.79
-  port: 443
-  uuid: 24f1e5ce-05af-4470-9e1c-8c96e4189372
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: '@FarazV2ray '
-  type: vless
-  server: 167.82.76.31
-  port: 443
-  uuid: 08dd79b8-8eab-45e7-815b-29bb7ea35a61
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | 91B783
-  type: vmess
-  server: 104.21.227.15
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳@WangCai_8
-    headers:
-      Host: a.prapt1.ir
-- name: 🟢71@oneclickvpnkeys
-  type: vless
-  server: 151.101.117.177
-  port: 443
-  uuid: 2fb948c4-3120-415a-bf4f-be18c74cd466
-  udp: true
-- name: T.me/SafeNet_Server 💚🤍❤-3
-  type: vless
-  server: 8.47.69.0
-  port: 443
-  uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | D63061
-  type: vmess
-  server: 104.17.0.1
-  port: 2083
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: or3.sfacg.uk
-  network: ws
-  ws-opts:
-    path: /or3
-    headers:
-      Host: or3.sfacg.uk
-- name: 🌐服务器19 | 11月08日 |bin1site1.github.io
-  type: vless
-  server: 199.232.9.244
-  port: 443
-  uuid: 3374d2ed-0dc3-404d-adfd-414b55b3dc9b
-  udp: true
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-  alpn:
-  - h2
-- name: 🦜33@oneclickvpnkeys
-  type: vless
-  server: 151.101.215.120
-  port: 443
-  uuid: 3b0637f3-916e-470c-aa32-2e2b2b0de1b9
-  udp: true
-- name: 🪁26@oneclickvpnkeys
-  type: vless
-  server: 199.232.238.146
-  port: 443
-  uuid: 9b9835cf-9e72-472d-82f6-96fba445ce0a
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | 41AFEA
-  type: vmess
-  server: 104.20.25.146
-  port: 2052
-  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: cdn1.freegradely.xyz
-- name: 🛖82@oneclickvpnkeys
-  type: trojan
-  server: 151.101.56.56
-  port: 443
-  password: MiTIVPN
-  udp: true
-- name: '@FarazV2ray-12'
-  type: vless
-  server: 172.64.150.130
-  port: 443
-  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | E8F6E5
-  type: vmess
-  server: 104.21.239.77
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-- name: ⛽41@oneclickvpnkeys
-  type: trojan
-  server: 151.101.56.101
-  port: 443
-  password: MiTiVPN
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | 2C0839
-  type: vmess
-  server: 104.21.224.174
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt1.ir
-- name: 美国 235
-  type: trojan
-  network: ws
-  server: 104.18.22.208
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  sni: www.multiplydose.com
-  ws-opts:
-    headers:
-      Host: www.multiplydose.com
-    path: /assignment
-- name: US美国(v2clash.blog 2026-10.22更新)-2
-  type: vless
-  server: 172.64.153.61
-  port: 443
-  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-  udp: true
-- name: 美国 856
-  type: vless
-  network: xhttp
-  server: 199.232.245.94
-  port: 443
-  uuid: 1cbf2f56-926e-4a69-a325-d2794a22d411
-  servername: global.fastly.com
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: 美国 210
-  type: trojan
-  network: ws
-  server: 165.215.250.14
-  port: 443
-  password: humanity
-  skip-cert-verify: true
-  sni: www.ignitelimit.com
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 荷兰 039
-  type: vless
-  network: xhttp
-  server: 45.130.125.6
-  port: 443
-  uuid: ac006062-f051-43c6-bd4c-f409285c8635
-  servername: germany4.alibaba1405.org
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-- name: '@FarazV2ray -20'
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 0c8f6b59-b7a7-4ce2-8820-a6c9d4fe2381
-  udp: true
-- name: 'Channel id: @ShadowProxy66 🇺🇸'
-  type: vless
-  server: 199.232.245.208
-  port: 443
-  uuid: 0cc72cd6-29b2-4dcc-af4d-2907d19a0680
-  udp: true
-- name: ✅🍷@vless_vmess x | همه اپراتورها-2
-  type: vless
-  server: 104.26.15.69
+  server: 104.21.8.201
   port: 2096
-  uuid: 30f2d443-af46-4dd6-83c9-b5e17299ebd2
+  uuid: 36788cf4-fcb4-49c5-a563-5f888849b1cc
   udp: true
-- name: 美国 168
+- name: 🍎63@oneclickvpnkeys
+  type: trojan
+  server: 141.193.213.172
+  port: 443
+  password: humanity
+  udp: true
+- name: 美国 173
   type: trojan
   network: ws
-  server: 104.18.152.77
+  server: 162.159.91.211
   port: 443
   password: humanity
   skip-cert-verify: false
-  sni: www.ignitelimit.com
+  sni: www.calmlunch.com
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
+      Host: www.calmlunch.com
     path: /assignment
-- name: '@V2rayng_Fast 🇮🇹'
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | 9A2DC5
-  type: vmess
-  server: 104.19.45.98
-  port: 2095
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: onea.flha.ru
-- name: 美国 313
-  type: vless
-  network: xhttp
-  server: 162.159.90.45
-  port: 2083
-  uuid: 4aa8a9c5-db16-4d44-9276-dc139384e0b6
-  servername: RgeTHowthEweStwAswOn.FaIrisFair.IR
-  skip-cert-verify: false
-  tls: true
-  udp: true
-  encryption: none
-  xhttp-opts:
-    headers:
-      User-Agent: Mozilla/5.0+(Linux;+Android+10;+K)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/122.0.0.0+Safari/537.36
-    host: IfoRgeTHowthEweStwAswOn.faIRisfAir.ir
-    mode: auto
-    path: /
-  packet-encoding: xudp
-- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-22'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 0f0b7f69-78e1-4e9e-8b35-0986444613e4
-  udp: true
-- name: 🛖71@oneclickvpnkeys
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 121c3728-2b6b-4b69-bac6-170b13658d74
-  udp: true
-- name: 'Channel : @proxy_kafee-13'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-- type: vless
-  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
-  name: '🇨🇦[www.v2nodes.com] vless-CA-1... #2'
-  server: 172.67.74.90
-  port: 443
-  udp: true
-  network: ws
-  tls: true
-  servername: cvhpyn.pages.dev
-  ws-opts:
-    path: /fp=chromefp=chrome
-    headers:
-      Host: cvhpyn.pages.dev
-- name: XX-014 CF中转_1107193100
-  type: vless
-  server: 104.25.0.1
-  port: 8080
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  udp: true
-  network: ws
-  ws-opts:
-    path: /138.2.74.219-28616
-    headers:
-      Host: nautica-cff.kloningstrife002.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | E08020
-  server: 104.16.111.195
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 美国_Chicago_GTHost_Claude8
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  port: 443
-  server: 216.152.155.158
-  sni: resources.nextjobopportunityandclaimyouridealrole.com
+- name: 🐻10@oneclickvpnkeys
   type: trojan
-- name: CA 🇨🇦 | @Raydikalx | 7357B2
-  type: vmess
-  server: 104.21.228.42
-  port: 80
-  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
-  alterId: 0
-  cipher: auto
-  udp: true
-  network: ws
-  ws-opts:
-    path: /?ed=2048&Telegram🇨🇳
-    headers:
-      Host: a.prapt4.ir
-- name: 🍓50@oneclickvpnkeys
-  type: trojan
-  server: 88.216.67.230
+  server: 104.254.140.62
   port: 443
   password: MiTiVPN
   udp: true
-- name: CA 🇨🇦 | @Raydikalx | BCD7D5
-  type: vmess
-  server: 172.64.233.17
-  port: 2086
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  alterId: 0
-  cipher: auto
+- name: 🍅21@oneclickvpnkeys
+  type: vless
+  server: 45.142.120.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
+- name: 🫎50@oneclickvpnkeys
+  type: vless
+  server: 31.185.108.138
+  port: 2096
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+- name: 巴西 045
+  type: vless
   network: ws
-  ws-opts:
-    path: github.com/Alvin9999
-    headers:
-      Host: ip2.1457230.xyz
-- name: vless-104.17.234.128-6
-  type: vless
-  server: 104.17.234.128
+  server: 188.114.96.7
   port: 443
-  uuid: 8ce5a4b4-903a-4eb7-bc1d-0e9860dc5476
-  udp: true
-- name: 🆔ar14n24b 🔒 VL-XHTTP-N/A ❔ XX 13ms
-  type: vless
-  server: 199.232.237.79
-  port: 443
-  uuid: a87c16af-b6d6-4129-8106-3e816ed0fc8e
-  udp: true
+  uuid: a99595f6-c2da-4de3-ad25-f93f7c269e21
+  servername: guduz-tmvr.fggf2026.workers.dev
+  skip-cert-verify: false
   tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: firefox
-- name: YFZ 79 @Outline_Vpn
-  type: vless
-  server: 199.232.237.79
-  port: 443
-  uuid: 556e306b-e0a1-4832-80e5-575696c27f88
   udp: true
-- name: '[-12'
-  type: vless
-  server: 199.232.78.187
-  port: 443
-  uuid: c326b0af-e926-4dc8-a8a3-e7790cc0bdec
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | 83D32E
+  tfo: false
+  client-fingerprint: unsafe
+  ws-opts:
+    headers:
+      Host: guduz-tmvr.fggf2026.workers.dev
+    path: /stream/DEVCOP/f93f7c269e21/loc-0
+- name: CA 🇨🇦 | @Raydikalx | D78CA6
   type: vmess
-  server: 104.19.45.70
+  server: 104.19.45.17
   port: 2095
   uuid: 7a737f41-b792-4260-94ff-3d864da67b80
   alterId: 0
@@ -1979,7 +189,78 @@ proxies:
     path: /
     headers:
       Host: onea.flha.ru
-- name: 巴西 045
+- name: vless-1930539293
+  network: ws
+  port: 8080
+  server: 170.114.46.6
+  type: vless
+  udp: true
+  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
+- name: vless-1828374596
+  network: ws
+  port: 443
+  server: 104.21.33.59
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1934984141
+  password: humanity
+  port: 443
+  server: 104.19.95.153
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: vless-1832764140
+  network: ws
+  port: 443
+  server: 172.67.156.147
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: '🇭🇰[www.v2nodes.com] vless-HK-1... #4'
+  network: ws
+  port: 8080
+  server: 188.114.97.6
+  servername: fornewiran.ade-1000.workers.dev
+  tls: false
+  type: vless
+  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  ws-opts:
+    headers:
+      Host: fornewiran.ade-1000.workers.dev
+    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
+- name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪-3
+  type: vless
+  server: 91.209.253.250
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+- name: 🏓74@oneclickvpnkeys
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 1c9daf90-3950-44ac-b06f-4cf9aec63170
+  udp: true
+- name: '@V2rayng_Fast'
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c7e9c591-2764-423a-afca-efbd010fd396
+  udp: true
+- name: https://t.me/v2rayNG_Matsuri
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e431026f-d605-4a52-8b3b-0912a68dc9d1
+  udp: true
+- name: 巴西 044
   type: vless
   network: ws
   server: 188.114.96.2
@@ -1995,15 +276,199 @@ proxies:
     headers:
       Host: guduz-tmvr.fggf2026.workers.dev
     path: /stream/DEVCOP/f93f7c269e21/loc-0
-- name: ProxyMtpVPN-122
+- name: 🐊23@oneclickvpnkeys
   type: vless
-  server: 104.21.78.194
+  server: 63.141.128.22
   port: 443
-  uuid: 2c0109e7-8d35-4d20-a076-0d4eb9eb444d
+  uuid: b8b01773-36b1-4b49-9bd0-6249f52345b4
   udp: true
-- name: CA 🇨🇦 | @Raydikalx | 28398A
+- name: CA 🇨🇦 | @Raydikalx | 897CDC
   type: vmess
-  server: 104.19.45.90
+  server: 104.26.7.152
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn2.freegradely.xyz
+- name: CA 🇨🇦 | @Raydikalx | 52A333
+  type: vmess
+  server: 104.19.45.34
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: onea.flha.ru
+- name: Pro 37 @Outline_Vpn
+  type: vless
+  server: 104.18.13.149
+  port: 8443
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+- name: '[-9'
+  type: vless
+  server: 198.41.223.119
+  port: 443
+  uuid: 9f2ecebe-3a52-460e-80ac-74a21fffdaf7
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | A6DBA7
+  type: vmess
+  server: 104.19.45.80
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: onea.flha.ru
+- name: 🥎21@oneclickvpnkeys
+  type: vless
+  server: 185.193.29.123
+  port: 443
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  udp: true
+- name: '@FarazV2ray-8'
+  type: vless
+  server: 172.67.73.180
+  port: 2053
+  uuid: a4591489-e95a-41f0-87fe-d5e455e1c258
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | 72E586
+  type: vmess
+  server: 104.19.45.188
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: onea.flha.ru
+- name: Tel-@NapsterNetvIrani😼 2
+  type: vless
+  server: 45.131.211.136
+  port: 443
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  udp: true
+- name: 🐲47@oneclickvpnkeys
+  type: vless
+  server: 45.130.125.126
+  port: 443
+  uuid: b69b43d1-091d-4d7c-90b2-7a8bbad9d6a9
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | 111EA8
+  type: vmess
+  server: 188.114.96.9
+  port: 80
+  uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1
+    headers:
+      Host: tr1-smart.adelping.com
+- name: 🤩37@oneclickvpnkeys
+  type: trojan
+  server: 212.183.88.136
+  port: 443
+  password: humanity
+  udp: true
+- name: 美国 349
+  type: vless
+  network: ws
+  server: 104.26.13.222
+  port: 443
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
+- name: filembad-261
+  type: vless
+  server: 104.18.34.245
+  port: 8880
+  uuid: 78b73cc4-8c3c-40ce-bb74-d5dcd3277c67
+  udp: true
+- name: '@prrofile_purple  ♥️👈 تلگرام-3'
+  type: vless
+  server: 172.64.145.158
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+- name: Tel-@NapsterNetvIrani🥱 1
+  type: vless
+  server: 141.193.213.21
+  port: 443
+  uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4
+  udp: true
+- name: 🚨52@oneclickvpnkeys
+  type: vless
+  server: 195.26.229.86
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+- name: '@FarazV2ray-15'
+  type: vless
+  server: 104.16.47.58
+  port: 443
+  uuid: 7dedf505-609f-43df-b31a-1e4f3ef87102
+  udp: true
+- name: vless-104.17.234.128-10
+  type: vless
+  server: 104.17.234.128
+  port: 443
+  uuid: d3f0e44b-7aa9-4445-bafc-3546166ceaec
+  udp: true
+- name: 美国 231
+  type: trojan
+  network: ws
+  server: 104.16.174.185
+  port: 443
+  password: humanity
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: CA 🇨🇦 | @Raydikalx | FE080F
+  type: vmess
+  server: 104.21.235.57
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳 @WangCai08
+    headers:
+      Host: a.prapt4.ir
+- name: CA 🇨🇦 | @Raydikalx | AE802F
+  type: vmess
+  server: 172.64.233.24
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -2013,74 +478,183 @@ proxies:
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip14.freegradely.xyz
-- name: ⛲42@oneclickvpnkeys
+      Host: ip2.1457230.xyz
+- name: CA 🇨🇦 | @Raydikalx | 65FA1A
+  type: vmess
+  server: 104.19.138.197
+  port: 443
+  uuid: f2f14457-80c8-4f4c-9c42-337c8e70d4b6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: xcrouse23ed.iranpuls.ir
+- name: 🍅41@oneclickvpnkeys
   type: vless
-  server: 45.131.209.30
+  server: 194.152.44.2
+  port: 8880
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | 0EEFFB
+  type: vmess
+  server: 172.66.44.97
+  port: 8080
+  uuid: 4b9cee18-8a9c-45f2-be2b-8e585783c4b5
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | B4FBAF
+  type: vmess
+  server: 104.19.47.104
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: oiictw.yydsii.com
+- name: 📊63@oneclickvpnkeys
+  type: vless
+  server: 45.130.125.207
+  port: 443
+  uuid: eeb6823c-b926-4ea2-866a-5542edd26e59
+  udp: true
+- name: 乌克兰 014
+  type: vless
+  network: ws
+  server: 45.67.215.159
+  port: 2087
+  uuid: probabblynot-ch
+  servername: probabblynot.fazelextremeisreal.com
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: probabblynot.fazelextremeisreal.com
+    path: /
+- name: Server 102
+  type: vless
+  server: 104.16.72.162
+  port: 80
+  uuid: e2c5f1a9-b3d4-4e78-9f2a-1c3d4e5f6a7b
+  udp: true
+- name: YFZ 75 @Outline_Vpn
+  type: vless
+  server: 162.159.152.4
+  port: 443
+  uuid: 556e306b-e0a1-4832-80e5-575696c27f88
+  udp: true
+- name: US美国(v2clash.blog 2026-10.7更新)
+  type: vless
+  server: 155.46.167.30
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-- name: 美国 216
-  type: trojan
-  network: ws
-  server: 104.18.12.149
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 美国 179
-  type: trojan
-  network: ws
-  server: 104.18.152.155
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  ws-opts:
-    headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: 🍅57@oneclickvpnkeys
+- name: '@ShadowProxy66 🇺🇸-5'
   type: vless
-  server: 195.26.229.222
+  server: 104.21.8.201
+  port: 2096
+  uuid: 550d6eb0-1775-44a4-a464-9176e3d74b50
+  udp: true
+- name: 美国 571
+  type: vmess
+  network: ws
+  server: 104.26.8.156
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- name: YFZ 5 @Outline_Vpn
+  type: vless
+  server: 188.114.98.6
+  port: 2095
+  uuid: 89d784c8-0764-477d-9082-cfff0570338e
+  udp: true
+- name: V2rayng_Fast
+  type: vless
+  server: 104.18.32.47
+  port: 443
+  uuid: b2744521-78b7-4c24-86f2-4f751d1cb7bf
+  udp: true
+- name: 美国 191
+  type: trojan
+  network: ws
+  server: 104.16.174.124
+  port: 443
+  password: humanity
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: CA 🇨🇦 | @Raydikalx | 178939
+  type: vmess
+  server: 104.19.47.224
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳 @VPNine1
+    headers:
+      Host: oiictw.yydsii.com
+- name: 立陶宛 002
+  type: trojan
+  network: ws
+  server: 86.38.214.205
+  port: 443
+  password: humanity
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🐊53@oneclickvpnkeys
+  type: trojan
+  server: 188.114.96.3
+  port: 443
+  password: Telegram_healer_config
+  udp: true
+- name: Free x320 @Outline_Vpn
+  type: vless
+  server: 104.21.51.132
+  port: 8080
+  uuid: 28cec4eb-2c82-4089-a69b-d61db4fb8006
+  udp: true
+- name: 🍅65@oneclickvpnkeys
+  type: vless
+  server: 31.43.179.137
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
-- name: 🇧🇷@vpn_ioss ♻️ سرورهای بیشتر عضو شو
+- name: 🛠️30@oneclickvpnkeys
   type: vless
-  server: 172.67.74.10
-  port: 2087
-  uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96
-  udp: true
-- name: 🦜42@oneclickvpnkeys
-  type: vless
-  server: 114.129.43.30
+  server: 172.66.200.130
   port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  uuid: c6171ace-4580-45c7-b00f-5e6c56f48794
   udp: true
-- name: ☸️24@oneclickvpnkeys
+- name: '@FarazV2ray -33'
   type: vless
-  server: 208.103.161.5
-  port: 443
-  uuid: d042a74a-c305-4eec-a89f-39a348022c92
+  server: 162.159.152.4
+  port: 2052
+  uuid: 16a74c64-15bf-4fea-89e1-0a33ca535cc9
   udp: true
-- name: ProxyMtpVPN-20
-  type: trojan
-  server: 167.82.76.27
-  port: 443
-  password: MiTiVPN
-  udp: true
-- name: Free x274 @Outline_Vpnx269
-  type: vless
-  server: 104.18.138.67
-  port: 2083
-  uuid: 1a67126c-b9c4-4e78-b96e-eabd4002ab0c
-  udp: true
-- name: 美国 043
+- name: 美国 048
   type: vmess
   network: ws
   server: 162.159.130.208
@@ -2093,96 +667,311 @@ proxies:
     headers:
       Host: widescreen-instruction-breakdown-postage.trycloudflare.com
     path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm
-- name: 🇫🇷_FR_法国_IPV4
+- name: filembad-410-2
+  type: vless
+  server: 104.21.55.229
+  port: 8880
+  uuid: f769b7ea-9cd1-4d61-b578-7644b7c8eb3d
+  udp: true
+- name: 🇧🇻@vpn_ioss ♻️ سرورهای بیشتر عضو شو-2
   type: trojan
-  server: 172.67.231.254
+  server: 104.21.40.34
   port: 443
   password: humanity
   udp: true
-  sni: www.calmlunch.com
-  skip-cert-verify: true
+- name: '[-33'
+  type: vless
+  server: 104.16.6.70
+  port: 2087
+  uuid: a1ca84ee-6328-4a3f-936b-9c8652b8f101
+  udp: true
+- name: v2ray_configs_pool-344
+  type: vless
+  server: 104.24.165.148
+  port: 2087
+  uuid: 90235096-9296-3d36-c77c-715577598fd5
+  udp: true
+- name: NormanV2ray-11
+  type: trojan
+  server: 104.20.6.134
+  port: 2096
+  password: 8r<[9'l6hAO#8ZQi
+  udp: true
+- name: 美国 041
+  type: vmess
+  network: ws
+  server: 23.227.39.24
+  port: 8080
+  uuid: 9258153a-dc97-4e39-9037-009abfc4fed0
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: per-essex-patterns-bowling.trycloudflare.com
+    path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm
+- name: 美国 1100
+  type: vless
+  network: ws
+  server: 104.18.41.86
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- name: .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  type: vless
+  server: 104.21.58.37
+  port: 2053
+  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
+  udp: true
+  tls: true
+  servername: fast.145779.xyz
+  client-fingerprint: qq
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /ws-tesla
+    headers:
+      Host: fast.145779.xyz
+- type: vmess
+  uuid: 9ac947aa-de86-41c3-9a60-4c061c7c95f0
+  alterId: 0
+  cipher: none
+  network: ws
+  name: 未知148
+  server: 45.131.209.253
+  port: 80
+  udp: true
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: dl3.plot.cценарий.劇情голов0рез.fir3brand.煽動者追逐雷恩.погонезаpейн.wonkacapitano.buzz.
+- type: vless
+  uuid: 1246e51a-97cd-4d5c-9842-76dd3420bbe2
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #8'
+  server: 188.114.97.6
+  port: 443
+  udp: true
+  network: ws
+  tls: true
+  servername: investor.fb.com.r3xxe.eu.cc
+  ws-opts:
+    path: /id-tksifp=chrome
+    headers:
+      Host: investor.fb.com.r3xxe.eu.cc
+- type: vmess
+  uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25
+  alterId: 0
+  cipher: auto
+  network: grpc
+  name: 未知31
+  server: 172.64.32.154
+  port: 2087
+  udp: true
+  tls: true
+  servername: dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb155138194158.lianlingames.net
+- type: vless
+  name: 🇺🇸US美國丨yoyapai.com (9)
+  server: 185.193.29.123
+  port: 443
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  udp: true
+  tls: true
+  servername: notls.lukongtou.eu.org
+  sni: notls.lukongtou.eu.org
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: Telegram-WangCai2🇨🇳
+    headers:
+      Host: notls.lukongtou.eu.org
+- name: XX-013 CF中转_1107196065
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 0aab6adc-104c-4339-8d25-09755ffe2cbd
+  udp: true
+  tls: true
+  servername: liang92.dpdns.org
+  client-fingerprint: unsafe
   network: ws
   ws-opts:
     path: /
-- name: '[-25'
-  type: vless
-  server: 104.254.140.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-- name: 'Channel: @proxy_kafee'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
-  udp: true
-- name: '@FarazV2ray -29'
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
-  udp: true
-- name: '@V2rayng_Fast -2'
-  type: trojan
-  server: 188.114.96.5
-  port: 2083
-  password: nzrc4ma4087c1ukr
-  udp: true
-- name: 🎒78@oneclickvpnkeys
-  type: vless
-  server: 188.114.98.0
-  port: 8443
-  uuid: 29ca503d-e6b8-4509-b666-48133f450857
-  udp: true
-- type: vless
-  uuid: b15f187e-9b34-437c-8243-8651a8ada76c
-  name: 🇳🇱[www.v2nodes.com] vless-NL-1...
-  server: 188.114.96.25
-  port: 443
-  udp: true
-  network: ws
-  ws-opts:
-    path: /stream/DEVCOP/8651a8ada76c/loc-0security=tls
     headers:
-      Host: tepar-k4j9.jounet.workers.dev
-- type: vless
-  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
-  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
-  server: 188.114.97.6
-  port: 443
-  udp: true
+      Host: liang92.dpdns.org
+- name: vless-1927185301
   network: ws
+  port: 443
+  server: 104.17.50.227
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
   tls: true
-  servername: nautica-cff.kloningstrife002.workers.dev
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1832764134
+  network: ws
+  port: 443
+  server: 104.16.10.135
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1827962637
+  network: ws
+  port: 443
+  server: 104.16.111.195
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1894622732
+  password: humanity
+  port: 443
+  server: 45.130.125.126
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1827938592
+  password: humanity
+  port: 443
+  server: 162.159.91.211
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1827149560
+  password: humanity
+  port: 443
+  server: 172.67.231.254
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1939845073
+  password: humanity
+  port: 443
+  server: 172.67.223.48
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1853491995
+  password: humanity
+  port: 443
+  server: 104.18.32.47
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
+  network: ws
+  port: 80
+  server: 104.27.88.172
+  servername: web-app-nr6wpa.app-tp57xz.workers.dev
+  tls: false
+  type: vless
+  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
   ws-opts:
-    path: /138.2.74.219-28616fp=unsafe
+    headers:
+      Host: web-app-nr6wpa.app-tp57xz.workers.dev
+    path: /api/ws
+- client-fingerprint: unsafe
+  encryption: none
+  name: '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
+  network: ws
+  port: 443
+  server: 188.114.97.6
+  servername: nautica-cff.kloningstrife002.workers.dev
+  tls: true
+  type: vless
+  uuid: fc60147e-76b8-4bc5-b691-90b2da79e3d2
+  ws-opts:
     headers:
       Host: nautica-cff.kloningstrife002.workers.dev
-- name: CA 🇨🇦 | @Raydikalx | 001FED
-  server: 104.17.50.53
+    path: /138.2.74.219-28616
+- name: CA 🇨🇦 | @Raydikalx | 6E0C5F
+  server: 104.17.10.171
   port: 443
+  type: trojan
+  password: 883e3cc8-9613-4f2d-8c42-0dd3d429db55
+  udp: true
+  sni: ltf8.jueson.de5.net
+  network: ws
+  ws-opts:
+    path: /categories/community/
+    headers:
+      Host: ltf8.jueson.de5.net
+- name: US 🇺🇸 | @Raydikalx | C85BCD
+  server: 170.114.46.6
+  port: 2096
   type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: efd11a89-7506-44ce-95b6-6654859f155b
   udp: true
   tls: true
-  servername: jp3.yohototo.top
+  servername: pcloud.z-tas.com
+  client-fingerprint: firefox
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
-- name: 美国 115
-  type: trojan
+      Host: pcloud.z-tas.com
+- name: CA 🇨🇦 | @Raydikalx | 092C56
+  server: 172.67.161.144
+  port: 8443
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: v2ray1.dozapp.xyz
   network: ws
-  server: 104.16.72.101
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: CA 🇨🇦 | @Raydikalx | 1116CA
+  server: 104.26.0.1
+  port: 2052
+  type: vless
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  udp: true
+  tls: false
+  servername: eu02.123450908.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /rain1226
+    headers:
+      Host: eu02.123450908.xyz
+- name: US美国(v2clash.blog 2026-10.22更新)
+  type: vless
+  server: 104.17.139.37
   port: 443
-  password: 6c862415-30d2-4813-8e49-42e99a0bd415
-  sni: space.byu.id.yxls.eu.cc
-  ws-opts:
-    headers:
-      Host: space.byu.id.yxls.eu.cc
-    path: /us-gllc
-- name: 美国 896
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+- name: (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪
+  type: vless
+  server: 108.162.192.75
+  port: 443
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
+  udp: true
+- name: 美国 909
   type: vless
   network: ws
   server: 104.16.6.70
@@ -2198,111 +987,230 @@ proxies:
     headers:
       Host: mos.rfiksma.top
     path: /
-- name: '@Vpn_Tehran 💜 کانال تلگرام'
+- name: US美国(v2clash.blog 2026-10.23更新)-2
   type: vless
-  server: 185.207.196.48
+  server: 104.18.41.191
   port: 443
-  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
   udp: true
-- name: Telegram@DarkVPNpro | کانفیگ های پرسرعت بیشتر⚡️
+- name: 🇩🇪@vpn_ioss ♻️ سرورهای بیشتر عضو شو
   type: trojan
-  server: 8.6.112.0
+  server: 172.67.180.92
+  port: 443
+  password: humanity
+  udp: true
+- name: US美国(v2clash.blog 2026-10.4更新)-2
+  type: vless
+  server: 172.67.183.52
+  port: 80
+  uuid: c8f3f81a-5276-48e9-af6b-c537fb4c7856
+  udp: true
+- name: '@ShadowProxy66 🇺🇸-3'
+  type: vless
+  server: 172.67.130.159
   port: 2096
-  password: 8r<[9'l6hAO#8ZQi
+  uuid: bdc5e450-3e2d-4001-928e-e3bc6cecb249
   udp: true
-- name: 🎗️30@oneclickvpnkeys
-  type: vless
-  server: 8.47.69.0
-  port: 8880
-  uuid: a8178248-3cdf-4fb0-ab7b-87c1ab77201c
-  udp: true
-- name: '@FarazV2ray-4'
-  type: vless
-  server: 104.16.47.58
-  port: 443
-  uuid: 7dedf505-609f-43df-b31a-1e4f3ef87102
-  udp: true
-- name: '@FarazV2ray -4'
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e
-  udp: true
-- name: 🐒56@oneclickvpnkeys
-  type: vless
-  server: 139.64.235.117
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-- name: '@FarazV2ray-7'
-  type: vless
-  server: 162.159.38.119
-  port: 443
-  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
-  udp: true
-- name: '@FarazV2ray -10'
-  type: vless
-  server: 162.159.152.4
-  port: 2052
-  uuid: e531609c-63f6-4b14-a422-eb346c4b29be
-  udp: true
-- name: T.me/SafeNet_Server 💚🤍❤-4
-  type: vless
-  server: 104.16.72.101
-  port: 443
-  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
-  udp: true
-- name: 🚨48@oneclickvpnkeys
-  type: vless
-  server: 199.232.237.79
-  port: 443
-  uuid: 60a2998c-cd85-562e-a3fd-396e4925dd3a
-  udp: true
-- name: Free 232 @Outline_Vpn
-  type: vless
-  server: 188.164.248.69
-  port: 443
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  udp: true
-- name: '@V2rayng_Fast 🇳🇱'
-  type: vless
-  server: 162.159.250.29
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-- name: US美国(v2clash.blog 2026-8.15更新)
-  type: trojan
-  server: 216.24.57.7
-  port: 443
-  password: humanity
-  udp: true
-- name: 美国 184
-  type: trojan
+- name: 美国 559
+  type: vmess
   network: ws
-  server: 104.18.152.149
-  port: 443
-  password: humanity
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: 104.19.45.47
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
   ws-opts:
     headers:
-      Host: www.ignitelimit.com
-    path: /assignment
-- name: '[-16'
-  type: vless
-  server: 140.248.186.45
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- name: 🏁RELAY-188.114.97.6-5562
+  type: trojan
+  server: 188.114.97.6
   port: 443
-  uuid: XpnTeam-4
+  password: MiTiVPN
   udp: true
-- name: canfingV2rayNG-270
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-2'
   type: vless
-  server: 192.71.82.2
+  server: 188.114.97.6
   port: 443
-  uuid: a5c05c1e-aa68-443f-8598-09800244bd4b
+  uuid: 06278d74-9385-42e8-be1b-49c78ebc49ea
   udp: true
-- name: CA 🇨🇦 | @Raydikalx | D8D897
+- name: 🛖71@oneclickvpnkeys
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 121c3728-2b6b-4b69-bac6-170b13658d74
+  udp: true
+- name: Server 93
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 698b212d-ca12-4794-8256-252a6e1b4533
+  udp: true
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-9'
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 9f44d517-29f2-4c6d-cc06-a1268f13da58
+  udp: true
+- name: 📪87@oneclickvpnkeys
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c19735a7-ff97-a112-3f07-60e500f7719b
+  udp: true
+- name: 🐒72@oneclickvpnkeys
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: d1eeb74f-e5ea-45eb-9934-5376bfeb5ba4
+  udp: true
+- name: 'Channel : @proxy_kafee '
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+- name: 🍓50@oneclickvpnkeys
+  type: trojan
+  server: 88.216.67.230
+  port: 443
+  password: MiTiVPN
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | 64BF05
   type: vmess
-  server: 104.21.237.88
+  server: 104.19.47.12
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: oiictw.yydsii.com
+- name: VIP 107 @v2ray_vpn_ir
+  type: trojan
+  server: 162.159.38.119
+  port: 443
+  password: humanity
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | A9CC45
+  type: vmess
+  server: 104.19.47.254
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳 @VPNine1
+    headers:
+      Host: oiictw.yydsii.com
+- name: CA 🇨🇦 | @Raydikalx | 12D92A
+  type: vmess
+  server: 104.19.45.240
+  port: 2095
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: onea.flha.ru
+- name: CA 🇨🇦 | @Raydikalx | F81A9D
+  type: vmess
+  server: 104.19.47.199
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: oiictw.yydsii.com
+- name: 美国 759
+  type: vmess
+  network: grpc
+  server: 104.17.148.22
+  port: 2053
+  uuid: 00fb7867-95ad-4eaf-99f1-22255beb6251
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+- name: FR法国(v2clash.blog 2026-8.10更新)
+  type: vless
+  server: 192.0.54.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | 1087F4
+  type: vmess
+  server: 104.18.57.111
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip11.freegradely.xyz
+- name: CA 🇨🇦 | @Raydikalx | 41AFEA
+  type: vmess
+  server: 104.20.25.146
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn1.freegradely.xyz
+- name: 🆔conectvpn10 🔒 VL-WS-N/A ❔ XX 7ms-2
+  type: vless
+  server: 104.18.45.38
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: ccc.010304.xyz
+- name: 🆔conectvpn10 🔒 VL-WS-N/A ❔ XX 7ms-3
+  type: vless
+  server: 104.18.45.38
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  servername: a.cwvps.eu.org
+  client-fingerprint: unsafe
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: CA 🇨🇦 | @Raydikalx | C4AAEC
+  type: vmess
+  server: 104.21.238.90
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   alterId: 0
@@ -2313,9 +1221,35 @@ proxies:
     path: /?ed=2048&Telegram🇨🇳
     headers:
       Host: a.prapt1.ir
-- name: CA 🇨🇦 | @Raydikalx | 7CB111
+- name: 🛖21@oneclickvpnkeys
+  type: vless
+  server: 193.227.99.2
+  port: 8880
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
+  udp: true
+- name: 'Channel : @proxy_kafee -3'
+  type: vless
+  server: 172.67.92.203
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+- name: Telegram@DarkVPNpro | کانفیگ های پرسرعت بیشتر⚡️
+  type: vless
+  server: 8.6.112.6
+  port: 2083
+  uuid: eb211fb7-40c8-4314-8b67-7b5f025e0f62
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | D8003D
   type: vmess
-  server: 104.19.42.49
+  server: 104.18.32.47
+  port: 8080
+  uuid: 5ba0defa-bd3c-43b1-8800-1d61887a07c4
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | E1C6CF
+  type: vmess
+  server: 104.19.59.89
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -2325,10 +1259,10 @@ proxies:
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip1.1457230.xyz
-- name: CA 🇨🇦 | @Raydikalx | 786728
+      Host: ip14.freegradely.xyz
+- name: CA 🇨🇦 | @Raydikalx | FDA7C6
   type: vmess
-  server: 104.21.224.16
+  server: 104.21.224.23
   port: 80
   uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
   alterId: 0
@@ -2336,18 +1270,1345 @@ proxies:
   udp: true
   network: ws
   ws-opts:
-    path: /?ed=2048&Telegram🇨🇳@WangCai_8
+    path: /?ed=2048&Telegram🇨🇳
     headers:
-      Host: a.prapt1.ir
-- name: Tel-@NapsterNetvIrani🤓 2
+      Host: a.prapt4.ir
+- name: '@Vpn_Tehran 🇦🇷 تلگرام'
+  type: vless
+  server: 104.16.72.70
+  port: 443
+  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
+  udp: true
+- name: Free 171 @Outline_Vpn
+  type: vless
+  server: 104.18.37.228
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+- name: 🐊19@oneclickvpnkeys
+  type: vless
+  server: 66.235.200.122
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+- name: 🔒50@oneclickvpnkeys
+  type: vless
+  server: 188.114.96.37
+  port: 443
+  uuid: 3804296d-167f-4c1b-8734-147f80473590
+  udp: true
+- name: 美国 788
+  type: vmess
+  network: ws
+  server: 162.159.135.234
+  port: 2083
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: or3.sfacg.uk
+    path: /or3
+- name: CA 🇨🇦 | @Raydikalx | 975E53
+  type: vmess
+  server: 172.67.142.177
+  port: 443
+  uuid: af4399b8-a152-486b-9cf6-acdd42d6c40c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: uk.lovehk.xyz
+  network: ws
+  ws-opts:
+    path: /London3
+    headers:
+      Host: uk.lovehk.xyz
+- name: '@V2rayng_Fast 🇫🇷-2'
+  type: vless
+  server: 104.18.37.233
+  port: 2053
+  uuid: 65c56e1f-5c41-40bc-b0b5-9346772476ca
+  udp: true
+- name: 4🎒@oneclickvpnkeys
+  type: vless
+  server: 188.114.98.0
+  port: 2087
+  uuid: 29ca503d-e6b8-4509-b666-48133f450857
+  udp: true
+- name: '@FarazV2ray-13'
   type: trojan
-  server: 45.80.111.7
+  server: 104.18.152.225
+  port: 443
+  password: MITIVPN
+  udp: true
+- name: 美国 168
+  type: trojan
+  network: ws
+  server: 104.16.174.12
+  port: 443
+  password: humanity
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: lrnbymaa
+  type: trojan
+  server: 108.162.194.134
   port: 443
   password: humanity
   udp: true
-- name: CA 🇨🇦 | @Raydikalx | 45F8F0
+- name: '@Vpn_Tehran 💜 کانال تلگرام'
+  type: vless
+  server: 185.207.196.48
+  port: 443
+  uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575
+  udp: true
+- name: '@V2rayng_Fast 👿'
+  type: vless
+  server: 104.21.70.228
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+- name: 🏁RELAY-172.67.149.60-5574
+  type: trojan
+  server: 172.67.149.60
+  port: 443
+  password: humanity
+  udp: true
+- name: '[-21'
+  type: vless
+  server: 23.227.60.186
+  port: 80
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+  udp: true
+- name: 美国 043
+  type: trojan
+  network: ws
+  server: 23.227.38.11
+  port: 443
+  password: b17fa17d-13a0-4e8a-a398-8e549ea8b208
+  skip-cert-verify: true
+  sni: syndication-statutes-wanted-logo.trycloudflare.com
+  ws-opts:
+    headers:
+      Host: syndication-statutes-wanted-logo.trycloudflare.com
+    path: /argox-tr
+- name: CA 🇨🇦 | @Raydikalx | 3EC78F
   type: vmess
-  server: 104.19.47.77
+  server: 104.21.226.14
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳 @WangCai08
+    headers:
+      Host: a.prapt4.ir
+- name: CA 🇨🇦 | @Raydikalx | FF568B
+  type: vmess
+  server: 172.67.137.158
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: nomino.11hi8itbaf.workers.dev
+  network: ws
+  ws-opts:
+    path: /guanwang.awsno.com/hls/cctv5phd.m3u8
+    headers:
+      Host: nomino.11hi8itbaf.workers.dev
+- name: Telegram@DarkVPNpro | کانفیگ های پرسرعت بیشتر⚡️-2
+  type: trojan
+  server: 8.6.112.0
+  port: 2096
+  password: 8r<[9'l6hAO#8ZQi
+  udp: true
+- name: 🐊17@oneclickvpnkeys
+  type: vless
+  server: 195.26.229.156
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+- name: 美国 564
+  type: vmess
+  network: ws
+  server: 104.19.47.65
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip11-2.freegradely.xyz
+    path: github.com/Alvin9999
+- name: CA加拿大(v2clash.blog 2026-7.29更新)
+  type: vless
+  server: 172.66.3.109
+  port: 8443
+  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
+  udp: true
+- name: 荷兰 005
+  type: trojan
+  network: ws
+  server: 45.130.125.32
+  port: 443
+  password: humanity
+  sni: www.calmloud.com
+  ws-opts:
+    headers:
+      Host: www.calmloud.com
+    path: /assignment
+- name: CA 🇨🇦 | @Raydikalx | 8849FE
+  type: vmess
+  server: 172.66.44.97
+  port: 8080
+  uuid: 96d88304-6bc1-4ef1-b26e-845e7c1cc38e
+  alterId: 0
+  cipher: auto
+  udp: true
+- name: '[-23'
+  type: vless
+  server: 104.21.33.154
+  port: 443
+  uuid: 1093ad8e-939b-4846-b82e-4411177929b4
+  udp: true
+- name: 美国 528
+  type: vmess
+  network: ws
+  server: 23.227.38.3
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- name: ⚙️42@oneclickvpnkeys
+  type: vless
+  server: 188.114.97.3
+  port: 443
+  uuid: d7d8af23-36cd-4c66-a42a-4469c177210f
+  udp: true
+- name: 🛠️46@oneclickvpnkeys
+  type: vless
+  server: 188.114.97.3
+  port: 443
+  uuid: daf485ba-60fc-4166-a72c-8d2a5407cbc5
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | 312913
+  type: vmess
+  server: 172.67.137.209
+  port: 443
+  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: ukl.lovehk.xyz
+  network: ws
+  ws-opts:
+    path: /London31
+    headers:
+      Host: ukl.lovehk.xyz
+- name: Moldova WorkTitans
+  type: vless
+  server: 104.21.86.253
+  port: 443
+  uuid: e4824193-4f54-453b-d037-88368e85ef0e
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | C40235
+  type: vmess
+  server: 172.67.187.145
+  port: 80
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: '@FarazV2ray-18'
+  type: trojan
+  server: 130.250.137.171
+  port: 443
+  password: humanity
+  udp: true
+- name: 美国 569
+  type: vmess
+  network: ws
+  server: 104.19.21.230
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- name: 𝗡𝗲𝗧𝗠𝗲𝗹𝗶⚡️@prrofile_purple 🌩
+  type: vless
+  server: 104.16.150.163
+  port: 2087
+  uuid: d9dc6b24-9dca-4312-81bd-a9acac5508e2
+  udp: true
+- name: '@ShadowProxy66 🇺🇸-7'
+  type: vless
+  server: 104.21.8.201
+  port: 2096
+  uuid: ecb9ab47-31aa-4dd9-92eb-191047b353bd
+  udp: true
+- name: 美国 175
+  type: trojan
+  network: ws
+  server: 104.18.8.83
+  port: 443
+  password: humanity
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: www.calmlunch.com
+    path: /assignment
+- name: 美国 656
+  type: vmess
+  network: ws
+  server: 172.67.77.95
+  port: 443
+  uuid: 1bff15f1-a71d-4f07-b8bf-9471708eff8b
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nat.998808.xyz
+    path: /fthe4gsefgtdu
+- name: 🐞67@oneclickvpnkeys
+  type: vless
+  server: 104.17.20.214
+  port: 443
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  udp: true
+- name: 美国 080
+  type: vmess
+  network: ws
+  server: 162.159.140.45
+  port: 2082
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  skip-cert-verify: true
+  tls: false
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip26.6929198.xyz
+    path: github.com/Alvin9999
+- name: CA 🇨🇦 | @Raydikalx | 4C3914
+  type: vmess
+  server: 104.21.231.57
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt1.ir
+- name: '@V2rayng_Fast 🇫🇷-3'
+  type: vless
+  server: 45.130.125.69
+  port: 2096
+  uuid: a9160eba-23cd-407d-8cb3-39a2bc43148c
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | CF1435
+  type: vmess
+  server: 188.114.96.19
+  port: 80
+  uuid: af4be52a-aab3-4db1-a6bb-c23700dcb9c2
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /d3d3LmlyYW5ob3N0LmNvbQ==
+    headers:
+      Host: https.http.www.net.com.ramseyv2.ir.
+- name: 美国 1103
+  type: vless
+  network: ws
+  server: 172.64.158.170
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /?Telegram—V2ray_confiig
+- name: CA 🇨🇦 | @Raydikalx | ECC985
+  type: vmess
+  server: 104.21.224.157
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt1.ir
+- name: US美国(v2clash.blog 2026-10.3更新)
+  type: vless
+  server: 63.141.128.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+- name: canfingV2rayNG-80
+  type: vless
+  server: 188.114.97.6
+  port: 80
+  uuid: 22c15b3f-e205-48e2-9b30-1a2c3480e7b2
+  udp: true
+- name: 'channel : @proxy_kafee-2'
+  type: vless
+  server: 188.114.97.6
+  port: 80
+  uuid: 866b08ab-1786-4769-b364-d76b22daa7e2
+  udp: true
+- name: 🖲️37@oneclickvpnkeys
+  type: vless
+  server: 89.116.46.210
+  port: 80
+  uuid: 88806cd6-9686-4eea-92c8-7f8baf7d1505
+  udp: true
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-25'
+  type: vless
+  server: 104.21.33.59
+  port: 443
+  uuid: 9b18ccef-b9e0-41d1-8990-9d970569e142
+  udp: true
+- name: US美国v2clash.blog 2026-9.10)-2
+  type: vless
+  server: 172.67.190.103
+  port: 443
+  uuid: ef5c5d5c-08c6-4549-b05e-d1ff29ecc8ba
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | 617AF5
+  type: vmess
+  server: 104.21.230.51
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: '/?ed=2048&Telegram🇨🇳 '
+    headers:
+      Host: a.prapt1.ir
+- name: 美国 137
+  type: trojan
+  network: ws
+  server: 162.159.3.176
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- name: 🦖95@oneclickvpnkeys
+  type: trojan
+  server: 104.16.72.101
+  port: 443
+  password: 86957ec0-b213-433b-a43b-51f2175e0ec3
+  udp: true
+- name: 俄罗斯 043
+  type: vless
+  network: ws
+  server: 194.76.18.126
+  port: 2087
+  uuid: probabblynot-ch
+  servername: probabblynot.fazelextremeisreal.com
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: probabblynot.fazelextremeisreal.com
+    path: /
+- name: 美国 198
+  type: trojan
+  network: ws
+  server: 104.16.174.101
+  port: 443
+  password: humanity
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 🇺🇸@proxy_kafee
+  type: vless
+  server: 104.16.72.50
+  port: 443
+  uuid: f0db70ae-559e-4cba-aa00-3a04eb04c3e0
+  udp: true
+- name: '@FarazV2ray -34'
+  type: vless
+  server: 162.159.152.4
+  port: 2052
+  uuid: e531609c-63f6-4b14-a422-eb346c4b29be
+  udp: true
+- name: 荷兰 030
+  type: vless
+  network: xhttp
+  server: 45.130.125.158
+  port: 443
+  uuid: 965fef48-24c7-4727-b51e-6d3b2b8873c8
+  servername: mahsa97.manhamunamkeyeruz.ir
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- name: CA 🇨🇦 | @Raydikalx | C5497C
+  type: vmess
+  server: 104.21.236.60
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt4.ir
+- name: CA 🇨🇦 | @Raydikalx | 3E64F8
+  type: vmess
+  server: 104.19.47.238
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳 @WangCai2
+    headers:
+      Host: oiictw.yydsii.com
+- name: vless-104.20.32.111
+  type: vless
+  server: 104.20.32.111
+  port: 443
+  uuid: eb3168be-aa17-45f0-a41f-1e9c035f6f44
+  udp: true
+- name: 美国 565
+  type: vmess
+  network: ws
+  server: 104.19.47.79
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  skip-cert-verify: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- name: '@proxy_kafee-7'
+  type: vless
+  server: 104.21.89.41
+  port: 443
+  uuid: 44eae030-290b-4083-8102-6f8bab05701b
+  udp: true
+- name: 🇨🇦 CA | 104.17.89.154
+  type: vless
+  server: 104.17.89.154
+  port: 2083
+  uuid: 6787a9ff-7e1b-4708-aea2-b5da6a7ec2f3
+  udp: true
+  tls: true
+  servername: rana.bardo-chronos.online
+  client-fingerprint: chrome
+  alpn:
+  - h2
+  - http/1.1
+- name: 美国 948
+  type: vless
+  network: ws
+  server: 104.16.10.135
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- name: 美国 1101
+  type: vless
+  network: ws
+  server: 104.24.173.112
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: unsafe
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /fp=chrome
+- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-8
+  type: vless
+  server: 104.16.0.1
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: '%2Ftyxyws'
+    headers:
+      Host: jp3.yohototo.top
+- name: 美国 1105
+  type: vless
+  network: ws
+  server: 172.66.154.57
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  servername: ccc.010304.xyz
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  ws-opts:
+    headers:
+      Host: ccc.010304.xyz
+    path: /
+- type: vmess
+  uuid: 2d14e84b-226b-412a-9a3c-ffce70b02bdf
+  alterId: 0
+  cipher: auto
+  network: ws
+  name: 未知55
+  server: 104.20.36.139
+  port: 80
+  udp: true
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: 127.0.0.1.dl.эврика.mrarsha.尤里卡.醫生.специалист.wonkacapitano.buzz.
+- type: vless
+  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
+  name: '🇩🇪[www.v2nodes.com] vless-DE-1... #10 #2'
+  server: 104.27.88.172
+  port: 80
+  udp: true
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-nr6wpa.app-tp57xz.workers.dev
+- type: vless
+  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  name: '🇭🇰[www.v2nodes.com] vless-HK-1... #4 #2'
+  server: 188.114.97.6
+  port: 8080
+  udp: true
+  network: ws
+  ws-opts:
+    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
+    headers:
+      Host: fornewiran.ade-1000.workers.dev
+- type: vless
+  name: 🇨🇦CA加拿大丨yoyapai.com (19)
+  server: 172.67.79.160
+  port: 2087
+  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
+  udp: true
+  tls: true
+  servername: cvhpyn.pages.dev
+  sni: cvhpyn.pages.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cvhpyn.pages.dev
+- type: vless
+  name: ❓未知丨yoyapai.com (2)
+  server: 141.193.213.10
+  port: 443
+  uuid: 977b814d-d9e0-4889-bb71-98d6bfb8f462
+  udp: true
+  tls: true
+  servername: partner.catchplay.com.r3xxe.eu.cc
+  sni: partner.catchplay.com.r3xxe.eu.cc
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /sg-amz
+    headers:
+      Host: partner.catchplay.com.r3xxe.eu.cc
+- port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+  name: 013 | 49ms | 172.64.69.89
+- name: XX-010 CF中转_110719451
+  type: vless
+  server: 104.21.0.1
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
+  udp: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+- name: US-254 US_599 294KB/s M003-260806 [c5e8ee0bc771]
+  alpn:
+  - ''
+  alterId: '0'
+  cipher: auto
+  network: ws
+  port: 80
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sub_tag: M003-260806
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  ws-opts:
+    headers:
+      Host: vmess.lbw666.dpdns.org
+    path: /ws?ed
+  xudp: true
+  packet-encoding: xudp
+- name: vless-1884771865
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1863476159
+  network: ws
+  port: 443
+  server: 104.21.6.186
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1853476976
+  network: ws
+  port: 443
+  server: 104.16.10.185
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1863474247
+  network: ws
+  port: 443
+  server: 104.21.34.106
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- alterId: 0
+  cipher: auto
+  name: vmess-1947375789
+  network: ws
+  port: 2083
+  server: 162.159.130.234
+  servername: cdn.sfacg.uk
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: ac251237-576f-40c8-a543-554960c958b1
+- name: trojan-1923819684
+  password: humanity
+  port: 443
+  server: 172.67.203.46
+  skip-cert-verify: false
+  sni: www.cordweave.com
+  type: trojan
+  udp: true
+- name: vless-1856199614
+  network: ws
+  port: 443
+  server: 104.16.111.102
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1944218170
+  password: humanity
+  port: 443
+  server: 104.25.0.1
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1828472626
+  password: humanity
+  port: 443
+  server: 104.16.72.50
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- client-fingerprint: unsafe
+  encryption: none
+  name: 🇫🇷[www.v2nodes.com] vless-FR-2...
+  network: ws
+  port: 443
+  server: 104.20.45.141
+  servername: razk50e1uvss.amirhoseyn-meshki.workers.dev
+  tls: true
+  type: vless
+  uuid: 50414e45-4c5f-5a45-5553-7e7818beb9aa
+  ws-opts:
+    headers:
+      Host: razk50e1uvss.amirhoseyn-meshki.workers.dev
+    path: /stream/PANEL_ZEUS/7e7818beb9aa
+- client-fingerprint: chrome
+  name: '🇭🇰[www.v2nodes.com] vless-HK-1... #7'
+  network: ws
+  port: 443
+  server: 188.114.98.0
+  servername: tn1r.eu.cc
+  tls: true
+  type: vless
+  uuid: 22424ee2-6fe3-42ca-9749-6d4c5a8acc82
+  ws-opts:
+    headers:
+      Host: tn1r.eu.cc
+    path: /id-pusat
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇲🇾[www.v2nodes.com] vless-MY-1...
+  network: ws
+  port: 443
+  server: 104.17.11.191
+  servername: vpn.cintaku.qzz.io
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  ws-opts:
+    headers:
+      Host: vpn.cintaku.qzz.io
+    path: /vlessws
+- name: CA 🇨🇦 | @Raydikalx | 3A32B9
+  server: 104.25.95.49
+  port: 443
+  type: trojan
+  password: 883e3cc8-9613-4f2d-8c42-0dd3d429db55
+  udp: true
+  sni: ltf8.jueson.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ltf8.jueson.de5.net
+- name: US 🇺🇸 | @Raydikalx | 51B7E9
+  server: 170.114.45.6
+  port: 2096
+  type: vless
+  uuid: efd11a89-7506-44ce-95b6-6654859f155b
+  udp: true
+  tls: true
+  servername: pcloud.z-tas.com
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pcloud.z-tas.com
+- name: CA 🇨🇦 | @Raydikalx | BF5E50
+  server: 104.17.77.77
+  port: 8443
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: CA 🇨🇦 | @Raydikalx | BFB103
+  server: 104.16.0.1
+  port: 2052
+  type: vless
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  udp: true
+  tls: false
+  servername: eu02.123450908.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /rain1226
+    headers:
+      Host: eu02.123450908.xyz
+- name: '[cbusifabcap-clashmeta] ❓Other_23|318KB/s|R002-260618'
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-4'
+  type: vless
+  server: 104.18.40.100
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  sni: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chromesecurity=tls
+    headers:
+      Host: ccc.010304.xyz
+- name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-3'
+  type: vless
+  server: 104.18.40.100
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  sni: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-8'
+  type: vless
+  server: 104.18.40.100
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  sni: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /fp
+    headers:
+      Host: ccc.010304.xyz
+- name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-7'
+  type: vless
+  server: 104.18.40.100
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  sni: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: ccc.010304.xyz
+- name: 158.101.158.101_Claude1
+  network: ws
+  port: 443
+  server: 104.16.10.9
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  ws-opts:
+    headers:
+      Host: jp3.yohototo.top
+    path: /tyxyws
+- name: 美国 145
+  type: trojan
+  network: ws
+  server: 162.159.15.39
+  port: 8443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- name: 美国 130
+  type: trojan
+  network: ws
+  server: 172.64.148.165
+  port: 8443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  skip-cert-verify: false
+  sni: tjsp.hhxaf.cc.cd
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: tjsp.hhxaf.cc.cd
+    path: /
+- name: US美国(v2clash.blog 2026-10.25更新)
+  type: trojan
+  server: 162.159.152.81
+  port: 443
+  password: '123456'
+  udp: true
+- name: 美国 181
+  type: trojan
+  network: ws
+  server: 104.18.152.161
+  port: 443
+  password: humanity
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  ws-opts:
+    headers:
+      Host: www.ignitelimit.com
+    path: /assignment
+- name: 美国 340
+  type: vless
+  network: ws
+  server: 104.26.12.222
+  port: 443
+  uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8
+  servername: octopusss5.info
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  client-fingerprint: chrome
+  packet-encoding: xudp
+  ws-opts:
+    headers:
+      Host: octopusss5.info
+    path: /udfyfws
+- name: 美国 996
+  type: vless
+  network: ws
+  server: 104.21.53.134
+  port: 443
+  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
+  servername: cf.udpid.org
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: cf.udpid.org
+    path: /
+- name: 美国 908
+  type: vless
+  network: xhttp
+  server: 172.67.158.89
+  port: 8443
+  uuid: 2fad05d3-9fab-45a0-addc-3fc229673c5e
+  servername: dl1.rahetejarat.com
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- name: US美国(v2clash.blog 2026-10.4更新)
+  type: vless
+  server: 172.67.79.160
+  port: 2087
+  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
+  udp: true
+- name: 美国 117
+  type: trojan
+  network: ws
+  server: 162.159.60.167
+  port: 443
+  password: eeb6823c-b926-4ea2-866a-5542edd26e59
+  skip-cert-verify: false
+  sni: hhcm.hhxaf.cc.cd
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: hhcm.hhxaf.cc.cd
+    path: /
+- name: '@ShadowProxy66 🇺🇸'
+  type: vless
+  server: 172.67.130.159
+  port: 2096
+  uuid: 214bf4c5-045a-4ddb-944b-e2eef9b33338
+  udp: true
+- name: '@ShadowProxy66 🇺🇸-2'
+  type: vless
+  server: 172.67.130.159
+  port: 2096
+  uuid: 550d6eb0-1775-44a4-a464-9176e3d74b50
+  udp: true
+- name: 美国 1177
+  type: vless
+  network: ws
+  server: 155.212.240.147
+  port: 2087
+  uuid: probabblynot-ch
+  servername: probabblynot.fazelextremeisreal.com
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+  ws-opts:
+    headers:
+      Host: probabblynot.fazelextremeisreal.com
+    path: /
+- name: '@V2rayng_Fast 🇩🇪-3'
+  type: vless
+  server: 185.159.247.44
+  port: 443
+  uuid: 3ccb1d2a-d169-443a-ad5d-3f5f11759695
+  udp: true
+- name: 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: '%2Ftyxyws'
+    headers:
+      Host: jp3.yohototo.top
+- name: '@V2rayng_Fast 🇩🇪-4'
+  type: vless
+  server: 104.21.34.106
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+- name: '@Napsternetvirani '
+  type: vless
+  server: 104.16.148.244
+  port: 2095
+  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
+  udp: true
+- name: 🏓82@oneclickvpnkeys
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 1c94a079-e41d-48d3-b5b6-d8f7f761a00d
+  udp: true
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-6'
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 41750e18-7143-49a3-bdac-4edcb3c8b8f3
+  udp: true
+- name: Server 170
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  udp: true
+- name: 'Channel : @proxy_kafee'
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
+  udp: true
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-7'
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
+  udp: true
+- name: 'Channel: @proxy_kafee'
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 8102891d-7b37-4dc5-8261-9474b59b5c63
+  udp: true
+- name: 'Channel : @proxy_kafee-3'
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+- name: 🕊️56@oneclickvpnkeys
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: f3a30870-eb2e-4ad7-85cb-c0e65d061d5b
+  udp: true
+- name: 🌐服务器33 | 11月09日 |bin1site1.github.io
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b
+  udp: true
+  tls: true
+  servername: vangoghhh.info
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /rdfgtws
+    headers:
+      Host: vangoghhh.info
+- name: CA 🇨🇦 | @Raydikalx | 3278D1
+  type: vmess
+  server: 104.19.47.16
+  port: 8080
+  uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳 @VPNine1
+    headers:
+      Host: oiictw.yydsii.com
+- name: '[-3'
+  type: vless
+  server: 104.254.140.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+- name: 荷兰 032
+  type: vless
+  network: xhttp
+  server: 45.130.125.6
+  port: 443
+  uuid: ac006062-f051-43c6-bd4c-f409285c8635
+  servername: germany4.alibaba1405.org
+  skip-cert-verify: false
+  tls: true
+  udp: true
+  tfo: false
+  client-fingerprint: chrome
+- name: '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-10'
+  type: vless
+  server: 172.67.182.80
+  port: 443
+  uuid: 0050dd81-65fb-439c-abf6-c4c609205c44
+  udp: true
+- name: 'Channel : @proxy_kafee -2'
+  type: vless
+  server: 188.114.99.0
+  port: 443
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+- name: '[-5'
+  type: vless
+  server: 188.114.96.1
+  port: 8080
+  uuid: 0fbe0c5e-b479-4d91-8b42-f194f781b6bb
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | 22EF42
+  type: vmess
+  server: 104.21.228.41
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt1.ir
+- name: CA 🇨🇦 | @Raydikalx | 93C870
+  type: vmess
+  server: 104.21.229.47
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt1.ir
+- name: '@FarazV2ray'
+  type: vless
+  server: 162.159.38.119
+  port: 443
+  uuid: 0ac0a6f0-d3f0-47f1-8de4-ce785e515a5c
+  udp: true
+- name: 🥉87@oneclickvpnkeys
+  type: vless
+  server: 173.245.58.75
+  port: 443
+  uuid: 073d1d50-8478-47bf-a828-7a1b381931d5
+  udp: true
+- name: '[-7'
+  type: vless
+  server: 172.64.157.28
+  port: 80
+  uuid: 435bda4c-fe5e-42c9-a3ad-15334943b38a
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | CF3E09
+  type: vmess
+  server: 104.19.58.175
   port: 2086
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   alterId: 0
@@ -2357,60 +2618,47 @@ proxies:
   ws-opts:
     path: github.com/Alvin9999
     headers:
-      Host: ip1.1457230.xyz
-- name: ⛲8@oneclickvpnkeys
-  type: vless
-  server: 146.75.59.186
+      Host: ip14.freegradely.xyz
+- name: 🇨🇦@V2rayng_Fast
+  type: trojan
+  server: 104.18.6.178
   port: 443
-  uuid: dc7d45c9-c942-41e3-b880-9a7fd5b64e2f
+  password: MiTiVPN
   udp: true
-- name: V2rayng_Fast
-  type: vless
-  server: 104.18.32.47
+- name: Pro 19 @Outline_Vpn
+  type: trojan
+  server: 104.17.101.139
   port: 443
-  uuid: b2744521-78b7-4c24-86f2-4f751d1cb7bf
+  password: 6202b230-417c-4d8e-b624-0f71afa9c75d
   udp: true
-- name: filembad-315
+- name: 🐒43@oneclickvpnkeys
   type: vless
-  server: 104.21.88.129
-  port: 8880
-  uuid: 8e7ce77a-d889-4dbf-b095-1d0eca88f6dc
-  udp: true
-- name: '[-31'
-  type: vless
-  server: 104.16.6.70
-  port: 2087
-  uuid: a1ca84ee-6328-4a3f-936b-9c8652b8f101
-  udp: true
-- name: SG-001 新加坡_110719340
-  type: vless
-  server: 27.50.48.13
+  server: 91.209.253.68
   port: 443
-  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
-  tls: true
-  servername: vless2-8vx.pages.dev
-  client-fingerprint: firefox
+- name: CA 🇨🇦 | @Raydikalx | 97EC8A
+  type: vmess
+  server: 104.19.45.19
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
   network: ws
   ws-opts:
-    path: /
+    path: github.com/Alvin9999
     headers:
-      Host: vless2-8vx.pages.dev
-- name: US美国(v2clash.blog 2026-10.13更新)
+      Host: ip2.1457230.xyz
+- name: 📊95@oneclickvpnkeys
   type: vless
-  server: 209.206.51.240
-  port: 443
-  uuid: 573c6482-37db-454a-8c31-5b45a338a580
+  server: 198.41.209.7
+  port: 2096
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   udp: true
-- name: 🇩🇪@vpn_ioss ♻️ سرورهای بیشتر عضو شو-2
-  type: trojan
-  server: 172.67.180.92
-  port: 443
-  password: humanity
-  udp: true
-- name: CA 🇨🇦 | @Raydikalx | 262813
+- name: CA 🇨🇦 | @Raydikalx | 7C9FAD
   type: vmess
-  server: 172.64.229.138
+  server: 172.67.77.76
   port: 2083
   uuid: ac251237-576f-40c8-a543-554960c958b1
   alterId: 0
@@ -2423,17 +2671,170 @@ proxies:
     path: /or3
     headers:
       Host: or.521166.xyz
-- name: 🎡7@oneclickvpnkeys
-  type: trojan
-  server: 167.68.4.199
-  port: 2053
-  password: Aimer
-  udp: true
-- name: vless-104.17.234.114-2
+- name: 🆔conectvpn10 🔒 VL-WS-N/A ❔ XX 7ms-4
   type: vless
-  server: 104.17.234.114
+  server: 104.21.221.158
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  servername: ccc.010304.xyz
+  client-fingerprint: unsafe
+  network: ws
+  ws-opts:
+    path: /fp=unsafe
+    headers:
+      Host: ccc.010304.xyz
+- name: 🍥63@oneclickvpnkeys
+  type: vless
+  server: 172.66.47.69
+  port: 80
+  uuid: 9f8e7d6c-5b4a-4321-8b7a-6c5d4e3f2a1b
+  udp: true
+- name: filembad-330
+  type: vless
+  server: 172.67.151.243
+  port: 2086
+  uuid: b4a16091-a25d-4d33-aee3-f5ae04f34b14
+  udp: true
+- name: 美国 025
+  type: trojan
+  network: ws
+  server: 104.18.35.86
+  port: 2096
+  password: '123456'
+  skip-cert-verify: true
+  udp: true
+  sni: 321dfbc6.uir-9i6.pages.dev
+  ws-opts:
+    headers:
+      Host: 321dfbc6.uir-9i6.pages.dev
+    path: /
+- name: filembad-410
+  type: vless
+  server: 104.25.194.196
+  port: 2086
+  uuid: e3c7c198-2b02-42c2-b78f-22dfc078219c
+  udp: true
+- name: 美国 727
+  type: vmess
+  network: ws
+  server: 172.67.72.172
+  port: 443
+  uuid: 1bff15f1-a71d-4f07-b8bf-9471708eff8b
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: nat.998808.xyz
+    path: /fthe4gsefgtdu
+- name: CA 🇨🇦 | @Raydikalx | 98EE2E
+  type: vmess
+  server: 104.26.13.31
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip1.1789034.xyz
+- name: CA 🇨🇦 | @Raydikalx | 751F99
+  type: vmess
+  server: 104.19.32.226
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn2.freegradely.xyz
+- name: FR法国(v2clash.blog 2026-7.16更新)
+  type: vless
+  server: 104.24.9.6
+  port: 443
+  uuid: 407ecce0-dc85-465f-89f5-e520e9378baf
+  udp: true
+- name: 🏁RELAY-172.67.143.129-8306
+  type: vmess
+  server: 172.67.143.129
+  port: 80
+  uuid: 4a47e680-d860-4e63-9fa6-813857fb0f42
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: 4a47e680
+- name: CA 🇨🇦 | @Raydikalx | DCFD2B
+  type: vmess
+  server: 104.21.232.63
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳
+    headers:
+      Host: a.prapt4.ir
+- name: '[-12'
+  type: vless
+  server: 173.245.58.133
+  port: 2052
+  uuid: e512d9ba-3639-476c-888b-734d050bfed5
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | F17016
+  type: vmess
+  server: 104.19.123.31
+  port: 2052
+  uuid: d6b6d982-d52f-465a-b988-85670b23f64a
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: cdn3.freegradely.xyz
+- name: CA 🇨🇦 | @Raydikalx | F8F1E6
+  type: vmess
+  server: 104.21.235.76
+  port: 80
+  uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: /?ed=2048&Telegram🇨🇳 @WangCai08
+    headers:
+      Host: a.prapt1.ir
+- name: ⛽57@oneclickvpnkeys
+  type: vless
+  server: 8.35.211.188
   port: 8443
-  uuid: 57426e0f-3f4e-4460-844d-e9c9893f2046
+  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+  udp: true
+- name: filembad-217
+  type: vless
+  server: 172.65.90.52
+  port: 8880
+  uuid: 6b6733fb-580b-411b-8bf8-51137c2aa037
+  udp: true
+- name: ⚽23@oneclickvpnkeys
+  type: vless
+  server: 213.241.198.20
+  port: 443
+  uuid: 7612dd26-d0ce-4fe0-be7c-d093bb8645da
   udp: true
 - name: 🍅73@oneclickvpnkeys
   type: vless
@@ -2441,318 +2842,357 @@ proxies:
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
-- name: VIP 107 @v2ray_vpn_ir
-  type: trojan
-  server: 162.159.38.119
+- name: 美国 728
+  type: vmess
+  network: ws
+  server: 172.67.79.117
   port: 443
-  password: humanity
+  uuid: bd014532-1f8b-4d33-b79d-50131d8d4633
+  skip-cert-verify: true
+  tls: true
+  alterId: 0
+  cipher: auto
+  ws-opts:
+    headers:
+      Host: www.998808.xyz
+    path: /vbje5ytgwfgdrhe
+- name: vless-192.200.160.20
+  type: vless
+  server: 192.200.160.20
+  port: 443
+  uuid: c1a5ecfa-8a01-4070-91e0-0328b82388ad
   udp: true
+- name: 🪩34@oneclickvpnkeys
+  type: vless
+  server: 139.64.235.123
+  port: 443
+  uuid: 1d16c6e0-1bbe-435b-b661-90043fee999c
+  udp: true
+- name: 🍅28@oneclickvpnkeys
+  type: vless
+  server: 185.148.106.50
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | A56E50
+  type: vmess
+  server: 104.19.45.13
+  port: 2086
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  alterId: 0
+  cipher: auto
+  udp: true
+  network: ws
+  ws-opts:
+    path: github.com/Alvin9999
+    headers:
+      Host: ip13.freegradely.xyz
 proxy-groups:
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 'Channel : @proxy_kafee-2'
-  - 🫒49@oneclickvpnkeys
-  - 🛕40@oneclickvpnkeys
-  - 'Channel : @proxy_kafee -7'
-  - '@V2rayng_Fast 🇫🇷-4'
-  - '@FarazV2ray -19'
-  - 🆔configx2ray 🔒 VL-WS-N/A ❔ XX 13ms
-  - ⚙️94@oneclickvpnkeys
-  - '@prrofile_purple | ViP ⚡-7'
-  - 🛕45@oneclickvpnkeys
-  - '@FarazV2ray -27'
-  - 🔰 @prrofile_purple (تلگرام)-3
-  - '@SERVERNETT جوین بدید'
-  - 美国 1041
-  - US 🇺🇸 | @Raydikalx | 2D3F12
-  - V2rayngninja
-  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-2'
-  - 'Channel : @proxy_kafee-4'
-  - 🫑42@oneclickvpnkeys
-  - '@FarazV2ray-9'
-  - 🫡32@oneclickvpnkeys
-  - 🧩54@oneclickvpnkeys
-  - 🫑40@oneclickvpnkeys
-  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-15'
-  - 'Channel : @proxy_kafee-5'
-  - '@V2rayng_Fast 🇳🇱-2'
-  - '@FarazV2ray -21'
-  - ProxyMtpVPN-26
-  - US 🇺🇸 | @Raydikalx | 7DD8C0
-  - 美国 858
-  - '@prrofile_purple  ♥️👈 تلگرام'
-  - YFZ 59 @Outline_Vpn
-  - 😊39@oneclickvpnkeys
-  - 'channel : @proxy_kafee'
-  - 🔰 @prrofile_purple (تلگرام)
-  - CA 🇨🇦 | @Raydikalx | 557D07
-  - '@Napsternetvirani -2'
-  - 美国 171
-  - '[-20'
-  - 'Channel : @proxy_kafee-6'
-  - 🆔ar14n24b 🔒 VL-WS-N/A ❔ XX 15ms
-  - YFZ 77 @Outline_Vpn
-  - '@prrofile_purple | ViP ⚡-4'
-  - 🆔ar14n24b 🔒 VL-WS-N/A ❔ XX 12ms
-  - 'Channel : @proxy_kafee-9'
-  - '@FarazV2ray-19'
-  - '@proxy_kafee-6'
-  - 🏁RELAY-188.114.97.6-5701
-  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-27'
-  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-28'
-  - 🇺🇸 Chicago, IL, United States
-  - US 🇺🇸 | @Raydikalx | 672864
-  - US 🇺🇸 | @Raydikalx | 61BFA5
-  - 美国 137
-  - 美国 913
-  - 'Channel : @proxy_kafee-3'
-  - '[-7'
-  - '[-9'
-  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-4'
-  - 🎨61@oneclickvpnkeys
-  - '@FarazV2ray -11'
-  - NormanV2ray-11
-  - '@prrofile_purple  ♥️👈 تلگرام-4'
-  - 🫑37@oneclickvpnkeys
-  - 🆔configx2ray 🔒 VL-WS-N/A ❔ XX 15ms
-  - 🍎11@oneclickvpnkeys
-  - '@prrofile_purple | ViP ⚡-5'
-  - '@prrofile_purple | ViP ⚡-6'
-  - '@FarazV2ray-17'
-  - '@FarazV2ray -24'
-  - '@prrofile_purple | ViP ⚡-8'
-  - 美国 192
-  - 美国 990
-  - 🆔conectvpn10 🔒 VL-WS-N/A ❔ XX 16ms
-  - Tel@V2rayng_Fast 🩵
-  - ✅🍷@vless_vmess x | همه اپراتورها-3
-  - '@V2rayng_Fast 🇸🇪-2'
-  - 🎡77@oneclickvpnkeys
-  - XX-079 立陶宛_110719061
-  - US 🇺🇸 | @Raydikalx | 5BA270
-  - US 🇺🇸 | @Raydikalx | FC978E
-  - US 🇺🇸 | @Raydikalx | C3E30F
-  - US 🇺🇸 | @Raydikalx | 3DAA21
-  - 美国 1048
-  - '@V2rayng_Fast 🇩🇪-2'
-  - CA 🇨🇦 | @Raydikalx | A8153F
-  - France 0VH
-  - '@FarazV2ray -2'
-  - '@V2rayng_Fast'
-  - '@Napsternetvirani'
-  - '@FarazV2ray -5'
-  - vless-146.75.59.1
-  - vless-104.17.234.128-7
-  - 🇵🇾@v2rayNG_Matsuri
-  - 🇮🇱Telegram👉@v2rayNG_Matsuri
-  - 🐞50@oneclickvpnkeys
-  - '@Jeyksatan-2'
-  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-14'
-  - 🇺🇸Telegram👉@v2rayNG_Matsuri-2
-  - 🌐已更新于#✅ 11月08日 | 10:42- | 每15分钟更新一次
-  - 瑞典 013
-  - 🆔capoit 🔒 VL-XHTTP-N/A ❔ XX 13ms
-  - Tel@V2rayng_Fast 🇹🇷
-  - '@prrofile_purple | ViP ⚡-3'
-  - 🇺🇸𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢⫸@𝙫𝟮𝙧𝙖𝙮𝙉𝙂_𝙈𝙖𝙩𝙨𝙪𝙧𝙞
-  - Free x741 @Outline_Vpn
-  - 'Channel : @proxy_kafee-8'
-  - 🆔ar14n24b 🔒 VL-WS-N/A ❔ XX 9ms
-  - 🫟97@oneclickvpnkeys
-  - '@proxy_kafee : کانال تلگرام-2'
-  - CA 🇨🇦 | @Raydikalx | ADDAD1
-  - 美国 532
-  - '@ShadowProxy66 🇺🇸'
-  - 🇧🇻@vpn_ioss ♻️ سرورهای بیشتر عضو شو
-  - ☀️53@oneclickvpnkeys
-  - 美国 165
-  - 'Channel : @proxy_kafee -9'
-  - '🇯🇵[www.v2nodes.com] vless-JP-1... #4'
-  - XX-007 CF中转_1107196959
-  - US 🇺🇸 | @Raydikalx | 882A7F
-  - CA 🇨🇦 | @Raydikalx | FB35B5
-  - 美国_Chicago_GTHost_Claude2
-  - JP日本(v2clash.blog 2026-6.9更新)
-  - '@V2rayng_Fast 🇬🇧'
-  - 瑞典 010
-  - '@V2rayng_Fast 🇫🇮'
-  - https://t.me/v2rayNG_Matsuri
-  - CA 🇨🇦 | @Raydikalx | 751F99
-  - CA 🇨🇦 | @Raydikalx | A12DC1
-  - 🫟18@oneclickvpnkeys
-  - CA 🇨🇦 | @Raydikalx | 30FA14
-  - 'Channel : @proxy_kafee -4'
-  - '@FarazV2ray -6'
-  - 印度 006
-  - '@FarazV2ray -9'
-  - 🐒52@oneclickvpnkeys
-  - Suren TM
-  - 🇫🇷 V2rayngninja
-  - '@FarazV2ray -13'
-  - 美国 173
-  - '@FarazV2ray-14'
-  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-13'
-  - 美国 857
-  - 美国 124
-  - 'Channel : @proxy_kafee-7'
-  - '@proxy_kafee : کانال تلگرام'
-  - 🔰 @prrofile_purple (تلگرام)-2
-  - ✅34@oneclickvpnkeys
-  - '@V2rayng_Fast-4'
-  - '@FarazV2ray -22'
-  - '@FarazV2ray -25'
-  - '@FarazV2ray -26'
-  - 🇨🇵Telegram👉@v2rayNG_Matsuri
-  - '@Vpn_Tehran ☢️ تلگرام'
-  - کانال+:+@V2rayNGvpni-4
-  - 🐊58@oneclickvpnkeys
-  - Server 93
-  - ⛲57@oneclickvpnkeys
-  - '@V2rayng_Fast 👿'
-  - 🇨🇦[www.v2nodes.com] vless-CA-1...
-  - '🇺🇸 美国 | USA #9'
-  - US 🇺🇸 | @Raydikalx | 8E071B
-  - US 🇺🇸 | @Raydikalx | 815D87
-  - 美国_Chicago_GTHost_Claude5
-  - 🇺🇸Telegram👉@v2rayNG_Matsuri
-  - 美国 161
+  - 🇺🇸US丨yoyapai.com美国 (3)
+  - CA 🇨🇦 | @Raydikalx | 0AD519
+  - ⛽32@oneclickvpnkeys
+  - vless-1947014531
+  - trojan-1827188005
   - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚'
-  - '@FarazV2ray -3'
-  - 🔥34@oneclickvpnkeys
-  - '@FarazV2ray-6'
-  - 美国 712
-  - '@prrofile_purple | ViP ⚡'
+  - 巴西 035
+  - CA 🇨🇦 | @Raydikalx | C5361A
   - vless-104.17.234.128-3
-  - Free x208 @Outline_Vpn
-  - TLS4-ALL
-  - CA 🇨🇦 | @Raydikalx | FDA7C6
-  - 美国 117
-  - v2ray_configs_pool-344
-  - CA 🇨🇦 | @Raydikalx | 0E16CB
-  - 🆔ar14n24b 🔒 VL-WS-N/A ❔ XX 13ms-2
-  - YFZ 56 @Outline_Vpn
-  - FR法国(v2clash.blog 2026-7.16更新)
-  - US 🇺🇸 | @Raydikalx | A8EEF5
-  - '@FarazV2ray -23'
-  - 美国 229
-  - '@prrofile_purple  ♥️👈 تلگرام-5'
-  - '@proxy_kafee : کانال تلگرام-4'
-  - '[-26'
-  - 📪87@oneclickvpnkeys
-  - 'Channel : @proxy_kafee-12'
-  - '@Jeyksatan-3'
-  - '[-29'
-  - canfingV2rayNG-43
-  - 🆔ar14n24b 🔒 VL-WS-N/A ❔ XX 20ms
-  - canfingV2rayNG-146
-  - US-012 美国 020
-  - XX-009 CF中转_1107191564
-  - FR-005 FR_96 1.5MB/s M003-260806 [4aaafff0fd6c]
-  - US 🇺🇸 | @Raydikalx | 64D2F8
-  - US 🇺🇸 | @Raydikalx | 572B79
-  - CA 🇨🇦 | @Raydikalx | 8C3B14
-  - 美国 876
-  - '@FarazV2ray '
-  - CA 🇨🇦 | @Raydikalx | 91B783
-  - 🟢71@oneclickvpnkeys
-  - T.me/SafeNet_Server 💚🤍❤-3
-  - CA 🇨🇦 | @Raydikalx | D63061
-  - 🌐服务器19 | 11月08日 |bin1site1.github.io
-  - 🦜33@oneclickvpnkeys
-  - 🪁26@oneclickvpnkeys
-  - CA 🇨🇦 | @Raydikalx | 41AFEA
-  - 🛖82@oneclickvpnkeys
-  - '@FarazV2ray-12'
-  - CA 🇨🇦 | @Raydikalx | E8F6E5
-  - ⛽41@oneclickvpnkeys
-  - CA 🇨🇦 | @Raydikalx | 2C0839
-  - 美国 235
-  - US美国(v2clash.blog 2026-10.22更新)-2
-  - 美国 856
-  - 美国 210
-  - 荷兰 039
-  - '@FarazV2ray -20'
-  - 'Channel id: @ShadowProxy66 🇺🇸'
-  - ✅🍷@vless_vmess x | همه اپراتورها-2
-  - 美国 168
-  - '@V2rayng_Fast 🇮🇹'
-  - CA 🇨🇦 | @Raydikalx | 9A2DC5
-  - 美国 313
-  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-22'
-  - 🛖71@oneclickvpnkeys
-  - 'Channel : @proxy_kafee-13'
-  - '🇨🇦[www.v2nodes.com] vless-CA-1... #2'
-  - XX-014 CF中转_1107193100
-  - CA 🇨🇦 | @Raydikalx | E08020
-  - 美国_Chicago_GTHost_Claude8
-  - CA 🇨🇦 | @Raydikalx | 7357B2
-  - 🍓50@oneclickvpnkeys
-  - CA 🇨🇦 | @Raydikalx | BCD7D5
-  - vless-104.17.234.128-6
-  - 🆔ar14n24b 🔒 VL-XHTTP-N/A ❔ XX 13ms
-  - YFZ 79 @Outline_Vpn
-  - '[-12'
-  - CA 🇨🇦 | @Raydikalx | 83D32E
+  - CA 🇨🇦 | @Raydikalx | 85668D
+  - 🐒52@oneclickvpnkeys
+  - '@ShadowProxy66 🇺🇸-4'
+  - 🍎63@oneclickvpnkeys
+  - 美国 173
+  - 🐻10@oneclickvpnkeys
+  - 🍅21@oneclickvpnkeys
+  - 🫎50@oneclickvpnkeys
   - 巴西 045
-  - ProxyMtpVPN-122
-  - CA 🇨🇦 | @Raydikalx | 28398A
-  - ⛲42@oneclickvpnkeys
-  - 美国 216
-  - 美国 179
-  - 🍅57@oneclickvpnkeys
-  - 🇧🇷@vpn_ioss ♻️ سرورهای بیشتر عضو شو
-  - 🦜42@oneclickvpnkeys
-  - ☸️24@oneclickvpnkeys
-  - ProxyMtpVPN-20
-  - Free x274 @Outline_Vpnx269
-  - 美国 043
-  - 🇫🇷_FR_法国_IPV4
-  - '[-25'
-  - 'Channel: @proxy_kafee'
-  - '@FarazV2ray -29'
-  - '@V2rayng_Fast -2'
-  - 🎒78@oneclickvpnkeys
-  - 🇳🇱[www.v2nodes.com] vless-NL-1...
-  - '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
-  - CA 🇨🇦 | @Raydikalx | 001FED
-  - 美国 115
-  - 美国 896
-  - '@Vpn_Tehran 💜 کانال تلگرام'
-  - Telegram@DarkVPNpro | کانفیگ های پرسرعت بیشتر⚡️
-  - 🎗️30@oneclickvpnkeys
-  - '@FarazV2ray-4'
-  - '@FarazV2ray -4'
-  - 🐒56@oneclickvpnkeys
-  - '@FarazV2ray-7'
-  - '@FarazV2ray -10'
-  - T.me/SafeNet_Server 💚🤍❤-4
-  - 🚨48@oneclickvpnkeys
-  - Free 232 @Outline_Vpn
-  - '@V2rayng_Fast 🇳🇱'
-  - US美国(v2clash.blog 2026-8.15更新)
-  - 美国 184
-  - '[-16'
-  - canfingV2rayNG-270
-  - CA 🇨🇦 | @Raydikalx | D8D897
-  - CA 🇨🇦 | @Raydikalx | 7CB111
-  - CA 🇨🇦 | @Raydikalx | 786728
-  - Tel-@NapsterNetvIrani🤓 2
-  - CA 🇨🇦 | @Raydikalx | 45F8F0
-  - ⛲8@oneclickvpnkeys
+  - CA 🇨🇦 | @Raydikalx | D78CA6
+  - vless-1930539293
+  - vless-1828374596
+  - trojan-1934984141
+  - vless-1832764140
+  - '🇭🇰[www.v2nodes.com] vless-HK-1... #4'
+  - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪-3
+  - 🏓74@oneclickvpnkeys
+  - '@V2rayng_Fast'
+  - https://t.me/v2rayNG_Matsuri
+  - 巴西 044
+  - 🐊23@oneclickvpnkeys
+  - CA 🇨🇦 | @Raydikalx | 897CDC
+  - CA 🇨🇦 | @Raydikalx | 52A333
+  - Pro 37 @Outline_Vpn
+  - '[-9'
+  - CA 🇨🇦 | @Raydikalx | A6DBA7
+  - 🥎21@oneclickvpnkeys
+  - '@FarazV2ray-8'
+  - CA 🇨🇦 | @Raydikalx | 72E586
+  - Tel-@NapsterNetvIrani😼 2
+  - 🐲47@oneclickvpnkeys
+  - CA 🇨🇦 | @Raydikalx | 111EA8
+  - 🤩37@oneclickvpnkeys
+  - 美国 349
+  - filembad-261
+  - '@prrofile_purple  ♥️👈 تلگرام-3'
+  - Tel-@NapsterNetvIrani🥱 1
+  - 🚨52@oneclickvpnkeys
+  - '@FarazV2ray-15'
+  - vless-104.17.234.128-10
+  - 美国 231
+  - CA 🇨🇦 | @Raydikalx | FE080F
+  - CA 🇨🇦 | @Raydikalx | AE802F
+  - CA 🇨🇦 | @Raydikalx | 65FA1A
+  - 🍅41@oneclickvpnkeys
+  - CA 🇨🇦 | @Raydikalx | 0EEFFB
+  - CA 🇨🇦 | @Raydikalx | B4FBAF
+  - 📊63@oneclickvpnkeys
+  - 乌克兰 014
+  - Server 102
+  - YFZ 75 @Outline_Vpn
+  - US美国(v2clash.blog 2026-10.7更新)
+  - '@ShadowProxy66 🇺🇸-5'
+  - 美国 571
+  - YFZ 5 @Outline_Vpn
   - V2rayng_Fast
-  - filembad-315
-  - '[-31'
-  - SG-001 新加坡_110719340
-  - US美国(v2clash.blog 2026-10.13更新)
-  - 🇩🇪@vpn_ioss ♻️ سرورهای بیشتر عضو شو-2
-  - CA 🇨🇦 | @Raydikalx | 262813
-  - 🎡7@oneclickvpnkeys
-  - vless-104.17.234.114-2
-  - 🍅73@oneclickvpnkeys
+  - 美国 191
+  - CA 🇨🇦 | @Raydikalx | 178939
+  - 立陶宛 002
+  - 🐊53@oneclickvpnkeys
+  - Free x320 @Outline_Vpn
+  - 🍅65@oneclickvpnkeys
+  - 🛠️30@oneclickvpnkeys
+  - '@FarazV2ray -33'
+  - 美国 048
+  - filembad-410-2
+  - 🇧🇻@vpn_ioss ♻️ سرورهای بیشتر عضو شو-2
+  - '[-33'
+  - v2ray_configs_pool-344
+  - NormanV2ray-11
+  - 美国 041
+  - 美国 1100
+  - .𖥔 ݁ ˖ִ🛸༄˖°. | [BL]
+  - 未知148
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #8'
+  - 未知31
+  - 🇺🇸US美國丨yoyapai.com (9)
+  - XX-013 CF中转_1107196065
+  - vless-1927185301
+  - vless-1832764134
+  - vless-1827962637
+  - trojan-1894622732
+  - trojan-1827938592
+  - trojan-1827149560
+  - trojan-1939845073
+  - trojan-1853491995
+  - '🇩🇪[www.v2nodes.com] vless-DE-1... #10'
+  - '🇯🇵[www.v2nodes.com] vless-JP-1... #7'
+  - CA 🇨🇦 | @Raydikalx | 6E0C5F
+  - US 🇺🇸 | @Raydikalx | C85BCD
+  - CA 🇨🇦 | @Raydikalx | 092C56
+  - CA 🇨🇦 | @Raydikalx | 1116CA
+  - US美国(v2clash.blog 2026-10.22更新)
+  - (@VmessProtocol)برای خرید و اتصال دائمی جوین شو🇩🇪
+  - 美国 909
+  - US美国(v2clash.blog 2026-10.23更新)-2
+  - 🇩🇪@vpn_ioss ♻️ سرورهای بیشتر عضو شو
+  - US美国(v2clash.blog 2026-10.4更新)-2
+  - '@ShadowProxy66 🇺🇸-3'
+  - 美国 559
+  - 🏁RELAY-188.114.97.6-5562
+  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-2'
+  - 🛖71@oneclickvpnkeys
+  - Server 93
+  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-9'
+  - 📪87@oneclickvpnkeys
+  - 🐒72@oneclickvpnkeys
+  - 'Channel : @proxy_kafee '
+  - 🍓50@oneclickvpnkeys
+  - CA 🇨🇦 | @Raydikalx | 64BF05
   - VIP 107 @v2ray_vpn_ir
+  - CA 🇨🇦 | @Raydikalx | A9CC45
+  - CA 🇨🇦 | @Raydikalx | 12D92A
+  - CA 🇨🇦 | @Raydikalx | F81A9D
+  - 美国 759
+  - FR法国(v2clash.blog 2026-8.10更新)
+  - CA 🇨🇦 | @Raydikalx | 1087F4
+  - CA 🇨🇦 | @Raydikalx | 41AFEA
+  - 🆔conectvpn10 🔒 VL-WS-N/A ❔ XX 7ms-2
+  - 🆔conectvpn10 🔒 VL-WS-N/A ❔ XX 7ms-3
+  - CA 🇨🇦 | @Raydikalx | C4AAEC
+  - 🛖21@oneclickvpnkeys
+  - 'Channel : @proxy_kafee -3'
+  - Telegram@DarkVPNpro | کانفیگ های پرسرعت بیشتر⚡️
+  - CA 🇨🇦 | @Raydikalx | D8003D
+  - CA 🇨🇦 | @Raydikalx | E1C6CF
+  - CA 🇨🇦 | @Raydikalx | FDA7C6
+  - '@Vpn_Tehran 🇦🇷 تلگرام'
+  - Free 171 @Outline_Vpn
+  - 🐊19@oneclickvpnkeys
+  - 🔒50@oneclickvpnkeys
+  - 美国 788
+  - CA 🇨🇦 | @Raydikalx | 975E53
+  - '@V2rayng_Fast 🇫🇷-2'
+  - 4🎒@oneclickvpnkeys
+  - '@FarazV2ray-13'
+  - 美国 168
+  - lrnbymaa
+  - '@Vpn_Tehran 💜 کانال تلگرام'
+  - '@V2rayng_Fast 👿'
+  - 🏁RELAY-172.67.149.60-5574
+  - '[-21'
+  - 美国 043
+  - CA 🇨🇦 | @Raydikalx | 3EC78F
+  - CA 🇨🇦 | @Raydikalx | FF568B
+  - Telegram@DarkVPNpro | کانفیگ های پرسرعت بیشتر⚡️-2
+  - 🐊17@oneclickvpnkeys
+  - 美国 564
+  - CA加拿大(v2clash.blog 2026-7.29更新)
+  - 荷兰 005
+  - CA 🇨🇦 | @Raydikalx | 8849FE
+  - '[-23'
+  - 美国 528
+  - ⚙️42@oneclickvpnkeys
+  - 🛠️46@oneclickvpnkeys
+  - CA 🇨🇦 | @Raydikalx | 312913
+  - Moldova WorkTitans
+  - CA 🇨🇦 | @Raydikalx | C40235
+  - '@FarazV2ray-18'
+  - 美国 569
+  - 𝗡𝗲𝗧𝗠𝗲𝗹𝗶⚡️@prrofile_purple 🌩
+  - '@ShadowProxy66 🇺🇸-7'
+  - 美国 175
+  - 美国 656
+  - 🐞67@oneclickvpnkeys
+  - 美国 080
+  - CA 🇨🇦 | @Raydikalx | 4C3914
+  - '@V2rayng_Fast 🇫🇷-3'
+  - CA 🇨🇦 | @Raydikalx | CF1435
+  - 美国 1103
+  - CA 🇨🇦 | @Raydikalx | ECC985
+  - US美国(v2clash.blog 2026-10.3更新)
+  - canfingV2rayNG-80
+  - 'channel : @proxy_kafee-2'
+  - 🖲️37@oneclickvpnkeys
+  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-25'
+  - US美国v2clash.blog 2026-9.10)-2
+  - CA 🇨🇦 | @Raydikalx | 617AF5
+  - 美国 137
+  - 🦖95@oneclickvpnkeys
+  - 俄罗斯 043
+  - 美国 198
+  - 🇺🇸@proxy_kafee
+  - '@FarazV2ray -34'
+  - 荷兰 030
+  - CA 🇨🇦 | @Raydikalx | C5497C
+  - CA 🇨🇦 | @Raydikalx | 3E64F8
+  - vless-104.20.32.111
+  - 美国 565
+  - '@proxy_kafee-7'
+  - 🇨🇦 CA | 104.17.89.154
+  - 美国 948
+  - 美国 1101
+  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-8
+  - 美国 1105
+  - 未知55
+  - '🇩🇪[www.v2nodes.com] vless-DE-1... #10 #2'
+  - '🇭🇰[www.v2nodes.com] vless-HK-1... #4 #2'
+  - 🇨🇦CA加拿大丨yoyapai.com (19)
+  - ❓未知丨yoyapai.com (2)
+  - 013 | 49ms | 172.64.69.89
+  - XX-010 CF中转_110719451
+  - US-254 US_599 294KB/s M003-260806 [c5e8ee0bc771]
+  - vless-1884771865
+  - vless-1863476159
+  - vless-1853476976
+  - vless-1863474247
+  - vmess-1947375789
+  - trojan-1923819684
+  - vless-1856199614
+  - trojan-1944218170
+  - trojan-1828472626
+  - 🇫🇷[www.v2nodes.com] vless-FR-2...
+  - '🇭🇰[www.v2nodes.com] vless-HK-1... #7'
+  - 🇲🇾[www.v2nodes.com] vless-MY-1...
+  - CA 🇨🇦 | @Raydikalx | 3A32B9
+  - US 🇺🇸 | @Raydikalx | 51B7E9
+  - CA 🇨🇦 | @Raydikalx | BF5E50
+  - CA 🇨🇦 | @Raydikalx | BFB103
+  - '[cbusifabcap-clashmeta] ❓Other_23|318KB/s|R002-260618'
+  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-4'
+  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-3'
+  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-8'
+  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-7'
+  - 158.101.158.101_Claude1
+  - 美国 145
+  - 美国 130
+  - US美国(v2clash.blog 2026-10.25更新)
+  - 美国 181
+  - 美国 340
+  - 美国 996
+  - 美国 908
+  - US美国(v2clash.blog 2026-10.4更新)
+  - 美国 117
+  - '@ShadowProxy66 🇺🇸'
+  - '@ShadowProxy66 🇺🇸-2'
+  - 美国 1177
+  - '@V2rayng_Fast 🇩🇪-3'
+  - 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]
+  - '@V2rayng_Fast 🇩🇪-4'
+  - '@Napsternetvirani '
+  - 🏓82@oneclickvpnkeys
+  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-6'
+  - Server 170
+  - 'Channel : @proxy_kafee'
+  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-7'
+  - 'Channel: @proxy_kafee'
+  - 'Channel : @proxy_kafee-3'
+  - 🕊️56@oneclickvpnkeys
+  - 🌐服务器33 | 11月09日 |bin1site1.github.io
+  - CA 🇨🇦 | @Raydikalx | 3278D1
+  - '[-3'
+  - 荷兰 032
+  - '@prrofile_purple | 𝗙𝗮𝗦𝗧 💚-10'
+  - 'Channel : @proxy_kafee -2'
+  - '[-5'
+  - CA 🇨🇦 | @Raydikalx | 22EF42
+  - CA 🇨🇦 | @Raydikalx | 93C870
+  - '@FarazV2ray'
+  - 🥉87@oneclickvpnkeys
+  - '[-7'
+  - CA 🇨🇦 | @Raydikalx | CF3E09
+  - 🇨🇦@V2rayng_Fast
+  - Pro 19 @Outline_Vpn
+  - 🐒43@oneclickvpnkeys
+  - CA 🇨🇦 | @Raydikalx | 97EC8A
+  - 📊95@oneclickvpnkeys
+  - CA 🇨🇦 | @Raydikalx | 7C9FAD
+  - 🆔conectvpn10 🔒 VL-WS-N/A ❔ XX 7ms-4
+  - 🍥63@oneclickvpnkeys
+  - filembad-330
+  - 美国 025
+  - filembad-410
+  - 美国 727
+  - CA 🇨🇦 | @Raydikalx | 98EE2E
+  - CA 🇨🇦 | @Raydikalx | 751F99
+  - FR法国(v2clash.blog 2026-7.16更新)
+  - 🏁RELAY-172.67.143.129-8306
+  - CA 🇨🇦 | @Raydikalx | DCFD2B
+  - '[-12'
+  - CA 🇨🇦 | @Raydikalx | F17016
+  - CA 🇨🇦 | @Raydikalx | F8F1E6
+  - ⛽57@oneclickvpnkeys
+  - filembad-217
+  - ⚽23@oneclickvpnkeys
+  - 🍅73@oneclickvpnkeys
+  - 美国 728
+  - vless-192.200.160.20
+  - 🪩34@oneclickvpnkeys
+  - 🍅28@oneclickvpnkeys
+  - CA 🇨🇦 | @Raydikalx | A56E50
 - name: PROXY
   type: select
   proxies:
