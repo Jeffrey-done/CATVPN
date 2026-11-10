@@ -1,55 +1,25 @@
-generated_at: '2026-11-09T11:25:11.358821+00:00'
+generated_at: '2026-11-10T11:04:33.811381+00:00'
 sources:
 - name: github:0xRadikal/Free-v2ray-Configs:fast/clash.yaml
   url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/fast/clash.yaml
   repository: 0xRadikal/Free-v2ray-Configs
   path: fast/clash.yaml
-  proxy_count: 907
+  proxy_count: 841
 - name: github:0xRadikal/Free-v2ray-Configs:secure/clash.yaml
   url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/secure/clash.yaml
   repository: 0xRadikal/Free-v2ray-Configs
   path: secure/clash.yaml
-  proxy_count: 891
+  proxy_count: 756
 - name: github:0xRadikal/Free-v2ray-Configs:verified/clash.yaml
   url: https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/verified/clash.yaml
   repository: 0xRadikal/Free-v2ray-Configs
   path: verified/clash.yaml
-  proxy_count: 1282
+  proxy_count: 1165
 - name: github:LeilaoMi/AutoMergePublicNodes-Optimized:tests/fixtures/protocols/clash.yaml
   url: https://raw.githubusercontent.com/LeilaoMi/AutoMergePublicNodes-Optimized/main/tests/fixtures/protocols/clash.yaml
   repository: LeilaoMi/AutoMergePublicNodes-Optimized
   path: tests/fixtures/protocols/clash.yaml
   proxy_count: 1
-- name: github:Thordata/awesome-free-proxy-list:docs/data/clash/all.yaml
-  url: https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/docs/data/clash/all.yaml
-  repository: Thordata/awesome-free-proxy-list
-  path: docs/data/clash/all.yaml
-  proxy_count: 287
-- name: github:Thordata/awesome-free-proxy-list:docs/data/clash/fast.yaml
-  url: https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/docs/data/clash/fast.yaml
-  repository: Thordata/awesome-free-proxy-list
-  path: docs/data/clash/fast.yaml
-  proxy_count: 36
-- name: github:Thordata/awesome-free-proxy-list:docs/data/clash/high-anon.yaml
-  url: https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/docs/data/clash/high-anon.yaml
-  repository: Thordata/awesome-free-proxy-list
-  path: docs/data/clash/high-anon.yaml
-  proxy_count: 211
-- name: github:Thordata/awesome-free-proxy-list:docs/data/clash/http.yaml
-  url: https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/docs/data/clash/http.yaml
-  repository: Thordata/awesome-free-proxy-list
-  path: docs/data/clash/http.yaml
-  proxy_count: 146
-- name: github:Thordata/awesome-free-proxy-list:docs/data/clash/socks5.yaml
-  url: https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/docs/data/clash/socks5.yaml
-  repository: Thordata/awesome-free-proxy-list
-  path: docs/data/clash/socks5.yaml
-  proxy_count: 141
-- name: github:Thordata/awesome-free-proxy-list:docs/data/clash/stable.yaml
-  url: https://raw.githubusercontent.com/Thordata/awesome-free-proxy-list/main/docs/data/clash/stable.yaml
-  repository: Thordata/awesome-free-proxy-list
-  path: docs/data/clash/stable.yaml
-  proxy_count: 95
 - name: github:cloudcat214/clash-subscription-aggregator:config/embedded-nodes.yaml
   url: https://raw.githubusercontent.com/cloudcat214/clash-subscription-aggregator/main/config/embedded-nodes.yaml
   repository: cloudcat214/clash-subscription-aggregator
@@ -85,21 +55,31 @@ sources:
   repository: cloudcat214/clash-subscription-aggregator
   path: tests/fixtures/clash.yaml
   proxy_count: 3
+- name: github:dpohpo/clash-verge-subscription:subscription-2026-05-29.yaml
+  url: https://raw.githubusercontent.com/dpohpo/clash-verge-subscription/main/subscription-2026-05-29.yaml
+  repository: dpohpo/clash-verge-subscription
+  path: subscription-2026-05-29.yaml
+  proxy_count: 37
+- name: github:funn1est/sub-hub:crates/sub-hub-conversion/tests/golden/builtin_mihomo_v1.yaml
+  url: https://raw.githubusercontent.com/funn1est/sub-hub/main/crates/sub-hub-conversion/tests/golden/builtin_mihomo_v1.yaml
+  repository: funn1est/sub-hub
+  path: crates/sub-hub-conversion/tests/golden/builtin_mihomo_v1.yaml
+  proxy_count: 6
 - name: github:hvwin8/autojiedian:clash.yaml
   url: https://raw.githubusercontent.com/hvwin8/autojiedian/master/clash.yaml
   repository: hvwin8/autojiedian
   path: clash.yaml
-  proxy_count: 367
+  proxy_count: 441
 - name: github:jingjiangze/node-radar:dist/clash-lite.yaml
   url: https://raw.githubusercontent.com/jingjiangze/node-radar/main/dist/clash-lite.yaml
   repository: jingjiangze/node-radar
   path: dist/clash-lite.yaml
-  proxy_count: 127
-- name: github:jingjiangze/node-radar:dist/clash.yaml
-  url: https://raw.githubusercontent.com/jingjiangze/node-radar/main/dist/clash.yaml
-  repository: jingjiangze/node-radar
-  path: dist/clash.yaml
-  proxy_count: 3060
+  proxy_count: 438
+- name: github:liuweicool77-maker/free-node-hub:dist/free-proxies.yaml
+  url: https://raw.githubusercontent.com/liuweicool77-maker/free-node-hub/main/dist/free-proxies.yaml
+  repository: liuweicool77-maker/free-node-hub
+  path: dist/free-proxies.yaml
+  proxy_count: 198
 - name: github:lorenzazy7kenyon/free-vpn-subscriptions:output/by-country/clash-AE.yaml
   url: https://raw.githubusercontent.com/lorenzazy7kenyon/free-vpn-subscriptions/main/output/by-country/clash-AE.yaml
   repository: lorenzazy7kenyon/free-vpn-subscriptions
@@ -114,7 +94,7 @@ sources:
   url: https://raw.githubusercontent.com/lorenzazy7kenyon/free-vpn-subscriptions/main/output/by-country/clash-AM.yaml
   repository: lorenzazy7kenyon/free-vpn-subscriptions
   path: output/by-country/clash-AM.yaml
-  proxy_count: 2
+  proxy_count: 1
 - name: github:lorenzazy7kenyon/free-vpn-subscriptions:output/by-country/clash-AR.yaml
   url: https://raw.githubusercontent.com/lorenzazy7kenyon/free-vpn-subscriptions/main/output/by-country/clash-AR.yaml
   repository: lorenzazy7kenyon/free-vpn-subscriptions
@@ -124,12 +104,12 @@ sources:
   url: https://raw.githubusercontent.com/lorenzazy7kenyon/free-vpn-subscriptions/main/output/by-country/clash-AT.yaml
   repository: lorenzazy7kenyon/free-vpn-subscriptions
   path: output/by-country/clash-AT.yaml
-  proxy_count: 2
+  proxy_count: 5
 - name: github:lorenzazy7kenyon/free-vpn-subscriptions:output/by-country/clash-AU.yaml
   url: https://raw.githubusercontent.com/lorenzazy7kenyon/free-vpn-subscriptions/main/output/by-country/clash-AU.yaml
   repository: lorenzazy7kenyon/free-vpn-subscriptions
   path: output/by-country/clash-AU.yaml
-  proxy_count: 2
+  proxy_count: 1
 - name: github:lorenzazy7kenyon/free-vpn-subscriptions:output/by-country/clash-AZ.yaml
   url: https://raw.githubusercontent.com/lorenzazy7kenyon/free-vpn-subscriptions/main/output/by-country/clash-AZ.yaml
   repository: lorenzazy7kenyon/free-vpn-subscriptions
@@ -169,7 +149,7 @@ sources:
   url: https://raw.githubusercontent.com/lorenzazy7kenyon/free-vpn-subscriptions/main/output/by-country/clash-CA.yaml
   repository: lorenzazy7kenyon/free-vpn-subscriptions
   path: output/by-country/clash-CA.yaml
-  proxy_count: 42
+  proxy_count: 48
 - name: github:lorenzazy7kenyon/free-vpn-subscriptions:output/by-country/clash-CH.yaml
   url: https://raw.githubusercontent.com/lorenzazy7kenyon/free-vpn-subscriptions/main/output/by-country/clash-CH.yaml
   repository: lorenzazy7kenyon/free-vpn-subscriptions
@@ -184,7 +164,7 @@ sources:
   url: https://raw.githubusercontent.com/lorenzazy7kenyon/free-vpn-subscriptions/main/output/by-country/clash-CN.yaml
   repository: lorenzazy7kenyon/free-vpn-subscriptions
   path: output/by-country/clash-CN.yaml
-  proxy_count: 3
+  proxy_count: 2
 - name: github:lorenzazy7kenyon/free-vpn-subscriptions:output/by-country/clash-CO.yaml
   url: https://raw.githubusercontent.com/lorenzazy7kenyon/free-vpn-subscriptions/main/output/by-country/clash-CO.yaml
   repository: lorenzazy7kenyon/free-vpn-subscriptions
@@ -200,51 +180,56 @@ sources:
   repository: lorenzazy7kenyon/free-vpn-subscriptions
   path: output/by-country/clash-CW.yaml
   proxy_count: 1
+- name: github:ludaohan4/clash-subscription:clash.yaml
+  url: https://raw.githubusercontent.com/ludaohan4/clash-subscription/main/clash.yaml
+  repository: ludaohan4/clash-subscription
+  path: clash.yaml
+  proxy_count: 6
 - name: github:lyy00702/clash-node-aggregator:dist/clash.yaml
   url: https://raw.githubusercontent.com/lyy00702/clash-node-aggregator/main/dist/clash.yaml
   repository: lyy00702/clash-node-aggregator
   path: dist/clash.yaml
   proxy_count: 200
-- name: github:shifeiquan520/shifeiquan3:output/clash.yaml
-  url: https://raw.githubusercontent.com/shifeiquan520/shifeiquan3/main/output/clash.yaml
-  repository: shifeiquan520/shifeiquan3
-  path: output/clash.yaml
-  proxy_count: 38
+- name: github:rekt0ro/ProxyRift:subscriptions/all-clash.yaml
+  url: https://raw.githubusercontent.com/rekt0ro/ProxyRift/main/subscriptions/all-clash.yaml
+  repository: rekt0ro/ProxyRift
+  path: subscriptions/all-clash.yaml
+  proxy_count: 1995
+- name: github:rekt0ro/ProxyRift:subscriptions/light-clash.yaml
+  url: https://raw.githubusercontent.com/rekt0ro/ProxyRift/main/subscriptions/light-clash.yaml
+  repository: rekt0ro/ProxyRift
+  path: subscriptions/light-clash.yaml
+  proxy_count: 166
 - name: github:sunmiao4458/free-proxy-airport:docs/clash.yaml
   url: https://raw.githubusercontent.com/sunmiao4458/free-proxy-airport/main/docs/clash.yaml
   repository: sunmiao4458/free-proxy-airport
   path: docs/clash.yaml
-  proxy_count: 66
+  proxy_count: 31
 - name: github:sunmiao4458/free-proxy-airport:output/clash.yaml
   url: https://raw.githubusercontent.com/sunmiao4458/free-proxy-airport/main/output/clash.yaml
   repository: sunmiao4458/free-proxy-airport
   path: output/clash.yaml
-  proxy_count: 66
+  proxy_count: 31
 - name: github:xifan001-lab/clash-sub:clash.yaml
   url: https://raw.githubusercontent.com/xifan001-lab/clash-sub/main/clash.yaml
   repository: xifan001-lab/clash-sub
   path: clash.yaml
   proxy_count: 100
-- name: github:xyfqzy/free-nodes:docs/subscriptions/clash.yaml
-  url: https://raw.githubusercontent.com/xyfqzy/free-nodes/main/docs/subscriptions/clash.yaml
-  repository: xyfqzy/free-nodes
-  path: docs/subscriptions/clash.yaml
-  proxy_count: 11
 - name: github:yuluo688/clash-hot-countries:clash-hot-countries-en.yaml
   url: https://raw.githubusercontent.com/yuluo688/clash-hot-countries/master/clash-hot-countries-en.yaml
   repository: yuluo688/clash-hot-countries
   path: clash-hot-countries-en.yaml
-  proxy_count: 16
+  proxy_count: 15
 - name: github:yuluo688/clash-hot-countries:clash-hot-countries-zh.yaml
   url: https://raw.githubusercontent.com/yuluo688/clash-hot-countries/master/clash-hot-countries-zh.yaml
   repository: yuluo688/clash-hot-countries
   path: clash-hot-countries-zh.yaml
-  proxy_count: 16
+  proxy_count: 15
 - name: github:yuluo688/clash-hot-countries:clash-hot-countries.yaml
   url: https://raw.githubusercontent.com/yuluo688/clash-hot-countries/master/clash-hot-countries.yaml
   repository: yuluo688/clash-hot-countries
   path: clash-hot-countries.yaml
-  proxy_count: 16
+  proxy_count: 15
 - name: github:zhuhaiuk/free-nodes:clash_config.yaml
   url: https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/clash_config.yaml
   repository: zhuhaiuk/free-nodes
@@ -254,7 +239,7 @@ sources:
   url: https://raw.githubusercontent.com/zhuhaiuk/free-nodes/main/extra_clash_config.yaml
   repository: zhuhaiuk/free-nodes
   path: extra_clash_config.yaml
-  proxy_count: 2
+  proxy_count: 3
 - name: github:zueston/proxy-hub:out/clash.yaml
   url: https://raw.githubusercontent.com/zueston/proxy-hub/main/out/clash.yaml
   repository: zueston/proxy-hub
