@@ -3,112 +3,6 @@ allow-lan: false
 mode: rule
 log-level: info
 proxies:
-- name: 🇺🇸 США VLESS-167.82.76.31-029
-  type: vless
-  server: 167.82.76.31
-  port: 443
-  uuid: f5f985e0-ee40-4593-ae35-299df76e79f6
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-167.82.76.31-102
-  type: vless
-  server: 167.82.76.31
-  port: 443
-  uuid: 9e670bc1-6082-4bbe-9f67-18ea5bfda44c
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-172.67.210.245-346
-  type: vless
-  server: 172.67.210.245
-  port: 8443
-  uuid: 9047219a-470f-4a3f-b319-1178ae1a3c87
-  udp: true
-  encryption: none
-  tls: true
-  servername: floral-grass-aa1e.dianawpewpek1.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: floral-grass-aa1e.dianawpewpek1.workers.dev
-- name: 🇳🇱 Нидерланды VLESS-151.101.36.253-113
-  type: vless
-  server: 151.101.36.253
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  udp: true
-  encryption: none
-  tls: true
-  servername: accounts.fastly.com
-  client-fingerprint: chrome
-- name: trojan-1827149560
-  password: humanity
-  port: 443
-  server: 172.67.231.254
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🇺🇸 США VLESS-170.114.45.239-711
-  type: vless
-  server: 170.114.45.239
-  port: 443
-  uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217
-  udp: true
-  encryption: none
-  tls: true
-  servername: terazhediii.info
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hdgrbws
-    headers:
-      Host: terazhediii.info
-- name: 🇺🇸 США VLESS-104.24.225.89-267
-  type: vless
-  server: 104.24.225.89
-  port: 443
-  uuid: dbbed131-4ae8-4297-a102-438a2e19b0d9
-  udp: true
-  encryption: none
-  tls: true
-  servername: GhzO7q51sn2b5e2I1670V7dmx.paGES.DEv
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /vl/c5R0DRvdSoEZO90UjW3StIJxLpFWZod?ed=2560fp=chrome
-    headers:
-      Host: GhzO7q51sn2b5e2I1670V7dmx.paGES.DEv
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 37FE56'
-  server: 151.101.1.242
-  port: 443
-  type: vless
-  uuid: 85726d24-9f41-43fe-9e5e-49e54d9680e0
-  udp: true
-  tls: true
-  servername: ghosts-spasm.quick-cdn.net
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: ghosts-spasm.quick-cdn.net
-- name: 🇺🇸 США VLESS-151.101.67.6-080
-  type: vless
-  server: 151.101.67.6
-  port: 443
-  uuid: 88a38400-a1aa-437f-ab8a-52027480af6c
-  udp: true
-  encryption: none
-  tls: true
-  servername: 127.0.0.1
-  client-fingerprint: chrome
 - name: vless-1831066899
   network: ws
   port: 443
@@ -119,957 +13,72 @@ proxies:
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🇺🇸 США VLESS-188.114.97.8-623
-  type: vless
-  server: 188.114.97.8
-  port: 8443
-  uuid: d4d2d3f3-9dec-4e8f-8daf-145ecac96e66
-  udp: true
-  encryption: none
-  tls: true
-  servername: cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
-- name: 🇳🇱 Нидерланды VLESS-151.101.36.120-056
-  type: vless
-  server: 151.101.36.120
-  port: 443
-  uuid: 15e0bd1c-48f2-4ce7-8fb3-828928ac3bf5
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: trojan-1940455323
+- name: trojan-1858673309
   password: humanity
   port: 443
-  server: 8.6.112.206
+  server: 104.18.8.83
   skip-cert-verify: false
-  sni: www.trusteeforward.com
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1853461582
+  password: humanity
+  port: 443
+  server: 104.16.71.213
+  skip-cert-verify: false
+  sni: www.calmlunch.com
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: '🇨🇦[www.v2nodes.com] vless-CA-1... #4'
+  encryption: none
+  name: '🏳[www.v2nodes.com] vless- #18'
   network: ws
   port: 443
-  server: 188.114.98.0
-  servername: tn1r.eu.cc
-  tls: true
-  type: vless
-  uuid: 22424ee2-6fe3-42ca-9749-6d4c5a8acc82
-  ws-opts:
-    headers:
-      Host: tn1r.eu.cc
-    path: /id-pusat
-- name: '[igareck-vless] 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-13'
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  sni: jp3.yohototo.top
-  network: ws
-  alpn:
-  - http/1.1
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-104.16.10.234-089
-  type: vless
-  server: 104.16.10.234
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  encryption: none
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: edge
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-104.18.155.229-446
-  type: vless
-  server: 104.18.155.229
-  port: 443
-  uuid: 42026ed0-7d74-4585-8e46-0fe6aa4d665a
-  udp: true
-  encryption: none
-  tls: true
-  servername: www.genflix.co.id.r3xxe.eu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /au-do
-    headers:
-      Host: www.genflix.co.id.r3xxe.eu.cc
-- name: 🇺🇸 США VLESS-188.114.98.0-978
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 56066a03-d283-48cf-8120-eb8d810025cb
-  udp: true
-  encryption: none
-  tls: true
-  servername: ws137.mydosss.ccwu.cc
-  client-fingerprint: unsafe
-  network: ws
-  ws-opts:
-    headers:
-      Host: ws137.mydosss.ccwu.cc
-- name: 🇺🇸 США VLESS-199.232.78.150-065
-  type: vless
-  server: 199.232.78.150
-  port: 443
-  uuid: 1cbf2f56-926e-4a69-a325-d2794a22d411
-  udp: true
-  encryption: none
-  tls: true
-  servername: global.fastly.com
-  client-fingerprint: chrome
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | B4617E'
-  server: 104.17.136.198
-  port: 443
-  type: vmess
-  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: vmess.lbw666.dpdns.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: vmess.lbw666.dpdns.org
-- name: 🇸🇪 Швеция VLESS-185.146.173.206-023
-  type: vless
-  server: 185.146.173.206
-  port: 2095
-  uuid: fa2406f0-e820-4954-b24e-df52012ef4a6
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: httpupgrade
-- name: ProxyRift 1488
-  type: vless
-  server: 162.159.158.74
-  port: 443
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: rezanoori4295.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rezanoori4295.pages.dev
-- name: 🇺🇸 США VLESS-172.67.199.126-032
-  type: vless
-  server: 172.67.199.126
-  port: 2053
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  udp: true
-  encryption: none
-  tls: true
-  servername: fast.145779.xyz
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /ws-tesla
-    headers:
-      Host: fast.145779.xyz
-- name: 🇺🇸 США VLESS-170.114.45.6-1490
-  type: vless
-  server: 170.114.45.6
-  port: 2096
-  uuid: efd11a89-7506-44ce-95b6-6654859f155b
-  udp: true
-  encryption: none
-  tls: true
-  servername: pcloud.z-tas.com
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    headers:
-      Host: pcloud.z-tas.com
-- name: 🇺🇸 США VLESS-104.21.227.134-1610
-  type: vless
-  server: 104.21.227.134
-  port: 80
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: elenaaaaaaaaaa.cloudns.pro
-- name: '[igareck-vless] 🇩🇪 Germany | 🌐 | [BL]-6'
-  type: vless
-  server: 104.17.70.206
-  port: 8443
-  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
-  tls: true
-  sni: free.sahanwickramasinghe.com
-  network: ws
-  client-fingerprint: firefox
-  ws-opts:
-    headers:
-      Host: free.sahanwickramasinghe.com
-- name: 🇺🇸 США VLESS-104.21.23.29-1496
-  type: vless
-  server: 104.21.23.29
-  port: 443
-  uuid: 48eb716d-6121-43c1-9dd2-9a2a25bf3178
-  udp: true
-  encryption: none
-  tls: true
-  servername: ws137.mydosss.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-- name: 🇺🇸 США VLESS-188.114.97.6-078
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 86c0996e-817e-409f-a732-ff9ef94917bd
-  udp: true
-  encryption: none
-  tls: true
-  servername: s3.bamans.uk
-  client-fingerprint: chrome
-- name: vless-1947014531
-  network: ws
-  port: 443
-  server: 104.18.40.171
-  servername: wallweb-boi.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8895be79-9817-4011-b81a-14a35a3d328e
-- name: 🇺🇸 США VLESS-188.114.97.6-318
-  type: vless
-  server: 188.114.97.6
-  port: 80
-  uuid: e51453d3-7972-44d7-a657-ed89520f48b6
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /au-do
-    headers:
-      Host: web.whatsapp.com.r3xxe.eu.cc
-- name: ProxyRift 223
-  type: vless
-  server: 162.159.236.146
-  port: 2053
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: cc20i5h7zc50yf204nto2kaw6dw6pn7l.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cc20i5h7zc50yf204nto2kaw6dw6pn7l.pages.dev
-- name: ProxyRift 248
-  type: vless
-  server: 104.17.138.140
-  port: 8443
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: sfsmzggh4hyy2i-0oy5s5dtmkjv2nam6.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sfsmzggh4hyy2i-0oy5s5dtmkjv2nam6.pages.dev
-- name: 🇺🇸 США VLESS-172.67.146.84-1928
-  type: vless
-  server: 172.67.146.84
-  port: 2052
-  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: eu02.123450908.xyz
-- name: 🇺🇸 США VLESS-167.82.79.164-063
-  type: vless
-  server: 167.82.79.164
-  port: 443
-  uuid: 3ca21a1e-5ec3-4724-9890-8c28e22bdbb2
-  udp: true
-  encryption: none
-  tls: true
-  servername: google.com
-  client-fingerprint: chrome
-- name: vless-1863464818
-  network: ws
-  port: 443
-  server: 104.18.42.98
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🇺🇸 US_87_1@86
-  server: 167.88.62.203
-  type: ss
-  country: 🇺🇸 US
-  port: 19999
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  cipher: aes-256-gcm
-- name: 🇺🇸 США VLESS-8.47.69.7-288
-  type: vless
-  server: 8.47.69.7
-  port: 443
-  uuid: 8f2c9a71-4d3e-4b6a-9c11-7e5d2a4b8f60
-  udp: true
-  encryption: none
-  tls: true
-  servername: edt-sub.antonstorer.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt-sub.antonstorer.workers.dev
-- name: 🇺🇸 США VLESS-167.82.64.46-075
-  type: vless
-  server: 167.82.64.46
-  port: 443
-  uuid: 7e8c5916-2070-4013-864d-be767d4e2fd7
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: ProxyRift 1406
-  type: vless
-  server: 31.43.179.0
-  port: 443
-  udp: true
-  uuid: 1bc29b34-0a7d-4252-97bb-1cc3514e7d42
-  encryption: none
-  tls: true
-  servername: worker3.xomoh98816.workers.dev
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /LF5LdoZelHLG07nl
-    headers:
-      Host: worker3.xomoh98816.workers.dev
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | A72B09'
-  server: 104.18.32.47
-  port: 8443
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🇺🇸 США VLESS-172.67.74.177-246
-  type: vless
-  server: 172.67.74.177
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  encryption: none
-  tls: true
-  servername: wk1.f1w.de5.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: wk1.f1w.de5.net
-- name: 🇺🇸 США VLESS-188.114.96.3-364
-  type: vless
-  server: 188.114.96.3
-  port: 443
-  uuid: 5b716e51-489e-4e97-b5c8-dd10803eff93
-  udp: true
-  encryption: none
-  tls: true
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: snc9ne2f7zclhn5uzth7hcfgsrnympmmrnej7w2uzdjtsyt2fssssssssssssss.n0xp4ed8mc.workers.dev
-- name: 🇺🇸 США VLESS-188.114.97.3-433
-  type: vless
-  server: 188.114.97.3
-  port: 2096
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  encryption: none
-  tls: true
-  servername: levikoconfig.levikogjgfdd.ir
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🇺🇸 США VLESS-146.75.57.111-118
-  type: vless
-  server: 146.75.57.111
-  port: 443
-  uuid: 0632a4e7-d55a-4d17-a47b-9958b471be90
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: 🇺🇸US_126_0@125
-  server: 172.64.145.93
-  type: vmess
-  country: 🇺🇸US
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  servername: guanwang.awsno.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      HOST: guanwang.awsno.com
-- name: 🇺🇸 США VLESS-199.232.20.113-067
-  type: vless
-  server: 199.232.20.113
-  port: 443
-  uuid: 93761b91-be43-4f3f-af40-65ea34d3eae2
-  udp: true
-  encryption: none
-  tls: true
-  servername: community.fastly.steamstatic.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-167.82.64.46-135
-  type: vless
-  server: 167.82.64.46
-  port: 443
-  uuid: 279e5c33-e95f-410d-b666-0613fb8a054f
-  udp: true
-  encryption: none
-  tls: true
-  servername: community.fastly.steamstatic.com
-  client-fingerprint: chrome
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | C7986A'
-  server: 104.21.57.84
-  port: 8443
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🇺🇸 США VLESS-104.21.23.29-217
-  type: vless
-  server: 104.21.23.29
-  port: 443
-  uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
-  udp: true
-  encryption: none
-  tls: true
-  servername: ws137.mydosss.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /3b575ddc8596
-    headers:
-      Host: ws137.mydosss.ccwu.cc
-- name: 🇺🇸 США VLESS-199.232.129.192-026
-  type: vless
-  server: 199.232.129.192
-  port: 443
-  uuid: 5ea68468-d58b-42e6-b433-9ea9cfbcac09
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: 🇳🇱 Нидерланды VLESS-151.101.36.128-054
-  type: vless
-  server: 151.101.36.128
-  port: 443
-  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
-  udp: true
-  encryption: none
-  tls: true
-  servername: accounts.fastly.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-167.82.76.31-066
-  type: vless
-  server: 167.82.76.31
-  port: 443
-  uuid: e86d9264-a736-46c3-adcc-f5f0cc088a72
-  udp: true
-  encryption: none
-  tls: true
-  servername: default.ssl.fastly.net
-  client-fingerprint: chrome
-- name: US 🇺🇸 | @Raydikalx | AEA668
-  server: 167.17.67.171
-  port: 19999
-  type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
-- name: 🇺🇸 США VLESS-104.18.42.98-012
-  type: vless
-  server: 104.18.42.98
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  encryption: none
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-199.232.239.239-055
-  type: vless
-  server: 199.232.239.239
-  port: 443
-  uuid: 0c3bd755-6aa1-4281-97c5-5b507582c030
-  udp: true
-  encryption: none
-  tls: true
-  servername: ''
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-167.82.76.31-064
-  type: vless
-  server: 167.82.76.31
-  port: 443
-  uuid: fe277e17-4ee0-42f6-910f-aed19bfc18af
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: 🇳🇱 Нидерланды VLESS-151.101.36.128-072
-  type: vless
-  server: 151.101.36.128
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  udp: true
-  encryption: none
-  tls: true
-  servername: accounts.fastly.com
-  client-fingerprint: chrome
-- name: 🇳🇱 Нидерланды VLESS-151.101.36.88-074
-  type: vless
-  server: 151.101.36.88
-  port: 443
-  uuid: ad9a885d-93bb-48e3-9937-57f1116b64e3
-  udp: true
-  encryption: none
-  tls: true
-  servername: accounts.fastly.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-104.16.111.102-186
-  type: vless
-  server: 104.16.111.102
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  encryption: none
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: ios
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-104.21.14.123-248
-  type: vless
-  server: 104.21.14.123
-  port: 443
-  uuid: 66969b2e-5e49-4750-9419-167d4bb64c07
-  udp: true
-  encryption: none
-  tls: true
-  servername: wallweb11.wallwebc992h7.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wallweb11.wallwebc992h7.workers.dev
-- name: 🇺🇸 США VLESS-199.232.237.245-076
-  type: vless
-  server: 199.232.237.245
-  port: 443
-  uuid: 8e9cbf76-b74a-46b3-8270-9453e281e613
-  udp: true
-  encryption: none
-  tls: true
-  servername: global.fastly.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-146.75.57.238-082
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: d0136cca-a5a5-4c70-87dd-ce2ef76b7f82
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-104.16.98.215-630
-  type: vless
-  server: 104.16.98.215
-  port: 8880
-  uuid: 23187ddc-16a5-432d-bf4e-dd42a7ae39f7
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: steep-thunder-97fa.108-d10.workers.dev
-- name: 🇺🇸 США VLESS-104.21.64.198-976
-  type: vless
-  server: 104.21.64.198
-  port: 2086
-  uuid: 73796e63-0000-4000-8000-000000000007
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: vqrlof-pwa5a7-onfjlv.zedbazi061.workers.dev
-- name: 🇳🇱 Нидерланды VLESS-151.101.36.235-033
-  type: vless
-  server: 151.101.36.235
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  udp: true
-  encryption: none
-  tls: true
-  servername: accounts.fastly.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-167.82.76.31-057
-  type: vless
-  server: 167.82.76.31
-  port: 443
-  uuid: f9991b8e-7d19-49e7-ae1d-70ce37d7ca16
-  udp: true
-  encryption: none
-  tls: true
-  servername: speedtest.net
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-146.75.59.186-114
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: 3ca21a1e-5ec3-4724-9890-8c28e22bdbb2
-  udp: true
-  encryption: none
-  tls: true
-  servername: gemini.google.com
-  client-fingerprint: chrome
-- name: ProxyRift 247
-  type: vless
-  server: 104.16.146.75
-  port: 2083
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: sfsmzggh4hyy2i-0oy5s5dtmkjv2nam6.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sfsmzggh4hyy2i-0oy5s5dtmkjv2nam6.pages.dev
-- name: 035 | 262ms | 个人 🇺🇸US_193/499KB/s/R002-260618 [1c8a4d9b327b]
-  port: 443
-  server: 12.221.146.147
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-- client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #15'
-  network: ws
-  port: 443
-  server: 146.75.59.186
+  server: 199.232.78.159
   servername: cdn.akamai.steamstatic.com
   tls: true
   type: vless
   uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
   ws-opts:
     headers:
-      Host: copy_az_channel_NUFiLTER_6i.global.ssl.fastly.net.
+      Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
     path: /
-- name: 035 @DeltaKroneckerGithub_1890
+- client-fingerprint: random
+  name: '🇺🇸 美国 | USA #6'
+  network: ws
+  port: 443
+  server: 172.67.67.89
+  servername: us-lax.862400.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5bbbbf2c-9031-4511-8222-b6cecd5a5291
+  ws-opts:
+    headers:
+      Host: us-lax.862400.xyz
+    path: /announcement?ed=2048
+- name: US 🇺🇸 | @Raydikalx | 4AC1E7
+  server: 66.163.122.113
+  port: 443
   type: trojan
-  server: 104.17.128.1
-  port: 2096
-  password: auto
-  sni: azadnet-5o5.pages.dev
-  skip-cert-verify: true
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  network: ws
-  ws-opts:
-    path: /azadnet-5o5.pages.dev/?ed=2560
-    headers:
-      Host: azadnet-5o5.pages.dev
-- name: 🇺🇸 США VLESS-104.19.173.68-381
-  type: vless
-  server: 104.19.173.68
-  port: 8080
-  uuid: 2500e602-671c-4654-a602-c518b7282167
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: 2639w-throbbing-band-3840.xphnn6jp.workers.dev
-- name: 🇺🇸 США VLESS-199.232.77.215-049
-  type: vless
-  server: 199.232.77.215
-  port: 443
-  uuid: 1cbf2f56-926e-4a69-a325-d2794a22d411
-  udp: true
-  encryption: none
-  tls: true
-  servername: global.fastly.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-104.16.7.70-093
-  type: vless
-  server: 104.16.7.70
-  port: 443
-  uuid: 406d8436-0eb9-4eb2-84fb-960e076ffba6
-  udp: true
-  encryption: none
-  tls: true
-  servername: de.xn--q9jyb4c.online
-  client-fingerprint: chrome
-- name: ProxyRift 241
-  type: vless
-  server: 104.18.35.72
+  sni: api.searchnationwidecareerchangehelperandguidancetoday.com
+  network: tcp
+- name: US 🇺🇸 | @Raydikalx | AA0313
+  server: 198.202.24.214
   port: 2083
+  type: vless
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
   udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
   tls: true
-  servername: j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev
+  servername: vipfree.dr-ping.ir
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev
-- name: ProxyRift 1491
-  type: vless
-  server: 172.64.67.165
-  port: 443
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: alphefedo7865.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: alphefedo7865.pages.dev
-- name: US - zhuhai.uk 11
-  type: vless
-  server: 199.232.78.120
-  port: 443
-  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ushetzijji.global.ssl.fastly.net.
-- name: 🇺🇸 США VLESS-172.67.69.152-277
-  type: vless
-  server: 172.67.69.152
-  port: 443
-  uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
-  udp: true
-  encryption: none
-  tls: true
-  servername: vltj.qzz.io
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /id-pusat
-    headers:
-      Host: vltj.qzz.io
-- name: 🇧🇿 BZ VLESS-45.135.235.255-443
-  type: vless
-  server: 45.135.235.255
-  port: 443
-  uuid: 48cfe81c-3f0b-457f-b740-fbbfc6f679aa
-  udp: true
-  encryption: none
-  tls: true
-  servername: worker3.jegakey970.workers.dev
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /NxEvrDKOG7eWhZ20
-    headers:
-      Host: worker3.jegakey970.workers.dev
-- name: 🇸🇨 SC VLESS-45.130.125.201-609
-  type: vless
-  server: 45.130.125.201
-  port: 80
-  uuid: dc8a9493-c54a-459e-d060-81a700000001
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: nahan-core.netizo09.workers.dev
-- name: 🇫🇷 Франция VLESS-90.98.0.3-1155
-  type: vless
-  server: 90.98.0.3
-  port: 443
-  uuid: dd5e3dff-58d7-455a-ac8b-d86f5c80b499
-  udp: true
-  encryption: none
-  tls: true
-  servername: account.fastly.com
-  client-fingerprint: firefox
-  network: xhttp
-- name: 🇺🇸 США VLESS-199.232.78.160-028
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: 30ed2f7b-35c1-49ca-8d9f-687983382360
-  udp: true
-  encryption: none
-  tls: true
-  servername: www.firefox.com
-  client-fingerprint: chrome
-- name: 🇳🇱 Нидерланды VLESS-151.101.36.246-099
-  type: vless
-  server: 151.101.36.246
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  udp: true
-  encryption: none
-  tls: true
-  servername: accounts.fastly.com
-  client-fingerprint: chrome
-- name: 🇺🇸US_129_0@128
-  server: 172.67.190.164
-  type: vmess
-  country: 🇺🇸US
-  port: 443
-  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
-  alterId: 0
-  cipher: auto
-  network: ws
-  servername: guanwang.awsno.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-  ws-opts:
-    path: /hls/cctv5phd.m3u8
-    headers:
-      HOST: guanwang.awsno.com
-- name: 013 @DeltaKroneckerGithub_566
-  type: vless
-  server: 104.16.80.1
-  port: 443
-  uuid: 462f23ba-3286-4601-813d-878bf26b4fcb
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nmdx.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /proxyip=proxyip.oracle.cmliussss.net
-    headers:
-      Host: nmdx.ccwu.cc
-- name: 026 US - zhuhai.uk 12
-  type: vless
-  server: 104.18.85.29
-  port: 443
-  uuid: 0c492b73-98de-4ad2-bbe9-eb25661d17ac
-  tls: true
-  servername: byyzz.pages.dev
-  network: ws
-  ws-opts:
-    path: /?proxyip=proxyip.oracle.cmliussss.net
-    headers:
-      Host: byyzz.pages.dev
+      Host: vipfree.dr-ping.ir
 - name: S02-012-trojan-151.101.110.219
   server: 151.101.110.219
   port: 443
@@ -1078,548 +87,265 @@ proxies:
   sni: ssl.fastly.com
   skip-cert-verify: true
   udp: true
-- name: 🇺🇸 США VLESS-104.19.214.98-620
+- name: ProxyRift 1318
   type: vless
-  server: 104.19.214.98
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  server: 23.237.193.203
+  port: 8443
   udp: true
+  uuid: f18c5f6d-2bac-4a99-8c92-a6e6e7aea9b4
+  flow: xtls-rprx-vision
   encryption: none
   tls: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  client-fingerprint: chrome
+  servername: usa-nf.reddotcorp.org
+  client-fingerprint: edge
+  reality-opts:
+    public-key: 7YLtXcQkTEdKyGFmgi42nK73i0ttAP9tcQV12o5Ylyo
+    short-id: 9db6b6d13d17987e
+- client-fingerprint: chrome
+  encryption: none
+  name: '🏳[www.v2nodes.com] vless- #16'
   network: ws
-  ws-opts:
-    path: /?TELEGRAM-MARAMBASHI_MARAMBASHI?ed=512
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇺🇸 США VLESS-151.101.3.6-806
-  type: vless
-  server: 151.101.3.6
   port: 443
-  uuid: a0144f3b-b7d4-47c3-b0bc-413194f001a8
-  udp: true
-  encryption: none
+  server: 199.232.78.120
+  servername: cdn.akamai.steamstatic.com
   tls: true
-  servername: apps.apple.com
-  client-fingerprint: firefox
-  network: xhttp
-- name: 🇺🇸 США VLESS-188.114.98.5-956
   type: vless
-  server: 188.114.98.5
-  port: 443
-  uuid: c3647117-baf4-4072-a872-fc762fc24ec9
-  udp: true
-  encryption: none
-  tls: true
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
+  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
   ws-opts:
     headers:
-      Host: cdn-edge-2fba99-gw.eng-ops-7084b7.workers.dev
-- name: 🇳🇱 Нидерланды VLESS-151.101.36.111-085
-  type: vless
-  server: 151.101.36.111
+      Host: usaslioijji.global.ssl.fastly.net.
+    path: /
+- name: 美国5|@ripaojiedian
+  network: tcp
+  password: Mitivpn
   port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  udp: true
-  encryption: none
-  tls: true
-  servername: accounts.fastly.com
-  client-fingerprint: chrome
-- name: trojan-1939845073
-  password: humanity
-  port: 443
-  server: 172.67.223.48
-  skip-cert-verify: false
-  sni: www.calmlunch.com
+  server: 151.101.110.219
+  skip-cert-verify: true
+  sni: ssl.fastly.com
   type: trojan
   udp: true
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 168079'
-  server: 104.26.4.57
-  port: 2087
-  type: vless
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
+- name: US 🇺🇸 | @Raydikalx | D57224
+  server: 172.111.38.246
+  port: 1270
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
-  servername: c7dabe95.proxy-978.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c7dabe95.proxy-978.pages.dev
-- name: 🇺🇸 США VLESS-104.16.10.56-018
-  type: vless
-  server: 104.16.10.56
+  servername: xmfhlpy.com
+  network: tcp
+- name: US 🇺🇸 | @Raydikalx | 412587
+  server: 66.163.122.46
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  encryption: none
+  sni: searchnationwidecareerchangehelperandguidancetoday.com
+  network: tcp
+- name: LU 🇱🇺 | @Raydikalx | 98FC96
+  server: 92.223.84.254
+  port: 443
+  type: vless
+  uuid: 740b2630-b42d-425c-bacd-37e7e30d78f1
+  udp: true
   tls: true
-  servername: jp3.yohototo.top
+  servername: subgift.gcorecdn.com
   client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-104.16.10.9-072
-  type: vless
-  server: 104.16.10.9
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  encryption: none
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: qq
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-104.20.63.254-425
-  type: vless
-  server: 104.20.63.254
-  port: 443
-  uuid: cd3d8e5c-794f-4c34-8222-59d3e99e35fe
-  udp: true
-  encryption: none
-  tls: true
-  servername: joeypg.ezbiz.dynv6.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: joeypg.ezbiz.dynv6.net
-- name: 🇺🇸 США VLESS-172.64.88.168-674
-  type: vless
-  server: 172.64.88.168
-  port: 8880
-  uuid: 6f876b28-1b3e-4088-85c0-d299e56bfccd
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.JP.CMLiussss.net
-    headers:
-      Host: throbbing-haze-fbde.388-6c4.workers.dev
-- name: 🇺🇸 США VLESS-172.64.150.43-1204
-  type: vless
-  server: 172.64.150.43
-  port: 2052
-  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: eu02.123450908.xyz
-- name: 🇳🇱 Нидерланды VLESS-151.101.36.2-053
-  type: vless
-  server: 151.101.36.2
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  udp: true
-  encryption: none
-  tls: true
-  servername: accounts.fastly.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-146.75.59.186-070
-  type: vless
-  server: 146.75.59.186
-  port: 443
-  uuid: cef8c09d-8af5-4039-a28e-bf51a908c4be
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: ProxyRift 1601
-  type: vless
-  server: 185.207.198.151
-  port: 443
-  udp: true
-  uuid: 50414e45-4c5f-5a45-5553-e56923ade28f
-  encryption: none
-  tls: true
-  servername: 6izgogewuq8s.5czjqeeeua8s.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/e56923ade28f/loc-1
-    headers:
-      Host: 6izgogewuq8s.5czjqeeeua8s.workers.dev
-- encryption: none
-  name: '🇸🇬[www.v2nodes.com] vless-SG-7... #1'
-  network: ws
-  port: 2052
-  server: 104.18.109.147
-  tls: false
-  type: vless
-  uuid: c29d39bd-92a4-45db-bb61-56013998617c
-  ws-opts:
-    headers:
-      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
-    path: /Telegram-XV2ry2?ed=2048
-- name: CA 🇨🇦 | @Raydikalx | 13F69A
-  server: perplexity.com
-  port: 443
-  type: vless
-  uuid: 628347a0-6582-4202-9aa8-2eaa8140dc25
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: new.exploring.cyou
   network: ws
   ws-opts:
     path: /t.me-SubGift
     headers:
-      Host: new.exploring.cyou
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 775D21'
-  server: 104.18.151.231
-  port: 2053
+      Host: subgift.gcorecdn.com
+- name: CA 🇨🇦 | @Raydikalx | 76F5D4
+  server: 104.27.46.35
+  port: 443
   type: vless
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
-  servername: twilight-frost-15b0.yigom67484.workers.dev
-  client-fingerprint: chrome
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /ws
+    path: /tyxyws
     headers:
-      Host: twilight-frost-15b0.yigom67484.workers.dev
-- name: 646 美国 504
+      Host: jp3.yohototo.top
+- name: ProxyRift 1368
   type: vless
-  network: ws
-  server: 104.27.204.44
+  server: 104.19.33.25
   port: 443
-  uuid: 386d67dc-bf88-49fd-a570-301cbb013a33
-  servername: 9t94roac1ew8n93sdrq.pages.dev
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: ProxyRift 1813
+  type: vless
+  server: 8.6.112.0
+  port: 443
+  udp: true
+  uuid: 81d8d985-3708-5fe1-b931-34a13cd5464c
+  encryption: none
+  tls: true
+  servername: nl1.v2less.site
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: nl1.v2less.site
+- name: trojan-1934984141
+  password: humanity
+  port: 443
+  server: 104.19.95.153
   skip-cert-verify: false
-  tls: true
-  udp: true
-  tfo: false
-  client-fingerprint: chrome
-  ws-opts:
-    headers:
-      Host: 9t94roac1ew8n93sdrq.pages.dev
-    path: /vl/x1qQUZWxHs5IRVeRUjz7AteYS?ed=2560
-- name: 🇺🇸 США VLESS-fast.145779.xyz-021
-  type: vless
-  server: fast.145779.xyz
-  port: 2053
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  udp: true
-  encryption: none
-  tls: true
-  servername: fast.145779.xyz
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /ws-tesla
-    headers:
-      Host: fast.145779.xyz
-- name: 🇺🇸 США VLESS-ws137.mydosss.ccwu.cc-067
-  type: vless
-  server: ws137.mydosss.ccwu.cc
-  port: 443
-  uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
-  udp: true
-  encryption: none
-  tls: true
-  servername: ws137.mydosss.ccwu.cc
-  client-fingerprint: android
-  network: ws
-  ws-opts:
-    path: /3b575ddc8596
-    headers:
-      Host: ws137.mydosss.ccwu.cc
-- name: 🇧🇿 BZ VLESS-45.135.235.255-406
-  type: vless
-  server: 45.135.235.255
-  port: 443
-  uuid: 4dd8d557-dbe3-4c6f-a3ee-168da9a03d1b
-  udp: true
-  encryption: none
-  tls: true
-  servername: worker3.paneger955.workers.dev
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /FVY1GD1e5FxKmN08
-    headers:
-      Host: worker3.paneger955.workers.dev
-- name: 🇺🇸 США VLESS-104.20.6.134-1038
-  type: vless
-  server: 104.20.6.134
-  port: 2096
-  uuid: efd11a89-7506-44ce-95b6-6654859f155b
-  udp: true
-  encryption: none
-  tls: true
-  servername: pcloud.z-tas.com
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    headers:
-      Host: pcloud.z-tas.com
-- name: 🇺🇸 США VLESS-382218.xyz-1457
-  type: vless
-  server: 382218.xyz
-  port: 443
-  uuid: d801d4d9-111a-46e8-91fc-e2fb39ef2d22
-  udp: true
-  encryption: none
-  tls: true
-  servername: 382218.xyz
-  client-fingerprint: chrome
-  network: ws
-- name: 🇺🇸 США VLESS-172.67.221.237-013
-  type: vless
-  server: 172.67.221.237
-  port: 2052
-  uuid: f30a9b1c-5710-4cf1-8a60-5b34e4b2473c
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: httpupgrade
-- name: 🇺🇸 США VLESS-199.232.239.239-034
-  type: vless
-  server: 199.232.239.239
-  port: 443
-  uuid: 2237ac4b-a8a8-4476-ff67-d140d96b7a38
-  udp: true
-  encryption: none
-  tls: true
-  servername: community.fastly.steamstatic.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-199.232.239.239-052
-  type: vless
-  server: 199.232.239.239
-  port: 443
-  uuid: 5a4db896-caab-4b9c-f747-52ce95b0f9ad
-  udp: true
-  encryption: none
-  tls: true
-  servername: community.fastly.steamstatic.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-199.232.245.94-142
-  type: vless
-  server: 199.232.245.94
-  port: 443
-  uuid: 1cbf2f56-926e-4a69-a325-d2794a22d411
-  udp: true
-  encryption: none
-  tls: true
-  servername: global.fastly.com
-  client-fingerprint: chrome
-- name: ProxyRift 239
-  type: vless
-  server: 104.19.147.12
-  port: 8443
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: sfsmzggh4hyy2i-0oy5s5dtmkjv2nam6.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sfsmzggh4hyy2i-0oy5s5dtmkjv2nam6.pages.dev
-- name: ProxyRift 240
-  type: vless
-  server: 104.16.243.122
-  port: 2053
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev
-- name: ProxyRift 246
-  type: vless
-  server: 104.16.146.243
-  port: 2083
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev
-- name: ProxyRift 323
-  type: vmess
-  server: 38.68.135.131
-  port: 1270
-  udp: true
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  tls: true
-  servername: xmfhlpy.com
-- name: ProxyRift 1453
+  sni: www.calmlunch.com
   type: trojan
-  server: 104.17.128.1
-  port: 2096
   udp: true
-  password: auto
-  tls: true
-  servername: azadnet-5o5.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /azadnet-5o5.pages.dev/?ed=2560
-    headers:
-      Host: azadnet-5o5.pages.dev
-- name: vless-1832764140
+- name: trojan-1827148954
+  password: humanity
+  port: 443
+  server: 104.16.7.70
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1946894181
+  password: MiTiVPN
+  port: 443
+  server: 167.82.64.120
+  skip-cert-verify: true
+  sni: firefox.com
+  type: trojan
+  udp: true
+- name: trojan-1947413506
+  password: humanity
+  port: 443
+  server: 104.17.206.147
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  udp: true
+- encryption: none
+  name: '🇫🇷[www.v2nodes.com] vless-FR-1... #1'
   network: ws
   port: 443
-  server: 172.67.156.147
-  servername: jp3.yohototo.top
+  server: 199.232.78.120
+  servername: cdn.akamai.steamstatic.com
   skip-cert-verify: false
   tls: true
   type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: 🇺🇸 США VLESS-172.67.75.194-251
-  type: vless
-  server: 172.67.75.194
-  port: 8443
-  uuid: 767b6340-96dc-4aa0-8013-a8af7513d920
-  udp: true
-  encryption: none
-  tls: true
-  servername: c7dabe95.proxy-978.pages.dev
-  client-fingerprint: chrome
-  network: ws
+  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
   ws-opts:
-    path: /
     headers:
-      Host: c7dabe95.proxy-978.pages.dev
-- name: 🇺🇸 США VLESS-172.66.44.124-388
-  type: vless
-  server: 172.66.44.124
+      Host: fraboijji.global.ssl.fastly.net.
+    path: /
+- name: 美国4|@ripaojiedian
+  network: tcp
+  password: MiTiVPN
   port: 443
-  uuid: b2f2f9f2-1864-48ea-839b-22815faff1f1
+  server: 167.82.76.27
+  skip-cert-verify: true
+  sni: ssl.fastly.com
+  type: trojan
   udp: true
-  encryption: none
-  tls: true
-  servername: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-  client-fingerprint: chrome
+- client-fingerprint: random
+  name: '🇯🇵 日本 | JPN #2'
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: stf839dvvyog9d2qa4-b8z6ahgn7b7qi.pages.dev
-- name: 🇺🇸 США VLESS-188.114.97.2-030
-  type: vless
-  server: 188.114.97.2
-  port: 80
-  uuid: 988c3002-489f-58a1-901d-2c12a04a387f
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: httpupgrade
-- name: 🇺🇸 США VLESS-104.16.10.2-044
-  type: vless
-  server: 104.16.10.2
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  encryption: none
+  server: 188.164.248.18
+  servername: jp-osa.862400.xyz
   tls: true
-  servername: a.cwvps.eu.org
+  type: vless
+  udp: true
+  uuid: 5bbbbf2c-9031-4511-8222-b6cecd5a5291
+  ws-opts:
+    headers:
+      Host: jp-osa.862400.xyz
+    path: /announcement?ed=2048
+- name: US 🇺🇸 | @Raydikalx | 37480E
+  server: 66.163.122.81
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: courses.searchnationwidecareerchangehelperandguidancetoday.com
+  client-fingerprint: chrome
+  network: tcp
+- name: FR 🇫🇷 | @Raydikalx | 4487CA
+  server: 159.60.146.82
+  port: 443
+  type: vless
+  uuid: e98a123b-7a6f-444d-985d-ad2c389a85ec
+  udp: true
+  tls: true
+  servername: flow-vault-hiizyn.pages.dev
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /ws#TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512
+    path: /ws?ip=159.60.146.82:443
     headers:
-      Host: a.cwvps.eu.org
-- name: ProxyRift 229
-  type: vless
-  server: 104.19.46.190
-  port: 2096
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: rezanoori4295.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rezanoori4295.pages.dev
-- name: ProxyRift 234
-  type: vless
-  server: 104.19.168.65
+      Host: flow-vault-hiizyn.pages.dev
+- name: US 🇺🇸 | @Raydikalx | C14BA8
+  server: 209.94.90.201
   port: 2083
+  type: vless
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
   udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
   tls: true
-  servername: rezanoori4295.pages.dev
+  servername: vipfree.dr-ping.ir
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: rezanoori4295.pages.dev
-- name: ProxyRift 1487
-  type: vless
-  server: 104.19.50.142
+      Host: vipfree.dr-ping.ir
+- name: '[share-daily-node] US-HTTP-02'
+  type: http
+  server: 149.102.227.77
   port: 443
   udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
   tls: true
-  servername: vf3uymn6bu20313tqlfvws58mnqrhxxi.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vf3uymn6bu20313tqlfvws58mnqrhxxi.pages.dev
-- name: vless-1863440028
-  network: ws
+  skip-cert-verify: true
+- name: FREE-US-au-dfd41d
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  alterId: 0
+  cipher: aes-128-gcm
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: ProxyRift 153
+  type: trojan
+  server: 66.163.122.46
   port: 443
-  server: 104.16.10.2
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
   udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1827152152
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  tls: true
+  servername: searchnationwidecareerchangehelperandguidancetoday.com
+- name: ProxyRift 1805
+  type: trojan
+  server: 66.163.122.81
+  port: 443
+  udp: true
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  tls: true
+  servername: 66.163.122.81
+  skip-cert-verify: true
+- cipher: aes-256-gcm
+  name: shadowsocks-1875022945
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 45.86.51.18
+  type: ss
+  udp: true
+- name: vless-1910526407
   network: ws
   port: 443
-  server: 104.21.0.87
+  server: 104.16.0.1
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
@@ -1638,347 +364,126 @@ proxies:
   type: vmess
   udp: true
   uuid: ac251237-576f-40c8-a543-554960c958b1
-- client-fingerprint: chrome
-  encryption: none
-  name: '🏳[www.v2nodes.com] vless- #24'
+- alterId: 0
+  cipher: none
+  name: vmess-1947242998
+  network: tcp
+  port: 18000
+  server: 67.220.95.3
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: vless-1863468525
   network: ws
   port: 443
-  server: 199.232.78.159
-  servername: cdn.akamai.steamstatic.com
+  server: 104.19.33.25
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_8i.global.ssl.fastly.net.
-    path: /
-- name: '[ermaozi-subscribe] 🇩🇪DE_3|1.0MB/s'
-  password: None
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸 США VLESS-104.27.56.173-344
-  type: vless
-  server: 104.27.56.173
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-c67e6a7b76e9
   udp: true
-  encryption: none
-  tls: true
-  servername: kwzu1yelu3ms.ouzrzee5u7rs.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/c67e6a7b76e9
-    headers:
-      Host: kwzu1yelu3ms.ouzrzee5u7rs.workers.dev
-- name: 🇺🇸 США VLESS-104.18.0.1-1329
-  type: vless
-  server: 104.18.0.1
-  port: 443
-  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
-  udp: true
-  encryption: none
-  tls: true
-  servername: all.speedtest03.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: all.speedtest03.ccwu.cc
-- name: 🇺🇸 США VLESS-104.18.12.149-022
-  type: vless
-  server: 104.18.12.149
-  port: 8880
-  uuid: c24a32f1-b645-47da-98a3-1e7c713229c1
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: httpupgrade
-- name: 🇺🇸 США VLESS-cdn-waw.edgeptr.org-062
-  type: vless
-  server: cdn-waw.edgeptr.org
-  port: 2052
-  uuid: 8419bd29-8bd4-4a38-a739-d5d7adeb5c3c
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: 🇺🇸 США VLESS-146.75.57.238-138
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: bad0b0df-f838-48a7-a86b-7d5f8b075952
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: ProxyRift 222
-  type: vless
-  server: 8.35.211.31
-  port: 8443
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev
-- name: trojan-1849374991
-  password: ae7eb4dwyaz25pxwgq59
-  port: 59689
-  server: 66.23.203.21
-  skip-cert-verify: true
-  sni: 66.23.203.21
-  type: trojan
-  udp: true
-- name: trojan-1934984141
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1908518028
   password: humanity
   port: 443
-  server: 104.19.95.153
-  skip-cert-verify: false
+  server: 104.17.121.9
+  skip-cert-verify: true
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: trojan-1853461582
+- name: trojan-1894622732
   password: humanity
   port: 443
-  server: 104.16.71.213
+  server: 45.130.125.126
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1940455323
+  password: humanity
+  port: 443
+  server: 8.6.112.206
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  udp: true
+- name: trojan-1939844054
+  password: humanity
+  port: 443
+  server: 104.25.240.193
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇬[www.v2nodes.com] vless-SG-7...
+  name: '🇬🇧[www.v2nodes.com] vless-GB-1... #1'
   network: ws
   port: 443
-  server: 141.193.213.10
-  servername: partner.catchplay.com.r3xxe.eu.cc
-  skip-cert-verify: false
+  server: 146.75.59.186
+  servername: cdn.akamai.steamstatic.com
   tls: true
   type: vless
-  uuid: 977b814d-d9e0-4889-bb71-98d6bfb8f462
+  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
   ws-opts:
     headers:
-      Host: partner.catchplay.com.r3xxe.eu.cc
-    path: /sg-amz
-- name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-7'
-  type: vless
-  server: 104.18.40.100
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  sni: ccc.010304.xyz
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇺🇸 США VLESS-fast.145779.xyz-055
-  type: vless
-  server: fast.145779.xyz
-  port: 2053
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
-  udp: true
-  encryption: none
-  tls: true
-  servername: fast.145779.xyz
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /ws-tesla
-    headers:
-      Host: fast.145779.xyz
-- name: 🇺🇸 США VLESS-ws137.mydosss.ccwu.cc-080
-  type: vless
-  server: ws137.mydosss.ccwu.cc
-  port: 443
-  uuid: 48eb716d-6121-43c1-9dd2-9a2a25bf3178
-  udp: true
-  encryption: none
-  tls: true
-  servername: ws137.mydosss.ccwu.cc
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /3b575ddc8596
-    headers:
-      Host: ws137.mydosss.ccwu.cc
-- name: 🇺🇸 США VLESS-104.17.3.81-574
-  type: vless
-  server: 104.17.3.81
-  port: 80
-  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
-  udp: true
-  encryption: none
-  tls: false
-  servername: sg-vless-ws.bypass.id
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: sg-vless-ws.bypass.id
-- name: 🇺🇸 США VLESS-208.103.161.5-666
-  type: vless
-  server: 208.103.161.5
-  port: 443
-  uuid: d042a74a-c305-4eec-a89f-39a348022c92
-  udp: true
-  encryption: none
-  tls: true
-  servername: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
+      Host: ukoijji.global.ssl.fastly.net
     path: /
-    headers:
-      Host: dry-butterfly-8eb9.tmpgnacio83.workers.dev
-- name: 🇺🇸 США VLESS-188.114.98.112-1139
-  type: vless
-  server: 188.114.98.112
-  port: 80
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
-  udp: true
-  encryption: none
-  tls: false
-  servername: elenaaaaaaaaaa.cloudns.pro.
+- alpn:
+  - h3
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: elenaaaaaaaaaa.cloudns.pro.
-- name: 🇺🇸 США VLESS-188.114.97.6-1223
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: 0991a0c4-0ee5-4213-af89-7ad589f853f3
-  udp: true
   encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
+  name: '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
   network: ws
-  ws-opts:
-    headers:
-      Host: elenaaaaaaaaaa.cloudns.pro
-- name: 🇺🇸 США VLESS-170.114.45.6-1777
-  type: vless
-  server: 170.114.45.6
-  port: 80
-  uuid: f028d829-249a-4692-b45f-1b4cde8ef0c7
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: free.sahanwickramasinghe.com
-- name: ProxyRift 1490
-  type: vless
-  server: 8.39.125.64
   port: 443
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
+  server: 27.50.48.6
+  servername: vless2-8vx.pages.dev
   tls: true
-  servername: ahmad99hoseini.pages.dev
-  client-fingerprint: chrome
-  network: ws
+  type: vless
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
   ws-opts:
+    headers:
+      Host: vless2-8vx.pages.dev
     path: /
-    headers:
-      Host: ahmad99hoseini.pages.dev
-- name: ProxyRift 1492
-  type: vless
-  server: 104.16.205.65
+- name: CA 🇨🇦 | @Raydikalx | E20903
+  server: 104.18.42.163
   port: 443
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
   udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
   tls: true
-  servername: alphefedo7865.pages.dev
-  client-fingerprint: chrome
+  servername: guanwang.awsno.com
   network: ws
   ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: US 🇺🇸 | @Raydikalx | 2314F7
+  server: 67.220.95.49
+  port: 1270
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: xmfhlpy.com
+  network: tcp
+- name: HU 🇭🇺 | @Raydikalx | FEE62D
+  server: 141.11.203.165
+  port: 443
+  type: vless
+  uuid: 003ec416-45f0-462a-8030-016fe0a71703
+  udp: true
+  tls: true
+  servername: 186.baklajann.ru
+  client-fingerprint: chrome
+  network: xhttp
+  xhttp-opts:
     path: /
-    headers:
-      Host: alphefedo7865.pages.dev
-- name: ProxyRift 1501
-  type: vless
-  server: 104.16.10.104
-  port: 443
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: ProxyRift 1602
-  type: vless
-  server: 104.17.237.238
-  port: 443
-  udp: true
-  uuid: 50414e45-4c5f-5a45-5553-e56923ade28f
-  encryption: none
-  tls: true
-  servername: 6izgogewuq8s.5czjqeeeua8s.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/e56923ade28f/loc-1
-    headers:
-      Host: 6izgogewuq8s.5czjqeeeua8s.workers.dev
-- name: vless-1832764144
-  network: ws
-  port: 443
-  server: 104.16.10.22
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1828374596
-  network: ws
-  port: 443
-  server: 104.21.33.59
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1832764134
-  network: ws
-  port: 443
-  server: 104.16.10.135
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+    host: 186.baklajann.ru
+    mode: auto
 - name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-9'
   type: vless
   server: 104.18.40.100
@@ -2005,159 +510,7 @@ proxies:
     path: /fp=chromefp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🇺🇸 США VLESS-ws137.mydosss.ccwu.cc-004
-  type: vless
-  server: ws137.mydosss.ccwu.cc
-  port: 443
-  uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
-  udp: true
-  encryption: none
-  tls: true
-  servername: ws137.mydosss.ccwu.cc
-  client-fingerprint: qq
-  network: ws
-  ws-opts:
-    path: /3b575ddc8596
-- name: 🇺🇸 США VLESS-104.21.0.87-062
-  type: vless
-  server: 104.21.0.87
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  encryption: none
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: safari
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-104.19.48.107-175
-  type: vless
-  server: 104.19.48.107
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  encryption: none
-  tls: true
-  servername: jp3.yohototo.top
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-172.67.78.117-244
-  type: vless
-  server: 172.67.78.117
-  port: 2053
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  udp: true
-  encryption: none
-  tls: true
-  servername: helloapps.cc.cd
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: helloapps.cc.cd
-- name: 🇺🇸 США VLESS-104.26.0.1-1360
-  type: vless
-  server: 104.26.0.1
-  port: 2052
-  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: eu02.123450908.xyz
-- name: 🇺🇸 США VLESS-199.232.239.239-087
-  type: vless
-  server: 199.232.239.239
-  port: 443
-  uuid: a55a4d25-76f0-4f0e-d395-3a92c0b34268
-  udp: true
-  encryption: none
-  tls: true
-  servername: community.fastly.steamstatic.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-167.82.76.31-096
-  type: vless
-  server: 167.82.76.31
-  port: 443
-  uuid: c73a08f4-4a21-4dba-bb88-8bf06cb15e5c
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- cipher: aes-128-gcm
-  name: shadowsocks-1827146556
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.167
-  type: ss
-  udp: true
-- name: vless-1863440009
-  network: ws
-  port: 443
-  server: 104.16.10.48
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1827962637
-  network: ws
-  port: 443
-  server: 104.16.111.195
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- alterId: 0
-  cipher: auto
-  name: vmess-1827159661
-  network: ws
-  port: 8443
-  server: 104.21.91.53
-  servername: v2ray1.dozapp.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-- name: 🇩🇪DE_5|2.6MB/s|R002-260618
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  sub_tag: R002-260618
-  tls: true
-  type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '[igareck-vless] 🇺🇸 United States | 🌐 | [BL]'
-  type: vless
-  server: ws137.mydosss.ccwu.cc
-  port: 443
-  uuid: 369360e9-ff90-43c3-b81b-ebac420fce73
-  tls: true
-  sni: ws137.mydosss.ccwu.cc
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /3b575ddc8596
-    headers:
-      Host: ws137.mydosss.ccwu.cc
-- name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-4'
+- name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-7'
   type: vless
   server: 104.18.40.100
   port: 443
@@ -2165,64 +518,473 @@ proxies:
   tls: true
   sni: ccc.010304.xyz
   network: ws
+  client-fingerprint: chrome
   ws-opts:
-    path: /fp=chromesecurity=tls
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: ccc.010304.xyz
-- name: 🇺🇸 США VLESS-172.66.170.172-306
-  type: vless
-  server: 172.66.170.172
+- name: FREE-US-au-714fc4
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  alterId: 0
+  cipher: auto
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: ProxyRift 201
+  type: trojan
+  server: 66.163.122.30
   port: 443
-  uuid: e081da45-9fae-4687-9376-f9a6a0dbbe83
   udp: true
-  encryption: none
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   tls: true
-  servername: e33xr.qzz.io
+  servername: resources.searchnationwidecareerchangehelperandguidancetoday.com
   client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /id-amz
-    headers:
-      Host: e33xr.qzz.io
-- name: 🇺🇸 США VLESS-167.82.64.47-060
+- name: ProxyRift 555
   type: vless
-  server: 167.82.64.47
+  server: 45.135.235.90
   port: 443
-  uuid: bad0b0df-f838-48a7-a86b-7d5f8b075952
   udp: true
+  uuid: 003ec416-45f0-462a-8030-016fe0a71703
   encryption: none
   tls: true
-  servername: cdn.akamai.steamstatic.com
+  servername: 51.baklajann.ru
   client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-146.75.57.111-146
+  alpn:
+  - h2
+  - http/1.1
+  network: xhttp
+  xhttp-opts:
+    path: /
+    host: 51.baklajann.ru
+    mode: auto
+- name: ProxyRift 939
   type: vless
-  server: 146.75.57.111
-  port: 443
-  uuid: 4f57cb03-30f8-47ce-befe-51cfce16ea15
+  server: 170.114.45.6
+  port: 80
   udp: true
+  uuid: f028d829-249a-4692-b45f-1b4cde8ef0c7
   encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: ProxyRift 226
-  type: vless
-  server: 8.39.125.27
-  port: 2083
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: cc20i5h7zc50yf204nto2kaw6dw6pn7l.pages.dev
-  client-fingerprint: chrome
+  servername: 170.114.45.6
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: cc20i5h7zc50yf204nto2kaw6dw6pn7l.pages.dev
-- name: vless-1867102735
+      Host: free.sahanwickramasinghe.com
+- alterId: 0
+  cipher: auto
+  name: vmess-1828339141
+  network: raw
+  port: 18000
+  server: 67.220.95.3
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: trojan-1853348743
+  password: humanity
+  port: 443
+  server: 45.130.125.75
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1857007066
+  password: humanity
+  port: 443
+  server: 104.17.121.43
+  skip-cert-verify: true
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 🏁ZZ_143_1@142
+  server: 104.18.42.163
+  type: vmess
+  country: 🏁ZZ
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: guanwang.awsno.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      HOST: guanwang.awsno.com
+- encryption: none
+  name: '🇸🇬[www.v2nodes.com] vless-SG-7... #1'
+  network: ws
+  port: 2052
+  server: 104.18.109.147
+  tls: false
+  type: vless
+  uuid: c29d39bd-92a4-45db-bb61-56013998617c
+  ws-opts:
+    headers:
+      Host: www.speedtest.net.www.1google.com.bing.com.visa.com.tls.xv98.ip-ddns.com
+    path: /Telegram-XV2ry2?ed=2048
+- name: US 🇺🇸 | @Raydikalx | DE08A7
+  server: 67.220.95.3
+  port: 18000
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  servername: 67.220.95.3
+  network: tcp
+- name: US 🇺🇸 | @Raydikalx | AD8601
+  server: 66.163.122.26
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: blog.searchnationwidecareerchangehelperandguidancetoday.com
+  network: tcp
+- name: US 🇺🇸 | @Raydikalx | 120146
+  server: 66.163.122.30
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: resources.searchnationwidecareerchangehelperandguidancetoday.com
+  network: tcp
+- name: CA 🇨🇦 | @Raydikalx | 212170
+  server: 104.16.0.1
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: '[cbusifabcap-clashmeta] ❓Other_22|299KB/s|R002-260618'
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: '[ermaozi-subscribe] 🇩🇪DE_3|1.0MB/s'
+  password: None
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: ProxyRift 203
+  type: trojan
+  server: 66.163.122.7
+  port: 443
+  udp: true
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  tls: true
+  servername: www.searchnationwidecareerchangehelperandguidancetoday.com
+- name: ProxyRift 535
+  type: vless
+  server: 194.156.26.125
+  port: 443
+  udp: true
+  uuid: 003ec416-45f0-462a-8030-016fe0a71703
+  tls: true
+  servername: mama120.baklajann.ru
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    mode: auto
+- name: ProxyRift 1251
+  type: vless
+  server: 104.18.138.67
+  port: 443
+  udp: true
+  uuid: 0280c276-641b-49af-b699-4931c30ac137
+  tls: true
+  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  client-fingerprint: firefox
+  alpn:
+  - h2
+  network: xhttp
+  xhttp-opts:
+    path: /api
+    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+- name: ProxyRift 1262
+  type: vless
+  server: 5.161.152.105
+  port: 443
+  udp: true
+  uuid: f54ce397-4e7e-4e24-b815-7f1891a4b511
+  flow: xtls-rprx-vision
+  encryption: none
+  tls: true
+  servername: github.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: nsygKb893m_SuA1BfH55efjT0sQlJQDCwIWGM8krawQ
+    short-id: b5870ad75616c0da
+- name: ProxyRift 1382
+  type: vless
+  server: 129.153.128.162
+  port: 853
+  udp: true
+  uuid: 2006aa32-9ba2-4fe0-bd3d-3deaceb621e1
+  servername: 129.153.128.162
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: firsty.app
+- name: ProxyRift 1679
+  type: vless
+  server: 104.16.111.102
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: ios
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: ProxyRift 1780
+  type: vless
+  server: 104.19.33.237
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 048 | 90ms | 机房 seed46
+  password: 'null'
+  port: 443
+  server: 172.64.69.89
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
+  udp: true
+- name: vless-1927185301
   network: ws
   port: 443
-  server: 104.19.48.107
+  server: 104.17.50.227
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1832764138
+  network: ws
+  port: 443
+  server: 104.17.210.74
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1946894790
+  network: ws
+  port: 443
+  server: 172.64.152.52
+  servername: cf.zhahui.de5.net
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
+- name: trojan-1944218170
+  password: humanity
+  port: 443
+  server: 104.25.0.1
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- client-fingerprint: random
+  name: '🇯🇵 日本 | JPN #11'
+  network: ws
+  port: 443
+  server: 104.18.33.121
+  servername: jp-osa.862400.xyz
+  tls: true
+  type: vless
+  udp: true
+  uuid: 5bbbbf2c-9031-4511-8222-b6cecd5a5291
+  ws-opts:
+    headers:
+      Host: jp-osa.862400.xyz
+    path: /announcement?ed=2048
+- name: US 🇺🇸 | @Raydikalx | E3A45B
+  server: 66.163.122.7
+  port: 443
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
+  network: tcp
+- name: CA 🇨🇦 | @Raydikalx | 269005
+  server: 104.16.10.185
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: CA 🇨🇦 | @Raydikalx | 4561A3
+  server: 104.18.42.98
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-8'
+  type: vless
+  server: 104.18.40.100
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  sni: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /fp
+    headers:
+      Host: ccc.010304.xyz
+- name: FREE-US-au-cb75bf
+  type: vmess
+  server: 67.220.95.3
+  port: 18000
+  alterId: 0
+  cipher: none
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: ProxyRift 207
+  type: trojan
+  server: 66.163.122.26
+  port: 443
+  udp: true
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  tls: true
+  servername: blog.searchnationwidecareerchangehelperandguidancetoday.com
+- name: ProxyRift 508
+  type: vless
+  server: 89.116.46.150
+  port: 443
+  udp: true
+  uuid: 003ec416-45f0-462a-8030-016fe0a71703
+  encryption: none
+  tls: true
+  servername: 145.baklajann.ru
+  network: xhttp
+  xhttp-opts:
+    path: /
+    host: 145.baklajann.ru
+- name: ProxyRift 752
+  type: vmess
+  server: 67.220.95.49
+  port: 1270
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+- name: ProxyRift 1075
+  type: http
+  server: 152.70.198.2
+  port: 1080
+- name: ProxyRift 1198
+  type: vmess
+  server: 104.18.0.1
+  port: 8443
+  udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: v2ray1.dozapp.xyz
+  client-fingerprint: chrome
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
+- name: ProxyRift 1370
+  type: vless
+  server: 104.17.210.74
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 063 | 121ms | 机房 🇫🇷FR_80/1.8MB/s/B004-260618 [64ffa321cde1]
+  client-fingerprint: chrome
+  network: ws
+  port: 2096
+  server: 104.18.45.236
+  sub_tag: B004-260618
+  tls: true
+  type: vless
+  udp: true
+  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
+  ws-opts:
+    headers:
+      Host: mohammadhoseini4532.pages.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /
+  xudp: true
+  packet-encoding: xudp
+  servername: mohammadhoseini4532.pages.dev
+- name: vless-1863464818
+  network: ws
+  port: 443
+  server: 104.18.42.98
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1863440034
+  network: ws
+  port: 443
+  server: 104.16.10.234
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
@@ -2239,250 +1001,61 @@ proxies:
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1827188005
+- name: trojan-1944218172
   password: humanity
   port: 443
-  server: 172.66.40.99
+  server: 104.27.0.1
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1853462719
+  password: humanity
+  port: 443
+  server: 185.18.250.245
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: trojan-1827149109
+  password: humanity
+  port: 443
+  server: 185.18.250.252
   skip-cert-verify: true
-  sni: www.trusteeforward.com
+  sni: www.calmlunch.com
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  encryption: none
-  name: '🏳[www.v2nodes.com] vless- #25'
+  name: '🇺🇸[www.v2nodes.com] vless-US-1... #10'
   network: ws
-  port: 2083
-  server: 172.67.131.125
-  servername: smart-edge-424.arti98399-1905.workers.dev
+  port: 443
+  server: 199.232.78.160
+  servername: cdn.akamai.steamstatic.com
   tls: true
   type: vless
-  uuid: f418674e-f518-4318-8ff9-e10000000046
+  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
   ws-opts:
     headers:
-      Host: smart-edge-424.arti98399-1905.workers.dev
-    path: /sync
-- name: CA 🇨🇦 | @Raydikalx | 5A591A
-  server: 104.17.70.206
-  port: 8443
-  type: vless
-  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
-  udp: true
-  tls: true
-  servername: free.sahanwickramasinghe.com
-  client-fingerprint: edge
-  network: ws
-  ws-opts:
+      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
     path: /
-    headers:
-      Host: free.sahanwickramasinghe.com
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | B754D5'
-  server: 104.17.77.77
-  port: 8443
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: none
-  udp: true
-  tls: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🇺🇸 США VLESS-172.67.199.126-036
-  type: vless
-  server: 172.67.199.126
-  port: 2053
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  udp: true
-  encryption: none
-  tls: true
-  servername: fast.145779.xyz
-  client-fingerprint: android
-  network: ws
-  ws-opts:
-    path: /ws-tesla
-    headers:
-      Host: fast.145779.xyz
-- name: 🇺🇸 США VLESS-172.65.90.52-673
-  type: vless
-  server: 172.65.90.52
-  port: 8880
-  uuid: 30e4c878-15ca-4f53-ab32-04c60ecd3f31
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: blue-rice-7142.30-346.workers.dev
-- name: 🇺🇸 США VLESS-ujp.xn--ghqu5fm27b67w.com-1009
-  type: vless
-  server: ujp.xn--ghqu5fm27b67w.com
+- name: 🇩🇪DE_1|1.3MB/s
+  password: 'null'
   port: 443
-  uuid: debafe5b-6760-4b00-b0b2-ee30cbf769f0
-  udp: true
-  encryption: none
-  tls: true
-  servername: portland-wins-robbie-skirt.trycloudflare.com
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: portland-wins-robbie-skirt.trycloudflare.com
-- name: 🇺🇸 США VLESS-8.6.112.0-1635
-  type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: 81d8d985-3708-5fe1-b931-34a13cd5464c
-  udp: true
-  encryption: none
-  tls: true
-  servername: nl1.v2less.site
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    headers:
-      Host: nl1.v2less.site
-- name: 🇺🇸 США VLESS-216.24.57.1-012
-  type: vless
-  server: 216.24.57.1
-  port: 2095
-  uuid: 0916272d-34a8-4f4c-a821-e340d485cedc
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: httpupgrade
-- name: 🇳🇱 Нидерланды VLESS-151.101.36.201-071
-  type: vless
-  server: 151.101.36.201
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  udp: true
-  encryption: none
-  tls: true
-  servername: accounts.fastly.com
-  client-fingerprint: chrome
-- name: vless-1828374447
-  network: ws
-  port: 443
-  server: 188.114.97.6
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1947413506
-  password: humanity
-  port: 443
-  server: 104.17.206.147
-  skip-cert-verify: false
-  sni: www.trusteeforward.com
-  type: trojan
-  udp: true
-- name: 🇺🇸US_24|1.8MB/s|R002-260618
-  port: 443
-  server: 23.133.176.14
+  server: 172.64.68.89
   skip-cert-verify: true
-  sub_tag: R002-260618
   tls: true
   type: http
-  udp: true
-  x-toolall-mihomo: true
-- name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-8'
-  type: vless
-  server: 104.18.40.100
+  username: 'null'
+- name: US 🇺🇸 | @Raydikalx | 86F297
+  server: 66.163.122.25
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  sni: ccc.010304.xyz
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /fp
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇺🇸 США VLESS-104.27.124.133-266
-  type: vless
-  server: 104.27.124.133
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  type: trojan
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
-  encryption: none
-  tls: true
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /api/ws
-    headers:
-      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: 🇺🇸 США VLESS-23.235.33.98-020
-  type: vless
-  server: 23.235.33.98
-  port: 80
-  uuid: b742d8e7-ed7d-4f7d-bb16-bf49bdb4cb44
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-146.75.57.238-089
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: 2373eb03-66b2-4f42-bb40-95db8b210877
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-Site.check-looks.space-132
-  type: vless
-  server: Site.check-looks.space
-  port: 2083
-  uuid: ca608afb-55ff-4f36-9d00-606fedbb30e1
-  udp: true
-  encryption: none
-  tls: true
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-- name: vless-1863476159
-  network: ws
-  port: 443
-  server: 104.21.6.186
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- client-fingerprint: chrome
-  encryption: none
-  name: '🇳🇱[www.v2nodes.com] vless-NL-1... #3'
-  network: ws
-  port: 443
-  server: 199.232.78.159
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38
-  ws-opts:
-    headers:
-      Host: netherboijji.global.ssl.fastly.net.
-    path: /
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 212170'
-  server: 104.16.0.1
+  sni: cdn.searchnationwidecareerchangehelperandguidancetoday.com
+  network: tcp
+- name: CA 🇨🇦 | @Raydikalx | E157C0
+  server: 104.19.164.155
   port: 443
   type: vless
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -2495,62 +1068,328 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-188.114.98.0-1595
+- name: ProxyRift 023
   type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: c2f1f999-365f-42a7-87e7-726cbd0753ae
+  server: 162.159.130.234
+  port: 2096
   udp: true
-  encryption: none
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
   tls: true
-  servername: ''
-  client-fingerprint: unsafe
+  servername: vp8.1145678.xyz
+  client-fingerprint: chrome
   network: ws
   ws-opts:
+    path: /p
     headers:
-      Host: auth-api-8be4aa-gw.prod-relay-110934.workers.dev
-- name: 🇺🇸 США VLESS-199.232.78.160-024
+      Host: vp8.1145678.xyz
+- name: ProxyRift 281
   type: vless
-  server: 199.232.78.160
+  server: 13.219.53.87
   port: 443
-  uuid: 891b8403-db54-43a5-83de-f10610cd60f2
   udp: true
+  uuid: 40992c2a-513e-4837-9594-23411fd42afd
+  encryption: none
+  servername: 13.219.53.87
+- name: ProxyRift 298
+  type: vless
+  server: 5.161.131.202
+  port: 2083
+  udp: true
+  uuid: aebf2111-5322-4b0f-9e4f-47043d081d8e
   encryption: none
   tls: true
-  servername: Firefox.com
-  client-fingerprint: chrome
-- name: ProxyRift 347
-  type: trojan
-  server: 66.23.203.21
-  port: 59689
+  servername: github.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: YkTUb7KQOf2ELpRn7aWygbbj6RDAaKBAP8IUsTcP3zs
+    short-id: f150baf0f97c7aed
+  network: xhttp
+  xhttp-opts:
+    path: /e34602262e30473e
+    mode: auto
+- name: ProxyRift 1086
+  type: vmess
+  server: support.zoom.us
+  port: 443
   udp: true
-  password: ae7eb4dwyaz25pxwgq59
+  uuid: 4caf156a-3309-4105-8388-d388eb9e1105
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: 66.23.203.21
-  skip-cert-verify: true
-- name: vless-1935807325
+  servername: zoomgov.nathaya.web.id
   network: ws
-  port: 8080
-  server: 170.114.45.6
+  ws-opts:
+    path: /whatever/vmess
+    headers:
+      Host: id2.nathaya.web.id
+- name: ProxyRift 1252
   type: vless
+  server: 104.18.140.67
+  port: 443
   udp: true
-  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
-- name: vless-1828654076
+  uuid: 0280c276-641b-49af-b699-4931c30ac137
+  tls: true
+  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  client-fingerprint: firefox
+  alpn:
+  - h2
+  network: xhttp
+  xhttp-opts:
+    path: /api
+    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+- name: ProxyRift 1804
+  type: trojan
+  server: 66.163.122.25
+  port: 443
+  udp: true
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  tls: true
+  servername: cdn.searchnationwidecareerchangehelperandguidancetoday.com
+  skip-cert-verify: true
+- name: 🇺🇸 美国 | USA 11
+  server: 104.19.173.68
+  port: 443
+  type: trojan
+  password: d0298536-d670-4045-bbb1-ddd5ea68683e
+  sni: azadnet-5vk.pages.dev
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan
+    headers:
+      Host: azadnet-5vk.pages.dev
+  udp: true
+- name: vless-1827151410
   network: ws
   port: 443
-  server: 104.21.70.228
+  server: 104.19.164.155
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1946894181
-  password: MiTiVPN
+- name: vless-1831072390
+  network: ws
   port: 443
-  server: 167.82.64.120
+  server: 104.17.50.53
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- alterId: 0
+  cipher: auto
+  name: vmess-1837386182
+  network: tcp
+  port: 18000
+  server: 67.220.95.3
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: trojan-1937399876
+  password: humanity
+  port: 443
+  server: 45.128.76.242
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇸🇬[www.v2nodes.com] vless-SG-7...
+  network: ws
+  port: 443
+  server: 141.193.213.10
+  servername: partner.catchplay.com.r3xxe.eu.cc
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 977b814d-d9e0-4889-bb71-98d6bfb8f462
+  ws-opts:
+    headers:
+      Host: partner.catchplay.com.r3xxe.eu.cc
+    path: /sg-amz
+- name: US 🇺🇸 | @Raydikalx | 943FAE
+  server: 38.107.226.5
+  port: 1270
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: xmfhlpy.com
+  network: tcp
+- name: US 🇺🇸 | @Raydikalx | 6D388E
+  server: 192.200.160.42
+  port: 443
+  type: vless
+  uuid: 003ec416-45f0-462a-8030-016fe0a71703
+  udp: true
+  tls: true
+  servername: mama542.baklajann.ru
+  client-fingerprint: firefox
+  network: xhttp
+  xhttp-opts:
+    path: /
+    host: mama542.baklajann.ru
+    mode: auto
+- name: SG 🇸🇬 | @Raydikalx | E2E24E
+  server: 206.238.237.25
+  port: 2083
+  type: vless
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  udp: true
+  tls: true
+  servername: vipfree.dr-ping.ir
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+- name: SG 🇸🇬 | @Raydikalx | A524AE
+  server: 206.238.239.20
+  port: 2083
+  type: vless
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  udp: true
+  tls: true
+  servername: vipfree.dr-ping.ir
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+- name: US 🇺🇸 | @Raydikalx | D56FAA
+  server: 198.202.24.142
+  port: 2083
+  type: vless
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  udp: true
+  tls: true
+  servername: vipfree.dr-ping.ir
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+- name: CA 🇨🇦 | @Raydikalx | 161FA2
+  server: 104.16.111.202
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: CA 🇨🇦 | @Raydikalx | 001FED
+  server: 104.17.50.53
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: CA 🇨🇦 | @Raydikalx | 3FB990
+  server: 104.16.10.234
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: ProxyRift 191
+  type: vless
+  server: 162.159.135.234
+  port: 2096
+  udp: true
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  tls: true
+  servername: vp8.1145678.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /p
+    headers:
+      Host: vp8.1145678.xyz
+- name: 057 | 112ms | 机房 🇫🇷FR_115/2.3MB/s/B007-260618 [9fa0ef4985f1]
+  type: vless
+  server: 104.16.80.1
+  port: 443
+  uuid: 462f23ba-3286-4601-813d-878bf26b4fcb
+  udp: true
+  tls: true
+  servername: nmdx.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /proxyip=proxyip.oracle.cmliussss.net
+    headers:
+      Host: nmdx.ccwu.cc
+- name: 059 | 115ms | 机房 🇫🇷FR_91/752KB/s/M003-260806 [d046af48049e]
+  type: vless
+  server: 190.93.245.187
+  port: 8443
+  uuid: b2853d19-fada-44dc-8d44-967d1af122e0
+  udp: true
+  tls: true
+  servername: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZTA0TGg3eENkIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMmEwMjo4OTg6MTQ2OjY0OjpdIl19
+    headers:
+      Host: wqa3miojjr8fyozhiui--su3-ucg1gdx.pages.dev
+- name: vless-1930539293
+  network: ws
+  port: 8080
+  server: 170.114.46.6
+  type: vless
+  udp: true
+  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
+- name: trojan-1827938592
+  password: humanity
+  port: 443
+  server: 162.159.91.211
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: vless-1854335913
+  network: ws
+  port: 443
+  server: 104.16.10.104
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1853491995
+  password: humanity
+  port: 443
+  server: 104.18.32.47
   skip-cert-verify: true
-  sni: firefox.com
+  sni: www.calmlunch.com
   type: trojan
   udp: true
 - name: trojan-1828472626
@@ -2561,315 +1400,154 @@ proxies:
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- name: CA 🇨🇦 | @Raydikalx | C65974
-  server: 172.64.80.1
-  port: 8443
-  type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: '[igareck-vless] 🇲🇾 Malaysia, Kuala Lumpur | [BL]'
-  type: vless
-  server: 382218.xyz
-  port: 443
-  uuid: d801d4d9-111a-46e8-91fc-e2fb39ef2d22
-  tls: true
-  sni: 382218.xyz
-  network: ws
-  ws-opts:
-    path: /ws
-- name: 🇺🇸 США VLESS-172.67.69.86-304
-  type: vless
-  server: 172.67.69.86
+- name: SG 🇸🇬 | @Raydikalx | CF5EA1
+  server: 206.238.239.245
   port: 2083
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
+  type: vless
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
   udp: true
-  encryption: none
   tls: true
-  servername: helloapps.cc.cd
+  servername: vipfree.dr-ping.ir
   client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: helloapps.cc.cd
-- name: 🇺🇸 США VLESS-151.101.3.6-032
-  type: vless
-  server: 151.101.3.6
+      Host: vipfree.dr-ping.ir
+- name: CA 🇨🇦 | @Raydikalx | 4FBEA3
+  server: 104.19.12.94
   port: 443
-  uuid: a0144f3b-b7d4-47c3-b0bc-413194f001a8
-  udp: true
-  encryption: none
-  tls: true
-  servername: apps.apple.com
-  client-fingerprint: android
-- name: 🇺🇸 США VLESS-146.75.57.238-128
   type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: b59d913d-e686-4e89-b37b-00b56de6f7ba
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: vless-1884771865
-  network: ws
-  port: 443
-  server: 188.114.98.0
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1930539293
-  network: ws
-  port: 8080
-  server: 170.114.46.6
-  type: vless
-  udp: true
-  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
-- name: 🇺🇸 США VLESS-146.75.57.238-031
-  type: vless
-  server: 146.75.57.238
-  port: 443
-  uuid: bad0b0df-f838-48a7-a86b-7d5f8b075953
-  udp: true
-  encryption: none
-  tls: true
-  servername: steamstatic.com
-  client-fingerprint: chrome
-- name: ProxyRift 245
-  type: vless
-  server: 104.16.205.138
-  port: 2083
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: j4mr-d9oj1at9i-8kuayba9kocwx7uzn.pages.dev
-- client-fingerprint: qq
-  flow: xtls-rprx-vision
-  name: vless-1945992008
-  network: tcp
-  port: 8443
-  reality-opts:
-    public-key: H43_itYl9CE0AJiCktUfriENFmixY_MTHgX8slCrN2Q
-    short-id: a4e32c324d86cfdf
-  server: 31.172.69.31
-  servername: www.samsung.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 9c6e83fc-b755-4ad4-9b0a-14b610153d8f
-- alterId: 0
-  cipher: auto
-  name: vmess-1907162640
-  network: ws
-  port: 2083
-  server: 104.21.0.1
-  servername: or3.sfacg.uk
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: ac251237-576f-40c8-a543-554960c958b1
-- name: trojan-1827148859
-  password: humanity
-  port: 443
-  server: 104.21.103.254
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 美国5|@ripaojiedian
-  network: tcp
-  password: Mitivpn
-  port: 443
-  server: 151.101.110.219
-  skip-cert-verify: true
-  sni: ssl.fastly.com
-  type: trojan
-  udp: true
-- name: 🇺🇸 США VLESS-8.6.112.0-207
-  type: vless
-  server: 8.6.112.0
-  port: 443
-  uuid: eac64826-e281-49c2-88bf-cd0078675b09
-  udp: true
-  encryption: none
-  tls: true
-  servername: worker3.cexewob845.workers.dev
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /Nu2VsE5wrioADb0C
-    headers:
-      Host: worker3.cexewob845.workers.dev
-- name: 🇺🇸 США VLESS-104.18.79.242-1693
-  type: vless
-  server: 104.18.79.242
-  port: 443
-  uuid: bb2a729c-6185-4170-8769-6f5b9f64d5b8
-  udp: true
-  encryption: none
-  tls: true
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    headers:
-      Host: cloud-sync-3d1512-gw.maziarkish.workers.dev
-- name: 🇺🇸 США VLESS-199.232.78.159-001
-  type: vless
-  server: 199.232.78.159
-  port: 80
-  uuid: f47c506e-9b4a-41ce-a07c-ef084c16468c
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-104.18.12.149-007
-  type: vless
-  server: 104.18.12.149
-  port: 8880
-  uuid: 556d2515-b565-4519-9ad0-9ad6f792b6c1
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: httpupgrade
-- name: ProxyRift 231
-  type: vless
-  server: 172.64.159.155
-  port: 2083
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: vf3uymn6bu20313tqlfvws58mnqrhxxi.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vf3uymn6bu20313tqlfvws58mnqrhxxi.pages.dev
-- name: vless-1853654571
-  network: ws
-  port: 443
-  server: 104.21.70.21
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: '[ts-sf-fly] 未知100'
-  type: vmess
-  server: 172.66.0.1
-  port: 8443
-  cipher: auto
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      host: v2ray1.dozapp.xyz
-- name: 🇺🇸 США VLESS-172.67.160.192-423
-  type: vless
-  server: 172.67.160.192
-  port: 443
-  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  udp: true
-  encryption: none
-  tls: true
-  servername: nuclear.us.kg
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /free/1.226.227.169:50001
-    headers:
-      Host: nuclear.us.kg
-- name: 🇺🇸 США VLESS-172.67.217.240-494
-  type: vless
-  server: 172.67.217.240
-  port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
-  encryption: none
   tls: true
   servername: jp3.yohototo.top
-  client-fingerprint: unsafe
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-104.16.10.21-040
-  type: vless
-  server: 104.16.10.21
+- name: ProxyRift 021
+  type: trojan
+  server: 66.163.122.113
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
   udp: true
-  encryption: none
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   tls: true
-  servername: a.cwvps.eu.org
-  client-fingerprint: unsafe
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🇺🇸 США VLESS-Site.check-looks.space-110
+  servername: api.searchnationwidecareerchangehelperandguidancetoday.com
+- name: ProxyRift 1685
   type: vless
-  server: Site.check-looks.space
-  port: 2083
-  uuid: ca608afb-55ff-4f36-9d00-606fedbb30e1
+  server: 104.16.10.104
+  port: 443
   udp: true
-  encryption: none
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
-  servername: ''
+  servername: jp3.yohototo.top
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /tyxyws
     headers:
-      Host: Site.check-looks.space
-- name: ProxyRift 242
-  type: vless
-  server: 104.19.48.97
-  port: 8443
+      Host: jp3.yohototo.top
+- name: ProxyRift 1722
+  type: trojan
+  server: 104.17.128.1
+  port: 2096
   udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
+  password: auto
   tls: true
-  servername: mohammad38526.pages.dev
+  servername: azadnet-5o5.pages.dev
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
+    path: /azadnet-5o5.pages.dev/?ed=2560
     headers:
-      Host: mohammad38526.pages.dev
+      Host: azadnet-5o5.pages.dev
+- name: ProxyRift 1920
+  type: vless
+  server: 104.17.145.145
+  port: 443
+  udp: true
+  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
+  encryption: none
+  tls: true
+  servername: clover.filnex.baby
+  client-fingerprint: firefox
+  alpn:
+  - http/1.1
+  network: ws
+  ws-opts:
+    path: /api/de6/stream
+    headers:
+      Host: clover.filnex.baby
+- name: 058 | 113ms | 机房 🇫🇷FR_79/3.0MB/s/M003-260806 [d051d0ee6b0e]
+  type: vless
+  server: 162.159.130.234
+  port: 443
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  udp: true
+  tls: true
+  servername: vp19.1145678.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /images/classify/dh
+    headers:
+      Host: vp19.1145678.xyz
+- name: vless-1935807325
+  network: ws
+  port: 8080
+  server: 170.114.45.6
+  type: vless
+  udp: true
+  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
+- name: vless-1827152273
+  network: ws
+  port: 443
+  server: 162.159.254.3
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1827962637
+  network: ws
+  port: 443
+  server: 104.16.111.195
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1939845059
+  password: humanity
+  port: 443
+  server: 172.64.231.133
+  skip-cert-verify: false
+  sni: www.calmlunch.com
+  type: trojan
+  udp: true
+- name: 🇺🇸US_132_1@131
+  server: 172.64.145.93
+  type: vmess
+  country: 🇺🇸US
+  port: 443
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: guanwang.awsno.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      HOST: guanwang.awsno.com
 - name: CA 🇨🇦 | @Raydikalx | 408106
   server: 172.64.145.93
   port: 443
@@ -2885,21 +1563,184 @@ proxies:
     path: /hls/cctv5phd.m3u8
     headers:
       Host: guanwang.awsno.com
-- name: US 🇺🇸 | @Raydikalx | 250B10
-  server: 170.114.46.6
-  port: 80
+- name: US 🇺🇸 | @Raydikalx | 90DAAA
+  server: 209.206.51.236
+  port: 2083
   type: vless
-  uuid: f028d829-249a-4692-b45f-1b4cde8ef0c7
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
   udp: true
-  tls: false
-  servername: free.sahanwickramasinghe.com
+  tls: true
+  servername: vipfree.dr-ping.ir
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: free.sahanwickramasinghe.com
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 929E2C'
-  server: 104.16.10.63
+      Host: vipfree.dr-ping.ir
+- name: US 🇺🇸 | @Raydikalx | 828A98
+  server: 141.193.213.21
+  port: 8443
+  type: vmess
+  uuid: bd67fcd2-ec34-40a6-aac6-67731f2d7011
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: matrix.phonicsindia.mobi
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: matrix.phonicsindia.mobi
+- name: '[cbusifabcap-clashmeta] ❓Other_23|318KB/s|R002-260618'
+  port: 443
+  server: 172.64.68.89
+  skip-cert-verify: true
+  sub_tag: R002-260618
+  tls: true
+  type: http
+  udp: true
+- name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-3'
+  type: vless
+  server: 104.18.40.100
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  sni: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: ProxyRift 705
+  type: vless
+  server: 104.17.3.81
+  port: 80
+  udp: true
+  uuid: fdd8f4d0-4500-11ef-8227-1577c1651679
+  encryption: none
+  servername: sg-vless-ws.bypass.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /worryfree
+    headers:
+      Host: sg-vless-ws.bypass.id
+- name: ProxyRift 1367
+  type: vless
+  server: 104.16.111.195
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: ProxyRift 1680
+  type: vless
+  server: 104.16.10.72
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: vless-1941532350
+  network: ws
+  port: 443
+  server: 104.19.12.94
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1832764144
+  network: ws
+  port: 443
+  server: 104.16.10.22
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1947014531
+  network: ws
+  port: 443
+  server: 104.18.40.171
+  servername: wallweb-boi.pages.dev
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8895be79-9817-4011-b81a-14a35a3d328e
+- name: vless-1921748885
+  network: ws
+  port: 443
+  server: 104.24.0.1
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: vless-1843512959
+  network: ws
+  port: 443
+  server: 104.16.10.72
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1827188005
+  password: humanity
+  port: 443
+  server: 172.66.40.99
+  skip-cert-verify: true
+  sni: www.trusteeforward.com
+  type: trojan
+  udp: true
+- name: US 🇺🇸 | @Raydikalx | 96FF8D
+  server: 209.94.90.47
+  port: 2083
+  type: vless
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  udp: true
+  tls: true
+  servername: vipfree.dr-ping.ir
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+- name: CA 🇨🇦 | @Raydikalx | B52280
+  server: 104.24.0.1
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: CA 🇨🇦 | @Raydikalx | C9C17C
+  server: 104.16.10.48
   port: 443
   type: vless
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -2911,189 +1752,374 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: '[cbusifabcap-clashmeta] ❓Other_84|403KB/s|S004-260618'
-  network: ws
-  port: 80
-  server: 170.114.46.6
-  sub_tag: S004-260618
+- name: ProxyRift 300
   type: vless
-  udp: true
-  uuid: f028d829-249a-4692-b45f-1b4cde8ef0c7
-  ws-opts:
-    headers:
-      Host: free.sahanwickramasinghe.com
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/56.0.2924.87 Safari/537.36
-    path: /
-  xudp: true
-  packet-encoding: xudp
-- name: 🇺🇸 США VLESS-104.21.70.228-029
-  type: vless
-  server: 104.21.70.228
+  server: 160.123.255.172
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
+  uuid: 003ec416-45f0-462a-8030-016fe0a71703
+  tls: true
+  servername: mama147.baklajann.ru
+  client-fingerprint: firefox
+  alpn:
+  - h2
+  - h3
+  - http/1.1
+  network: xhttp
+  xhttp-opts:
+    path: /
+    mode: auto
+- name: ProxyRift 1253
+  type: vless
+  server: 104.18.137.67
+  port: 443
+  udp: true
+  uuid: 0280c276-641b-49af-b699-4931c30ac137
+  tls: true
+  servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+  client-fingerprint: firefox
+  alpn:
+  - h2
+  network: xhttp
+  xhttp-opts:
+    path: /api
+    host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+- name: ProxyRift 1775
+  type: vless
+  server: 154.197.64.252
+  port: 443
+  udp: true
+  uuid: 08038e90-7fe9-49c9-bbdc-b7044d6bd348
   encryption: none
   tls: true
-  servername: jp3.yohototo.top
+  servername: worker3.notoj58234.workers.dev
   client-fingerprint: firefox
   network: ws
   ws-opts:
+    path: /LOGZPldfDGZEtuMh
+    headers:
+      Host: worker3.notoj58234.workers.dev
+- name: vless-1863440009
+  network: ws
+  port: 443
+  server: 104.16.10.48
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: US 🇺🇸 | @Raydikalx | 9E759D
+  server: 135.148.42.13
+  port: 8388
+  type: ss
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: US 🇺🇸 | @Raydikalx | 9522DF
+  server: 15.204.247.244
+  port: 4444
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: US 🇺🇸 | @Raydikalx | 9E0E49
+  server: 15.204.247.244
+  port: 443
+  type: ss
+  cipher: aes-256-gcm
+  password: pKEW8JPByTVTLtM
+  udp: true
+- name: ProxyRift 310
+  type: vmess
+  server: 38.107.226.5
+  port: 1270
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+- alterId: 0
+  cipher: aes-128-gcm
+  name: vmess-1837386222
+  network: raw
+  port: 18000
+  server: 67.220.95.3
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: vless-1832764134
+  network: ws
+  port: 443
+  server: 104.16.10.135
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🇺🇸US_144 ⇽中转_1@143
+  server: 104.17.77.77
+  type: vmess
+  country: 🏁ZZ
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: v2ray1.dozapp.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      HOST: v2ray1.dozapp.xyz
+- alpn:
+  - h3
+  name: 🇨🇦[www.v2nodes.com] vless-CA
+  network: ws
+  port: 443
+  server: 27.50.48.6
+  servername: vless2-8vx.pages.dev
+  tls: true
+  type: vless
+  uuid: c98a16e4-0dc5-42f0-b3db-30f04525c123
+  ws-opts:
+    headers:
+      Host: vless2-8vx.pages.dev
+    path: /fp=chrome
+- name: CA 🇨🇦 | @Raydikalx | 5F26A6
+  server: 104.16.10.135
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-172.66.44.211-257
-  type: vless
-  server: 172.66.44.211
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  encryption: none
-  tls: true
-  servername: wk1.f1w.de5.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wk1.f1w.de5.net
-- name: 🇺🇸 США VLESS-104.21.73.135-328
-  type: vless
-  server: 104.21.73.135
+- name: CA 🇨🇦 | @Raydikalx | 950346
+  server: 104.19.48.107
   port: 443
-  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
-  encryption: none
   tls: true
-  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  servername: jp3.yohototo.top
   client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /api/wsfp=ios
+    path: /tyxyws
     headers:
-      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
-- name: 🇺🇸 США VLESS-perplexity.com-990
+      Host: jp3.yohototo.top
+- name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-4'
   type: vless
+  server: 104.18.40.100
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  sni: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chromesecurity=tls
+    headers:
+      Host: ccc.010304.xyz
+- name: '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-6'
+  type: vless
+  server: 104.18.40.100
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  sni: ccc.010304.xyz
+  network: ws
+  client-fingerprint: chrome
+  ws-opts:
+    path: /fp?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: ccc.010304.xyz
+- name: ProxyRift 553
+  type: vless
+  server: 185.133.35.86
+  port: 443
+  udp: true
+  uuid: 003ec416-45f0-462a-8030-016fe0a71703
+  encryption: none
+  tls: true
+  servername: mama511.baklajann.ru
+  client-fingerprint: firefox
+  alpn:
+  - h2
+  - h3
+  - http/1.1
+  network: xhttp
+  xhttp-opts:
+    path: /
+    mode: auto
+- name: ProxyRift 1782
+  type: vless
+  server: 104.16.10.22
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: android
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- client-fingerprint: chrome
+  name: '🇸🇬[www.v2nodes.com] vless-SG-8... #1'
+  network: ws
+  port: 2083
+  server: 27.50.49.154
+  servername: proxy-34l.pages.dev
+  tls: true
+  type: vless
+  uuid: 40af9131-d540-448a-bc56-5bba147a1dc3
+  ws-opts:
+    headers:
+      Host: proxy-34l.pages.dev
+    path: /
+- name: US 🇺🇸 | @Raydikalx | B00608
+  server: 67.220.95.3
+  port: 18000
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: aes-128-gcm
+  udp: true
+  tls: false
+  network: tcp
+- name: US 🇺🇸 | @Raydikalx | 5DCDAB
+  server: 15.204.233.41
+  port: 8882
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: US 🇺🇸 | @Raydikalx | 25BDA0
+  server: 15.204.246.108
+  port: 8881
+  type: ss
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | 13F69A
   server: perplexity.com
   port: 443
+  type: vless
   uuid: 628347a0-6582-4202-9aa8-2eaa8140dc25
   udp: true
-  encryption: none
   tls: true
-  servername: new.exploring.cyou
-  client-fingerprint: unsafe
   flow: xtls-rprx-vision
+  servername: new.exploring.cyou
   network: ws
   ws-opts:
+    path: /t.me-SubGift
     headers:
       Host: new.exploring.cyou
-- name: 🇺🇸 США VLESS-172.67.208.118-1773
-  type: vless
-  server: 172.67.208.118
-  port: 443
-  uuid: 48eb716d-6121-43c1-9dd2-9a2a25bf3178
+- name: CA 🇨🇦 | @Raydikalx | 924ABF
+  server: 104.24.0.1
+  port: 8443
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
   udp: true
-  encryption: none
   tls: true
-  servername: ws137.mydosss.ccwu.cc
-  client-fingerprint: chrome
+  servername: v2ray1.dozapp.xyz
   network: ws
   ws-opts:
+    path: /lMnsZUN4/
     headers:
-      Host: ws137.mydosss.ccwu.cc
-- name: 🇺🇸 США VLESS-167.82.76.31-061
-  type: vless
-  server: 167.82.76.31
-  port: 443
-  uuid: 1b95132c-6a17-45b3-bb1a-4850ff489bc4
-  udp: true
-  encryption: none
-  tls: true
-  servername: cdn.akamai.steamstatic.com
-  client-fingerprint: chrome
-- name: 🇳🇱 Нидерланды VLESS-151.101.36.227-108
-  type: vless
-  server: 151.101.36.227
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  udp: true
-  encryption: none
-  tls: true
-  servername: accounts.fastly.com
-  client-fingerprint: chrome
-- name: vless-1853476976
+      Host: v2ray1.dozapp.xyz
+- name: vless-1863440028
   network: ws
   port: 443
-  server: 104.16.10.185
+  server: 104.16.10.2
   servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 7231B7'
-  server: 188.114.98.0
-  port: 443
-  type: vless
-  uuid: ec24cde1-6bd9-4b69-baf7-270e8aabd6dd
-  udp: true
-  tls: true
-  servername: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
-  network: ws
-  ws-opts:
-    path: /?ed=2560fp=unsafe
-    headers:
-      Host: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
-- name: 🇺🇸 США VLESS-216.24.57.1-1858
-  type: vless
-  server: 216.24.57.1
-  port: 2083
-  uuid: f03fbd6d-cfda-45bd-81db-7b0c0efcb46b
-  udp: true
+- client-fingerprint: chrome
   encryption: none
-  tls: true
-  servername: vdl.zarmuq.ir
-  client-fingerprint: firefox
+  name: 🇬🇧[www.v2nodes.com] vless-GB-1...
   network: ws
+  port: 443
+  server: 88.216.67.54
+  servername: 52z4vtewuass.game4090taking.workers.dev
+  tls: true
+  type: vless
+  uuid: 50414e45-4c5f-5a45-5553-47be357e54da
   ws-opts:
     headers:
-      Host: vdl.zarmuq.ir
-- name: 🇺🇸 США VLESS-216.24.57.1-010
-  type: vless
-  server: 216.24.57.1
-  port: 2095
-  uuid: 2a8fcfc3-e0d6-4e11-a9f8-a76f89ec00cb
+      Host: 52z4vtewuass.game4090taking.workers.dev
+    path: /stream/PANEL_ZEUS/47be357e54da/loc-0
+- name: US 🇺🇸 | @Raydikalx | 549B8B
+  server: 15.204.246.111
+  port: 5498
+  type: ss
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
   udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: httpupgrade
-- name: 🇺🇸 США VLESS-199.232.78.143-107
-  type: vless
-  server: 199.232.78.143
+- name: ProxyRift 033
+  type: vmess
+  server: 172.66.0.1
   port: 443
-  uuid: 854860c4-b5e8-453c-a047-90d451fe9c58
   udp: true
-  encryption: none
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
   tls: true
-  servername: default.ssl.fastly.net
-  client-fingerprint: chrome
-- name: vless-1947389016
+  servername: vmess.lbw666.dpdns.org
   network: ws
-  port: 2053
-  server: fast.145779.xyz
-  servername: fast.145779.xyz
+  ws-opts:
+    path: /ws
+    headers:
+      Host: vmess.lbw666.dpdns.org
+- name: vless-1867102735
+  network: ws
+  port: 443
+  server: 104.19.48.107
+  servername: jp3.yohototo.top
   skip-cert-verify: false
   tls: true
   type: vless
   udp: true
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-- name: '[cbusifabcap-uri] ❓Other_84|403KB/s|S004-260618'
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: US 🇺🇸 | @Raydikalx | 1F5965
+  server: 15.204.246.132
+  port: 7307
+  type: ss
+  cipher: aes-256-gcm
+  password: FoOiGlkAA9yPEGP
+  udp: true
+- name: US 🇺🇸 | @Raydikalx | 1590B4
+  server: 15.204.247.124
+  port: 2375
+  type: ss
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | 5A591A
+  server: 104.17.70.206
+  port: 8443
   type: vless
-  server: 170.114.46.6
-  port: 80
-  uuid: f028d829-249a-4692-b45f-1b4cde8ef0c7
+  uuid: 3692de53-42e6-4aed-a522-40ec355dcd2f
+  udp: true
+  tls: true
+  servername: free.sahanwickramasinghe.com
+  client-fingerprint: edge
   network: ws
   ws-opts:
     path: /
@@ -3112,50 +2138,858 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
     headers:
       Host: ccc.010304.xyz
-- name: 🇺🇸 США VLESS-ws137.mydosss.ccwu.cc-027
-  type: vless
-  server: ws137.mydosss.ccwu.cc
+- name: vless-1853476976
+  network: ws
   port: 443
-  uuid: 56066a03-d283-48cf-8120-eb8d810025cb
+  server: 104.16.10.185
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
   udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: US 🇺🇸 | @Raydikalx | AD3647
+  server: 40.160.86.43
+  port: 8388
+  type: ss
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: CA 🇨🇦 | @Raydikalx | FFAFFF
+  server: 104.24.31.89
+  port: 443
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 081 | 153ms | 机房 🇺🇸US-172.111.38.72-0136 / 40.281MB
+  server: 172.111.38.72
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: ProxyRift 1568
+  type: vless
+  server: support.zoom.us
+  port: 80
+  udp: true
+  uuid: f028d829-249a-4692-b45f-1b4cde8ef0c7
+  encryption: none
+  servername: support.zoom.us
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.com
+- name: ProxyRift 1724
+  type: ss
+  server: 15.204.246.107
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 095 | 148ms | 备用 🆔ar14n24b 🔒 VL-WS-N/A ❔ XX 79ms
+  type: vless
+  server: saas.sin.fan
+  port: 2096
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  udp: true
+  tls: true
+  servername: vp9.1145678.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /thread/list
+    headers:
+      Host: vp9.1145678.xyz
+- name: ProxyRift 1777
+  type: vless
+  server: 104.16.10.9
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: vless-1853972214
+  network: ws
+  port: 443
+  server: 104.24.31.89
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: 🇺🇸US_134 ⇽中转_1@133
+  server: 172.66.0.1
+  type: vmess
+  country: 🇺🇸US
+  port: 443
+  uuid: 0cf6d970-3f1d-4aae-a989-92a8f76ae3db
+  alterId: 0
+  cipher: auto
+  network: ws
+  servername: vmess.lbw666.dpdns.org
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+  ws-opts:
+    path: /ws
+    headers:
+      HOST: vmess.lbw666.dpdns.org
+- name: ProxyRift 1559
+  type: vless
+  server: 47.253.226.114
+  port: 443
+  udp: true
+  uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413
+  flow: xtls-rprx-vision
   encryption: none
   tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: Svl81isn16RPAFnjtmYw7A6TPnsEPLHuYYaJht65Rzc
+- name: 093 | 137ms | 备用 🇫🇷FR_77/1.2MB/s/M003-260806 [ebcf52d2d657]
+  type: vless
+  server: saas.sin.fan
+  port: 2053
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  udp: true
+  tls: true
+  servername: vp21.1145678.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /items/downloads
+    headers:
+      Host: vp21.1145678.xyz
+- name: clash-http-fixture
+  type: http
+  server: example.com
+  port: 8080
+- name: CA 🇨🇦 | @Raydikalx | 618C2B
+  server: www.shopify.com
+  port: 443
+  type: vmess
+  uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: guanwang.awsno.com
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: guanwang.awsno.com
+- name: 094 | 139ms | 备用 美国+CloudFlare节点
+  type: vless
+  server: saas.sin.fan
+  port: 2087
+  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  udp: true
+  tls: true
+  servername: vp3.1145678.xyz
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /new/comics
+    headers:
+      Host: vp3.1145678.xyz
+- alterId: 0
+  cipher: auto
+  name: vmess-1827159639
+  network: ws
+  port: 8443
+  server: chatgpt.com
+  servername: v2ray1.dozapp.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+- name: S02-004-trojan-167.82.76.27
+  server: 167.82.76.27
+  port: 443
+  type: trojan
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: true
+  udp: true
+- name: vless-1831081766
+  network: ws
+  port: 443
+  server: 104.27.46.35
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- alterId: 0
+  cipher: auto
+  name: vmess-1853361191
+  network: tcp
+  port: 18000
+  server: 67.220.85.46
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: auto
+  name: vmess-1827158796
+  network: raw
+  port: 18000
+  server: 67.220.85.46
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- alterId: 0
+  cipher: aes-128-gcm
+  name: 美国_New York_objx.net_Gemini_Claude
+  network: tcp
+  port: 18000
+  server: 67.220.85.46
+  type: vmess
+  udp: true
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: US 🇺🇸 | @Raydikalx | F4B84A
+  server: 67.220.95.3
+  port: 18000
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: none
+  udp: true
+  tls: false
+  network: tcp
+- name: US 🇺🇸 | @Raydikalx | F2583B
+  server: 67.220.85.46
+  port: 18000
+  type: vmess
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  servername: 67.220.85.46
+  network: tcp
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1828372781
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: 0990d22f
+  server: 167.17.69.171
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+- name: vless-1943482613
+  network: ws
+  port: 8080
+  server: support.zoom.us
+  type: vless
+  udp: true
+  uuid: 990bf436-f1b9-4e7f-857d-14378acc4ae5
+- cipher: aes-128-gcm
+  name: shadowsocks-1827146122
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.236
+  type: ss
+  udp: true
+- name: US 🇺🇸 | @Raydikalx | A0E25A
+  server: 45.144.112.55
+  port: 443
+  type: vless
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: yahoo.com
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  client-fingerprint: chrome
+  network: tcp
+- name: FREE-US-au-50e82b
+  type: vmess
+  server: 67.220.85.46
+  port: 18000
+  alterId: 0
+  cipher: auto
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+- name: ProxyRift 014
+  type: vless
+  server: 45.144.112.55
+  port: 443
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  flow: xtls-rprx-vision
+  encryption: none
+  tls: true
+  servername: yahoo.com
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+- name: ProxyRift 085
+  type: ss
+  server: 98.98.79.198
+  port: 8080
+  cipher: rc4-md5
+  password: 14fFPrbezE3HDZzsMOr6
+  udp: true
+- cipher: aes-128-gcm
+  name: shadowsocks-1827146051
+  password: shadowsocks
+  port: 443
+  server: 37.19.198.243
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1828293943
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.35
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: vless-1891839080
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.229
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1853488215
+  network: tcp?type=tcp
+  port: 443
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: 0990d22f
+  server: 167.17.69.171
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+- name: US 🇺🇸 | @Raydikalx | 565AA4
+  server: 38.91.100.69
+  port: 1270
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: xmfhlpy.com
+  network: tcp
+- name: '[share-daily-node] US-HTTP-05'
+  type: http
+  server: 149.88.21.140
+  port: 443
+  udp: true
+  tls: true
+  skip-cert-verify: true
+- name: FREE-US-au-1a563e
+  type: vless
+  server: 167.17.69.171
+  port: 443
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: 0990d22f
+  tls: true
+  flow: xtls-rprx-vision
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+  servername: www.cloudflare.com
+- name: S01-010-vmess-104.21.82.183
+  type: vmess
+  server: 104.21.82.183
+  port: 8880
+  uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    headers:
+      Host: server26.beheshtbaneh.com
+- client-fingerprint: random
+  flow: xtls-rprx-vision
+  name: vless-1891839087
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.74
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1855707033
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.89
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: vless-1879373946
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.168
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1869872045
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: ALT8hIGeZEhi0sQFbXP_ntBg8Xo-v7i0YCLrqTnBxRk
+    short-id: 0990d22f
+  server: 167.17.69.171
+  servername: www.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 00144519-7e0d-476b-8d28-435576af9262
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1855707092
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.168
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: US 🇺🇸 | @Raydikalx | 8E1F6F
+  server: 38.91.100.39
+  port: 19999
+  type: ss
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: US 🇺🇸 | @Raydikalx | 841538
+  server: 200.102.179.179
+  port: 8388
+  type: ss
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: FREE-DE-au-973c49
+  type: vless
+  server: 169.40.42.35
+  port: 443
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  tls: true
+  flow: xtls-rprx-vision
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+- name: FREE-DE-au-c9df1c
+  type: vless
+  server: 169.40.42.90
+  port: 443
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  tls: true
+  flow: xtls-rprx-vision
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+- name: FREE-DE-au-359901
+  type: vless
+  server: 169.40.42.168
+  port: 443
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  tls: true
+  flow: xtls-rprx-vision
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+- name: FREE-DE-au-09ce5a
+  type: vless
+  server: 169.40.42.229
+  port: 443
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  tls: true
+  flow: xtls-rprx-vision
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+- name: ProxyRift 304
+  type: trojan
+  server: 69.164.240.85
+  port: 50875
+  udp: true
+  password: nwilryafgkyvuxauc8pz
+  tls: true
+  servername: 69.164.240.85
+  skip-cert-verify: true
+- name: ProxyRift 1026
+  type: http
+  server: 167.99.3.26
+  port: 8181
+- name: ProxyRift 1688
+  type: vless
+  server: 104.21.6.186
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1827147089
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.35
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: vless-1863476159
+  network: ws
+  port: 443
+  server: 104.21.6.186
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1853462805
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.231
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: ios
+  flow: xtls-rprx-vision
+  name: vless-1828293967
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.202
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1853462750
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.229
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: FREE-DE-au-b19cdb
+  type: vless
+  server: 169.40.42.89
+  port: 443
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  tls: true
+  flow: xtls-rprx-vision
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+- name: ProxyRift 941
+  type: http
+  server: 167.99.3.26
+  port: 8083
+- name: ProxyRift 952
+  type: socks5
+  server: 167.99.3.26
+  port: 8082
+  udp: true
+- name: trojan-1827955817
+  password: nwilryafgkyvuxauc8pz
+  port: 50875
+  server: 69.164.240.85
+  skip-cert-verify: true
+  sni: 69.164.240.85
+  type: trojan
+  udp: true
+- name: vless-1854337870
+  network: tcp
+  port: 10443
+  server: 45.138.100.248
+  type: vless
+  udp: true
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1828373732
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.89
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1927185336
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
+    short-id: a3a578ab
+  server: 185.95.231.156
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1f8cf47a-b66a-4916-979f-26edfcf44eea
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1854029589
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.163
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1853462652
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.90
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1945000640
+  network: tcp%232%f0%9f%90%8a%40oneclickvpnkeysvless%3a%2f%2fd342d11e-d424-4583-b36e-524ab1f0afa4%40185.113.223.183%3a8443%3fed%3d2560
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.168
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: vless-1828374596
+  network: ws
+  port: 443
+  server: 104.21.33.59
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: ProxyRift 1677
+  type: vless
+  server: 172.67.208.118
+  port: 443
+  udp: true
+  uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
+  tls: true
   servername: ws137.mydosss.ccwu.cc
-  client-fingerprint: android
+  client-fingerprint: chrome
   network: ws
   ws-opts:
     path: /3b575ddc8596
     headers:
       Host: ws137.mydosss.ccwu.cc
-- name: 🇺🇸 США VLESS-188.114.96.94-335
-  type: vless
-  server: 188.114.96.94
-  port: 443
-  uuid: 66969b2e-5e49-4750-9419-167d4bb64c07
+- cipher: aes-256-gcm
+  name: shadowsocks-1875023024
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  port: 19999
+  server: 193.151.163.18
+  type: ss
   udp: true
-  encryption: none
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1827162772
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.231
+  servername: yahoo.com
   tls: true
-  servername: wallweb11.wallwebc992h7.workers.dev
-  client-fingerprint: chrome
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1853488288
+  network: tcp#2🐊@oneclickvpnkeysvless://d342d11e-d424-4583-b36e-524ab1f0afa4@185.113.223.183:8443?ed=2560
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.168
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: trojan-1827188168
+  password: humanity
+  port: 443
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: www.trusteeforward.com
+  type: trojan
+  udp: true
+- name: US 🇺🇸 | @Raydikalx | 4F606E
+  server: 45.138.100.248
+  port: 14430
+  type: vless
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  udp: true
+  tls: false
+  servername: 45.138.100.248
   network: ws
   ws-opts:
-    path: /
+    path: /vless
     headers:
-      Host: wallweb11.wallwebc992h7.workers.dev
-- name: 🇺🇸 США VLESS-216.24.57.1-009
+      Host: 45.138.100.248
+- name: FREE-DE-au-38aa75
   type: vless
-  server: 216.24.57.1
-  port: 2095
-  uuid: 365dd92c-69dc-4cdf-88ca-7f3c1f3b81be
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
+  server: 169.40.42.231
+  port: 443
   client-fingerprint: chrome
-  network: httpupgrade
-- name: ProxyRift 337
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  tls: true
+  flow: xtls-rprx-vision
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+- name: FREE-DE-au-aa84c9
+  type: vless
+  server: 169.40.42.202
+  port: 443
+  client-fingerprint: ios
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  tls: true
+  flow: xtls-rprx-vision
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+  servername: yahoo.com
+- name: ProxyRift 317
   type: vmess
-  server: 167.88.62.134
+  server: 38.91.100.69
   port: 1270
   udp: true
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
@@ -3163,214 +2997,161 @@ proxies:
   cipher: auto
   tls: true
   servername: xmfhlpy.com
-- name: vless-1831072390
-  network: ws
-  port: 443
-  server: 104.17.50.53
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: vless-1827152273
-  network: ws
-  port: 443
-  server: 162.159.254.3
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: '[igareck-vless] 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-4'
-  type: vless
-  server: 104.21.6.186
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  sni: jp3.yohototo.top
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-172.67.209.13-274
-  type: vless
-  server: 172.67.209.13
-  port: 443
-  uuid: fa45096d-bed0-ad80-c773-23c30000001b
-  udp: true
-  encryption: none
-  tls: true
-  servername: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: xo3ubk-c97eql-n2d4a9.shoameni17.workers.dev
-- name: 🇺🇸 США VLESS-162.159.43.187-635
-  type: vless
-  server: 162.159.43.187
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  encryption: none
-  tls: false
-  servername: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: vless-1827151410
-  network: ws
-  port: 443
-  server: 104.19.164.155
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1923819684
-  password: humanity
-  port: 443
-  server: 172.67.203.46
-  skip-cert-verify: false
-  sni: www.cordweave.com
-  type: trojan
-  udp: true
-- name: '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 7C01E8'
-  server: 172.64.155.209
-  port: 8443
+- name: ProxyRift 320
   type: vmess
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  server: 38.91.100.16
+  port: 1270
+  udp: true
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  tls: true
+  servername: xmfhlpy.com
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1827319616
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.163
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1853341740
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.202
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1854343744
+  network: tcp#2🐊@oneclickvpnkeys
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.168
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- name: US 🇺🇸 | @Raydikalx | 303539
+  server: 138.197.89.234
+  port: 28960
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: DZRy4Q3QH0jUGfKFl2jDCZ
+  udp: true
+- name: '[share-daily-node] US-HTTP-104'
+  type: http
+  server: 216.107.139.82
+  port: 443
+  udp: true
+  tls: true
+  sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
+  skip-cert-verify: true
+- name: ProxyRift 258
+  type: vless
+  server: 45.138.100.248
+  port: 10444
+  udp: true
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  flow: xtls-rprx-vision
+  encryption: none
+  tls: true
+  servername: ads.x5.ru
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
+- name: ProxyRift 513
+  type: socks5
+  server: 209.97.150.167
+  port: 1080
+  udp: true
+  username: Og
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1854038780
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
+    short-id: a3a578ab
+  server: 185.95.231.156
+  servername: www.apple.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 1f8cf47a-b66a-4916-979f-26edfcf44eea
+- name: US 🇺🇸 | @Raydikalx | C286F0
+  server: 38.91.100.16
+  port: 1270
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   alterId: 0
   cipher: auto
   udp: true
   tls: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🇺🇸 США VLESS-104.21.25.112-016
+  servername: xmfhlpy.com
+  network: tcp
+- name: FREE-US-au-52b9b9
   type: vless
-  server: 104.21.25.112
+  server: 45.138.100.248
+  port: 10443
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+- name: FREE-IL-au-3aa6b3
+  type: vless
+  server: 185.95.231.156
   port: 443
-  uuid: b61580cd-bc64-466c-bde9-3533aed885d0
-  udp: true
-  encryption: none
+  client-fingerprint: chrome
+  reality-opts:
+    public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
+    short-id: a3a578ab
   tls: true
-  servername: eu.workingserverpro.qzz.io
-  client-fingerprint: firefox
-  network: httpupgrade
-- name: 🇺🇸 США VLESS-188.114.98.0-061
-  type: vless
-  server: 188.114.98.0
+  flow: xtls-rprx-vision
+  uuid: 1f8cf47a-b66a-4916-979f-26edfcf44eea
+  servername: www.apple.com
+- name: ProxyRift 552
+  type: http
+  server: 20.98.234.24
+  port: 8080
+- name: 026 | 218ms | 个人 seed39
   port: 443
-  uuid: 56066a03-d283-48cf-8120-eb8d810025cb
-  udp: true
-  encryption: none
+  server: 162.217.114.50
+  skip-cert-verify: true
+  sub_tag: R002-260618
   tls: true
-  servername: ws137.mydosss.ccwu.cc
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /3b575ddc8596
-    headers:
-      Host: ws137.mydosss.ccwu.cc
-- name: 🇺🇸 США VLESS-104.18.151.231-254
-  type: vless
-  server: 104.18.151.231
-  port: 443
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
+  type: http
   udp: true
-  encryption: none
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1853988211
+  network: tcp
+  port: 28190
+  reality-opts:
+    public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+    short-id: ''
+  server: 159.89.87.21
+  servername: aws.amazon.com
   tls: true
-  servername: cool-credit-6728.dobiy47415.workers.dev
-  client-fingerprint: edge
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: cool-credit-6728.dobiy47415.workers.dev
-- name: 🇺🇸 США VLESS-104.24.31.89-265
   type: vless
-  server: 104.24.31.89
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
   udp: true
-  encryption: none
-  tls: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-- name: 🇺🇸 США VLESS-104.26.3.138-453
-  type: vless
-  server: 104.26.3.138
-  port: 443
-  uuid: 506e4a91-1d05-5683-b84c-2113f673cb19
-  udp: true
-  encryption: none
-  tls: true
-  servername: vltj.qzz.io
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /id-pusat
-    headers:
-      Host: vltj.qzz.io
-- name: 🇺🇸 США VLESS-104.20.6.134-005
-  type: vless
-  server: 104.20.6.134
-  port: 8880
-  uuid: 4085e7cf-989e-4f92-a9c6-891b4b6e8daa
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: httpupgrade
-- name: ProxyRift 227
-  type: vless
-  server: 172.67.72.110
-  port: 2083
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: ahmad99hoseini.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ahmad99hoseini.pages.dev
-- name: ProxyRift 1495
-  type: vless
-  server: 104.18.42.52
-  port: 443
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: alphefedo7865.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: alphefedo7865.pages.dev
+  uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
 - alpn:
   - http/1.1
   client-fingerprint: chrome
@@ -3386,648 +3167,535 @@ proxies:
     headers:
       Host: party-5cn.pages.dev
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-- name: '[igareck-vless] 🇯🇵 Japan, Inzai (Otsuka) | [BL]-2'
+- name: US 🇺🇸 | @Raydikalx | 7B22D9
+  server: 45.138.100.248
+  port: 14430
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  sni: jp3.yohototo.top
-  network: ws
-  alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-104.21.58.37-026
-  type: vless
-  server: 104.21.58.37
-  port: 2053
-  uuid: c83f15bf-1817-4ec8-a19f-6393d226434c
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
   udp: true
-  encryption: none
-  tls: true
-  servername: fast.145779.xyz
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /ws-tesla
-    headers:
-      Host: fast.145779.xyz
-- name: vless-1910526407
-  network: ws
-  port: 443
-  server: 104.16.0.1
-  servername: jp3.yohototo.top
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: trojan-1853491995
-  password: humanity
-  port: 443
-  server: 104.18.32.47
-  skip-cert-verify: true
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🇩🇪DE_2|2.3MB/s
-  password: 'null'
-  port: 443
-  server: 172.64.69.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- name: '[igareck-vless] 🇯🇵 Japan, Inzai (Otsuka) | [BL]'
-  type: vless
-  server: 104.16.10.72
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  sni: jp3.yohototo.top
-  network: ws
-  client-fingerprint: chrome
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇸🇨 SC VLESS-45.130.125.151-390
-  type: vless
-  server: 45.130.125.151
-  port: 443
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
-  udp: true
-  encryption: none
-  tls: true
-  servername: fancy-mouse-6aff.wixit71180.workers.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: fancy-mouse-6aff.wixit71180.workers.dev
-- name: 🇬🇧 Великобритания VLESS-25.26.27.158-019
-  type: vless
-  server: 25.26.27.158
-  port: 2095
-  uuid: f39c206d-8acc-4304-95cc-afe234a2f6f8
-  udp: true
-  encryption: none
   tls: false
-  servername: ''
-  client-fingerprint: chrome
-- name: trojan-1853462719
-  password: humanity
-  port: 443
-  server: 185.18.250.245
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: 🇩🇪DE_3|1.0MB/s
-  password: 'null'
-  port: 443
-  server: 172.64.68.89
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: 'null'
-  x-toolall-mihomo: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇳🇱NL_11|1.1MB/s
-  network: ws
-  port: 443
-  server: 104.21.32.166
-  servername: pg.fm6dw.dpdns.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 1c0250ec-2dbc-40be-bd18-90b5e812ceaa
-  ws-opts:
-    headers:
-      Host: pg.fm6dw.dpdns.org
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; SM-G570M Build/NRD90M) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /?ed=2048
-  xudp: true
-- name: US 🇺🇸 | @Raydikalx | 1EBEAC
-  server: 198.202.24.142
-  port: 2083
-  type: vless
-  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
-  udp: true
-  tls: true
-  servername: vipfree.dr-ping.ir
-  client-fingerprint: chrome
   network: ws
   ws-opts:
-    path: /
-    headers:
-      Host: vipfree.dr-ping.ir
-- name: 048 美国+CloudFlare节点
+    path: /vless
+- name: US 🇺🇸 | @Raydikalx | 846675
+  server: 45.138.100.248
+  port: 10444
   type: vless
-  server: 162.159.130.234
-  port: 443
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
   udp: true
-  network: ws
   tls: true
-  servername: vp19.1145678.xyz
-  client-fingerprint: chrome
-  ws-opts:
-    path: /images/classify/dh
-    headers:
-      Host: vp19.1145678.xyz
-- name: 🇺🇸 США VLESS-104.17.145.145-095
-  type: vless
-  server: 104.17.145.145
-  port: 443
-  uuid: 80a06811-f74b-4b82-ac99-7e66c2a98e1c
-  udp: true
-  encryption: none
-  tls: true
-  servername: clover.filnex.baby
+  flow: xtls-rprx-vision
+  servername: ads.x5.ru
+  reality-opts:
+    public-key: 0oTkcqwLTUNLnSOP-VUWErmy6usAIg-biBE6ioZO-Vo
+    short-id: 8debcf36f1cc69ff
   client-fingerprint: firefox
+  network: tcp
+- name: CA 🇨🇦 | @Raydikalx | C7986A
+  server: 104.21.57.84
+  port: 8443
+  type: vmess
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  servername: v2ray1.dozapp.xyz
   network: ws
   ws-opts:
-    path: /api/de6/stream
+    path: /lMnsZUN4/
     headers:
-      Host: clover.filnex.baby
-- name: trojan-1827938592
-  password: humanity
+      Host: v2ray1.dozapp.xyz
+- name: CA 🇨🇦 | @Raydikalx | 189305
+  server: 172.67.156.147
   port: 443
-  server: 162.159.91.211
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
+  type: vless
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
-- name: trojan-1939844054
-  password: humanity
-  port: 443
-  server: 104.25.240.193
-  skip-cert-verify: false
-  sni: www.calmlunch.com
-  type: trojan
-  udp: true
-- name: vless-1843512959
-  network: ws
-  port: 443
-  server: 104.16.10.72
+  tls: true
   servername: jp3.yohototo.top
-  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: FREE-US-au-590392
+  type: vless
+  server: 159.89.87.21
+  port: 28190
+  client-fingerprint: firefox
+  reality-opts:
+    public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+    short-id: ''
+  tls: true
+  flow: xtls-rprx-vision
+  uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
+  servername: aws.amazon.com
+- name: ProxyRift 243
+  type: vless
+  server: 104.21.23.29
+  port: 443
+  udp: true
+  uuid: 7e0e7ca3-7aab-420e-9b40-c15a228ef33a
+  tls: true
+  servername: ws137.mydosss.ccwu.cc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /3b575ddc8596
+    headers:
+      Host: ws137.mydosss.ccwu.cc
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: vless-1853350171
+  network: raw
+  port: 28190
+  reality-opts:
+    public-key: ZJRnFU-1s1JOnO8E9uZ7b00l1fPEh63fGRbdBANFRno
+    short-id: ''
+  server: 159.89.87.21
+  servername: aws.amazon.com
   tls: true
   type: vless
   udp: true
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-- name: US 🇺🇸 | @Raydikalx | F41438
-  server: 167.88.62.56
-  port: 19999
+  uuid: 14c80e0e-f7ce-4991-94fc-99a1db4a9b1e
+- name: vless-1853353002
+  network: ws
+  port: 14430
+  server: 45.138.100.248
+  type: vless
+  udp: true
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+- cipher: chacha20-ietf-poly1305
+  name: shadowsocks-1827146529
+  password: eDfN7SODQceIOmIAbtJJtK
+  port: 443
+  server: 198.98.53.130
   type: ss
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 🇺🇸 США VLESS-141.193.27.4-616
-  type: vless
-  server: 141.193.27.4
-  port: 80
-  uuid: e403856e-4e50-49e6-9edc-d9536a803a6a
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /pyip=Telegram🇨🇳+@WangCai2
-    headers:
-      Host: proud-cloud-5c50.113-8dc.workers.dev
-- name: 🇺🇸 США VLESS-172.64.152.23-018
-  type: vless
-  server: 172.64.152.23
-  port: 2095
-  uuid: dca945d2-6d9b-434f-8754-3626a6a75e21
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: httpupgrade
-- name: ProxyRift 250
-  type: vless
-  server: 104.17.116.252
-  port: 2053
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
-  tls: true
-  servername: mohammad38526.pages.dev
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: mohammad38526.pages.dev
-- name: ProxyRift 1494
-  type: vless
-  server: 104.17.62.184
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1891858677
+  network: tcp
   port: 443
-  udp: true
-  uuid: 51a0af77-a60c-4d9b-81a4-f50e1b38d90b
-  encryption: none
+  reality-opts:
+    public-key: 5B83otQ5ZQwtBFhR7xzsGJRXflkFKRJpQguYbE5JWGI
+    short-id: c85d029f5e8eb393
+  server: 195.123.235.177
+  servername: gateway.icloud.com
   tls: true
-  servername: alphefedo7865.pages.dev
-  client-fingerprint: chrome
+  type: vless
+  udp: true
+  uuid: 729dd5f2-f5ff-4070-8c10-863eceded0b1
+- name: vless-1832764140
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: alphefedo7865.pages.dev
-- name: trojan-1853348743
+  port: 443
+  server: 172.67.156.147
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: trojan-1827149560
   password: humanity
   port: 443
-  server: 45.130.125.75
+  server: 172.67.231.254
   skip-cert-verify: false
   sni: www.calmlunch.com
   type: trojan
   udp: true
-- client-fingerprint: chrome
-  name: '🇺🇸[www.v2nodes.com] vless-US-1... #16'
-  network: ws
-  port: 443
-  server: 199.232.78.160
-  servername: cdn.akamai.steamstatic.com
-  tls: true
-  type: vless
-  uuid: 97e0ea78-67ae-4984-8a14-a7d1a51e58de
-  ws-opts:
-    headers:
-      Host: copy_az_channel_NUFiLTER_10i.global.ssl.fastly.net.
-    path: /
-- name: CA 🇨🇦 | @Raydikalx | D9E52E
-  server: 104.18.37.127
-  port: 443
-  type: vless
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- name: US 🇺🇸 | @Raydikalx | 375870
+  server: 142.202.48.87
+  port: 1270
+  type: vmess
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
+  servername: xmfhlpy.com
+  network: tcp
+- name: ProxyRift 1779
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  encryption: none
+  tls: true
   servername: jp3.yohototo.top
-  client-fingerprint: chrome
+  client-fingerprint: edge
   network: ws
   ws-opts:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇺🇸 США VLESS-172.66.40.99-004
-  type: vless
-  server: 172.66.40.99
-  port: 8080
-  uuid: 41935625-2660-4cc1-9162-15523aed9066
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-- name: 🇺🇸 США VLESS-108.162.194.165-017
-  type: vless
-  server: 108.162.194.165
-  port: 2086
-  uuid: a0fe052d-6ca1-4a9c-b626-7ecf78f386cb
-  udp: true
-  encryption: none
-  tls: false
-  servername: ''
-  client-fingerprint: chrome
-  network: httpupgrade
-- alpn:
-  - http/1.1
-  client-fingerprint: unsafe
-  encryption: none
-  name: 🇸🇬[www.v2nodes.com] vless-SG-9...
+- name: vless-1853654571
   network: ws
   port: 443
-  server: 188.114.98.0
-  servername: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
+  server: 104.21.70.21
+  servername: jp3.yohototo.top
+  skip-cert-verify: false
   tls: true
   type: vless
-  uuid: ec24cde1-6bd9-4b69-baf7-270e8aabd6dd
+  udp: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: vless-1831099319
+  network: raw
+  port: 443
+  reality-opts:
+    public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg
+    short-id: c39cc7310a
+  server: 169.40.42.74
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d65cc14c-f53f-4fe2-b262-97856601319c
+- encryption: none
+  name: '🏳[www.v2nodes.com] vless- #13'
+  network: ws
+  port: 8080
+  server: 104.26.13.31
+  servername: ip.sb
+  tls: false
+  type: vless
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
   ws-opts:
     headers:
-      Host: rayAN21-6yU73878-v3.raYAn-21.woRKers.dEV
-    path: /?ed=2560
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+    path: /
+- name: ProxyRift 184
+  type: vless
+  server: 45.138.100.248
+  port: 14430
+  udp: true
+  uuid: ae908ff5-f749-402c-af25-e6e9aef4d6bb
+  encryption: none
+  servername: 45.138.100.248
+  network: ws
+  ws-opts:
+    path: /vless
+- name: ProxyRift 312
+  type: hysteria2
+  server: 206.189.229.48
+  port: 443
+  udp: true
+  password: YV1sd3tfCZngTtnvRmy7
+  obfs: salamander
+  obfs-password: ZuPf4OcXKvotJdDxlTus
+  tls: true
+  servername: www.microsoft.com
+  skip-cert-verify: true
 proxy-groups:
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
-  - 🇺🇸 США VLESS-167.82.76.31-029
-  - 🇺🇸 США VLESS-167.82.76.31-102
-  - 🇺🇸 США VLESS-172.67.210.245-346
-  - 🇳🇱 Нидерланды VLESS-151.101.36.253-113
-  - trojan-1827149560
-  - 🇺🇸 США VLESS-170.114.45.239-711
-  - 🇺🇸 США VLESS-104.24.225.89-267
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 37FE56'
-  - 🇺🇸 США VLESS-151.101.67.6-080
   - vless-1831066899
-  - 🇺🇸 США VLESS-188.114.97.8-623
-  - 🇳🇱 Нидерланды VLESS-151.101.36.120-056
-  - trojan-1940455323
-  - '🇨🇦[www.v2nodes.com] vless-CA-1... #4'
-  - '[igareck-vless] 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-13'
-  - 🇺🇸 США VLESS-104.16.10.234-089
-  - 🇺🇸 США VLESS-104.18.155.229-446
-  - 🇺🇸 США VLESS-188.114.98.0-978
-  - 🇺🇸 США VLESS-199.232.78.150-065
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | B4617E'
-  - 🇸🇪 Швеция VLESS-185.146.173.206-023
-  - ProxyRift 1488
-  - 🇺🇸 США VLESS-172.67.199.126-032
-  - 🇺🇸 США VLESS-170.114.45.6-1490
-  - 🇺🇸 США VLESS-104.21.227.134-1610
-  - '[igareck-vless] 🇩🇪 Germany | 🌐 | [BL]-6'
-  - 🇺🇸 США VLESS-104.21.23.29-1496
-  - 🇺🇸 США VLESS-188.114.97.6-078
-  - vless-1947014531
-  - 🇺🇸 США VLESS-188.114.97.6-318
-  - ProxyRift 223
-  - ProxyRift 248
-  - 🇺🇸 США VLESS-172.67.146.84-1928
-  - 🇺🇸 США VLESS-167.82.79.164-063
-  - vless-1863464818
-  - 🇺🇸 US_87_1@86
-  - 🇺🇸 США VLESS-8.47.69.7-288
-  - 🇺🇸 США VLESS-167.82.64.46-075
-  - ProxyRift 1406
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | A72B09'
-  - 🇺🇸 США VLESS-172.67.74.177-246
-  - 🇺🇸 США VLESS-188.114.96.3-364
-  - 🇺🇸 США VLESS-188.114.97.3-433
-  - 🇺🇸 США VLESS-146.75.57.111-118
-  - 🇺🇸US_126_0@125
-  - 🇺🇸 США VLESS-199.232.20.113-067
-  - 🇺🇸 США VLESS-167.82.64.46-135
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | C7986A'
-  - 🇺🇸 США VLESS-104.21.23.29-217
-  - 🇺🇸 США VLESS-199.232.129.192-026
-  - 🇳🇱 Нидерланды VLESS-151.101.36.128-054
-  - 🇺🇸 США VLESS-167.82.76.31-066
-  - US 🇺🇸 | @Raydikalx | AEA668
-  - 🇺🇸 США VLESS-104.18.42.98-012
-  - 🇺🇸 США VLESS-199.232.239.239-055
-  - 🇺🇸 США VLESS-167.82.76.31-064
-  - 🇳🇱 Нидерланды VLESS-151.101.36.128-072
-  - 🇳🇱 Нидерланды VLESS-151.101.36.88-074
-  - 🇺🇸 США VLESS-104.16.111.102-186
-  - 🇺🇸 США VLESS-104.21.14.123-248
-  - 🇺🇸 США VLESS-199.232.237.245-076
-  - 🇺🇸 США VLESS-146.75.57.238-082
-  - 🇺🇸 США VLESS-104.16.98.215-630
-  - 🇺🇸 США VLESS-104.21.64.198-976
-  - 🇳🇱 Нидерланды VLESS-151.101.36.235-033
-  - 🇺🇸 США VLESS-167.82.76.31-057
-  - 🇺🇸 США VLESS-146.75.59.186-114
-  - ProxyRift 247
-  - 035 | 262ms | 个人 🇺🇸US_193/499KB/s/R002-260618 [1c8a4d9b327b]
-  - '🇺🇸[www.v2nodes.com] vless-US-1... #15'
-  - 035 @DeltaKroneckerGithub_1890
-  - 🇺🇸 США VLESS-104.19.173.68-381
-  - 🇺🇸 США VLESS-199.232.77.215-049
-  - 🇺🇸 США VLESS-104.16.7.70-093
-  - ProxyRift 241
-  - ProxyRift 1491
-  - US - zhuhai.uk 11
-  - 🇺🇸 США VLESS-172.67.69.152-277
-  - 🇧🇿 BZ VLESS-45.135.235.255-443
-  - 🇸🇨 SC VLESS-45.130.125.201-609
-  - 🇫🇷 Франция VLESS-90.98.0.3-1155
-  - 🇺🇸 США VLESS-199.232.78.160-028
-  - 🇳🇱 Нидерланды VLESS-151.101.36.246-099
-  - 🇺🇸US_129_0@128
-  - 013 @DeltaKroneckerGithub_566
-  - 026 US - zhuhai.uk 12
-  - S02-012-trojan-151.101.110.219
-  - 🇺🇸 США VLESS-104.19.214.98-620
-  - 🇺🇸 США VLESS-151.101.3.6-806
-  - 🇺🇸 США VLESS-188.114.98.5-956
-  - 🇳🇱 Нидерланды VLESS-151.101.36.111-085
-  - trojan-1939845073
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 168079'
-  - 🇺🇸 США VLESS-104.16.10.56-018
-  - 🇺🇸 США VLESS-104.16.10.9-072
-  - 🇺🇸 США VLESS-104.20.63.254-425
-  - 🇺🇸 США VLESS-172.64.88.168-674
-  - 🇺🇸 США VLESS-172.64.150.43-1204
-  - 🇳🇱 Нидерланды VLESS-151.101.36.2-053
-  - 🇺🇸 США VLESS-146.75.59.186-070
-  - ProxyRift 1601
-  - '🇸🇬[www.v2nodes.com] vless-SG-7... #1'
-  - CA 🇨🇦 | @Raydikalx | 13F69A
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 775D21'
-  - 646 美国 504
-  - 🇺🇸 США VLESS-fast.145779.xyz-021
-  - 🇺🇸 США VLESS-ws137.mydosss.ccwu.cc-067
-  - 🇧🇿 BZ VLESS-45.135.235.255-406
-  - 🇺🇸 США VLESS-104.20.6.134-1038
-  - 🇺🇸 США VLESS-382218.xyz-1457
-  - 🇺🇸 США VLESS-172.67.221.237-013
-  - 🇺🇸 США VLESS-199.232.239.239-034
-  - 🇺🇸 США VLESS-199.232.239.239-052
-  - 🇺🇸 США VLESS-199.232.245.94-142
-  - ProxyRift 239
-  - ProxyRift 240
-  - ProxyRift 246
-  - ProxyRift 323
-  - ProxyRift 1453
-  - vless-1832764140
-  - 🇺🇸 США VLESS-172.67.75.194-251
-  - 🇺🇸 США VLESS-172.66.44.124-388
-  - 🇺🇸 США VLESS-188.114.97.2-030
-  - 🇺🇸 США VLESS-104.16.10.2-044
-  - ProxyRift 229
-  - ProxyRift 234
-  - ProxyRift 1487
-  - vless-1863440028
-  - vless-1827152152
-  - vmess-1947375789
-  - '🏳[www.v2nodes.com] vless- #24'
-  - '[ermaozi-subscribe] 🇩🇪DE_3|1.0MB/s'
-  - 🇺🇸 США VLESS-104.27.56.173-344
-  - 🇺🇸 США VLESS-104.18.0.1-1329
-  - 🇺🇸 США VLESS-104.18.12.149-022
-  - 🇺🇸 США VLESS-cdn-waw.edgeptr.org-062
-  - 🇺🇸 США VLESS-146.75.57.238-138
-  - ProxyRift 222
-  - trojan-1849374991
-  - trojan-1934984141
+  - trojan-1858673309
   - trojan-1853461582
-  - 🇸🇬[www.v2nodes.com] vless-SG-7...
-  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-7'
-  - 🇺🇸 США VLESS-fast.145779.xyz-055
-  - 🇺🇸 США VLESS-ws137.mydosss.ccwu.cc-080
-  - 🇺🇸 США VLESS-104.17.3.81-574
-  - 🇺🇸 США VLESS-208.103.161.5-666
-  - 🇺🇸 США VLESS-188.114.98.112-1139
-  - 🇺🇸 США VLESS-188.114.97.6-1223
-  - 🇺🇸 США VLESS-170.114.45.6-1777
-  - ProxyRift 1490
-  - ProxyRift 1492
-  - ProxyRift 1501
-  - ProxyRift 1602
-  - vless-1832764144
-  - vless-1828374596
-  - vless-1832764134
+  - '🏳[www.v2nodes.com] vless- #18'
+  - '🇺🇸 美国 | USA #6'
+  - US 🇺🇸 | @Raydikalx | 4AC1E7
+  - US 🇺🇸 | @Raydikalx | AA0313
+  - S02-012-trojan-151.101.110.219
+  - ProxyRift 1318
+  - '🏳[www.v2nodes.com] vless- #16'
+  - 美国5|@ripaojiedian
+  - US 🇺🇸 | @Raydikalx | D57224
+  - US 🇺🇸 | @Raydikalx | 412587
+  - LU 🇱🇺 | @Raydikalx | 98FC96
+  - CA 🇨🇦 | @Raydikalx | 76F5D4
+  - ProxyRift 1368
+  - ProxyRift 1813
+  - trojan-1934984141
+  - trojan-1827148954
+  - trojan-1946894181
+  - trojan-1947413506
+  - '🇫🇷[www.v2nodes.com] vless-FR-1... #1'
+  - 美国4|@ripaojiedian
+  - '🇯🇵 日本 | JPN #2'
+  - US 🇺🇸 | @Raydikalx | 37480E
+  - FR 🇫🇷 | @Raydikalx | 4487CA
+  - US 🇺🇸 | @Raydikalx | C14BA8
+  - '[share-daily-node] US-HTTP-02'
+  - FREE-US-au-dfd41d
+  - ProxyRift 153
+  - ProxyRift 1805
+  - shadowsocks-1875022945
+  - vless-1910526407
+  - vmess-1947375789
+  - vmess-1947242998
+  - vless-1863468525
+  - trojan-1908518028
+  - trojan-1894622732
+  - trojan-1940455323
+  - trojan-1939844054
+  - '🇬🇧[www.v2nodes.com] vless-GB-1... #1'
+  - '🇸🇬[www.v2nodes.com] vless-SG-1... #1'
+  - CA 🇨🇦 | @Raydikalx | E20903
+  - US 🇺🇸 | @Raydikalx | 2314F7
+  - HU 🇭🇺 | @Raydikalx | FEE62D
   - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-9'
   - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]'
-  - 🇺🇸 США VLESS-ws137.mydosss.ccwu.cc-004
-  - 🇺🇸 США VLESS-104.21.0.87-062
-  - 🇺🇸 США VLESS-104.19.48.107-175
-  - 🇺🇸 США VLESS-172.67.78.117-244
-  - 🇺🇸 США VLESS-104.26.0.1-1360
-  - 🇺🇸 США VLESS-199.232.239.239-087
-  - 🇺🇸 США VLESS-167.82.76.31-096
-  - shadowsocks-1827146556
-  - vless-1863440009
-  - vless-1827962637
-  - vmess-1827159661
-  - 🇩🇪DE_5|2.6MB/s|R002-260618
-  - '[igareck-vless] 🇺🇸 United States | 🌐 | [BL]'
-  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-4'
-  - 🇺🇸 США VLESS-172.66.170.172-306
-  - 🇺🇸 США VLESS-167.82.64.47-060
-  - 🇺🇸 США VLESS-146.75.57.111-146
-  - ProxyRift 226
-  - vless-1867102735
-  - vless-1856199614
-  - trojan-1827188005
-  - '🏳[www.v2nodes.com] vless- #25'
-  - CA 🇨🇦 | @Raydikalx | 5A591A
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | B754D5'
-  - 🇺🇸 США VLESS-172.67.199.126-036
-  - 🇺🇸 США VLESS-172.65.90.52-673
-  - 🇺🇸 США VLESS-ujp.xn--ghqu5fm27b67w.com-1009
-  - 🇺🇸 США VLESS-8.6.112.0-1635
-  - 🇺🇸 США VLESS-216.24.57.1-012
-  - 🇳🇱 Нидерланды VLESS-151.101.36.201-071
-  - vless-1828374447
-  - trojan-1947413506
-  - 🇺🇸US_24|1.8MB/s|R002-260618
-  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-8'
-  - 🇺🇸 США VLESS-104.27.124.133-266
-  - 🇺🇸 США VLESS-23.235.33.98-020
-  - 🇺🇸 США VLESS-146.75.57.238-089
-  - 🇺🇸 США VLESS-Site.check-looks.space-132
-  - vless-1863476159
-  - '🇳🇱[www.v2nodes.com] vless-NL-1... #3'
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 212170'
-  - 🇺🇸 США VLESS-188.114.98.0-1595
-  - 🇺🇸 США VLESS-199.232.78.160-024
-  - ProxyRift 347
-  - vless-1935807325
-  - vless-1828654076
-  - trojan-1946894181
-  - trojan-1828472626
-  - CA 🇨🇦 | @Raydikalx | C65974
-  - '[igareck-vless] 🇲🇾 Malaysia, Kuala Lumpur | [BL]'
-  - 🇺🇸 США VLESS-172.67.69.86-304
-  - 🇺🇸 США VLESS-151.101.3.6-032
-  - 🇺🇸 США VLESS-146.75.57.238-128
-  - vless-1884771865
-  - vless-1930539293
-  - 🇺🇸 США VLESS-146.75.57.238-031
-  - ProxyRift 245
-  - vless-1945992008
-  - vmess-1907162640
-  - trojan-1827148859
-  - 美国5|@ripaojiedian
-  - 🇺🇸 США VLESS-8.6.112.0-207
-  - 🇺🇸 США VLESS-104.18.79.242-1693
-  - 🇺🇸 США VLESS-199.232.78.159-001
-  - 🇺🇸 США VLESS-104.18.12.149-007
-  - ProxyRift 231
-  - vless-1853654571
-  - '[ts-sf-fly] 未知100'
-  - 🇺🇸 США VLESS-172.67.160.192-423
-  - 🇺🇸 США VLESS-172.67.217.240-494
-  - 🇺🇸 США VLESS-104.16.10.21-040
-  - 🇺🇸 США VLESS-Site.check-looks.space-110
-  - ProxyRift 242
-  - CA 🇨🇦 | @Raydikalx | 408106
-  - US 🇺🇸 | @Raydikalx | 250B10
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 929E2C'
-  - '[cbusifabcap-clashmeta] ❓Other_84|403KB/s|S004-260618'
-  - 🇺🇸 США VLESS-104.21.70.228-029
-  - 🇺🇸 США VLESS-172.66.44.211-257
-  - 🇺🇸 США VLESS-104.21.73.135-328
-  - 🇺🇸 США VLESS-perplexity.com-990
-  - 🇺🇸 США VLESS-172.67.208.118-1773
-  - 🇺🇸 США VLESS-167.82.76.31-061
-  - 🇳🇱 Нидерланды VLESS-151.101.36.227-108
-  - vless-1853476976
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 7231B7'
-  - 🇺🇸 США VLESS-216.24.57.1-1858
-  - 🇺🇸 США VLESS-216.24.57.1-010
-  - 🇺🇸 США VLESS-199.232.78.143-107
-  - vless-1947389016
-  - '[cbusifabcap-uri] ❓Other_84|403KB/s|S004-260618'
-  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-5'
-  - 🇺🇸 США VLESS-ws137.mydosss.ccwu.cc-027
-  - 🇺🇸 США VLESS-188.114.96.94-335
-  - 🇺🇸 США VLESS-216.24.57.1-009
-  - ProxyRift 337
-  - vless-1831072390
-  - vless-1827152273
-  - '[igareck-vless] 🇯🇵 Japan, Inzai (Otsuka) | 🌐 | [BL]-4'
-  - 🇺🇸 США VLESS-172.67.209.13-274
-  - 🇺🇸 США VLESS-162.159.43.187-635
-  - vless-1827151410
-  - trojan-1923819684
-  - '[free-v2ray-verified-clash] CA 🇨🇦 | @Raydikalx | 7C01E8'
-  - 🇺🇸 США VLESS-104.21.25.112-016
-  - 🇺🇸 США VLESS-188.114.98.0-061
-  - 🇺🇸 США VLESS-104.18.151.231-254
-  - 🇺🇸 США VLESS-104.24.31.89-265
-  - 🇺🇸 США VLESS-104.26.3.138-453
-  - 🇺🇸 США VLESS-104.20.6.134-005
-  - ProxyRift 227
-  - ProxyRift 1495
-  - '🇨🇦[www.v2nodes.com] vless-CA-1... #1'
-  - '[igareck-vless] 🇯🇵 Japan, Inzai (Otsuka) | [BL]-2'
-  - 🇺🇸 США VLESS-104.21.58.37-026
-  - vless-1910526407
-  - trojan-1853491995
-  - 🇩🇪DE_2|2.3MB/s
-  - '[igareck-vless] 🇯🇵 Japan, Inzai (Otsuka) | [BL]'
-  - 🇸🇨 SC VLESS-45.130.125.151-390
-  - 🇬🇧 Великобритания VLESS-25.26.27.158-019
-  - trojan-1853462719
-  - 🇩🇪DE_3|1.0MB/s
-  - 🇳🇱NL_11|1.1MB/s
-  - US 🇺🇸 | @Raydikalx | 1EBEAC
-  - 048 美国+CloudFlare节点
-  - 🇺🇸 США VLESS-104.17.145.145-095
-  - trojan-1827938592
-  - trojan-1939844054
-  - vless-1843512959
-  - US 🇺🇸 | @Raydikalx | F41438
-  - 🇺🇸 США VLESS-141.193.27.4-616
-  - 🇺🇸 США VLESS-172.64.152.23-018
-  - ProxyRift 250
-  - ProxyRift 1494
+  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-7'
+  - FREE-US-au-714fc4
+  - ProxyRift 201
+  - ProxyRift 555
+  - ProxyRift 939
+  - vmess-1828339141
   - trojan-1853348743
-  - '🇺🇸[www.v2nodes.com] vless-US-1... #16'
-  - CA 🇨🇦 | @Raydikalx | D9E52E
-  - 🇺🇸 США VLESS-172.66.40.99-004
-  - 🇺🇸 США VLESS-108.162.194.165-017
-  - 🇸🇬[www.v2nodes.com] vless-SG-9...
+  - trojan-1857007066
+  - 🏁ZZ_143_1@142
+  - '🇸🇬[www.v2nodes.com] vless-SG-7... #1'
+  - US 🇺🇸 | @Raydikalx | DE08A7
+  - US 🇺🇸 | @Raydikalx | AD8601
+  - US 🇺🇸 | @Raydikalx | 120146
+  - CA 🇨🇦 | @Raydikalx | 212170
+  - '[cbusifabcap-clashmeta] ❓Other_22|299KB/s|R002-260618'
+  - '[ermaozi-subscribe] 🇩🇪DE_3|1.0MB/s'
+  - ProxyRift 203
+  - ProxyRift 535
+  - ProxyRift 1251
+  - ProxyRift 1262
+  - ProxyRift 1382
+  - ProxyRift 1679
+  - ProxyRift 1780
+  - 048 | 90ms | 机房 seed46
+  - vless-1927185301
+  - vless-1832764138
+  - vless-1946894790
+  - trojan-1944218170
+  - '🇯🇵 日本 | JPN #11'
+  - US 🇺🇸 | @Raydikalx | E3A45B
+  - CA 🇨🇦 | @Raydikalx | 269005
+  - CA 🇨🇦 | @Raydikalx | 4561A3
+  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-8'
+  - FREE-US-au-cb75bf
+  - ProxyRift 207
+  - ProxyRift 508
+  - ProxyRift 752
+  - ProxyRift 1075
+  - ProxyRift 1198
+  - ProxyRift 1370
+  - 063 | 121ms | 机房 🇫🇷FR_80/1.8MB/s/B004-260618 [64ffa321cde1]
+  - vless-1863464818
+  - vless-1863440034
+  - vless-1856199614
+  - trojan-1944218172
+  - trojan-1853462719
+  - trojan-1827149109
+  - '🇺🇸[www.v2nodes.com] vless-US-1... #10'
+  - 🇩🇪DE_1|1.3MB/s
+  - US 🇺🇸 | @Raydikalx | 86F297
+  - CA 🇨🇦 | @Raydikalx | E157C0
+  - ProxyRift 023
+  - ProxyRift 281
+  - ProxyRift 298
+  - ProxyRift 1086
+  - ProxyRift 1252
+  - ProxyRift 1804
+  - 🇺🇸 美国 | USA 11
+  - vless-1827151410
+  - vless-1831072390
+  - vmess-1837386182
+  - trojan-1937399876
+  - 🇸🇬[www.v2nodes.com] vless-SG-7...
+  - US 🇺🇸 | @Raydikalx | 943FAE
+  - US 🇺🇸 | @Raydikalx | 6D388E
+  - SG 🇸🇬 | @Raydikalx | E2E24E
+  - SG 🇸🇬 | @Raydikalx | A524AE
+  - US 🇺🇸 | @Raydikalx | D56FAA
+  - CA 🇨🇦 | @Raydikalx | 161FA2
+  - CA 🇨🇦 | @Raydikalx | 001FED
+  - CA 🇨🇦 | @Raydikalx | 3FB990
+  - ProxyRift 191
+  - 057 | 112ms | 机房 🇫🇷FR_115/2.3MB/s/B007-260618 [9fa0ef4985f1]
+  - 059 | 115ms | 机房 🇫🇷FR_91/752KB/s/M003-260806 [d046af48049e]
+  - vless-1930539293
+  - trojan-1827938592
+  - vless-1854335913
+  - trojan-1853491995
+  - trojan-1828472626
+  - SG 🇸🇬 | @Raydikalx | CF5EA1
+  - CA 🇨🇦 | @Raydikalx | 4FBEA3
+  - ProxyRift 021
+  - ProxyRift 1685
+  - ProxyRift 1722
+  - ProxyRift 1920
+  - 058 | 113ms | 机房 🇫🇷FR_79/3.0MB/s/M003-260806 [d051d0ee6b0e]
+  - vless-1935807325
+  - vless-1827152273
+  - vless-1827962637
+  - trojan-1939845059
+  - 🇺🇸US_132_1@131
+  - CA 🇨🇦 | @Raydikalx | 408106
+  - US 🇺🇸 | @Raydikalx | 90DAAA
+  - US 🇺🇸 | @Raydikalx | 828A98
+  - '[cbusifabcap-clashmeta] ❓Other_23|318KB/s|R002-260618'
+  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-3'
+  - ProxyRift 705
+  - ProxyRift 1367
+  - ProxyRift 1680
+  - vless-1941532350
+  - vless-1832764144
+  - vless-1947014531
+  - vless-1921748885
+  - vless-1843512959
+  - trojan-1827188005
+  - US 🇺🇸 | @Raydikalx | 96FF8D
+  - CA 🇨🇦 | @Raydikalx | B52280
+  - CA 🇨🇦 | @Raydikalx | C9C17C
+  - ProxyRift 300
+  - ProxyRift 1253
+  - ProxyRift 1775
+  - vless-1863440009
+  - US 🇺🇸 | @Raydikalx | 9E759D
+  - US 🇺🇸 | @Raydikalx | 9522DF
+  - US 🇺🇸 | @Raydikalx | 9E0E49
+  - ProxyRift 310
+  - vmess-1837386222
+  - vless-1832764134
+  - 🇺🇸US_144 ⇽中转_1@143
+  - 🇨🇦[www.v2nodes.com] vless-CA
+  - CA 🇨🇦 | @Raydikalx | 5F26A6
+  - CA 🇨🇦 | @Raydikalx | 950346
+  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-4'
+  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-6'
+  - ProxyRift 553
+  - ProxyRift 1782
+  - '🇸🇬[www.v2nodes.com] vless-SG-8... #1'
+  - US 🇺🇸 | @Raydikalx | B00608
+  - US 🇺🇸 | @Raydikalx | 5DCDAB
+  - US 🇺🇸 | @Raydikalx | 25BDA0
+  - CA 🇨🇦 | @Raydikalx | 13F69A
+  - CA 🇨🇦 | @Raydikalx | 924ABF
+  - vless-1863440028
+  - 🇬🇧[www.v2nodes.com] vless-GB-1...
+  - US 🇺🇸 | @Raydikalx | 549B8B
+  - ProxyRift 033
+  - vless-1867102735
+  - US 🇺🇸 | @Raydikalx | 1F5965
+  - US 🇺🇸 | @Raydikalx | 1590B4
+  - CA 🇨🇦 | @Raydikalx | 5A591A
+  - '[igareck-vless] 🌐 Anycast-IP | 🇨🇦 🇫🇮 | [BL]-5'
+  - vless-1853476976
+  - US 🇺🇸 | @Raydikalx | AD3647
+  - CA 🇨🇦 | @Raydikalx | FFAFFF
+  - 081 | 153ms | 机房 🇺🇸US-172.111.38.72-0136 / 40.281MB
+  - ProxyRift 1568
+  - ProxyRift 1724
+  - 095 | 148ms | 备用 🆔ar14n24b 🔒 VL-WS-N/A ❔ XX 79ms
+  - ProxyRift 1777
+  - vless-1853972214
+  - 🇺🇸US_134 ⇽中转_1@133
+  - ProxyRift 1559
+  - 093 | 137ms | 备用 🇫🇷FR_77/1.2MB/s/M003-260806 [ebcf52d2d657]
+  - clash-http-fixture
+  - CA 🇨🇦 | @Raydikalx | 618C2B
+  - 094 | 139ms | 备用 美国+CloudFlare节点
+  - vmess-1827159639
+  - S02-004-trojan-167.82.76.27
+  - vless-1831081766
+  - vmess-1853361191
+  - vmess-1827158796
+  - 美国_New York_objx.net_Gemini_Claude
+  - US 🇺🇸 | @Raydikalx | F4B84A
+  - US 🇺🇸 | @Raydikalx | F2583B
+  - vless-1828372781
+  - vless-1943482613
+  - shadowsocks-1827146122
+  - US 🇺🇸 | @Raydikalx | A0E25A
+  - FREE-US-au-50e82b
+  - ProxyRift 014
+  - ProxyRift 085
+  - shadowsocks-1827146051
+  - vless-1828293943
+  - vless-1891839080
+  - vless-1853488215
+  - US 🇺🇸 | @Raydikalx | 565AA4
+  - '[share-daily-node] US-HTTP-05'
+  - FREE-US-au-1a563e
+  - S01-010-vmess-104.21.82.183
+  - vless-1891839087
+  - vless-1855707033
+  - vless-1879373946
+  - vless-1869872045
+  - vless-1855707092
+  - US 🇺🇸 | @Raydikalx | 8E1F6F
+  - US 🇺🇸 | @Raydikalx | 841538
+  - FREE-DE-au-973c49
+  - FREE-DE-au-c9df1c
+  - FREE-DE-au-359901
+  - FREE-DE-au-09ce5a
+  - ProxyRift 304
+  - ProxyRift 1026
+  - ProxyRift 1688
+  - vless-1827147089
+  - vless-1863476159
+  - vless-1853462805
+  - vless-1828293967
+  - vless-1853462750
+  - FREE-DE-au-b19cdb
+  - ProxyRift 941
+  - ProxyRift 952
+  - trojan-1827955817
+  - vless-1854337870
+  - vless-1828373732
+  - vless-1927185336
+  - vless-1854029589
+  - vless-1853462652
+  - vless-1945000640
+  - vless-1828374596
+  - ProxyRift 1677
+  - shadowsocks-1875023024
+  - vless-1827162772
+  - vless-1853488288
+  - trojan-1827188168
+  - US 🇺🇸 | @Raydikalx | 4F606E
+  - FREE-DE-au-38aa75
+  - FREE-DE-au-aa84c9
+  - ProxyRift 317
+  - ProxyRift 320
+  - vless-1827319616
+  - vless-1853341740
+  - vless-1854343744
+  - US 🇺🇸 | @Raydikalx | 303539
+  - '[share-daily-node] US-HTTP-104'
+  - ProxyRift 258
+  - ProxyRift 513
+  - vless-1854038780
+  - US 🇺🇸 | @Raydikalx | C286F0
+  - FREE-US-au-52b9b9
+  - FREE-IL-au-3aa6b3
+  - ProxyRift 552
+  - 026 | 218ms | 个人 seed39
+  - vless-1853988211
+  - '🇨🇦[www.v2nodes.com] vless-CA-1... #1'
+  - US 🇺🇸 | @Raydikalx | 7B22D9
+  - US 🇺🇸 | @Raydikalx | 846675
+  - CA 🇨🇦 | @Raydikalx | C7986A
+  - CA 🇨🇦 | @Raydikalx | 189305
+  - FREE-US-au-590392
+  - ProxyRift 243
+  - vless-1853350171
+  - vless-1853353002
+  - shadowsocks-1827146529
+  - vless-1891858677
+  - vless-1832764140
+  - trojan-1827149560
+  - US 🇺🇸 | @Raydikalx | 375870
+  - ProxyRift 1779
+  - vless-1853654571
+  - vless-1831099319
+  - '🏳[www.v2nodes.com] vless- #13'
+  - ProxyRift 184
+  - ProxyRift 312
 - name: PROXY
   type: select
   proxies:
